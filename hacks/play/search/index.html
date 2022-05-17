@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+<title>The Romhack Center</title>
+<link rel="icon" type="image/x-icon" href="../hackicon.png">
+<style>
+@font-face { font-family: sonic; src: url('../NiseSegaSonic.TTF'); }
+@font-face { font-family: nes; src: url('../PressStart2PV7.ttf'); }
+body { 
+background-image:url(../hackingBG.png);
+background-attachment: fixed;
+}
+#MC {
+  width:90%;
+  height:180px;
+  background-color:#2200b8;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  position: sticky;
+}
+#SD {
+  width:50%;
+  height:100px;
+  background-color:#290707;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  display:inline-block
+  
+}
+#SE {
+  width:50%;
+  height:360px;
+  background-color:#141133;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  display:inline-block
+  
+}
+#space {  
+    display: flex;
+  justify-content: space-between;
+}
+p { color: white;}
+
+span {display: block}
+
+li {
+
+color: #ffffff;
+
+}
+li {
+color: #290707;
+}
+</style>
+</head>
+<body>
+<center>
+    <div id="MC">
+    <center>
+    <h1 style="color: rgb(255, 255, 255);font-family: sonic;font-size: 72px;font-weight: lighter;">Search for a Hack</h1>
+    </center>
+    </div>
+    <br>
+</center>
+<center>
+ 
+    <div id="SD">
+    <p style="font-family: nes;text-shadow: -5px 5px #000000;">Navigation</p>
+    <span style="font-family: nes;color: white;"> <a href="https://vertz1515.github.io/hacks/play/index.html">Home</a> / <a href="vertz1515.github.io/hacks/play/search">Search</a> </span>
+    </div>
+
+    <br><br>
+ 
+    <div id="SE">
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Find Whatever...">
+
+      <ul id="myUL" style="font-family: nes;font-size: small;font-weight: lighter;">
+        <li><a href="#">Sonic The Hedgehog Christmas Trouble</a></li>
+        <li><a href="#">Sonic The Hedgehog Encore Mode edit</a></li>
+        <li><a href="#">Sonic The Hedgehog Premix</a></li>
+        <li><a href="#">Sonic The Hedgehog Robo Blast Edition</a></li>
+        <li><a href="#">Sonic in Apple Valley</a></li>
+      </ul>
+      
+      <script>
+      function myFunction() {
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myUL");
+          li = ul.getElementsByTagName("li");
+          for (i = 0; i < li.length; i++) {
+              a = li[i].getElementsByTagName("a")[0];
+              txtValue = a.textContent || a.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+              } else {
+                  li[i].style.display = "none";
+              }
+          }
+      }
+      </script>
+    </div>
+</center>
+</body>
