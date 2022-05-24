@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+<title>The Romhack Center</title>
+<link rel="icon" type="image/x-icon" href="../hackicon.png">
+<style>
+@font-face { font-family: sonic; src: url('../NiseSegaSonic.TTF'); }
+@font-face { font-family: nes; src: url('../PressStart2PV7.ttf'); }
+body { 
+background-color:#141133;
+background-attachment: fixed;
+}
+#MC {
+  width:90%;
+  height:180px;
+  background-color:#2200b8;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  position: sticky;
+}
+#SD {
+  width:50%;
+  height:100px;
+  background-color:#290707;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  display:inline-block
+  
+}
+#SE {
+  width:50%;
+  height:360px;
+  background-color:#141133;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  display:inline-block
+  
+}
+#space {  
+    display: flex;
+  justify-content: space-between;
+}
+p { color: white;}
+
+span {display: block}
+
+li {
+
+color: #ffffff;
+
+}
+li {
+color: #290707;
+}
+</style>
+</head>
+<body>
+<center>
+    
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Find Whatever...">
+      <ul id="myUL" style="font-family: nes;font-size: small;font-weight: lighter;">
+        <li><a href="#" target="_parent">Sonic The Hedgehog Christmas Trouble</a></li>
+        <li><a href="#" target="_parent">Sonic The Hedgehog Encore Mode edit</a></li>
+        <li><a href="#" target="_parent">Sonic The Hedgehog Premix</a></li>
+        <li><a href="#" target="_parent">Sonic The Hedgehog Robo Blast Edition</a></li>
+        <li><a href="#" target="_parent">Sonic in Apple Valley</a></li>
+      </ul>
+      
+      <script>
+      function myFunction() {
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myUL");
+          li = ul.getElementsByTagName("li");
+          for (i = 0; i < li.length; i++) {
+              a = li[i].getElementsByTagName("a")[0];
+              txtValue = a.textContent || a.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+              } else {
+                  li[i].style.display = "none";
+              }
+          }
+      }
+      </script>
+</center>
+</body>

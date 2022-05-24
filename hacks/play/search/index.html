@@ -74,35 +74,6 @@ color: #290707;
 
     <br><br>
  
-    <div id="SE">
-      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Find Whatever...">
-
-      <ul id="myUL" style="font-family: nes;font-size: small;font-weight: lighter;">
-        <li><a href="#">Sonic The Hedgehog Christmas Trouble</a></li>
-        <li><a href="#">Sonic The Hedgehog Encore Mode edit</a></li>
-        <li><a href="#">Sonic The Hedgehog Premix</a></li>
-        <li><a href="#">Sonic The Hedgehog Robo Blast Edition</a></li>
-        <li><a href="#">Sonic in Apple Valley</a></li>
-      </ul>
-      
-      <script>
-      function myFunction() {
-          var input, filter, ul, li, a, i, txtValue;
-          input = document.getElementById("myInput");
-          filter = input.value.toUpperCase();
-          ul = document.getElementById("myUL");
-          li = ul.getElementsByTagName("li");
-          for (i = 0; i < li.length; i++) {
-              a = li[i].getElementsByTagName("a")[0];
-              txtValue = a.textContent || a.innerText;
-              if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                  li[i].style.display = "";
-              } else {
-                  li[i].style.display = "none";
-              }
-          }
-      }
-      </script>
-    </div>
+    <iframe src="frame.html" height="390" width="600" title="Iframe Example"></iframe>
 </center>
 </body>
