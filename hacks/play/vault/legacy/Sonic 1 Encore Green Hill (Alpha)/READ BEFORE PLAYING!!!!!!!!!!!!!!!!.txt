@@ -1,0 +1,21 @@
+----------------------------Sonic 1 Encore Edit by Vertobits65---------------------------------------------------------------------------------
+
+
+
+
+-The file called Playing State.gsx is a save state you (HAVE) to use if booting up the game, because a glitch in the rom turns the screen
+red upon booting up the game for some reason
+
+
+-This is the first version of my first REAL rom hack
+
+
+
+
+
+
+
+
+
+
+Have fun - Vertz
