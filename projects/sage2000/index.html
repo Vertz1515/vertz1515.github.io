@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>The SRB2 Sage 2000 Remake!</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+    @font-face { font-family: sonic; src: url('NiseSegaSonic.TTF');}
+    h1.small {
+  line-height: 0.5;
+}
+p.small {
+  line-height: 0.5;
+}
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #7a7a7a;
+}
+    </style>
+</head>
+<body style="background-color:black;color:white">
+    <h1 class="small" style=font-family:sonic;font-weight:lighter;text-align:center;font-size:70px>The SRB2<br><br>Sage 2000 Remake</h1>
+    <h1 class="small" style=font-family:sonic;font-weight:lighter;text-align:center;>By Vertz1515<br><br>& Dannon</h1>
+    <button type="button" class="collapsible">Downloads</button>
+<div class="content">
+    <p class="small" style="color:rgb(0, 255, 0)">(recommended)</p> 
+  <p class="small">Version 1.1 - <a href="sageremake1.1.wad" style="color:blue">Download</a> - Released on 2022/12/22
+    <hr>
+    Version 1.0 - <a href="sageremake.wad" style="color:blue">Download</a> - Released on 2021/11/21</p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
