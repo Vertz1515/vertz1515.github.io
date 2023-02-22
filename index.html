@@ -17,18 +17,24 @@ body {
   margin: 0;
   font-family: Arial;
   font-size: 17px;
+  
 }
 
 #myVideo {
+    width: 100vw;
+  height: 100vh;
+  object-fit: cover;
   position: fixed;
-  min-width: 100%; 
-  min-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .content {
-  position: fixed;
+  position:static;
   color: #f1f1f1;
-  width: 100%;
   padding: 20px;
 }
 #header {
@@ -39,7 +45,6 @@ body {
   border:5px solid;
   border-width: thin;
   border-color: white;
-  display:inline-block;
   box-shadow: -5px 5px 8px #000000;
 }
 #main {
@@ -49,7 +54,6 @@ body {
   border:5px solid;
   border-width: thin;
   border-color: white;
-  display:inline-block;
   box-shadow: -5px 5px 8px #000000;
 }
 #footer {
@@ -60,7 +64,6 @@ body {
   border:5px solid;
   border-width: thin;
   border-color: white;
-  display:inline-block;
   box-shadow: -5px 5px 8px #000000;
 }
 #links {
