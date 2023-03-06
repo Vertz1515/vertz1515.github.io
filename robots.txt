@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /archives
+Disallow: /art
+Disallow: /fonts
+Disallow: /hacks
+Disallow: /misc
+Disallow: /museum
+Disallow: /music
+Disallow: /propsite
+Disallow: /RoboBlast
+Disallow: /SiteEx
+Disallow: /srb2
+Allow: /
+Allow: /accounts
+Allow: /projects
