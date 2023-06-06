@@ -3,56 +3,78 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Come on in</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="../style.css" rel="stylesheet" type="text/css" media="all">
-    <style>
-div {
-    overflow:hidden;
-}
-</style>
-  </head>
+    <title>Vertz1515's SRB2 Webpage!</title>
+         <link id="stylesheet" rel="stylesheet" type="text/css" href="day.css">
+         <script>
+           function setStylesheet() {
+             var date = new Date();
+             var hour = date.getHours();
+       
+             var stylesheet = document.getElementById("stylesheet");
+       
+             while (stylesheet.hasChildNodes()) {
+               stylesheet.removeChild(stylesheet.lastChild);
+             }
+       
+             if (hour >= 7 && hour < 16) {
+               // Day
+               var daytimeStylesheet = document.createElement("link");
+               daytimeStylesheet.setAttribute("rel", "stylesheet");
+               daytimeStylesheet.setAttribute("type", "text/css");
+               daytimeStylesheet.setAttribute("href", "day.css");
+               stylesheet.appendChild(daytimeStylesheet);
+             } else if (hour >= 16 && hour < 19) {
+               // Evening
+               var eveningStylesheet = document.createElement("link");
+               eveningStylesheet.setAttribute("rel", "stylesheet");
+               eveningStylesheet.setAttribute("type", "text/css");
+               eveningStylesheet.setAttribute("href", "eve.css");
+               stylesheet.appendChild(eveningStylesheet);
+             } else {
+               // Night
+               var nighttimeStylesheet = document.createElement("link");
+               nighttimeStylesheet.setAttribute("rel", "stylesheet");
+               nighttimeStylesheet.setAttribute("type", "text/css");
+               nighttimeStylesheet.setAttribute("href", "night.css");
+               stylesheet.appendChild(nighttimeStylesheet);
+             }
+           }
+       
+           setStylesheet();
+         </script>
+       </head>
   <body>  
-<img style="background-image: url('qnlogo.png');" src="https://vertz1515.github.io/Vertz/SiteEx/qnlogo.png" class="Vertz">
- <p align="center"><script LANGUAGE="JavaScript">
-
-</script></p>
-<hr>
-    <center style=font-family:arial>
+<center>
+<div id="newsbox">
+<b><p>Hello, and welcome to...</p></b>
+</div>
+<div id="LOGPAG">
+  <br>
 <img src=logo.png>
- <p align="center"><script LANGUAGE="JavaScript">
-
-<!-- Begin
-var howMany = 11
-var quote = new Array(howMany+1)
-quote[0]="This page might save your life... or look puny and cute... depending on who you are."
-quote[1]="Have you ever said to yourself &quotman i wish i knew where mine maze was...&quot good news..."
-quote[2]="<marquee>just passing by... still don't have 0.90</marquee>"
-quote[3]="Still a little scared to say that I am one of the biggest SRB2 researchers out there... But... Am I wrong?"
-quote[4]="Can we take a moment to appriciate how SSNTails is able to keep archives from 2 decades ago with him... And still be willing to preserve them! <br> Makes you appriciate the effort."
-quote[5]="RIP SRB2Trivia... Sorry but SRB2Facts doesn't hit as hard man..."
-quote[6]="&quotOh bugger...&quot - Sonikku 1999"
-quote[7]="SSNTails was like an internet god back in the 90s... he just had and did all the cool stuff."
-quote[8]="old srb2 midi music slaps"
-quote[9]="&quotThere isn't a SAGE 2000 Build... The Cake is a lie&quot - SSNTails 2021"
-quote[10]="<p>I would feel too bad if I put ads on here so... don't abuse this site please (Leftover Neocites text)</p>"
-quote[11]="<center><p>h<center></p>"
-
-function rndnumber(){
-var randscript = -1
-while (randscript < 0 || randscript > howMany || isNaN(randscript)){
-randscript = parseInt(Math.random()*(howMany+1))
-}
-return randscript
-}
-quo = rndnumber()
-quox = quote[quo]
-document.write(quox)
-// End -->
-</script>
-        </center>
-
+</div><br>
+<div id="pagecs">
+  <br> <br>
+<img src="pages.png"> <br><br><br>
+<table>
+  <tr>
+  <a href="downloads"><img src="downloads.png" alt="(Downloads)" width="344px" height="309" style="margin-right: 90px;"></a>
+  </tr>
+  <tr>
+    <a href="levels"><img src="levels.png" width="309px" height="309"></a>
+  </tr>
+  <tr>
+    <a href="projects"><img src="projects.png" width="309px" height="309" style="margin-right: 90px;"></a>
+  </tr>
+  <tr>
+    <a href="media"><img src="media.png" width="309px" height="309"></a>
+  </tr>
+</table>
+</div>
+<br>
+<div id="footer">
+  <p>Vertz' SRB2 Page: Online Since March 2022.</p>
+  <a href="about" style="margin-right: 50px;">About</a>  <a href="contact" style="margin-right: 50px;">Contact</a> <a href="..">My Main Site</a>
+</div>
+</center>
   </body>
 </html>
