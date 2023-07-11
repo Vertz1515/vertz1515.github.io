@@ -4,57 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vertz1515's SRB2 Webpage!</title>
-         <link id="stylesheet" rel="stylesheet" type="text/css" href="day.css">
-         <script>
-           function setStylesheet() {
-             var date = new Date();
-             var hour = date.getHours();
-       
-             var stylesheet = document.getElementById("stylesheet");
-       
-             while (stylesheet.hasChildNodes()) {
-               stylesheet.removeChild(stylesheet.lastChild);
-             }
-       
-             if (hour >= 7 && hour < 16) {
-               // Day
-               var daytimeStylesheet = document.createElement("link");
-               daytimeStylesheet.setAttribute("rel", "stylesheet");
-               daytimeStylesheet.setAttribute("type", "text/css");
-               daytimeStylesheet.setAttribute("href", "day.css");
-               stylesheet.appendChild(daytimeStylesheet);
-             } else if (hour >= 16 && hour < 19) {
-               // Evening
-               var eveningStylesheet = document.createElement("link");
-               eveningStylesheet.setAttribute("rel", "stylesheet");
-               eveningStylesheet.setAttribute("type", "text/css");
-               eveningStylesheet.setAttribute("href", "eve.css");
-               stylesheet.appendChild(eveningStylesheet);
-             } else {
-               // Night
-               var nighttimeStylesheet = document.createElement("link");
-               nighttimeStylesheet.setAttribute("rel", "stylesheet");
-               nighttimeStylesheet.setAttribute("type", "text/css");
-               nighttimeStylesheet.setAttribute("href", "night.css");
-               stylesheet.appendChild(nighttimeStylesheet);
-             }
-           }
-       
-           setStylesheet();
-         </script>
+         <link id="stylesheet" rel="stylesheet" type="text/css" href="gfz.css">
        </head>
   <body>  
 <center>
-<div id="newsbox">
-<b><p>Hello, and welcome to...</p></b>
-</div>
+
+<!--
+  <div id="newsbox">
+  <b><p>Hello, and welcome to...</p></b>
+  </div>
+-->
 <div id="LOGPAG">
   <br>
 <img src=logo.png>
 </div><br>
 <div id="pagecs">
   <br> <br>
-<img src="pages.png"> <br><br><br>
+<img src="mainpages.png"> <br><br><br>
 <table>
   <tr>
   <a href="downloads"><img src="downloads.png" alt="(Downloads)" width="344px" height="309" style="margin-right: 90px;"></a>
@@ -67,6 +33,15 @@
   </tr>
   <tr>
     <a href="media"><img src="media.png" width="309px" height="309"></a>
+  </tr>
+</table>
+<hr>
+<br> <br>
+<img src="xtrapages.png"> <br><br><br>
+<table>
+  <tr>
+    <a href="stjrmb/"><img src="mb.png"></a>
+    <a href="midi/" style="margin-left:20px;"><img src="midar.png"></a>
   </tr>
 </table>
 </div>

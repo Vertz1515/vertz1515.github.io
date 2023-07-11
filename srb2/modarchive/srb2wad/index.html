@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<title>SRB2Wad Archive</title>
+<style>
+#MC {
+width:50%;
+height:max-content;
+  background-color:#1f00a7;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  position: sticky;
+}
+body {
+background-color:black;
+color:white;
+font-family:sans-serif;
+}
+
+table, th, td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+a {
+    color:aqua
+}
+</style>
+</head>
+<body>
+    <center>
+      <h1>SRB2Wad Archive</h1>
+      <hr>
+        <h1>Select a Category</h1>
+        <a href="level.html" target="cetascen" style="margin-right: 20px;">Level Wads</a>
+        <a href="char.html" target="cetascen">Character Wads</a>
+        <a href="mod.html" target="cetascen" style="margin-left: 20px;">Mods / Major Alterations</a>
+        <a href="misc.html" target="cetascen"style="margin-left: 20px;">Miscellaneous WADs</a>
+        <hr>
+          <iframe src="examp.html" name='cetascen' marginwidth='0' marginheight='0' scrolling='auto' noresize frameBorder="0" width="1000" height="1000">
+
+          <script src="code.jquery.com_jquery-3.6.0.min.js"></script>
+          <script src="cdn.datatables.net_1.10.25_js_jquery.dataTables.js"></script>
+          <script>
+            $(document).ready(function() {
+              $('#stab').DataTable();
+            });
+          </script>
+    </center>
+</body>

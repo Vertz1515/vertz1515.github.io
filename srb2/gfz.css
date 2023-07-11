@@ -1,0 +1,42 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+   @font-face { font-family: sonic; src: url('NiseSegaSonic.TTF'); }
+   body {
+     background-image:url(SKY40.png);
+     color: rgb(255, 255, 255);
+     font-family: Arial, Helvetica, sans-serif;
+   }   
+   #LOGPAG {
+    width:800px;
+    height:360px;
+
+    border-width:thin;
+    border-color: rgb(0, 0, 0);
+    position: sticky;}
+    #newsbox {
+      width:300px;
+      background-color: #006eff;
+      border:5px solid;
+      border-width:thin;
+      border-color: rgb(0, 0, 0);
+      position: sticky;}
+    #pagecs {
+      width:1020px;
+      height:1470px;
+      background-image: url(rec.png);
+      border:5px solid;
+      border-width:thin;
+      border-color: rgb(0, 0, 0);
+      position: sticky;}
+      #footer {
+        width:500px;
+        height:80px;
+        background-color: #006eff;
+        border:5px solid;
+        border-width:thin;
+        border-color: rgb(0, 0, 0);
+        position: sticky;}
+        a {
+          color:rgb(255, 255, 255)
+        }

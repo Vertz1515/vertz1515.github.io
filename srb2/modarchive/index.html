@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+<title>SRB2 Mod Archive by Vertz1515</title>
+<style>
+#MC {
+width:50%;
+height:max-content;
+  background-color:#1f00a7;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  position: sticky;
+}
+body {
+background-color:black;
+color:white;
+font-family:sans-serif;
+}
+
+table, th, td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+a {
+    color:aqua
+}
+</style>
+</head>
+<body>
+    <center>
+        <h1>Select a Category</h1>
+        <hr>
+        <h2>Pre-Indexed Mods (1998-2001)</h2>
+        <h2>SRB2Wad by Mystic (2002-2009)</h2>
+        <h2>MB Final Demo Mods (2005-2010)</h2>
+        <hr>
+        <h1>Official SRB2 Launchers</h1>
+        <div id="MC">
+        <table id="stab" style="font-size: x-large;">
+        <!-- Beginning -->
+        <br>
+            <thead>
+              <tr>
+                <th><a href="#">Launcher</a></th>
+                <th><a href="#">Version</a></th>
+                <th><a href="#">Date</a></th>
+                <th><a href="#">Status</a></th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SRB2 Launcher</td>
+                    <td>Halloween v1.32</td>
+                    <td>2000/10/23</td>
+                    <td><a href="Halloween Launcher.exe">Found</a></td>
+                </tr>
+                <tr>
+                <td>SRB2 Launcher</td>
+                <td>Demo 2</td>
+                <td>2001/03/01</td>
+                <td><a href="Demo 2 Launcher.exe">Found</a></td>
+                </tr>
+                <tr>
+                 <td>SRB2 Launcher</td>
+                <td>Demo 3</td>
+                <td>2001/06/23</td>
+                <td><a href="demo3launcher.zip">Found</a></td>
+                </tr>
+              <tr>
+                <td>SRB2Net</td>
+                <td>2.2.1</td>
+                <td>2002/07/10</td>
+                <td style="color:red;">Missing</td>
+              </tr>
+              <tr>
+                <td>SRB2Net</td>
+                <td>2.2.2</td>
+                <td>2002/07/10</td>
+                <td style="color:red;">Missing</td>
+              </tr>
+              <tr>
+                <td>SRB2Net</td>
+                <td>2.4.1</td>
+                <td>2004/02/01</td>
+                <td><a href="(2.4.1) SRB2Net.exe">Found</a></td>
+              </tr>
+              <td>SRB2Net</td>
+              <td>2.4.2</td>
+              <td>2005/09/20</td>
+              <td><a href="(2.4.2) SRB2Net.exe">Found</a></td>
+            </tr>
+              <!-- END -->
+            </tbody>
+          </table>
+          <br>
+          </div>
+        
+          <script src="code.jquery.com_jquery-3.6.0.min.js"></script>
+          <script src="cdn.datatables.net_1.10.25_js_jquery.dataTables.js"></script>
+          <script>
+            $(document).ready(function() {
+              $('#stab').DataTable();
+            });
+          </script>
+    </center>
+</body>
