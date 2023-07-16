@@ -1,0 +1,177 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2022 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2020MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\music.dta (181 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+ERROR: Mix_LoadMUS_RW: Unrecognized audio format
+ERROR: Music _clear could not be loaded: engine failure!
+"Legacy Pink" is not a possible value for "defaultcolor"
+Levels will end after 5 minutes.
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2023-02-26_21-36-09.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.10 (Mar  6 2022 22:55:14 82fb731c master) SDL Windows 32-bit 
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*Vertz1515 has joined the game (player 0)
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone 1"
+*Sonic has joined the game (player 1)
+*Sonix the sucky do has joined the game (player 2)
+Gametype was changed from Co-op to Competition
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone 1"
+Time limit disabled
+Time limit disabled
+*Sonic left the game
+Vertz1515 has completed the level.
+Sonix the sucky do has completed the level.
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Connecting to: Race Server
+Gametype: Co-op
+Version: 2.2.10
+Sending join request...
+Join accepted, waiting for complete game state...
+*Vertz1515 has joined the game (player 0)
+Gametype was changed from Co-op to Competition
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: Greenflower Zone 1"
+Time limit disabled
+*Sonix the sucky do has joined the game (player 1)
+*Sonic has joined the game (player 2)
+<~Vertz1515> Hi sonic
+*Soni has joined the game (player 3)
+<~Vertz1515> Hi Soni
+Vertz1515 has completed the level.
+Sonic has completed the level.
+Sonix the sucky do has completed the level.
+*Soni renamed to VapingFox
+VapingFox ran out of time.
+The round has ended.
+Speeding off to level...
+Map is now "MAP02: Greenflower Zone 2"
+Vertz1515 has completed the level.
+Viewpoint: Sonix the sucky do
+Viewpoint: Sonic
+Viewpoint: VapingFox
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: Sonic
+Viewpoint: VapingFox
+Sonix the sucky do has completed the level.
+Sonic has completed the level.
+VapingFox ran out of time.
+The round has ended.
+Speeding off to level...
+Map is now "MAP04: Techno Hill Zone 1"
+*Sonic left the game
+Vertz1515 has completed the level.
+Viewpoint: Sonix the sucky do
+Viewpoint: Sonic
+Viewpoint: VapingFox
+Sonix the sucky do has completed the level.
+Sonic ran out of time.
+VapingFox ran out of time.
+The round has ended.
+Speeding off to level...
+Map is now "MAP05: Techno Hill Zone 2"
+*Sonix the sucky do left the game
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/unlist'...
+I_ShutdownGraphics(): shut down
+Server deregistration request successfully sent.
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

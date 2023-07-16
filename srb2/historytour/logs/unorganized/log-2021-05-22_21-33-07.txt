@@ -1,0 +1,1278 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-05-22_21-40-04.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/servers'...
+Contacting the server...
+Connecting to: The Early Gang
+Gametype: Co-op
+Version: 2.2.9
+Checking files...
+Added file .\2.1zones.wad (962 lumps)
+Loading main config from .\2.1zones.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP22
+MAP23
+MAP24
+MAP25
+MAP30
+MAP40
+MAP41
+MAP50
+MAP51
+MAP52
+MAP53
+MAP54
+MAP55
+MAP56
+MAP57
+MAP58
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAA
+MAPAB
+MAPAC
+MAPAD
+MAPAE
+MAPAF
+MAPAG
+MAPAH
+MAPAI
+MAPAJ
+MAPAK
+MAPAN
+MAPAO
+MAPAR
+MAPAS
+MAPAT
+MAPAU
+MAPAV
+MAPAW
+MAPF0
+MAPF1
+MAPF2
+MAPF3
+MAPF4
+MAPF5
+MAPF6
+MAPF7
+MAPF8
+MAPF9
+MAPFA
+MAPM0
+MAPM1
+MAPM2
+MAPM3
+MAPM4
+MAPM5
+MAPM6
+MAPM7
+MAPM8
+MAPM9
+MAPMA
+MAPMB
+MAPMC
+Added file .\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Added file .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3 (645 lumps)
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/
+Pardon me while I initialize the Lua scripting interface...
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/LUA_LUA
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/MultiThokCrossMomentum.lua
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/PERSONAHD.lua
+Loading SOC from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|soc/OBJCTCFG
+CL_OverhauledLegacyTrio-V1.3.pk3 added 1 frames in 1 sprites
+Added skin 'handdrawn'
+Added skin 'lessunique'
+Added skin 'chrispymarriage'
+No maps added
+Added file .\addons\Char\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from .\addons\Char\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file .\addons\Char\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from .\addons\Char\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from .\addons\Char\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from .\addons\Char\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from .\addons\Char\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+Added file .\DOWNLOAD\banskins.lua (1 lumps)
+Loading Lua script from .\DOWNLOAD\banskins.lua
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file .\DOWNLOAD\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from .\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from .\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from .\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from .\DOWNLOAD\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Sending join request...
+Join accepted, waiting for complete game state...
+.\$$$.sav...
+Downloading .\$$$.sav...(done)
+Loading savegame length 11545
+Map is now "MAP01: GREENFLOWER Zone  1"
+*ImpatientHedgehog1 has joined the game (player 1)
+You currently cannot play with the skin "sonic" as it has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                *ImpatientHedgehog1 has joined the game (player 1)
+*ImpatientHedgehog1 left the game
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP60: MP Special Stage 1 Zone"
+Screen shot srb20022.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+*Sonic has joined the game (player 1)
+Viewpoint: Sonic
+ImpatientHedgehog15 has completed the level.
+Viewpoint: Sonic
+Viewpoint: Sonic
+Viewpoint: Sonic
+Viewpoint: Sonic
+Viewpoint: Sonic
+Viewpoint: ImpatientHedgehog15
+Viewpoint: Sonic
+Viewpoint: ImpatientHedgehog15
+Viewpoint: Sonic
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Movie mode enabled (GIF).
+Updated master server listing.
+Animated gif closed; wrote 319 frames
+Movie mode disabled.
+*Suit has joined the game (player 2)
+$exitlevel
+Speeding off to level...
+Map is now "MAP61: MP Special Stage 2 Zone"
+*GearZX has joined the game (player 3)
+<~ImpatientHedgehog15> welcome to 2.1
+*Gamerboytin has joined the game (player 4)
+<Gamerboytin> When 2.1
+*GearZX left the game
+<Suit> When the 2.1 is real
+<Gamerboytin> Is this 2.2? NO, THIS IS 2.1!
+<~ImpatientHedgehog15> YE
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+<Gamerboytin> Egg Bully
+<Suit> egg bob
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+*sasroi has joined the game (player 5)
+<Gamerboytin> Basically 2.1 remastered?
+<~ImpatientHedgehog15> yep
+<~ImpatientHedgehog15> with other non 2.2 stuff
+<Suit> Not even remastered
+<Suit> Just 2.1 with the new sprite
+<Suit> sprites
+<~ImpatientHedgehog15> basically
+*Ale has joined the game (player 6)
+*sasroi left the game
+<Gamerboytin> HSonic's acceleration is crazy fast!
+ImpatientHedgehog15 has completed the level.
+<Suit> Just try multi-thokking
+<~ImpatientHedgehog15> that's how it was in christmas 0.92
+<Suit> Then youll know fast
+Suit has completed the level.
+You currently cannot play with the skin "tails" as it has been banned.
+$suicide
+<Gamerboytin> BuT sOnIc In XmAs 0.92 HaD a HoMiNg AtTaCk AnD nOt A mUlTiThOk!!!!1!1!!!1!!!!!111!!!!111!!
+<Suit> i mean
+<Suit> would you rather have
+<Suit> a practically useless homing
+<Suit> or multi thok around the country
+<~ImpatientHedgehog15> It acted as both in that version
+Sonic has completed the level.
+<~ImpatientHedgehog15> SSN Said that 0.90s thok was basically equivalent to thoking every frame
+<Gamerboytin> I tried to give FSonic a model
+Gamerboytin has completed the level.
+<Suit> you should exitlevel
+<Gamerboytin> Anyone heard of Xmas 0.90?
+<~ImpatientHedgehog15> yes
+<Gamerboytin> C R A S  H
+<Suit> but what if
+<Suit> we go even further
+<Suit> sonic doom 2
+<Gamerboytin> Yes
+<~ImpatientHedgehog15> It only crashed on Windows 98 first edition
+<Suit> WAIT
+<Suit> EVEN FURTHER
+<Gamerboytin> DOOM
+*Ale left the game
+*Ale has rejoined the game (player 6)
+*Ale left the game
+<Suit> Sonic quake
+<Suit> i actually got that one working and was making a wad based off of it
+<~ImpatientHedgehog15> The models for sonic quake are pain
+<Suit> but had problems with the characters unique ability so i set him aside to make other things
+<~ImpatientHedgehog15> also, the Pikachu head in pokemon soccer was made with the same software that made sonic quake
+Speeding off to level...
+Map is now "MAP62: MP Special Stage 3 Zone"
+<Gamerboytin> Ah yes, Sage 2000 GFZ
+<Suit> Sonic Doom 2 GFZ
+<Suit> Is actually the first instance of green flower zone
+<Gamerboytin> WHO GAVE TAILS A CHAINSAW?!
+<Suit> It was a trick
+<~ImpatientHedgehog15> I actually remade that version using the same codebase that SSN said it used, and it looks SOOOOO accurate. DSZ is pretty much equivalent to actually playing the demo
+*fucking xtreme sonic has joined the game (player 3)
+<~ImpatientHedgehog15> this is your place
+*fucking xtreme sonic left the game
+<~ImpatientHedgehog15> or not
+Speeding off to level...
+Map is now "MAP05: TECHNO HILL Zone 2"
+*fucking xtreme sonic has rejoined the game (player 3)
+*Sonic left the game
+*Sonic has rejoined the game (player 1)
+*fucking xtreme sonic left the game
+*Sonic left the game
+*Sonic has rejoined the game (player 1)
+*Sonic left the game
+*Sonic has rejoined the game (player 1)
+*Sonic left the game
+<Gamerboytin> Was Metal Sonic using custom sprites in SonicDoom2 and PokemonSoccer?
+<~ImpatientHedgehog15> yes
+<Gamerboytin> Remember the Spaddlewit building in SRB2 2.0?
+<~ImpatientHedgehog15> yeah, it's crawlacorp now
+ImpatientHedgehog15 has completed the level.
+<Gamerboytin> (Obligatory Supervirus reference)
+<Suit> A hunky dunky big mac super sized really big bomb
+<Gamerboytin> What I'm talking about is SRB2JTE
+Suit has completed the level.
+<~ImpatientHedgehog15> You kidnapped Abby *B^O
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Master server registration successful.
+Viewpoint: Suit
+Viewpoint: Gamerboytin
+$exitlevel
+Speeding off to level...
+Map is now "MAP06: TECHNO HILL Zone 3"
+<Gamerboytin> THZ slime was just water (Demo 2), then it hurts you (Demo 3 - 2.0) and behaves like it does now (2.1 - Present)
+<Gamerboytin> We keep bullying the egg
+<Suit> i wanna just take on brak
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+Map is now "MAP07: DEEP SEA Zone 1"
+<~ImpatientHedgehog15> There was a game called Sonic Robo Blast 1.5 made by a friend of the developers
+<Gamerboytin> Wtf
+*TAS 20FF has joined the game (player 1)
+<Suit> Can you download it or no
+<TAS 20FF> hi
+<~ImpatientHedgehog15> you can't SSN gave me the link
+<~ImpatientHedgehog15> it's a modified version of srb1 xmas
+<Suit> Is it a wad, pk3, or separate executeable
+*snoccy has joined the game (player 3)
+<Suit> Themed to be normal?
+<~ImpatientHedgehog15> yeah... in a way
+<Gamerboytin> Did it use SRB2TGF assets?
+<Suit> Improvements to any extent?
+<~ImpatientHedgehog15> it used xtreme sprites
+<Suit> That sounds like it would look off
+*TAS 20FF left the game
+<Suit> Unless the perspective is set right
+<Gamerboytin> XTreme sprites would clash in with the enviroment
+<~ImpatientHedgehog15> the enviornment was hand drawn
+<Gamerboytin> Sonic's sprites were the same as SRB1Xmas, or XTreme?
+*Zantru has joined the game (player 5)
+<~ImpatientHedgehog15> xtreme
+Suit has completed the level.
+<Gamerboytin> SPRITE CLASH ALERT!
+<Suit> Anything else interesting?
+ImpatientHedgehog15 has completed the level.
+<Gamerboytin> Ah yes, U N K N O W N
+<~ImpatientHedgehog15> I didn't tell you that Mach made it
+<Suit> I mean like, in terms of other things interesting
+<Suit> Do you have a working copy of emerald quest
+<~ImpatientHedgehog15> Yes
+<~ImpatientHedgehog15> I do
+<Suit> And if so, does it feature any appearence of knuckles
+<~ImpatientHedgehog15> It's very primative though
+<Suit> Or is it just sonic
+<~ImpatientHedgehog15> just sonic
+<Suit> Well
+<Suit> Ill let you in on somethin
+<Suit> im making a pk3 pack of 3 characters
+<Gamerboytin> What if the devs of XTreme didn't release the sprites, then what would SSNTails use? SegaSonic Arcade Sprites?
+<Suit> sonic, tails, and knuckles, all taking from the old games
+<~ImpatientHedgehog15> like the genesis gameas
+<Suit> Sonic doom 2 tails, Quake sonic (now gonna be quake knuckles) and emerald quest sonic
+<Gamerboytin> What about SD2 Sonic, Knuckles and Metal Sonic?
+<Suit> sonic doom 2 tails is done, quakehog is dumb and im gonna just do knuckles, he could be controlled by only gliding since thats all he does in sonic quake
+<Suit> Im just making the trio
+<~ImpatientHedgehog15> emerald quest sonic is just the one used in the old THZ cutscene
+<Suit> Does it have enough sprites to where it can be like
+<Suit> something worth while
+<Gamerboytin> So basically E. Sonic?
+<~ImpatientHedgehog15> just sonic walking forward
+<~ImpatientHedgehog15> a midi of Diamond Dust act 2 
+<Suit> I think im gonna have to see
+<snoccy> why can i only play about this cursed creature
+<Suit> if its styled like the big sprites in the cutscene, i can cope
+<~ImpatientHedgehog15> yes
+<~ImpatientHedgehog15> it is
+<Suit> i have cutouts of half the arms shaded and tilted in certain ways
+<Suit> so i can bend any piece of ssntails sonic art into whatever i please
+<Suit> And some leg cutouts
+$exitlevel
+<snoccy> oh ok
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (7968, 12064)
+WARNING: Unknown thing type 524 placed at (7616, 7488)
+WARNING: Unknown thing type 524 placed at (7616, 7808)
+WARNING: Unknown thing type 524 placed at (8704, 8320)
+WARNING: Unknown thing type 524 placed at (8704, 8576)
+WARNING: Unknown thing type 524 placed at (7616, 9152)
+WARNING: Unknown thing type 524 placed at (7776, 10208)
+WARNING: Unknown thing type 524 placed at (7776, 12864)
+WARNING: Unknown thing type 524 placed at (8032, 12864)
+WARNING: Unknown thing type 524 placed at (5952, 14880)
+WARNING: Unknown thing type 524 placed at (6336, 14880)
+WARNING: Unknown thing type 524 placed at (7840, 7648)
+WARNING: Unknown thing type 524 placed at (7904, 12096)
+WARNING: Unknown thing type 524 placed at (7776, 12096)
+WARNING: Unknown thing type 524 placed at (8032, 12096)
+WARNING: Unknown thing type 524 placed at (7840, 12064)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAP08: DEEP SEA Zone 2"
+<Gamerboytin> Remember SSNTails' Wizard Needs Food Badly?
+<~ImpatientHedgehog15> yes
+<snoccy> oh cool halloween sonic
+<Suit> Do you want a rundown of how the characters that are done work?
+<Gamerboytin> Funni
+<snoccy> early sonic is cute
+<~ImpatientHedgehog15> ok
+<Suit> Sonic doom 2 tails and quakehog work, but quakehog is just stupid
+<snoccy> A
+<Gamerboytin> HIS LIFE ICON IS HUGE
+<snoccy> oh
+<Suit> Sonic doom 2 tails is a very heavy modification of tails guy
+<snoccy> thats because
+<Suit> That has only one gun
+*Lonote has joined the game (player 1)
+<Suit> The infamous red gun sonic holds in doom 2
+<snoccy> he's a legacy
+<Suit> And also, is the base walk speed of doom guy
+<Gamerboytin> You just need to get permission from Tripel first...
+<Suit> Yeah
+<Suit> Thats why its not released yet
+<Gamerboytin> Sage 2000 DSZ?!
+<snoccy> also he's from the seriously old versions of the sonic robo blast series
+<Suit> Its been like 2 months since ive finished it and i just dont have the balls to ask him
+*Lonote left the game
+<Suit> Cause i feel like im nothing
+<Suit> But then i realise ive completely overhauled tails guy and that itspretty cool
+<Gamerboytin> Funni F12 for funni Sage 2000 thing
+<snoccy> how come no one has ported 2.1 knuckles yet?
+<Suit> cause it removes every single gun except the shotgun, its modified to only shoot one singular projectile, and you can only really get good air momentum
+<Suit> cause he is pretty much 2.2 knuckles, but less fat
+<Gamerboytin> I saw a port of Chuckles in Mari0shi's Server
+<~ImpatientHedgehog15> I ported Xtreme sonic, and it took like... the majority of the day
+<snoccy> yeah thats because mari0shi ported it for his server
+<Suit> oh and sd2tails other gimmick is the jump boost ability
+<Suit> He can gain broken heights when you get speed from slopes
+<Suit> and he cant drown
+<snoccy> why did srb2 use extreme sprites?
+NOTICE: You can't change your skin at the moment.
+NOTICE: You can't change your skin at the moment.
+NOTICE: You can't change your skin at the moment.
+<Suit> I just wanna ask something real quick
+<Suit> have you met tripel or no
+<snoccy> a bunch of lost sprites
+<~ImpatientHedgehog15> yeah?
+<snoccy> or whatever its called
+<snoccy> njkltgnjhwghwgh
+<Suit> Would he be mad or deny sd2tails on the spot or no
+<snoccy> sd2tails?
+<Suit> sonic doom 2 tails
+<Suit> a heavy modification of tails guy i made
+<snoccy> oh
+<Gamerboytin> Why is gliding the only thing Quakechidna can do?
+<Suit> its pretty fun, but i feel like me just asking out of the blue to use it when its already done might make me seem like an idiot
+<snoccy> are you talking about the one where sonic looked like earless or no?
+<Gamerboytin> Hmm, Demo Chao?
+<Suit> i just realised i forgot what i was typing mid way
+<~ImpatientHedgehog15> CHAO WAS IN THE XMAS CD FIRST!
+<Suit> i meant i feel like me just asking out of the blue to use tails guy assets when ive already used them and heavily modified them makes me look dumb
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<Suit> not using him
+<snoccy> what old versions of srb2 do you like the most?
+<~ImpatientHedgehog15> lots of them
+<snoccy> i like 2.1
+<Suit> 2.1 was very memorable
+<Suit> and every single  beta level from the older ports
+<Gamerboytin> SRB1, TGF, 1.09.4, 2.0 and 2.1
+<~ImpatientHedgehog15> 2.0 was how i started
+<Gamerboytin> Plus how it all started
+<Suit> there all just this clostrophobic mess that challenges you to NOT go fast
+<snoccy> 2.0 is barley playable for me rn
+ImpatientHedgehog15 has completed the level.
+<snoccy> lol
+<~ImpatientHedgehog15> I ported 2.2 sonic to demo 4
+<snoccy> wow
+<~ImpatientHedgehog15> pain
+<snoccy> did he break the game?
+<~ImpatientHedgehog15> Kinda
+<snoccy> or was he just glitchy
+<snoccy> ah
+<snoccy> FGRICK
+<~ImpatientHedgehog15> I just forgot to give him falling frames
+<snoccy> oh lol
+<snoccy> god i hate this level
+<snoccy> 2.2 deep sea is so much better
+<~ImpatientHedgehog15> and the game goes segment violation after using a spring
+<snoccy> lol
+<snoccy> tbh im thinking of making a mighty mod for 2.2
+<Suit> Somebody should
+<~ImpatientHedgehog15> I edited the EXE of Xmas 0.96 to make eggman say, "You suck" in his letter to sonci
+Suit has completed the level.
+<~ImpatientHedgehog15> *sonic
+<snoccy> i just gotta find his srb2kart sprites for it tho
+$exitlevel
+<Gamerboytin> LOL
+Speeding off to level...
+Map is now "MAP09: DEEP SEA Zone 3"
+<~ImpatientHedgehog15> broken
+$exitlevel
+<snoccy> oh no
+<snoccy> even worse level
+<~ImpatientHedgehog15> no
+Speeding off to level...
+Map is now "MAP10: CASTLE EGGMAN Zone 1"
+<snoccy> i am sooo gonna get lost
+<snoccy> what happend to early sonic's thok
+<Gamerboytin> Mine Maze and Rocky Mountain?
+<Suit> Rocky mountain is pretty neat
+<~ImpatientHedgehog15> early sonic didn't thok
+<snoccy> wait is this your port or something?
+<~ImpatientHedgehog15> it was made from the original od
+<snoccy> because in another early sonic mod for 2.2 he can thok
+<snoccy> oh
+<~ImpatientHedgehog15> *mod
+<Gamerboytin> Lance A Bots used to go down in 1 hit
+<snoccy> 1.09.4 was weird
+<Gamerboytin> SA Example Zone
+<snoccy> actually i think demo 2 is weirder
+<~ImpatientHedgehog15> yeah
+<snoccy> final boss was weird
+<~ImpatientHedgehog15> sonikku made the chat sound
+<Suit> What is the final boss in this wad?
+<Suit> Just brak but with the old map
+<snoccy> black eggman
+<~ImpatientHedgehog15> hey
+Screen shot srb20023.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+<snoccy> also are you talking about the "heya hehe" sound when you chat?
+<~ImpatientHedgehog15> yes
+<snoccy> oh god that was annoying
+<snoccy> what were they THINKING
+<~ImpatientHedgehog15> it was intended to be
+<~ImpatientHedgehog15> because they tried to voice Louis JM
+<snoccy> who?
+*garf has joined the game (player 1)
+<snoccy> welp im lost
+<~ImpatientHedgehog15> Louis JM was a troll from a forum bored they were on
+<snoccy> oh
+<~ImpatientHedgehog15> he was quite annoying and lots of people hated him
+<snoccy> welp im not lost
+<snoccy> man i wish i played srb2 during the other versions
+<Gamerboytin> H E Y A  H E H E
+<~ImpatientHedgehog15> also that same forum bored was where SRB1 version 1.0a was released
+<snoccy> H E Y A H E H E
+<garf> i hate this
+<Gamerboytin> *ringing*
+<~ImpatientHedgehog15> act 2 is better
+ImpatientHedgehog15 has completed the level.
+<snoccy> have you guys ever saw that sadx srb2 mod from 1.09.4 ?
+<Gamerboytin> Nope, never heard of it
+<snoccy> oh
+<snoccy> old srb2 is weird
+Zantru has completed the level.
+<Gamerboytin> Demo 1?
+<snoccy> all demos
+<~ImpatientHedgehog15> demo 1 was rused 
+<~ImpatientHedgehog15> *rushed
+Suit has completed the level.
+<snoccy> i can tell
+<Gamerboytin> Only GFZ1
+<snoccy> they definitley didnt have time to make half of the sprites for the characters
+<~ImpatientHedgehog15> ssn pointed out that if I changed GFZrock to the old one, i had a beta
+<Suit> i just wanna know if anybody will ever port any level from sonic doom 2
+<~ImpatientHedgehog15> i tried...
+<garf> even with tails this ain't easy
+<Suit> like gfz from that one, the character zones
+*garf left the game
+<Suit> Like atleast with the sonic zone, tails, or knuckles
+<Suit> you have the chance to port it since its just basic colors
+snoccy has completed the level.
+<Suit> But it would be cool to see the old gfz from that one
+<Gamerboytin> Imagine a "The Metal Sonic Zone" lol
+<Suit> That would have to be man made
+$exitlevel
+<snoccy> "metal sonic zone" ?
+Speeding off to level...
+WARNING: Unknown thing type 525 placed at (-13792, -10592)
+WARNING: Unknown thing type 525 placed at (-14432, -12064)
+WARNING: Unknown thing type 525 placed at (-13376, -13280)
+WARNING: Unknown thing type 525 placed at (-14624, -13696)
+WARNING: Unknown thing type 525 placed at (-15584, -12768)
+WARNING: Unknown thing type 525 placed at (-16704, -8480)
+WARNING: Unknown thing type 525 placed at (-17984, -12448)
+WARNING: Unknown thing type 525 placed at (-16992, -11616)
+WARNING: Unknown thing type 525 placed at (-17920, -10720)
+WARNING: Unknown thing type 525 placed at (-15968, -11360)
+WARNING: Unknown thing type 525 placed at (-14944, -10304)
+WARNING: Unknown thing type 525 placed at (-13920, -9312)
+WARNING: Unknown thing type 525 placed at (-14656, -8608)
+WARNING: Unknown thing type 525 placed at (-16000, -9088)
+WARNING: Unknown thing type 525 placed at (-16768, -10368)
+WARNING: Unknown thing type 525 placed at (-17920, -8704)
+WARNING: Unknown thing type 526 placed at (-18784, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7904)
+WARNING: Unknown thing type 526 placed at (-18720, -7840)
+WARNING: Unknown thing type 526 placed at (-18464, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7968)
+WARNING: Unknown thing type 526 placed at (-18400, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8032)
+WARNING: Unknown thing type 526 placed at (-18720, -8032)
+WARNING: Unknown thing type 526 placed at (-18528, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8160)
+WARNING: Unknown thing type 526 placed at (-18656, -7840)
+WARNING: Unknown thing type 526 placed at (-18592, -7840)
+WARNING: Unknown thing type 526 placed at (-18656, -7904)
+WARNING: Unknown thing type 526 placed at (-18592, -7904)
+WARNING: Unknown thing type 526 placed at (-19200, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9024)
+WARNING: Unknown thing type 526 placed at (-19264, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9152)
+WARNING: Unknown thing type 526 placed at (-12928, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7840)
+WARNING: Unknown thing type 526 placed at (-13056, -7840)
+WARNING: Unknown thing type 526 placed at (-13184, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7968)
+WARNING: Unknown thing type 526 placed at (-12928, -8032)
+WARNING: Unknown thing type 526 placed at (-12928, -8096)
+WARNING: Unknown thing type 526 placed at (-18784, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13728)
+WARNING: Unknown thing type 526 placed at (-18784, -13664)
+WARNING: Unknown thing type 526 placed at (-18528, -13984)
+Map is now "MAP11: CASTLE EGGMAN Zone 2"
+<Suit> the steel zone
+<snoccy> oh i forgot f sonic was here
+<Gamerboytin> To be consistent with the playable characters in SD2 (Sonic, Tails, Knuckles, Metal Sonic)
+<snoccy> aka the better looking 2.2 sonic
+<Suit> tails is the best
+<Gamerboytin> 2.2 Sonic: Daniel
+<Suit> hands down, sd2 is best played with tails or knuckles
+<Gamerboytin> FSonic: The Cooler Daniel
+<snoccy> proto 2.2 sonic: the cooler daniel
+<Suit> the voice lines help
+*Sendit0 has joined the game (player 6)
+<~ImpatientHedgehog15> there was also this weird Millnium.wad file in the XMAS CD
+<snoccy> whats xmas cd
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<snoccy> bruh
+<~ImpatientHedgehog15> the cd version of SRB2Xmas
+<snoccy> oh
+<Gamerboytin> Has this turned into an Old SRB2 discussion?
+<~ImpatientHedgehog15> yes
+*Sendit0 left the game
+<snoccy> yes
+<snoccy> 1.09.4 mods are weird
+<Suit> Do you plan to replace some sprites with their old counterparts in this or no
+<Suit> Or try to make whatever this is (wad or pk3) change the og sonic, tails, and knux to be there 2.1 counterparts, and have the other old characters
+<Gamerboytin> I think 2.0 CEZ2 had a signature in one of the areas saying "Sonniku" written in Japanese
+<snoccy> was 1.09.4 mods just recolors?
+<~ImpatientHedgehog15> most
+<snoccy> not surprised
+<~ImpatientHedgehog15> imagine drawing 50+ sprites
+<Gamerboytin> Not always, there was a Mario mod for 1.09.4 that had mostly edited SMW Sprites
+<Suit> i did almost half
+<Suit> just to get the arms and legs of most of the sonic art from the art pack that got released
+<snoccy> dang it i gotta take a shower soon
+<Suit> i need to eat something before i keel over
+*lexidog has joined the game (player 1)
+<Gamerboytin> Will they bring back 2.1 and 2.0 servers?
+<snoccy> i hate this map
+<Suit> most likely no
+<Gamerboytin> Sad
+<~ImpatientHedgehog15> I got lost and went backwards
+<lexidog> wdym bring back
+<snoccy> same
+<Suit> Srb2 2.1s tagline is getting lost
+<lexidog> did they disable 2.1 and 2.9 servers from being able to host on the master serve ror something
+<lexidog> i dont know what u mean
+<lexidog> *2.0
+<Suit> master server changes
+<lexidog> oh
+<Suit> like the boards master server has a new link name now
+<~ImpatientHedgehog15> why do you think 2.2.8 stopped working
+<Suit> so i think you can host, but it will be really busted and most likely crash
+<snoccy> how come in the 2.2 era we have mod beggars and childish people?
+<lexidog> what if you edit the config to use the new link
+<lexidog> oh
+*Spark has joined the game (player 6)
+<~ImpatientHedgehog15> because... logic
+<lexidog> a
+<Suit> And people change
+<snoccy> i mean like what did 2.2 did to deserve this
+<lexidog> honestly it's not like theres much point hosting a 2.1 or 2.0 server on the ms anyways
+<Gamerboytin> You know SRB2Kart, right?
+<snoccy> yeah
+<Suit> yeah
+<lexidog> usually there'd only be like 0 or 1 servr at once, but mostly 0
+<~ImpatientHedgehog15> not to mention that youtubers are profiting from making videos on peoples mods 
+<lexidog> and the amount of users who would see it
+<Suit> Funny thing
+<Gamerboytin> Actually, it was originally a Gamemode in SRB2Riders
+<Suit> I mostly just see videos of all the sonics people make
+<snoccy> i know that
+<Suit> But they just add like a couple flags and some new sprites
+<snoccy> god i wish dreamcast sonic and sa sonic released
+*lexidog left the game
+<Gamerboytin> Must... look... at... statue...
+<Suit> I should prob get permission from tripel to release sd2tails, and then make quake knuckles and emerald quest sonic
+<Gamerboytin> Must not keep eyes off it...
+<Suit> so i can release a pretty neat 3 character pack focussed on disability abilities
+<snoccy> missing sprites moment
+ImpatientHedgehog15 has completed the level.
+<Gamerboytin> Nope!
+Zantru has completed the level.
+*Sonic has joined the game (player 7)
+<~ImpatientHedgehog15> hi sonic
+<snoccy> hi sonic!!!!!!!1111!
+<Sonic> im not real sonic i promise
+<Suit> Yo wait
+<Sonic> but hi
+<Suit> Is that the sonic
+Gamerboytin has completed the level.
+<snoccy> why does srb2 default name people sonic
+<Gamerboytin> W00T
+Suit has completed the level.
+<~ImpatientHedgehog15> i was trying to reference sonic doom 1
+<Suit> I haven't played that one yet
+<~ImpatientHedgehog15> why not "user" or somethong
+<snoccy> yeah
+*baby blueblur! has joined the game (player 1)
+<snoccy> or why not player
+*baby blueblur! renamed to xtreme sonic
+<Suit> couldnt really think of a reason why
+<~ImpatientHedgehog15> are you that same xtreme sonic who was on my server before?
+<xtreme sonic> me?
+<Suit> besides the fact this is a sonic game and your defaulted to playing as sonic
+<Sonic> i just named myself sonic
+<Sonic> because im sonic 
+<Sonic> IN GAME
+<xtreme sonic> maybe...
+$exitlevel
+<snoccy> FINALLY
+<~ImpatientHedgehog15> hmm\
+<Gamerboytin> Maybe? Maybe not?
+<xtreme sonic> yes
+Speeding off to level...
+Map is now "MAP12: CASTLE EGGMAN Zone 3"
+<snoccy> oh god
+$exitlevel
+<snoccy> oh ok
+<~ImpatientHedgehog15> broken
+<Sonic> lol
+<Suit> is brak broken or no
+Speeding off to level...
+Map is now "MAP13: ARID CANYON Zone 1"
+<snoccy> arid canyon time
+<~ImpatientHedgehog15> tightropes don't work lol
+<snoccy> is it me or does 2.2 darken 2.1's pallete?
+*xtreme sonic left the game
+<snoccy> cus i notice they both look the same
+<Suit> 2.1 was bright
+<~ImpatientHedgehog15> these are the modern graphics
+<Suit> raycasting
+<Suit> rtx
+<Gamerboytin> AAAA
+<Suit> the whole shebang
+<Sonic> this is 2.2.9
+<~ImpatientHedgehog15> no it's nort
+<Sonic> yes
+<Suit> noot
+<Sonic> is
+<snoccy> 2.2.69
+<Suit> that ones my favorite
+<snoccy> haha i said funny am i funny now????
+<Suit> comedic genius
+<Suit> Do you plan on replacing the music or no
+<Suit> cause i have midi on rn
+<~ImpatientHedgehog15> what?
+<Suit> id be sick to listen to the old midis
+<Gamerboytin> Remember when the Shields were just different colours?
+<~ImpatientHedgehog15> hold on
+<Sonic> sol
+<snoccy> midi is best
+<Suit> i mean i have midis on, and i have fluidsynth with a gm soundfont
+ImpatientHedgehog15 has completed the level.
+<Suit> The better one, that hd remaster has instrument problems
+<Suit> dont fall for that one
+<snoccy> AAA
+<Sonic> sol sestancia
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<Gamerboytin> I remember Bonk's Server in 2.1
+<Gamerboytin> KEK Worship
+Spark has completed the level.
+<Suit> Or actually
+<Suit> Are you gonna replace the songs that play on digital to be recordings of the old midi songs
+<~ImpatientHedgehog15> Yeah, i just did
+<Suit> or old digital songs
+<Suit> oh
+<snoccy> midi better imo
+<Suit> lemme check
+<Suit> Is it not here/
+<~ImpatientHedgehog15> though I will have to shut down the server to get it changed
+<Suit> or did you do that recently
+<Suit> oh k
+<~ImpatientHedgehog15> Digital is fine though
+<snoccy> A
+<Suit> do you have the old srb2 midi collection made by that one guy or no
+<~ImpatientHedgehog15> no
+<~ImpatientHedgehog15> I rip them myself like a man
+<Gamerboytin> The old SRB2 Music CD?
+<Suit> cant rip them from my copy
+<Suit> or they go mental
+<snoccy> is this a glitch?
+<~ImpatientHedgehog15> bi
+<snoccy> i cant hang on to these
+<~ImpatientHedgehog15> no
+<snoccy> useless smh
+Gamerboytin has completed the level.
+snoccy has completed the level.
+<Gamerboytin> A bit less painful than CEZ...
+<Suit> But confusing
+<~ImpatientHedgehog15> but still... tightropes
+<Suit> ive been running around this big area the entire time
+<snoccy> afk
+<Gamerboytin> I can just fly over them
+*snoccy renamed to snoccy(afk)
+$exitlevel
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+<Suit> my day
+<Suit> be so fine
+<Suit> then boom
+<~ImpatientHedgehog15> I will shut the server when the game ends to change the music
+<Suit> red volcano
+<Suit> mk
+<Gamerboytin> Hell*
+<~ImpatientHedgehog15> then instantly put it back up
+<Gamerboytin> Because when you jump on that house in GFZ1 in Final Demo...
+<~ImpatientHedgehog15> after beating it like 5 times
+<Suit> I wanna listen to egg rock act 2s midi
+<Suit> the old one was really good
+Spark has completed the level.
+<Suit> well wait
+<Suit> hold on
+<~ImpatientHedgehog15> metal sonic battle midi
+<Gamerboytin> A HUGE banger
+<Suit> will the midi songs replace digital or the actual midi
+<~ImpatientHedgehog15> slapps
+<~ImpatientHedgehog15> midi
+<~ImpatientHedgehog15> actual
+<Suit> nice
+<~ImpatientHedgehog15> because recording all the midis now to make them ogg will take 14 years
+ImpatientHedgehog15 has completed the level.
+<Suit> I can do that for you if you want
+<~ImpatientHedgehog15> no im fine
+<Suit> k
+<Suit> woah
+<Suit> you got the old wave effect working
+<~ImpatientHedgehog15> yeah
+<~ImpatientHedgehog15> epic
+<Suit> Did it take long
+<Suit> or no
+<~ImpatientHedgehog15> no
+<Suit> damn
+<Suit> i might actually see if i can try doing the same thing
+<~ImpatientHedgehog15> sectors and linedevs in 2.1 and 2.0 are pretty much the same as 2.2 besides slopes and stuff
+Suit has completed the level.
+<Suit> So everything just worked on the spot
+<~ImpatientHedgehog15> yeah
+<~ImpatientHedgehog15> exept the tightropes
+<Suit> I just wondered
+<Suit> is it just like
+<Gamerboytin> I attempted to ride the waves
+<Suit> sectors moving up and down
+<Suit> and it just conveniently syncs
+Gamerboytin has completed the level.
+<~ImpatientHedgehog15> I don't know
+<Suit> or is it something else cool
+<Suit> I might look into it
+<~ImpatientHedgehog15> It's probably lava opaques
+*ThatEeveeBoi has joined the game (player 1)
+<~ImpatientHedgehog15> just going up and down
+<Suit> yeah i think its opaques
+$exitlevel
+<Suit> its going through the sectors they have
+<ThatEeveeBoi> NO
+<ThatEeveeBoi> I WAS GONNA PRESS THEE BUTTON
+<Suit> So this is actually something cool i can use
+Speeding off to level...
+Map is now "MAP63: MP Special Stage 4 Zone"
+<Suit> might make a level focused on riding a giant wave or something if i can figure it all out
+<Suit> might simplify the effect for gameplay though
+<~ImpatientHedgehog15> the slope waves in 2.2 are weird
+Speeding off to level...
+Map is now "MAP22: EGG ROCK Zone 1"
+<Suit> I know how to ride them instantly
+<Suit> Its never hard for me to just thok onto the wave and just run the entire way completely unscaved
+<ThatEeveeBoi> why isn't this level changed
+<~ImpatientHedgehog15> as ssn said to me
+<~ImpatientHedgehog15> "time"
+<~ImpatientHedgehog15> guys...
+<Suit> yeah
+<~ImpatientHedgehog15> umm... 
+<Sonic> ye
+<~ImpatientHedgehog15> tunnel doesn't work lol
+$exitlevel
+<ThatEeveeBoi> ...
+<Suit> thank god
+Speeding off to level...
+Map is now "MAP64: MP Special Stage 5 Zone"
+<~ImpatientHedgehog15> epic perfect\
+<Sonic> JAHHAHAH
+<Gamerboytin> EBic
+<Sonic> JAJAJAJAJAJAJA
+Speeding off to level...
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAP23: EGG ROCK Zone 2"
+*ThatEeveeBoi left the game
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Master server registration successful.
+<~ImpatientHedgehog15> music good
+$say oops
+<~ImpatientHedgehog15> oops
+$map map24
+Speeding off to level...
+WARNING: constant 'ERZGREY4' could not be parsed.
+
+WARNING: Failed to load bot recording for this map, format version incompatible.
+Map is now "MAP24: EGG ROCK Zone 3"
+<Gamerboytin> Bacon
+<~ImpatientHedgehog15> NO
+<Gamerboytin> B A C O N
+*Mute has joined the game (player 8)
+<~ImpatientHedgehog15> metal is suffering with us
+<Gamerboytin> No bacon = no happy
+Viewpoint: Suit
+<Gamerboytin> Because spike not collision properly
+Viewpoint: Suit
+Viewpoint: snoccy(afk)
+<Gamerboytin> And no moosik
+*Chezi has joined the game (player 1)
+<Suit> made it
+<Suit> The music lump is busted
+<Gamerboytin> Spikes do not work
+*MarioXSonicGamer has joined the game (player 9)
+<Sonic> SONIC CD1!!1!
+<~ImpatientHedgehog15> what
+<Gamerboytin> No bacon
+<MarioXSonicGamer> uh...
+<MarioXSonicGamer> oh nvm
+<Suit> Wait
+<Suit> In servers
+<Suit> can you do the command that changes music
+<~ImpatientHedgehog15> what
+<Suit> or is there no command for that in general
+*Mute left the game
+*Mute has rejoined the game (player 8)
+*Mute left the game
+*Mute has rejoined the game (player 8)
+*Mute left the game
+*Mute has rejoined the game (player 8)
+*Mute left the game
+<Sonic> haha
+<Suit> yeah im remembering wrong
+<Chezi> ronaldinho soccer
+<Suit> \
+$map map24
+Speeding off to level...
+WARNING: constant 'ERZGREY4' could not be parsed.
+
+WARNING: Failed to load bot recording for this map, format version incompatible.
+Map is now "MAP24: EGG ROCK Zone 3"
+<Suit> Wait
+<Suit> Why are we back here
+<Gamerboytin> Ah, Sonic's famous line in Final Demo: "Did you get all those Chaos Emeralds?"
+*Chezi left the game
+<~ImpatientHedgehog15> YES
+<Suit> we almost got em all
+Resending game state to MarioXSonicGamer...
+<Gamerboytin> Should we continue the discussion once we defeat Brak?
+<Suit> Yeah
+<Sonic> BRUH
+<Suit> but we gotta rejoin after that
+<Sonic> respawn
+*xtreme sonic has joined the game (player 1)
+<Suit> Phew
+<Suit> Made it
+<~ImpatientHedgehog15> yay
+<~ImpatientHedgehog15> brak time\
+Speeding off to level...
+Map is now "MAP25: EGG ROCK CORE Zone"
+<xtreme sonic> yk
+<xtreme sonic> k
+<Suit> hard boiled boss fight
+*Crazybark has joined the game (player 8)
+<MarioXSonicGamer> Why is there no moosic?
+<xtreme sonic> it will be cooler if u add xtreme or sometning
+*Crazybark left the game
+<~ImpatientHedgehog15> ISN'T THIS ENOUGH
+<xtreme sonic> idk
+<xtreme sonic> what if xtreme vs FAKER xtreme
+<Sonic> yay
+<Suit> i like how the skybox viewpoint makes the sky look like giant crusty meat
+<MarioXSonicGamer> Yes
+<MarioXSonicGamer> It is
+<Suit> and red seeds with veins
+<xtreme sonic> yup
+<Sonic> the damn rings keep being stolen
+<Suit> thats not my problem
+<Sonic> oh gosh
+<Suit> i only had 1 life from metal
+<Sonic> didnt say it was
+<Sonic> but the sky box
+<Suit> Cmon Zantru
+<Sonic> hey does someone respawn us or
+<MarioXSonicGamer> YEAH!
+<Zantru> I win 
+<Sonic> i wonder where he fell to
+<Suit> good job
+<Zantru> o/
+<Suit> The meat zone
+<~ImpatientHedgehog15> oh
+<Gamerboytin> You say!
+<Suit> Brak has been banished to the meat zone
+<~ImpatientHedgehog15> reset server time
+<Sonic> lol
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/unlist'...
+Server deregistration request successfully sent.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

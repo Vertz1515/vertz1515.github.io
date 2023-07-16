@@ -1,0 +1,3684 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\patch.pk3 (14 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\music.dta (181 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+ERROR: Mix_LoadMUS_RW: Unrecognized audio format
+ERROR: Music _clear could not be loaded: engine failure!
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2023-06-14_15-43-07.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.11 (May 16 2023 18:21:59 2c689bae master) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\2.0.13_Marathon_Patch.pk3 (655 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\2.0.13_Marathon_Patch.pk3|SOC/MAINCFG
+Added gametype Chaos
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+WARNING: skincolor 'SKINCOLOR_LEGACYNEONGREEN' could not be found.
+
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\2.0.13_Marathon_Patch.pk3|SOC/SOC_LVL
+WARNING: Line 469: Level header 32: unknown word '//PRECUTSCENENUM'
+WARNING: Line 484: Level header 33: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1308: Level header 100: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1322: Level header 101: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1336: Level header 102: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1352: Level header 103: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1366: Level header 104: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1380: Level header 105: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1397: Level header 106: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1413: Level header 107: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1434: Level header 108: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1440: Level header 109: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1464: Level header 110: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1469: Level header 111: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1485: Level header 112: unknown word '//PRECUTSCENENUM'
+WARNING: Line 1547: Level header 136: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2001: Level header 172: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2017: Level header 173: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2033: Level header 174: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2050: Level header 175: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2065: Level header 176: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2080: Level header 177: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2095: Level header 178: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2109: Level header 179: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2123: Level header 180: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2137: Level header 181: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2151: Level header 182: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2166: Level header 183: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2183: Level header 184: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2198: Level header 185: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2210: Level header 186: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2225: Level header 187: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2241: Level header 188: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2256: Level header 189: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2271: Level header 190: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2300: Level header 208: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2316: Level header 209: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2334: Level header 210: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2349: Level header 211: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2363: Level header 212: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2377: Level header 213: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2392: Level header 214: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2407: Level header 215: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2421: Level header 216: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2434: Level header 217: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2448: Level header 218: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2462: Level header 219: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2476: Level header 220: unknown word '//PRECUTSCENENUM'
+WARNING: Line 2490: Level header 221: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3146: Level header 316: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3162: Level header 317: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3178: Level header 318: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3193: Level header 319: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3210: Level header 320: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3228: Level header 321: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3244: Level header 322: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3260: Level header 323: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3275: Level header 324: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3290: Level header 325: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3305: Level header 326: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3320: Level header 327: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3336: Level header 328: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3352: Level header 329: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3368: Level header 330: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3384: Level header 331: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3399: Level header 332: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3415: Level header 333: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3432: Level header 334: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3447: Level header 335: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3462: Level header 336: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3477: Level header 337: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3493: Level header 338: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3509: Level header 339: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3522: Level header 340: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3535: Level header 341: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3549: Level header 342: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3580: Level header 352: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3598: Level header 353: unknown word '//PRECUTSCENENUM'
+WARNING: Line 3607: Level header 354: unknown word '//PRECUTSCENENUM'
+WARNING: Line 4002: Level header 382: unknown word '//PRECUTSCENENUM'
+WARNING: Line 6219: Level header 640: unknown word '//PRECUTSCENENUM'
+WARNING: Line 6225: Level header 640: unknown typeoflevel flag DOOM
+
+WARNING: Line 6242: Level header 641: unknown typeoflevel flag DOOM
+
+WARNING: Line 6258: Level header 642: unknown typeoflevel flag DOOM
+
+WARNING: Line 6274: Level header 643: unknown typeoflevel flag DOOM
+
+WARNING: Line 6290: Level header 644: unknown typeoflevel flag DOOM
+
+WARNING: Line 6306: Level header 645: unknown typeoflevel flag DOOM
+
+WARNING: Line 6316: Level header 646: unknown word '//PRECUTSCENENUM'
+WARNING: Line 6323: Level header 646: unknown typeoflevel flag DOOM
+
+WARNING: Line 6339: Level header 647: unknown typeoflevel flag DOOM
+
+WARNING: Line 6355: Level header 648: unknown typeoflevel flag DOOM
+
+WARNING: Line 6371: Level header 649: unknown typeoflevel flag DOOM
+
+WARNING: Line 6387: Level header 650: unknown typeoflevel flag DOOM
+
+WARNING: Line 6403: Level header 651: unknown typeoflevel flag DOOM
+
+WARNING: Line 6413: Level header 652: unknown word '//PRECUTSCENENUM'
+WARNING: Line 6420: Level header 652: unknown typeoflevel flag DOOM
+
+WARNING: Line 6436: Level header 653: unknown typeoflevel flag DOOM
+
+WARNING: Line 6452: Level header 654: unknown typeoflevel flag DOOM
+
+WARNING: Line 6468: Level header 655: unknown typeoflevel flag DOOM
+
+WARNING: Line 6484: Level header 656: unknown typeoflevel flag DOOM
+
+WARNING: Line 6500: Level header 657: unknown typeoflevel flag DOOM
+
+WARNING: Line 6516: Level header 658: unknown typeoflevel flag DOOM
+
+WARNING: Line 6532: Level header 659: unknown typeoflevel flag DOOM
+
+WARNING: Line 6548: Level header 660: unknown typeoflevel flag DOOM
+
+WARNING: Line 6564: Level header 661: unknown typeoflevel flag DOOM
+
+WARNING: Line 6580: Level header 662: unknown typeoflevel flag DOOM
+
+WARNING: Line 6596: Level header 663: unknown typeoflevel flag DOOM
+
+WARNING: Line 6612: Level header 664: unknown typeoflevel flag DOOM
+
+WARNING: Line 6628: Level header 665: unknown typeoflevel flag DOOM
+
+WARNING: Line 6644: Level header 666: unknown typeoflevel flag DOOM
+
+WARNING: Line 6660: Level header 667: unknown typeoflevel flag DOOM
+
+WARNING: Line 6676: Level header 668: unknown typeoflevel flag DOOM
+
+WARNING: Line 6692: Level header 669: unknown typeoflevel flag DOOM
+
+WARNING: Line 6708: Level header 670: unknown typeoflevel flag DOOM
+
+WARNING: Line 6719: Level header 671: unknown word '//PRECUTSCENENUM'
+WARNING: Line 6725: Level header 671: unknown typeoflevel flag DOOM
+
+WARNING: Line 6743: Level header 672: unknown typeoflevel flag DOOM
+
+WARNING: Line 6760: Level header 673: unknown typeoflevel flag DOOM
+
+WARNING: Line 6777: Level header 674: unknown typeoflevel flag DOOM
+
+WARNING: Line 6794: Level header 675: unknown typeoflevel flag DOOM
+
+WARNING: Line 6811: Level header 676: unknown typeoflevel flag DOOM
+
+WARNING: Line 6822: Level header 677: unknown word '//PRECUTSCENENUM'
+WARNING: Line 6829: Level header 677: unknown typeoflevel flag DOOM
+
+WARNING: Line 6846: Level header 678: unknown typeoflevel flag DOOM
+
+WARNING: Line 6863: Level header 679: unknown typeoflevel flag DOOM
+
+WARNING: Line 6880: Level header 680: unknown typeoflevel flag DOOM
+
+WARNING: Line 6897: Level header 681: unknown typeoflevel flag DOOM
+
+WARNING: Line 6914: Level header 682: unknown typeoflevel flag DOOM
+
+WARNING: Line 6925: Level header 683: unknown word '//PRECUTSCENENUM'
+WARNING: Line 6932: Level header 683: unknown typeoflevel flag DOOM
+
+WARNING: Line 6949: Level header 684: unknown typeoflevel flag DOOM
+
+WARNING: Line 6966: Level header 685: unknown typeoflevel flag DOOM
+
+WARNING: Line 6983: Level header 686: unknown typeoflevel flag DOOM
+
+WARNING: Line 7000: Level header 687: unknown typeoflevel flag DOOM
+
+WARNING: Line 7017: Level header 688: unknown typeoflevel flag DOOM
+
+WARNING: Line 7034: Level header 689: unknown typeoflevel flag DOOM
+
+WARNING: Line 7051: Level header 690: unknown typeoflevel flag DOOM
+
+WARNING: Line 7068: Level header 691: unknown typeoflevel flag DOOM
+
+WARNING: Line 7085: Level header 692: unknown typeoflevel flag DOOM
+
+WARNING: Line 7102: Level header 693: unknown typeoflevel flag DOOM
+
+WARNING: Line 7119: Level header 694: unknown typeoflevel flag DOOM
+
+WARNING: Line 7136: Level header 695: unknown typeoflevel flag DOOM
+
+WARNING: Line 7153: Level header 696: unknown typeoflevel flag DOOM
+
+WARNING: Line 7170: Level header 697: unknown typeoflevel flag DOOM
+
+WARNING: Line 7187: Level header 698: unknown typeoflevel flag DOOM
+
+WARNING: Line 7204: Level header 699: unknown typeoflevel flag DOOM
+
+WARNING: Line 7221: Level header 700: unknown typeoflevel flag DOOM
+
+WARNING: Line 7238: Level header 701: unknown typeoflevel flag DOOM
+
+WARNING: Line 7258: Level header 712: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7273: Level header 713: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7288: Level header 714: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7302: Level header 715: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7316: Level header 716: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7330: Level header 717: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7345: Level header 718: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7360: Level header 719: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7374: Level header 720: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7388: Level header 721: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7404: Level header 722: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7419: Level header 723: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7449: Level header 784: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7464: Level header 785: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7480: Level header 786: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7496: Level header 787: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7512: Level header 788: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7528: Level header 789: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7544: Level header 790: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7559: Level header 791: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7574: Level header 792: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7589: Level header 793: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7604: Level header 794: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7620: Level header 795: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7635: Level header 796: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7650: Level header 797: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7665: Level header 798: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7678: Level header 799: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7691: Level header 800: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7705: Level header 801: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7720: Level header 802: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7735: Level header 803: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7750: Level header 804: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7765: Level header 805: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7778: Level header 806: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7792: Level header 807: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7806: Level header 808: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7821: Level header 809: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7837: Level header 810: unknown word '//PRECUTSCENENUM'
+WARNING: Line 7968: Level header 828: unknown typeoflevel flag FDADVENTURE
+
+188 warnings in the SOC lump
+MAPAM
+MAPQP
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\banskins.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\ssnsonic.pk3 (271 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\ssnsonic.pk3|SOC/SOC_SSN
+ssnsonic.pk3 added 1 frames in 1 sprites
+Added skin 'ssnsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\ssntails.pk3 (184 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\ssntails.pk3|SOC/MAINCFG
+ssntails.pk3 added 1 frames in 1 sprites
+Added skin 'ssntails'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\crustcidna.pk3 (196 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\crustcidna.pk3|Lua/LuaSpinsound
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\crustcidna.pk3|SOC/SOC_CRUST
+WARNING: unexpected symbol near '<eof>'
+crustcidna.pk3 added 5 frames in 2 sprites
+Added skin 'crustcidna'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastChao_V1.pk3 (234 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastChao_V1.pk3|Lua/Lua_PUYO
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastChao_V1.pk3|SOC/SOC_CHAR
+Added skin 'fchaod3'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastCinnossu_V1.pk3 (182 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastCinnossu_V1.pk3|Lua/Lua_PUYO
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastCinnossu_V1.pk3|SOC/SOC_CHAR
+Added skin 'acinossu'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastMegaman_V1.pk3 (152 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastMegaman_V1.pk3|LUA/LUA_LMON
+MobjType MT_LEMON allocated.
+State S_LEMON allocated.
+State S_SOUNDPLAYERLMN allocated.
+Sprite SPR_PLSS allocated.
+Sound sfx_plasma allocated.
+Sound sfx_firxpl allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastMegaman_V1.pk3|LUA/Lua_PUYO
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastMegaman_V1.pk3|SOC/SOC_CHAR
+CL_PastMegaman_V1.pk3 added 1 frames in 1 sprites
+Added skin 'pmegamand3'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastZim_V1.pk3 (70 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastZim_V1.pk3|LUA/LUA_LEGP
+Skincolor SKINCOLOR_LEGACYWHITE allocated.
+Skincolor SKINCOLOR_LEGACYSILVER allocated.
+Skincolor SKINCOLOR_LEGACYGREY allocated.
+Skincolor SKINCOLOR_LEGACYBLACK allocated.
+Skincolor SKINCOLOR_LEGACYCYAN allocated.
+Skincolor SKINCOLOR_LEGACYTEAL allocated.
+Skincolor SKINCOLOR_LEGACYSTEELBLUE allocated.
+Skincolor SKINCOLOR_LEGACYBLUE allocated.
+Skincolor SKINCOLOR_LEGACYPEACH allocated.
+Skincolor SKINCOLOR_LEGACYTAN allocated.
+Skincolor SKINCOLOR_LEGACYPINK allocated.
+Skincolor SKINCOLOR_LEGACYLAVENDER allocated.
+Skincolor SKINCOLOR_LEGACYPURPLE allocated.
+Skincolor SKINCOLOR_LEGACYORANGE allocated.
+Skincolor SKINCOLOR_LEGACYROSEWOOD allocated.
+Skincolor SKINCOLOR_LEGACYBEIGE allocated.
+Skincolor SKINCOLOR_LEGACYBROWN allocated.
+Skincolor SKINCOLOR_LEGACYRED allocated.
+Skincolor SKINCOLOR_LEGACYDARKRED allocated.
+Skincolor SKINCOLOR_LEGACYNEONGREEN allocated.
+Skincolor SKINCOLOR_LEGACYZIM allocated.
+Skincolor SKINCOLOR_LEGACYOLIVE allocated.
+Skincolor SKINCOLOR_LEGACYYELLOW allocated.
+Skincolor SKINCOLOR_LEGACYGOLD allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastZim_V1.pk3|LUA/Lua_PUYO
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_PastZim_V1.pk3|SOC/SOC_CHAR
+Added skin 'fdzim'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_Robotniik-v1.pk3 (135 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_Robotniik-v1.pk3|Lua/GOD_MAIN.LUA
+Sound sfx_bigjum allocated.
+Sound sfx_dying allocated.
+Sound sfx_crash allocated.
+State S_DEAD1 allocated.
+State S_DEAD2 allocated.
+State S_DEAD3 allocated.
+State S_DEAD4 allocated.
+State S_DEAD5 allocated.
+State S_DEAD6 allocated.
+State S_DEAD7 allocated.
+State S_DEAD8 allocated.
+State S_DEAD9 allocated.
+State S_DEAD10 allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_Robotniik-v1.pk3|SOC/SOC_CHAR
+Added skin 'robotniik'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_Sonikku_v2.2.pk3 (157 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_Sonikku_v2.2.pk3|Lua/LUA_GAME
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_Sonikku_v2.2.pk3|Lua/LUA_COMP
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_Sonikku_v2.2.pk3|Lua/L_ThokExample_NoComments-v1.1.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_Sonikku_v2.2.pk3|SOC/OBJCTCFG.SOC
+Added skin 'sonikku'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_UglyKnux-v4.pk3 (225 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_UglyKnux-v4.pk3|Lua/LUA_LUA
+Added command "uglycontrolsoff"
+Added command "uglycontrolson"
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_UglyKnux-v4.pk3|Lua/LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_UglyKnux-v4.pk3|Lua/LUA_OLDG
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_UglyKnux-v4.pk3|Lua/LUA_HUD
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_UglyKnux-v4.pk3|SOC/OBJCTCFG
+CL_UglyKnux-v4.pk3 added 1 frames in 1 sprites
+Added skin 'uglyknux'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\L_HurryUp_v1.1-edited.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\L_HurryUp_v1.1-edited.lua
+hurry_players set to 2/3
+hurry_timelimit set to 0
+Added command "hurry_startcountdown"
+Added command "hurry_cancelcountdown"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\knux.pk3 (140 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\knux.pk3|Lua/Lua_NoDrown
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\knux.pk3|Lua/Lua_Stuff
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\knux.pk3|Lua/Lua_Glidin
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\knux.pk3|SOC/MAINCFG
+knux.pk3 added 1 frames in 1 sprites
+Added skin 'k.t.e'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3 (8135 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|init.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_SCHS.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2Freeslots.lua
+Sprite SPR_SDXP allocated.
+Sound sfx_sd2gpn allocated.
+Sound sfx_sd2clw allocated.
+Sound sfx_sd2frs allocated.
+Sound sfx_sd2frx allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2MiscObjects.lua
+Sprite SPR_SDPF allocated.
+MobjType MT_SD2_PUFF allocated.
+State S_SD2_PUFF_SPAWN1 allocated.
+State S_SD2_PUFF_SPAWN2 allocated.
+State S_SD2_PUFF_ANIMATE allocated.
+MobjType MT_SD2_SMOKE allocated.
+State S_SD2_SMOKE_SPAWN allocated.
+State S_SD2_SMOKE_DIE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2Functions.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2Actions.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2Grounder.lua
+Sound sfx_sd2gse allocated.
+Sound sfx_sd2gac allocated.
+Sound sfx_sd2ptl allocated.
+Sprite SPR_SDGR allocated.
+MobjType MT_SD2_GROUNDER_PISTOL allocated.
+State S_SD2_GROUNDER_PISTOL_LOOK allocated.
+State S_SD2_GROUNDER_PISTOL_CHASE allocated.
+State S_SD2_GROUNDER_PISTOL_SHOOT1 allocated.
+State S_SD2_GROUNDER_PISTOL_SHOOT2 allocated.
+State S_SD2_GROUNDER_PISTOL_SHOOT3 allocated.
+State S_SD2_GROUNDER_PISTOL_PAIN1 allocated.
+State S_SD2_GROUNDER_PISTOL_PAIN2 allocated.
+State S_SD2_GROUNDER_PISTOL_DIE1 allocated.
+State S_SD2_GROUNDER_PISTOL_DIE_SCREAM allocated.
+State S_SD2_GROUNDER_PISTOL_DIE_FALL allocated.
+State S_SD2_GROUNDER_PISTOL_DIE2 allocated.
+State S_SD2_GROUNDER_PISTOL_DIE_STILL allocated.
+State S_SD2_GROUNDER_PISTOL_RAISE1 allocated.
+State S_SD2_GROUNDER_PISTOL_RAISE2 allocated.
+State S_SD2_GROUNDER_PISTOL_RAISE3 allocated.
+State S_SD2_GROUNDER_PISTOL_RAISE4 allocated.
+Sound sfx_sd2shg allocated.
+MobjType MT_SD2_GROUNDER_SHOTGUN allocated.
+State S_SD2_GROUNDER_SHOTGUN_LOOK allocated.
+State S_SD2_GROUNDER_SHOTGUN_CHASE allocated.
+State S_SD2_GROUNDER_SHOTGUN_SHOOT1 allocated.
+State S_SD2_GROUNDER_SHOTGUN_SHOOT2 allocated.
+State S_SD2_GROUNDER_SHOTGUN_SHOOT3 allocated.
+State S_SD2_GROUNDER_SHOTGUN_PAIN1 allocated.
+State S_SD2_GROUNDER_SHOTGUN_PAIN2 allocated.
+State S_SD2_GROUNDER_SHOTGUN_RAISE1 allocated.
+State S_SD2_GROUNDER_SHOTGUN_RAISE2 allocated.
+State S_SD2_GROUNDER_SHOTGUN_RAISE3 allocated.
+State S_SD2_GROUNDER_SHOTGUN_RAISE4 allocated.
+State S_SD2_GROUNDER_SHOTGUN_RAISE5 allocated.
+MobjType MT_SD2_GROUNDER_CHAINGUN allocated.
+State S_SD2_GROUNDER_CHAINGUN_LOOK allocated.
+State S_SD2_GROUNDER_CHAINGUN_CHASE allocated.
+State S_SD2_GROUNDER_CHAINGUN_SHOOT1 allocated.
+State S_SD2_GROUNDER_CHAINGUN_SHOOT2 allocated.
+State S_SD2_GROUNDER_CHAINGUN_SHOOT3 allocated.
+State S_SD2_GROUNDER_CHAINGUN_REFIRE allocated.
+State S_SD2_GROUNDER_CHAINGUN_PAIN1 allocated.
+State S_SD2_GROUNDER_CHAINGUN_PAIN2 allocated.
+State S_SD2_GROUNDER_CHAINGUN_DIE1 allocated.
+State S_SD2_GROUNDER_CHAINGUN_DIE_SCREAM allocated.
+State S_SD2_GROUNDER_CHAINGUN_DIE_FALL allocated.
+State S_SD2_GROUNDER_CHAINGUN_DIE2 allocated.
+State S_SD2_GROUNDER_CHAINGUN_DIE_STILL allocated.
+State S_SD2_GROUNDER_CHAINGUN_RAISE1 allocated.
+State S_SD2_GROUNDER_CHAINGUN_RAISE2 allocated.
+State S_SD2_GROUNDER_CHAINGUN_RAISE3 allocated.
+State S_SD2_GROUNDER_CHAINGUN_RAISE4 allocated.
+State S_SD2_GROUNDER_CHAINGUN_RAISE5 allocated.
+State S_SD2_GROUNDER_CHAINGUN_RAISE6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2Coconuts.lua
+Sound sfx_sd2cse allocated.
+Sound sfx_sd2cac allocated.
+Sprite SPR_SDCO allocated.
+MobjType MT_SD2_COCONUTS allocated.
+State S_SD2_COCONUTS_LOOK allocated.
+State S_SD2_COCONUTS_CHASE1 allocated.
+State S_SD2_COCONUTS_CHASE2 allocated.
+State S_SD2_COCONUTS_ATTACK1 allocated.
+State S_SD2_COCONUTS_ATTACK2 allocated.
+State S_SD2_COCONUTS_ATTACK3 allocated.
+State S_SD2_COCONUTS_PAIN1 allocated.
+State S_SD2_COCONUTS_PAIN2 allocated.
+State S_SD2_COCONUTS_DIE1 allocated.
+State S_SD2_COCONUTS_DIE_SCREAM allocated.
+State S_SD2_COCONUTS_DIE2 allocated.
+State S_SD2_COCONUTS_DIE_FALL allocated.
+State S_SD2_COCONUTS_DIE_STILL allocated.
+State S_SD2_COCONUTS_RAISE1 allocated.
+State S_SD2_COCONUTS_RAISE2 allocated.
+State S_SD2_COCONUTS_RAISE3 allocated.
+State S_SD2_COCONUTS_RAISE4 allocated.
+State S_SD2_COCONUTS_RAISE5 allocated.
+MobjType MT_SD2_COCONUT allocated.
+State S_SD2_COCONUT_SPAWN allocated.
+State S_SD2_COCONUT_STOPSOUND allocated.
+State S_SD2_COCONUT_DIE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2OVABots.lua
+Sound sfx_sd2otk allocated.
+Sound sfx_sd2odi allocated.
+Sprite SPR_SDOV allocated.
+MobjType MT_SD2_OVASHORT allocated.
+MobjType MT_SD2_OVASHORT_SHADOW allocated.
+State S_SD2_OVASHORT_LOOK allocated.
+State S_SD2_OVASHORT_CHASE1 allocated.
+State S_SD2_OVASHORT_CHASE2 allocated.
+State S_SD2_OVASHORT_MELEE1 allocated.
+State S_SD2_OVASHORT_MELEE2 allocated.
+State S_SD2_OVASHORT_MELEE3 allocated.
+State S_SD2_OVASHORT_PAIN1 allocated.
+State S_SD2_OVASHORT_PAIN2 allocated.
+State S_SD2_OVASHORT_DIE allocated.
+State S_SD2_OVASHORT_DIE_SCREAM allocated.
+State S_SD2_OVASHORT_DIE2 allocated.
+State S_SD2_OVASHORT_DIE_FALL allocated.
+State S_SD2_OVASHORT_DIE_STILL allocated.
+State S_SD2_OVASHORT_RAISE1 allocated.
+State S_SD2_OVASHORT_RAISE2 allocated.
+MobjType MT_SD2_OVASHOT allocated.
+State S_SD2_OVASHOT allocated.
+State S_SD2_OVASHOT_STOPSOUND allocated.
+State S_SD2_OVASHOT_DIE allocated.
+MobjType MT_SD2_OVARED allocated.
+State S_SD2_OVARED_LOOK allocated.
+State S_SD2_OVARED_CHASE1 allocated.
+State S_SD2_OVARED_CHASE2 allocated.
+State S_SD2_OVARED_ATTACK1 allocated.
+State S_SD2_OVARED_ATTACK2 allocated.
+State S_SD2_OVARED_ATTACK3 allocated.
+State S_SD2_OVARED_PAIN1 allocated.
+State S_SD2_OVARED_PAIN2 allocated.
+State S_SD2_OVARED_DIE allocated.
+State S_SD2_OVARED_DIE_SCREAM allocated.
+State S_SD2_OVARED_DIE2 allocated.
+State S_SD2_OVARED_DIE_FALL allocated.
+State S_SD2_OVARED_DIE3 allocated.
+State S_SD2_OVARED_DIE_BOSSDEATH allocated.
+State S_SD2_OVARED_RAISE1 allocated.
+State S_SD2_OVARED_RAISE2 allocated.
+State S_SD2_OVARED_RAISE3 allocated.
+State S_SD2_OVARED_RAISE4 allocated.
+State S_SD2_OVARED_RAISE5 allocated.
+State S_SD2_OVARED_RAISE6 allocated.
+State S_SD2_OVARED_RAISE7 allocated.
+MobjType MT_SD2_OVAGRAY allocated.
+State S_SD2_OVAGRAY_LOOK allocated.
+State S_SD2_OVAGRAY_CHASE allocated.
+State S_SD2_OVAGRAY_ATTACK1 allocated.
+State S_SD2_OVAGRAY_ATTACK2 allocated.
+State S_SD2_OVAGRAY_ATTACK3 allocated.
+State S_SD2_OVAGRAY_PAIN1 allocated.
+State S_SD2_OVAGRAY_PAIN2 allocated.
+State S_SD2_OVAGRAY_DIE allocated.
+State S_SD2_OVAGRAY_DIE_SCREAM allocated.
+State S_SD2_OVAGRAY_DIE2 allocated.
+State S_SD2_OVAGRAY_DIE_FALL allocated.
+State S_SD2_OVAGRAY_DIE3 allocated.
+State S_SD2_OVAGRAY_DIE_STILL allocated.
+State S_SD2_OVAGRAY_RAISE1 allocated.
+State S_SD2_OVAGRAY_RAISE2 allocated.
+State S_SD2_OVAGRAY_RAISE3 allocated.
+State S_SD2_OVAGRAY_RAISE4 allocated.
+State S_SD2_OVAGRAY_RAISE5 allocated.
+State S_SD2_OVAGRAY_RAISE6 allocated.
+State S_SD2_OVAGRAY_RAISE7 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2PseudoFlicky.lua
+Sound sfx_sd2ftk allocated.
+Sprite SPR_SDFL allocated.
+MobjType MT_SD2_PSEUDOFLICKY allocated.
+State S_SD2_PSEUDOFLICKY_LOOK allocated.
+State S_SD2_PSEUDOFLICKY_CHASE allocated.
+State S_SD2_PSEUDOFLICKY_ATTACK1 allocated.
+State S_SD2_PSEUDOFLICKY_ATTACK2 allocated.
+State S_SD2_PSEUDOFLICKY_ATTACK3 allocated.
+State S_SD2_PSEUDOFLICKY_ATTACK4 allocated.
+State S_SD2_PSEUDOFLICKY_PAIN1 allocated.
+State S_SD2_PSEUDOFLICKY_PAIN2 allocated.
+State S_SD2_PSEUDOFLICKY_DIE allocated.
+State S_SD2_PSEUDOFLICKY_DIE_SCREAM allocated.
+State S_SD2_PSEUDOFLICKY_DIE2 allocated.
+State S_SD2_PSEUDOFLICKY_DIE_FALL allocated.
+State S_SD2_PSEUDOFLICKY_DIE3 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2BuzzBomber.lua
+Sound sfx_sd2bse allocated.
+Sprite SPR_SDBZ allocated.
+MobjType MT_SD2_BUZZBOMBER_BALL allocated.
+State S_SD2_BUZZBOMBER_BALL_SPAWN allocated.
+State S_SD2_BUZZBOMBER_BALL_STOPSOUND allocated.
+State S_SD2_BUZZBOMBER_BALL_DIE allocated.
+MobjType MT_SD2_BUZZBOMBER allocated.
+State S_SD2_BUZZBOMBER_LOOK allocated.
+State S_SD2_BUZZBOMBER_CHASE allocated.
+State S_SD2_BUZZBOMBER_ATTACK1 allocated.
+State S_SD2_BUZZBOMBER_ATTACK2 allocated.
+State S_SD2_BUZZBOMBER_ATTACK3 allocated.
+State S_SD2_BUZZBOMBER_PAIN1 allocated.
+State S_SD2_BUZZBOMBER_PAIN2 allocated.
+State S_SD2_BUZZBOMBER_PAIN3 allocated.
+State S_SD2_BUZZBOMBER_DIE1 allocated.
+State S_SD2_BUZZBOMBER_DIE_SCREAM allocated.
+State S_SD2_BUZZBOMBER_DIE2 allocated.
+State S_SD2_BUZZBOMBER_DIE_FALL allocated.
+State S_SD2_BUZZBOMBER_DIE_STILL allocated.
+State S_SD2_BUZZBOMBER_RAISE1 allocated.
+State S_SD2_BUZZBOMBER_RAISE2 allocated.
+State S_SD2_BUZZBOMBER_RAISE3 allocated.
+State S_SD2_BUZZBOMBER_RAISE4 allocated.
+State S_SD2_BUZZBOMBER_RAISE5 allocated.
+State S_SD2_BUZZBOMBER_RAISE6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2PsuedoTails.lua
+Sound sfx_sd2pse allocated.
+Sound sfx_sd2ppn allocated.
+Sound sfx_sd2pdi allocated.
+Sprite SPR_SDPT allocated.
+MobjType MT_SD2_PSEUDOTAILS allocated.
+State S_SD2_PSEUDOTAILS_LOOK allocated.
+State S_SD2_PSEUDOTAILS_CHASE allocated.
+State S_SD2_PSEUDOTAILS_ATTACK1 allocated.
+State S_SD2_PSEUDOTAILS_ATTACK2 allocated.
+State S_SD2_PSEUDOTAILS_ATTACK3 allocated.
+State S_SD2_PSEUDOTAILS_PAIN1 allocated.
+State S_SD2_PSEUDOTAILS_PAIN2 allocated.
+State S_SD2_PSEUDOTAILS_DIE1 allocated.
+State S_SD2_PSEUDOTAILS_DIE_SCREAM allocated.
+State S_SD2_PSEUDOTAILS_DIE2 allocated.
+State S_SD2_PSEUDOTAILS_DIE_FLICKIES allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2PseudoKnuckles.lua
+Sound sfx_sd2rse allocated.
+Sound sfx_sd2rpc allocated.
+Sound sfx_sd2rac allocated.
+Sound sfx_sd2rdi allocated.
+Sprite SPR_SDKN allocated.
+MobjType MT_SD2_PSEUDOKNUCKLES allocated.
+State S_SD2_PSEUDOKNUCKLES_LOOK allocated.
+State S_SD2_PSEUDOKNUCKLES_CHASE allocated.
+State S_SD2_PSEUDOKNUCKLES_MELEE1 allocated.
+State S_SD2_PSEUDOKNUCKLES_MELEE2 allocated.
+State S_SD2_PSEUDOKNUCKLES_MELEE3 allocated.
+State S_SD2_PSEUDOKNUCKLES_MELEE4 allocated.
+State S_SD2_PSEUDOKNUCKLES_MISSILE1 allocated.
+State S_SD2_PSEUDOKNUCKLES_MISSILE2 allocated.
+State S_SD2_PSEUDOKNUCKLES_MISSILE3 allocated.
+State S_SD2_PSEUDOKNUCKLES_PAIN1 allocated.
+State S_SD2_PSEUDOKNUCKLES_PAIN2 allocated.
+State S_SD2_PSEUDOKNUCKLES_DIE1 allocated.
+State S_SD2_PSEUDOKNUCKLES_DIE_SCREAM allocated.
+State S_SD2_PSEUDOKNUCKLES_DIE_FALL allocated.
+State S_SD2_PSEUDOKNUCKLES_DIE2 allocated.
+State S_SD2_PSEUDOKNUCKLES_DIE_STILL allocated.
+State S_SD2_PSEUDOKNUCKLES_RAISE1 allocated.
+State S_SD2_PSEUDOKNUCKLES_RAISE2 allocated.
+State S_SD2_PSEUDOKNUCKLES_RAISE3 allocated.
+State S_SD2_PSEUDOKNUCKLES_RAISE4 allocated.
+State S_SD2_PSEUDOKNUCKLES_RAISE5 allocated.
+State S_SD2_PSEUDOKNUCKLES_RAISE6 allocated.
+MobjType MT_SD2_PSEUDOKNUCKLES_FIST allocated.
+State S_SD2_PSEUDOKNUCKLES_FIST allocated.
+State S_SD2_PSEUDOKNUCKLES_FIST_STOPSOUND allocated.
+State S_SD2_PSEUDOKNUCKLES_FIST_EXPLODE1 allocated.
+State S_SD2_PSEUDOKNUCKLES_FIST_EXPLODE2 allocated.
+State S_SD2_PSEUDOKNUCKLES_FIST_EXPLODE3 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2PseudoSuper.lua
+Sound sfx_sd2sse allocated.
+Sound sfx_sd2sdi allocated.
+Sprite SPR_SDPS allocated.
+MobjType MT_SD2_PSEUDOSUPER_BALL allocated.
+State S_SD2_PSEUDOSUPER_BALL_SPAWN allocated.
+State S_SD2_PSEUDOSUPER_BALL_STOPSOUND allocated.
+State S_SD2_PSEUDOSUPER_BALL_DIE allocated.
+MobjType MT_SD2_PSEUDOSUPER allocated.
+State S_SD2_PSEUDOSUPER_LOOK allocated.
+State S_SD2_PSEUDOSUPER_SEE allocated.
+State S_SD2_PSEUDOSUPER_CHASE allocated.
+State S_SD2_PSEUDOSUPER_ATTACK1 allocated.
+State S_SD2_PSEUDOSUPER_ATTACK2 allocated.
+State S_SD2_PSEUDOSUPER_ATTACK3 allocated.
+State S_SD2_PSEUDOSUPER_ATTACK4 allocated.
+State S_SD2_PSEUDOSUPER_PAIN1 allocated.
+State S_SD2_PSEUDOSUPER_PAIN2 allocated.
+State S_SD2_PSEUDOSUPER_DIE_SCREAM allocated.
+State S_SD2_PSEUDOSUPER_DIE_FALL allocated.
+State S_SD2_PSEUDOSUPER_DIE allocated.
+State S_SD2_PSEUDOSUPER_DIE_BOSSDEATH allocated.
+State S_SD2_PSEUDOSUPER_RAISE1 allocated.
+State S_SD2_PSEUDOSUPER_RAISE2 allocated.
+State S_SD2_PSEUDOSUPER_RAISE3 allocated.
+State S_SD2_PSEUDOSUPER_RAISE4 allocated.
+State S_SD2_PSEUDOSUPER_RAISE5 allocated.
+State S_SD2_PSEUDOSUPER_RAISE6 allocated.
+State S_SD2_PSEUDOSUPER_RAISE7 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2MetalSonic.lua
+Sprite SPR_SDMS allocated.
+Sound sfx_sd2vse allocated.
+Sound sfx_sd2vac allocated.
+Sound sfx_sd2vtk allocated.
+Sound sfx_sd2vdi allocated.
+Sprite SPR_SDFR allocated.
+MobjType MT_SD2_VILE_FIRE allocated.
+State S_SD2_VILE_FIRE_START allocated.
+State S_SD2_VILE_FIRE_BURN1 allocated.
+State S_SD2_VILE_FIRE_BURN2 allocated.
+State S_SD2_VILE_FIRE_CRACKLE1 allocated.
+State S_SD2_VILE_FIRE_BURN3 allocated.
+State S_SD2_VILE_FIRE_BURN4 allocated.
+State S_SD2_VILE_FIRE_BURN5 allocated.
+State S_SD2_VILE_FIRE_BURN6 allocated.
+State S_SD2_VILE_FIRE_BURN7 allocated.
+State S_SD2_VILE_FIRE_CRACKLE2 allocated.
+State S_SD2_VILE_FIRE_BURN8 allocated.
+State S_SD2_VILE_FIRE_BURN9 allocated.
+State S_SD2_VILE_FIRE_BURN10 allocated.
+MobjType MT_SD2_METALSONIC allocated.
+State S_SD2_METALSONIC_LOOK allocated.
+State S_SD2_METALSONIC_CHASE allocated.
+State S_SD2_METALSONIC_ATTACK_START allocated.
+State S_SD2_METALSONIC_ATTACK1 allocated.
+State S_SD2_METALSONIC_ATTACK2 allocated.
+State S_SD2_METALSONIC_ATTACK3 allocated.
+State S_SD2_METALSONIC_ATTACK4 allocated.
+State S_SD2_METALSONIC_ATTACK5 allocated.
+State S_SD2_METALSONIC_ATTACK6 allocated.
+State S_SD2_METALSONIC_HEAL allocated.
+State S_SD2_METALSONIC_PAIN1 allocated.
+State S_SD2_METALSONIC_PAIN2 allocated.
+State S_SD2_METALSONIC_DIE1 allocated.
+State S_SD2_METALSONIC_DIE_SCREAM allocated.
+State S_SD2_METALSONIC_DIE_FALL allocated.
+State S_SD2_METALSONIC_DIE2 allocated.
+State S_SD2_METALSONIC_DIE_STILL allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2RedMetalSonic.lua
+Sound sfx_sd2yse allocated.
+Sound sfx_sd2ydi allocated.
+Sprite SPR_SDRM allocated.
+MobjType MT_SD2_ROCKET allocated.
+MobjType MT_SD2_REDMETALSONIC allocated.
+State S_SD2_REDMETALSONIC_LOOK allocated.
+State S_SD2_REDMETALSONIC_CHASE allocated.
+State S_SD2_REDMETALSONIC_ATTACK1 allocated.
+State S_SD2_REDMETALSONIC_ATTACK2 allocated.
+State S_SD2_REDMETALSONIC_ATTACK3 allocated.
+State S_SD2_REDMETALSONIC_ATTACK4 allocated.
+State S_SD2_REDMETALSONIC_ATTACK5 allocated.
+State S_SD2_REDMETALSONIC_ATTACK6 allocated.
+State S_SD2_REDMETALSONIC_PAIN allocated.
+State S_SD2_REDMETALSONIC_DIE1 allocated.
+State S_SD2_REDMETALSONIC_DIE_SCREAM allocated.
+State S_SD2_REDMETALSONIC_DIE2 allocated.
+State S_SD2_REDMETALSONIC_DIE3 allocated.
+State S_SD2_REDMETALSONIC_DIE_FALL allocated.
+State S_SD2_REDMETALSONIC_DIE4 allocated.
+State S_SD2_REDMETALSONIC_DIE_BOSSDEATH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2Eggman.lua
+Sound sfx_sd2mse allocated.
+Sprite SPR_SDEG allocated.
+MobjType MT_SD2_EGGMAN allocated.
+State S_SD2_EGGMAN_LOOK allocated.
+State S_SD2_EGGMAN_CHASE allocated.
+State S_SD2_EGGMAN_ATTACK_START allocated.
+State S_SD2_EGGMAN_ATTACK_FIRE allocated.
+State S_SD2_EGGMAN_ATTACK_TARGET allocated.
+State S_SD2_EGGMAN_ATTACK_REPEAT allocated.
+State S_SD2_EGGMAN_PAIN1 allocated.
+State S_SD2_EGGMAN_PAIN2 allocated.
+State S_SD2_EGGMAN_DIE1 allocated.
+State S_SD2_EGGMAN_DIE_SCREAM allocated.
+State S_SD2_EGGMAN_DIE_FALL allocated.
+State S_SD2_EGGMAN_DIE2 allocated.
+State S_SD2_EGGMAN_DIE_BOSSDEATH allocated.
+State S_SD2_EGGMAN_RAISE1 allocated.
+State S_SD2_EGGMAN_RAISE2 allocated.
+MobjType MT_SD2_EGGMAN_FIREBALL allocated.
+State S_SD2_EGGMAN_FIREBALL allocated.
+State S_SD2_EGGMAN_FIREBALL_DIE1 allocated.
+State S_SD2_EGGMAN_FIREBALL_DIE2 allocated.
+State S_SD2_EGGMAN_FIREBALL_DIE3 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2BlackEggman.lua
+Sound sfx_sd2ese allocated.
+Sound sfx_sd2edi allocated.
+Sprite SPR_SDBE allocated.
+MobjType MT_SD2_BLACKEGGMAN allocated.
+State S_SD2_BLACKEGGMAN_LOOK allocated.
+State S_SD2_BLACKEGGMAN_CHASE allocated.
+State S_SD2_BLACKEGGMAN_TARGET allocated.
+State S_SD2_BLACKEGGMAN_ATTACK allocated.
+State S_SD2_BLACKEGGMAN_REFIRE allocated.
+State S_SD2_BLACKEGGMAN_PAIN1 allocated.
+State S_SD2_BLACKEGGMAN_PAIN2 allocated.
+State S_SD2_BLACKEGGMAN_DIE_SCREAM allocated.
+State S_SD2_BLACKEGGMAN_DIE_FALL allocated.
+State S_SD2_BLACKEGGMAN_DIE allocated.
+State S_SD2_BLACKEGGMAN_DIE_STILL allocated.
+State S_SD2_BLACKEGGMAN_DIE_BOSSDEATH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_SBOM
+MobjType MT_EGGBOMB allocated.
+State S_EBOMB1 allocated.
+State S_EBOMB2 allocated.
+State S_EBOMB_EXPLODE1 allocated.
+State S_EBOMB_EXPLODE2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SD2PlayerThink.lua
+TypeOfLevel TOL_DOOM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGFMonitors/LUA_TBOX
+Sprite SPR_TBOX allocated.
+Sprite SPR_TBXX allocated.
+Sound sfx_tgfbng allocated.
+State S_TGFBOX_CHOOSEEXPLOSION allocated.
+State S_TGFBOX_EXPLODE allocated.
+State S_TGFBOX_BIGEXPLODE allocated.
+State S_TGFBOX_FUSE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGFMonitors/LUA_TBXR
+Sprite SPR_TBXR allocated.
+Sound sfx_tgfmrg allocated.
+MobjType MT_TGFBOX_RING allocated.
+MobjType MT_TGFBOX_RING_SPECIAL allocated.
+State S_TGFBOX_RING_IDLE1 allocated.
+State S_TGFBOX_RING_IDLE2 allocated.
+State S_TGFBOX_RING_IDLE3 allocated.
+State S_TGFBOX_RING_BREAK allocated.
+State S_TGFBOX_RING_EXPLODE allocated.
+State S_TGFBOX_RING_SPECIAL_IDLE allocated.
+State S_TGFBOX_RING_SPECIAL_DEATH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGFMonitors/LUA_TBXS
+Sprite SPR_TBXS allocated.
+MobjType MT_TGFBOX_SHOES allocated.
+MobjType MT_TGFBOX_SHOES_SPECIAL allocated.
+State S_TGFBOX_SHOES_IDLE1 allocated.
+State S_TGFBOX_SHOES_IDLE2 allocated.
+State S_TGFBOX_SHOES_IDLE3 allocated.
+State S_TGFBOX_SHOES_BREAK allocated.
+State S_TGFBOX_SHOES_SPECIAL_IDLE allocated.
+State S_TGFBOX_SHOES_SPECIAL_DEATH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGFMonitors/LUA_TBXI
+Sprite SPR_TBXI allocated.
+MobjType MT_TGFBOX_INVIN_SPECIAL allocated.
+State S_TGFBOX_INVIN_SPECIAL_IDLE allocated.
+State S_TGFBOX_INVIN_SPECIAL_DEATH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGFMonitors/LUA_TBX1
+Sprite SPR_TBX1 allocated.
+MobjType MT_TGFBOX_1UP allocated.
+State S_TGFBOX_1UP_IDLE1 allocated.
+State S_TGFBOX_1UP_IDLE2 allocated.
+State S_TGFBOX_1UP_BREAK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGFMonitors/LUA_TBXB
+Sprite SPR_TBXB allocated.
+MobjType MT_TGFBOX_SHIELD allocated.
+State S_TGFBOX_SHIELD_IDLE allocated.
+State S_TGFBOX_SHIELD_BREAK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGFMonitors/LUA_TBXT
+Sprite SPR_TBXT allocated.
+MobjType MT_TGFBOX_TIME_SPECIAL allocated.
+State S_TGFBOX_TIME_BREAK allocated.
+State S_TGFBOX_TIME_SPECIAL_IDLE allocated.
+State S_TGFBOX_TIME_SPECIAL_DEATH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBOX
+Sprite SPR_DBOX allocated.
+State S_DEMOBOX_FLICKER allocated.
+State S_DEMOBOX_DEAD allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBXR
+Sprite SPR_DBXR allocated.
+MobjType MT_DEMOBOX_RING allocated.
+MobjType MT_DEMOBOX_SRING allocated.
+State S_DEMOBOX_RING_IDLE allocated.
+State S_DEMOBOX_RING_BREAK1 allocated.
+State S_DEMOBOX_RING_BREAK2 allocated.
+State S_DEMOBOX_RING_BREAK3 allocated.
+State S_DEMOBOX_RING_BREAK4 allocated.
+State S_DEMOBOX_RING_BREAK5 allocated.
+State S_DEMOBOX_RING_BREAK6 allocated.
+State S_DEMOBOX_SRING_IDLE allocated.
+State S_DEMOBOX_SRING_BREAK1 allocated.
+State S_DEMOBOX_SRING_BREAK2 allocated.
+State S_DEMOBOX_SRING_BREAK3 allocated.
+State S_DEMOBOX_SRING_BREAK4 allocated.
+State S_DEMOBOX_SRING_BREAK5 allocated.
+State S_DEMOBOX_SRING_BREAK6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBXS
+Sprite SPR_DBXS allocated.
+MobjType MT_DEMOBOX_SHOES allocated.
+State S_DEMOBOX_SHOES_IDLE allocated.
+State S_DEMOBOX_SHOES_BREAK1 allocated.
+State S_DEMOBOX_SHOES_BREAK2 allocated.
+State S_DEMOBOX_SHOES_BREAK3 allocated.
+State S_DEMOBOX_SHOES_BREAK4 allocated.
+State S_DEMOBOX_SHOES_BREAK5 allocated.
+State S_DEMOBOX_SHOES_BREAK6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBXI
+Sprite SPR_DBXI allocated.
+MobjType MT_DEMOBOX_INVIN allocated.
+State S_DEMOBOX_INVIN_IDLE allocated.
+State S_DEMOBOX_INVIN_BREAK1 allocated.
+State S_DEMOBOX_INVIN_BREAK2 allocated.
+State S_DEMOBOX_INVIN_BREAK3 allocated.
+State S_DEMOBOX_INVIN_BREAK4 allocated.
+State S_DEMOBOX_INVIN_BREAK5 allocated.
+State S_DEMOBOX_INVIN_BREAK6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBX1
+Sprite SPR_DBX1 allocated.
+MobjType MT_DEMOBOX_1UP allocated.
+State S_DEMOBOX_1UP_IDLE allocated.
+State S_DEMOBOX_1UP_BREAK1 allocated.
+State S_DEMOBOX_1UP_BREAK2 allocated.
+State S_DEMOBOX_1UP_BREAK3 allocated.
+State S_DEMOBOX_1UP_BREAK4 allocated.
+State S_DEMOBOX_1UP_BREAK5 allocated.
+State S_DEMOBOX_1UP_BREAK6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DXS2
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBXB
+Sprite SPR_DBXB allocated.
+MobjType MT_DEMOBOX_BLUE allocated.
+State S_DEMOBOX_BLUE_IDLE allocated.
+State S_DEMOBOX_BLUE_BREAK1 allocated.
+State S_DEMOBOX_BLUE_BREAK2 allocated.
+State S_DEMOBOX_BLUE_BREAK3 allocated.
+State S_DEMOBOX_BLUE_BREAK4 allocated.
+State S_DEMOBOX_BLUE_BREAK5 allocated.
+State S_DEMOBOX_BLUE_BREAK6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBXG
+Sprite SPR_DBXG allocated.
+MobjType MT_DEMOBOX_GREEN allocated.
+State S_DEMOBOX_GREEN_IDLE allocated.
+State S_DEMOBOX_GREEN_BREAK1 allocated.
+State S_DEMOBOX_GREEN_BREAK2 allocated.
+State S_DEMOBOX_GREEN_BREAK3 allocated.
+State S_DEMOBOX_GREEN_BREAK4 allocated.
+State S_DEMOBOX_GREEN_BREAK5 allocated.
+State S_DEMOBOX_GREEN_BREAK6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBXY
+Sprite SPR_DBXY allocated.
+MobjType MT_DEMOBOX_YELLOW allocated.
+State S_DEMOBOX_YELLOW_IDLE allocated.
+State S_DEMOBOX_YELLOW_BREAK1 allocated.
+State S_DEMOBOX_YELLOW_BREAK2 allocated.
+State S_DEMOBOX_YELLOW_BREAK3 allocated.
+State S_DEMOBOX_YELLOW_BREAK4 allocated.
+State S_DEMOBOX_YELLOW_BREAK5 allocated.
+State S_DEMOBOX_YELLOW_BREAK6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/DemoMonitors/LUA_DBXK
+Sprite SPR_DBXK allocated.
+MobjType MT_DEMOBOX_BLACK allocated.
+State S_DEMOBOX_BLACK_IDLE allocated.
+State S_DEMOBOX_BLACK_BREAK1 allocated.
+State S_DEMOBOX_BLACK_BREAK2 allocated.
+State S_DEMOBOX_BLACK_BREAK3 allocated.
+State S_DEMOBOX_BLACK_BREAK4 allocated.
+State S_DEMOBOX_BLACK_BREAK5 allocated.
+State S_DEMOBOX_BLACK_BREAK6 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBOX
+Sprite SPR_FBOX allocated.
+State S_FDBOX_FLICKER allocated.
+State S_FDBOX_EXPLOSION1 allocated.
+State S_FDBOX_EXPLOSION2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXR
+Sprite SPR_FBXR allocated.
+MobjType MT_FDBOX_RING allocated.
+MobjType MT_FDBOX_RING_ICON allocated.
+MobjType MT_FDBOX_SRING allocated.
+MobjType MT_FDBOX_SRING_ICON allocated.
+MobjType MT_FDBOX_REDRING allocated.
+MobjType MT_FDBOX_BLUERING allocated.
+State S_FDBOX_RING_IDLE allocated.
+State S_FDBOX_RING_ICON1 allocated.
+State S_FDBOX_RING_ICON2 allocated.
+State S_FDBOX_SRING_IDLE allocated.
+State S_FDBOX_SRING_ICON1 allocated.
+State S_FDBOX_SRING_ICON2 allocated.
+State S_FDBOX_REDRING_IDLE1 allocated.
+State S_FDBOX_REDRING_IDLE2 allocated.
+State S_FDBOX_BLUERING_IDLE1 allocated.
+State S_FDBOX_BLUERING_IDLE2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXS
+Sprite SPR_FBXS allocated.
+MobjType MT_FDBOX_SHOES allocated.
+MobjType MT_FDBOX_SHOES_ICON allocated.
+State S_FDBOX_SHOES_IDLE allocated.
+State S_FDBOX_SHOES_ICON1 allocated.
+State S_FDBOX_SHOES_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXI
+Sprite SPR_FBXI allocated.
+MobjType MT_FDBOX_INVIN allocated.
+MobjType MT_FDBOX_INVIN_ICON allocated.
+State S_FDBOX_INVIN_IDLE allocated.
+State S_FDBOX_INVIN_ICON1 allocated.
+State S_FDBOX_INVIN_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBX1
+Sprite SPR_FBX1 allocated.
+MobjType MT_FDBOX_1UP allocated.
+MobjType MT_FDBOX_1UP_ICON allocated.
+State S_FDBOX_1UP_IDLE allocated.
+State S_FDBOX_1UP_ICON1 allocated.
+State S_FDBOX_1UP_ICON2 allocated.
+State S_FDBOX_1UP_PLAY1 allocated.
+State S_FDBOX_1UP_PLAY2 allocated.
+State S_FDBOX_1UP_ICONPLAY allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXB
+Sprite SPR_FBXB allocated.
+MobjType MT_FDBOX_BLUE allocated.
+MobjType MT_FDBOX_BLUE_ICON allocated.
+State S_FDBOX_BLUE_IDLE allocated.
+State S_FDBOX_BLUE_ICON1 allocated.
+State S_FDBOX_BLUE_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXG
+Sprite SPR_FBXG allocated.
+MobjType MT_FDBOX_GREEN allocated.
+MobjType MT_FDBOX_GREEN_ICON allocated.
+State S_FDBOX_GREEN_IDLE allocated.
+State S_FDBOX_GREEN_ICON1 allocated.
+State S_FDBOX_GREEN_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXK
+Sprite SPR_FBXK allocated.
+MobjType MT_FDBOX_BLACK allocated.
+MobjType MT_FDBOX_BLACK_ICON allocated.
+State S_FDBOX_BLACK_IDLE allocated.
+State S_FDBOX_BLACK_ICON1 allocated.
+State S_FDBOX_BLACK_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXF
+Sprite SPR_FBXE allocated.
+MobjType MT_FDBOX_RED allocated.
+MobjType MT_FDBOX_RED_ICON allocated.
+State S_FDBOX_RED_IDLE allocated.
+State S_FDBOX_RED_ICON1 allocated.
+State S_FDBOX_RED_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXY
+Sprite SPR_FBXY allocated.
+MobjType MT_FDBOX_YELLOW allocated.
+MobjType MT_FDBOX_YELLOW_ICON allocated.
+State S_FDBOX_YELLOW_IDLE allocated.
+State S_FDBOX_YELLOW_ICON1 allocated.
+State S_FDBOX_YELLOW_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXW
+Sprite SPR_FBXW allocated.
+MobjType MT_FDBOX_WHITE allocated.
+MobjType MT_FDBOX_WHITE_ICON allocated.
+State S_FDBOX_WHITE_IDLE allocated.
+State S_FDBOX_WHITE_ICON1 allocated.
+State S_FDBOX_WHITE_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXM
+Sprite SPR_FBXM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXE
+MobjType MT_FDBOX_EGGMAN allocated.
+MobjType MT_FDBOX_EGGMAN_ICON allocated.
+State S_FDBOX_EGGMAN_IDLE allocated.
+State S_FDBOX_EGGMAN_ICON1 allocated.
+State S_FDBOX_EGGMAN_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXU
+MobjType MT_FDBOX_GRAVITY allocated.
+MobjType MT_FDBOX_GRAVITY_ICON allocated.
+State S_FDBOX_GRAVITY_IDLE allocated.
+State S_FDBOX_GRAVITY_ICON1 allocated.
+State S_FDBOX_GRAVITY_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXQ
+MobjType MT_FDBOX_QUESTION allocated.
+State S_FDBOX_QUESTION_IDLE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXT
+MobjType MT_FDBOX_MIXUP allocated.
+MobjType MT_FDBOX_MIXUP_ICON allocated.
+State S_FDBOX_MIXUP_IDLE allocated.
+State S_FDBOX_MIXUP_ICON1 allocated.
+State S_FDBOX_MIXUP_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FinalDemoMonitors/LUA_FBXC
+MobjType MT_FDBOX_RECYCLE allocated.
+MobjType MT_FDBOX_RECYCLE_ICON allocated.
+State S_FDBOX_RECYCLE_IDLE allocated.
+State S_FDBOX_RECYCLE_ICON1 allocated.
+State S_FDBOX_RECYCLE_ICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BOX
+Sprite SPR_2BOX allocated.
+State S_21BOX_FLICKER allocated.
+State S_21BOX_EXPLOSION1 allocated.
+State S_21BOX_EXPLOSION2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BY2
+Sprite SPR_2BXY allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXR
+Sprite SPR_2BXR allocated.
+MobjType MT_21BOX_RING allocated.
+MobjType MT_21BOX_RING_ICON allocated.
+MobjType MT_21BOX_REDRING allocated.
+MobjType MT_21BOX_BLUERING allocated.
+State S_21BOX_RING_IDLE allocated.
+State S_21BOX_RING_ICON_APPEAR allocated.
+State S_21BOX_RING_ICON_SPIN allocated.
+State S_21BOX_RING_ICON_LEAVE allocated.
+State S_21BOX_REDRING_IDLE allocated.
+State S_21BOX_REDRING_EXPLOSION1 allocated.
+State S_21BOX_REDRING_EXPLOSION2 allocated.
+State S_21BOX_BLUERING_IDLE allocated.
+State S_21BOX_BLUERING_EXPLOSION1 allocated.
+State S_21BOX_BLUERING_EXPLOSION2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXS
+Sprite SPR_2BXS allocated.
+MobjType MT_21BOX_SHOES allocated.
+MobjType MT_21BOX_SHOES_ICON allocated.
+State S_21BOX_SHOES_IDLE allocated.
+State S_21BOX_SHOES_ICON_APPEAR allocated.
+State S_21BOX_SHOES_ICON_SPIN allocated.
+State S_21BOX_SHOES_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BI2
+Sprite SPR_2BXI allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXI
+MobjType MT_21BOX_INVIN allocated.
+MobjType MT_21BOX_INVIN_ICON allocated.
+State S_21BOX_INVIN_IDLE allocated.
+State S_21BOX_INVIN_ICON_APPEAR allocated.
+State S_21BOX_INVIN_ICON_SPIN allocated.
+State S_21BOX_INVIN_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXP
+Sprite SPR_2BXP allocated.
+MobjType MT_21BOX_SCORE1K allocated.
+MobjType MT_21BOX_SCORE1K_ICON allocated.
+MobjType MT_21BOX_SCORE10K allocated.
+MobjType MT_21BOX_SCORE10K_ICON allocated.
+State S_21BOX_SCORE1K_IDLE allocated.
+State S_21BOX_SCORE1K_ICON_APPEAR allocated.
+State S_21BOX_SCORE1K_ICON_SPIN allocated.
+State S_21BOX_SCORE1K_ICON_LEAVE allocated.
+State S_21BOX_SCORE10K_IDLE allocated.
+State S_21BOX_SCORE10K_ICON_APPEAR allocated.
+State S_21BOX_SCORE10K_ICON_SPIN allocated.
+State S_21BOX_SCORE10K_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BX1
+Sprite SPR_2BX1 allocated.
+MobjType MT_21BOX_1UP allocated.
+MobjType MT_21BOX_1UP_ICON allocated.
+State S_21BOX_1UP_IDLE allocated.
+State S_21BOX_1UP_ICON_APPEAR allocated.
+State S_21BOX_1UP_ICON_SPIN allocated.
+State S_21BOX_1UP_ICON_LEAVE allocated.
+State S_21BOX_1UP_PLAY1 allocated.
+State S_21BOX_1UP_PLAY2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXY
+MobjType MT_21BOX_ATTRACT allocated.
+MobjType MT_21BOX_ATTRACT_ICON allocated.
+State S_21BOX_ATTRACT_IDLE allocated.
+State S_21BOX_ATTRACT_ICON_APPEAR allocated.
+State S_21BOX_ATTRACT_ICON_SPIN allocated.
+State S_21BOX_ATTRACT_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BB2
+Sprite SPR_2BXB allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXB
+MobjType MT_21BOX_FORCE allocated.
+MobjType MT_21BOX_FORCE_ICON allocated.
+State S_21BOX_FORCE_IDLE allocated.
+State S_21BOX_FORCE_ICON_APPEAR allocated.
+State S_21BOX_FORCE_ICON_SPIN allocated.
+State S_21BOX_FORCE_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BK2
+Sprite SPR_2BXK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXK
+Sprite SPR_2BXK allocated.
+MobjType MT_21BOX_ARMAGEDDON allocated.
+MobjType MT_21BOX_ARMAGEDDON_ICON allocated.
+State S_21BOX_ARMAGEDDON_IDLE allocated.
+State S_21BOX_ARMAGEDDON_ICON_APPEAR allocated.
+State S_21BOX_ARMAGEDDON_ICON_SPIN allocated.
+State S_21BOX_ARMAGEDDON_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BW2
+Sprite SPR_2BXW allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXW
+MobjType MT_21BOX_WHIRLWIND allocated.
+MobjType MT_21BOX_WHIRLWIND_ICON allocated.
+State S_21BOX_WHIRLWIND_IDLE allocated.
+State S_21BOX_WHIRLWIND_ICON_APPEAR allocated.
+State S_21BOX_WHIRLWIND_ICON_SPIN allocated.
+State S_21BOX_WHIRLWIND_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXF
+Sprite SPR_2BXE allocated.
+MobjType MT_21BOX_ELEMENTAL allocated.
+MobjType MT_21BOX_ELEMENTAL_ICON allocated.
+State S_21BOX_ELEMENTAL_IDLE allocated.
+State S_21BOX_ELEMENTAL_ICON_APPEAR allocated.
+State S_21BOX_ELEMENTAL_ICON_SPIN allocated.
+State S_21BOX_ELEMENTAL_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BG2
+Sprite SPR_2BXG allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXG
+MobjType MT_21BOX_PITY allocated.
+MobjType MT_21BOX_PITY_ICON allocated.
+State S_21BOX_PITY_IDLE allocated.
+State S_21BOX_PITY_ICON_APPEAR allocated.
+State S_21BOX_PITY_ICON_SPIN allocated.
+State S_21BOX_PITY_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXM
+Sprite SPR_2BXM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXE
+MobjType MT_21BOX_EGGMAN allocated.
+MobjType MT_21BOX_EGGMAN_ICON allocated.
+State S_21BOX_EGGMAN_IDLE allocated.
+State S_21BOX_EGGMAN_ICON_APPEAR allocated.
+State S_21BOX_EGGMAN_ICON_SPIN allocated.
+State S_21BOX_EGGMAN_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXU
+MobjType MT_21BOX_GRAVITY allocated.
+MobjType MT_21BOX_GRAVITY_ICON allocated.
+State S_21BOX_GRAVITY_IDLE allocated.
+State S_21BOX_GRAVITY_ICON_APPEAR allocated.
+State S_21BOX_GRAVITY_ICON_SPIN allocated.
+State S_21BOX_GRAVITY_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXQ
+MobjType MT_21BOX_QUESTION allocated.
+State S_21BOX_QUESTION_IDLE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXT
+MobjType MT_21BOX_MIXUP allocated.
+MobjType MT_21BOX_MIXUP_ICON allocated.
+State S_21BOX_MIXUP_IDLE allocated.
+State S_21BOX_MIXUP_ICON_APPEAR allocated.
+State S_21BOX_MIXUP_ICON_SPIN allocated.
+State S_21BOX_MIXUP_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.1Monitors/LUA_2BXC
+MobjType MT_21BOX_RECYCLE allocated.
+MobjType MT_21BOX_RECYCLE_ICON allocated.
+State S_21BOX_RECYCLE_IDLE allocated.
+State S_21BOX_RECYCLE_ICON_APPEAR allocated.
+State S_21BOX_RECYCLE_ICON_SPIN allocated.
+State S_21BOX_RECYCLE_ICON_LEAVE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Common/LUA_RBLT
+MobjType MT_RETROJETBULLET allocated.
+State S_RJETBULLET1 allocated.
+State S_RJETBULLET2 allocated.
+Sprite SPR_RJBU allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Common/LUA_RBMB
+MobjType MT_RETROBOBMMINE allocated.
+State S_RMINE allocated.
+Sprite SPR_OMNE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Common/LUA_JETF
+MobjType MT_JETFUMEC1 allocated.
+State S_JETFUMEC1 allocated.
+Sprite SPR_OJTF allocated.
+MobjType MT_SLIMERFUME1 allocated.
+State S_SLIMERFUME1 allocated.
+Sprite SPR_OSMF allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Common/LUA_CCOM
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Tech Ghost/LUA_GHOS
+MobjType MT_SPOOK allocated.
+State S_SPOOK_LOOK allocated.
+State S_SPOOK_MOVE allocated.
+State S_SPOOK_SHOOT allocated.
+State S_SPOOK_SHOOT2 allocated.
+State S_SPOOK_SHOOT3 allocated.
+State S_SPOOK_DEAD allocated.
+Sprite SPR_GHOS allocated.
+Sound sfx_moan allocated.
+Sound sfx_redea allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBA
+MobjType MT_SRB1_CRAWLA allocated.
+State S_SRB1_CRAWLA1 allocated.
+State S_SRB1_CRAWLA2 allocated.
+State S_SRB1_CRAWLA3 allocated.
+State S_SRB1_CRAWLA4 allocated.
+Sprite SPR_SRBA allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBB
+MobjType MT_SRB1_BAT allocated.
+State S_SRB1_BAT1 allocated.
+State S_SRB1_BAT2 allocated.
+State S_SRB1_BAT3 allocated.
+State S_SRB1_BAT4 allocated.
+Sprite SPR_SRBB allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBC
+MobjType MT_SRB1_ROBOFISH allocated.
+State S_SRB1_ROBOFISH1 allocated.
+State S_SRB1_ROBOFISH2 allocated.
+State S_SRB1_ROBOFISH3 allocated.
+Sprite SPR_SRBC allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBD
+MobjType MT_SRB1_VOLCANOGUY allocated.
+State S_SRB1_VOLCANOGUY1 allocated.
+State S_SRB1_VOLCANOGUY2 allocated.
+Sprite SPR_SRBD allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBE
+MobjType MT_SRB1_HOPPY allocated.
+State S_SRB1_HOPPY1 allocated.
+State S_SRB1_HOPPY2 allocated.
+Sprite SPR_SRBE allocated.
+MobjType MT_SRB1_HOPPYWATER allocated.
+State S_SRB1_HOPPYWATER1 allocated.
+State S_SRB1_HOPPYWATER2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBF
+MobjType MT_SRB1_HOPPYSKYLAB allocated.
+State S_SRB1_HOPPYSKYLAB1 allocated.
+Sprite SPR_SRBF allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBG
+MobjType MT_SRB1_MMZFLYING allocated.
+State S_SRB1_MMZFLYING1 allocated.
+State S_SRB1_MMZFLYING2 allocated.
+State S_SRB1_MMZFLYING3 allocated.
+State S_SRB1_MMZFLYING4 allocated.
+State S_SRB1_MMZFLYING5 allocated.
+Sprite SPR_SRBG allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBH
+MobjType MT_SRB1_UFO allocated.
+State S_SRB1_UFO1 allocated.
+State S_SRB1_UFO2 allocated.
+Sprite SPR_SRBH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBI
+MobjType MT_SRB1_GRAYBOT allocated.
+State S_SRB1_GRAYBOT1 allocated.
+State S_SRB1_GRAYBOT2 allocated.
+State S_SRB1_GRAYBOT3 allocated.
+State S_SRB1_GRAYBOT4 allocated.
+State S_SRB1_GRAYBOT5 allocated.
+State S_SRB1_GRAYBOT6 allocated.
+Sprite SPR_SRBI allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBJ
+MobjType MT_SRB1_ROBOTOPOLIS allocated.
+State S_SRB1_ROBOTOPOLIS1 allocated.
+State S_SRB1_ROBOTOPOLIS2 allocated.
+Sprite SPR_SRBJ allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBK
+MobjType MT_SRB1_RBZBUZZ allocated.
+State S_SRB1_RBZBUZZ1 allocated.
+State S_SRB1_RBZBUZZ2 allocated.
+Sprite SPR_SRBK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBL
+MobjType MT_SRB1_RBZSPIKES allocated.
+State S_SRB1_RBZSPIKES1 allocated.
+State S_SRB1_RBZSPIKES2 allocated.
+Sprite SPR_SRBL allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBN
+MobjType MT_SRB1_GOLDBOT allocated.
+State S_SRB1_GOLDBOT1 allocated.
+State S_SRB1_GOLDBOT2 allocated.
+State S_SRB1_GOLDBOT3 allocated.
+State S_SRB1_GOLDBOT4 allocated.
+State S_SRB1_GOLDBOT5 allocated.
+State S_SRB1_GOLDBOT6 allocated.
+Sprite SPR_SRBN allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SRB1 Badnicks/LUA_SRBO
+MobjType MT_SRB1_GENREX allocated.
+State S_SRB1_GENREX1 allocated.
+State S_SRB1_GENREX2 allocated.
+Sprite SPR_SRBO allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGF Blue Crawla/LUA_TGCW
+MobjType MT_BLUECRAWLATGF allocated.
+State S_TGCW_TGFMOVEMENT allocated.
+State S_TGCW_STND allocated.
+State S_TGCW_STND2 allocated.
+State S_TGCW_RUN allocated.
+State S_TGCW_RUN2 allocated.
+State S_TGCW_RUN3 allocated.
+State S_TGCW_RUN4 allocated.
+State S_TGCW_RUN5 allocated.
+State S_TGCW_RUN6 allocated.
+State S_TGCW_RUN7 allocated.
+Sprite SPR_TGCW allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGF Red Crawla/LUA_TGRC
+MobjType MT_REDCRAWLATGF allocated.
+State S_TGRC_TGFMOVEMENT allocated.
+State S_TGRC_STND allocated.
+State S_TGRC_STND2 allocated.
+State S_TGRC_RUN allocated.
+State S_TGRC_RUN2 allocated.
+State S_TGRC_RUN3 allocated.
+State S_TGRC_RUN4 allocated.
+State S_TGRC_RUN5 allocated.
+State S_TGRC_RUN6 allocated.
+State S_TGRC_RUN7 allocated.
+Sprite SPR_TGRC allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Blue Crawla FD/LUA_BCRW
+MobjType MT_BLUECRAWLACLASSIC allocated.
+State S_BCRW_STND allocated.
+State S_BCRW_RUN allocated.
+State S_BCRW_RUN2 allocated.
+State S_BCRW_RUN3 allocated.
+State S_BCRW_RUN4 allocated.
+State S_BCRW_RUN5 allocated.
+State S_BCRW_RUN6 allocated.
+State S_BCRW_RUN7 allocated.
+State S_BCRW_RUN8 allocated.
+State S_BCRW_RUN9 allocated.
+State S_BCRW_RUN10 allocated.
+State S_BCRW_RUN11 allocated.
+State S_BCRW_RUN12 allocated.
+State S_BCRW_RUN13 allocated.
+State S_BCRW_RUN14 allocated.
+State S_BCRW_RUN15 allocated.
+State S_BCRW_RUN16 allocated.
+State S_BCRW_RUN17 allocated.
+Sprite SPR_BCRW allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Red Crawla FD/LUA_RCRW
+MobjType MT_REDCRAWLACLASSIC allocated.
+State S_RCRW_STND allocated.
+State S_RCRW_RUN allocated.
+State S_RCRW_RUN2 allocated.
+State S_RCRW_RUN3 allocated.
+State S_RCRW_RUN4 allocated.
+State S_RCRW_RUN5 allocated.
+State S_RCRW_RUN6 allocated.
+State S_RCRW_RUN7 allocated.
+State S_RCRW_RUN8 allocated.
+State S_RCRW_RUN9 allocated.
+State S_RCRW_RUN10 allocated.
+State S_RCRW_RUN11 allocated.
+State S_RCRW_RUN12 allocated.
+State S_RCRW_RUN13 allocated.
+State S_RCRW_RUN14 allocated.
+State S_RCRW_RUN15 allocated.
+State S_RCRW_RUN16 allocated.
+State S_RCRW_RUN17 allocated.
+Sprite SPR_RCRW allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Blue Crawla 2.0/LUA_BCW2
+MobjType MT_BLUECRAWLA2 allocated.
+State S_BCW2_STND allocated.
+State S_BCW2_RUN1 allocated.
+State S_BCW2_RUN2 allocated.
+State S_BCW2_RUN3 allocated.
+State S_BCW2_RUN4 allocated.
+State S_BCW2_RUN5 allocated.
+State S_BCW2_RUN6 allocated.
+Sprite SPR_BCW2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Red Crawla 2.0/LUA_RCW2
+MobjType MT_REDCRAWLA2 allocated.
+State S_RCW2_STND allocated.
+State S_RCW2_RUN1 allocated.
+State S_RCW2_RUN2 allocated.
+State S_RCW2_RUN3 allocated.
+State S_RCW2_RUN4 allocated.
+State S_RCW2_RUN5 allocated.
+State S_RCW2_RUN6 allocated.
+Sprite SPR_RCW2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SDURF/LUA_SDUR
+MobjType MT_SDURF allocated.
+State S_DURF1 allocated.
+State S_DURF2 allocated.
+State S_DURF3 allocated.
+State S_DURF4 allocated.
+Sprite SPR_SDUR allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/SDURF 2.0/LUA_SDU2
+MobjType MT_SDURF2 allocated.
+State S_SDURF1 allocated.
+State S_SDURF2 allocated.
+State S_SDURF3 allocated.
+State S_SDURF4 allocated.
+Sprite SPR_SDR2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGF Gunner/LUA_GFGN
+MobjType MT_TGFGUNNER allocated.
+State S_TGFGUNER_TGFMOVEMENT allocated.
+State S_TGFGUNER_SHOOT allocated.
+State S_TGFGUNERLOOK1 allocated.
+State S_TGFGUNERLOOK2 allocated.
+State S_TGFGUNERZOOM1 allocated.
+State S_TGFGUNERZOOM2 allocated.
+State S_TGFGUNERSHOOT1 allocated.
+State S_TGFGUNERSHOOT2 allocated.
+Sprite SPR_TFBT allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGF Bomber/LUA_GFBM
+MobjType MT_TGFBOMBER allocated.
+State S_TGFB_FLOAT allocated.
+State S_TGFB_DROPBOMB allocated.
+State S_TGFB_DROPBOMB2 allocated.
+State S_TGFBLOOK1 allocated.
+State S_TGFBLOOK2 allocated.
+State S_TGFBZOOM1 allocated.
+State S_TGFBZOOM2 allocated.
+Sprite SPR_TBOM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Jetty-syn bomber/LUA_RJTB
+MobjType MT_JETTYSYNRETROBOMBER allocated.
+State S_RJETBLOOK1 allocated.
+State S_RJETBLOOK2 allocated.
+State S_RJETBZOOM1 allocated.
+State S_RJETBZOOM2 allocated.
+Sprite SPR_RJTB allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Jetty-syn gunner/LUA_RJTG
+MobjType MT_JETTYSYNRETROGUNNER allocated.
+State S_RJETGLOOK1 allocated.
+State S_RJETGLOOK2 allocated.
+State S_RJETGZOOM1 allocated.
+State S_RJETGZOOM2 allocated.
+State S_RJETGSHOOT1 allocated.
+State S_RJETGSHOOT2 allocated.
+Sprite SPR_RJTG allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Crawla Commander FD/LUA_OCOM
+MobjType MT_OLDCRAWLACOMANDER allocated.
+State S_OCOMMAND1 allocated.
+State S_OCOMMAND2 allocated.
+State S_OCOMMAND3 allocated.
+State S_OCOMMAND4 allocated.
+Sprite SPR_OCOM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Crawla Comander 2.0/LUA_2COM
+MobjType MT_20CRAWLACOMANDER allocated.
+State S_2COMMAND1 allocated.
+State S_2COMMAND2 allocated.
+State S_2COMMAND3 allocated.
+State S_2COMMAND4 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Springshells/LUA_SSHL
+MobjType MT_ALTYELLOWSHELL allocated.
+State S_OYSHELL_STND allocated.
+State S_OYSHELL_RUN1 allocated.
+State S_OYSHELL_RUN2 allocated.
+State S_OYSHELL_RUN3 allocated.
+State S_OYSHELL_RUN4 allocated.
+State S_OYSHELL_SPRING1 allocated.
+State S_OYSHELL_SPRING2 allocated.
+State S_OYSHELL_SPRING3 allocated.
+State S_OYSHELL_SPRING4 allocated.
+State S_OYSHELL_DEATH allocated.
+Sprite SPR_YSHL allocated.
+MobjType MT_REDSHELL allocated.
+State S_RSHELL_STND allocated.
+State S_RSHELL_RUN1 allocated.
+State S_RSHELL_RUN2 allocated.
+State S_RSHELL_RUN3 allocated.
+State S_RSHELL_RUN4 allocated.
+State S_RSHELL_SPRING1 allocated.
+State S_RSHELL_SPRING2 allocated.
+State S_RSHELL_SPRING3 allocated.
+State S_RSHELL_SPRING4 allocated.
+State S_RSHELL_DEATH allocated.
+Sprite SPR_RSHL allocated.
+MobjType MT_ALTREDSHELL allocated.
+State S_ARSHELL_STND allocated.
+State S_ARSHELL_RUN1 allocated.
+State S_ARSHELL_RUN2 allocated.
+State S_ARSHELL_RUN3 allocated.
+State S_ARSHELL_RUN4 allocated.
+State S_ARSHELL_SPRING1 allocated.
+State S_ARSHELL_SPRING2 allocated.
+State S_ARSHELL_SPRING3 allocated.
+State S_ARSHELL_SPRING4 allocated.
+State S_ARSHELL_DEATH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Buzzes/LUA_BUZZ
+MobjType MT_RETROBUZZ allocated.
+State S_OLDBUZZLOOK1 allocated.
+State S_OLDBUZZLOOK2 allocated.
+State S_OLDBUZZFLY1 allocated.
+State S_OLDBUZZFLY2 allocated.
+State S_ALTOLDBUZZFLY1 allocated.
+State S_ALTOLDBUZZFLY2 allocated.
+Sprite SPR_OBUZ allocated.
+MobjType MT_REDRETROBUZZ allocated.
+State S_OLDREDBUZZLOOK1 allocated.
+State S_OLDREDBUZZLOOK2 allocated.
+State S_OLDREDBUZZFLY1 allocated.
+State S_OLDREDBUZZFLY2 allocated.
+Sprite SPR_ORBZ allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Bubble Buzz/LUA_BBUZ
+MobjType MT_AQUABUZZ allocated.
+State S_BBUZZSWIM allocated.
+State S_BBUZZSWIM2 allocated.
+State S_BBUZZBUBLEDEATH allocated.
+Sprite SPR_BGUL allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Autoturet/LUA_TURT
+MobjType MT_OLDTURRET allocated.
+State S_OTURRET allocated.
+State S_OTURRETFIRE allocated.
+State S_OTURRETSHOCK1 allocated.
+State S_OTURRETSHOCK2 allocated.
+State S_OTURRETSHOCK3 allocated.
+State S_OTURRETSHOCK4 allocated.
+State S_OTURRETSHOCK5 allocated.
+State S_OTURRETSHOCK6 allocated.
+State S_OTURRETSHOCK7 allocated.
+State S_OTURRETSHOCK8 allocated.
+State S_OTURRETSHOCK9 allocated.
+Sprite SPR_TURT allocated.
+MobjType MT_BLINDOLDTURET allocated.
+State S_BLOT_STND allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/tgfdeeton/LUA_TDTN
+MobjType MT_TGFDETON allocated.
+State S_TGFDETON_LOOK allocated.
+State S_TGFDETON_LOOK2 allocated.
+State S_TGFDETON_LOOK3 allocated.
+State S_TGFDETON_LOOK4 allocated.
+State S_TGFDETON_CHASE allocated.
+State S_TGFDETON_CHASE2 allocated.
+State S_TGFDETON_CHASE3 allocated.
+State S_TGFDETON_CHASE4 allocated.
+State S_TGFDETON_EXPLODE allocated.
+Sprite SPR_TDTN allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGF Skim/LUA_TSKM
+MobjType MT_TGFSKIM allocated.
+State S_TGFSKIM_WAIT allocated.
+State S_TGFSKIM_WARMUP allocated.
+State S_TGFSKIM_DROP allocated.
+Sprite SPR_TSKM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Old Skim/LUA_SKIM
+MobjType MT_OLDSKIM allocated.
+State S_OLDSKIM_CHASE allocated.
+State S_OLDSKIM_POWERUP allocated.
+State S_OLDSKIM_DROPMINE allocated.
+State S_OLDSKIM_POWERDOWN allocated.
+State S_OLDSKIM_POWERDOWN2 allocated.
+State S_OLDSKIM_POWERDOWN3 allocated.
+State S_OLDSKIM_POWERDOWN4 allocated.
+State S_OLDSKIM_POWERDOWN5 allocated.
+State S_OLDSKIM_POWERDOWN6 allocated.
+State S_OLDSKIM_POWERDOWN7 allocated.
+State S_OLDSKIM_POWERDOWN8 allocated.
+State S_OLDSKIM_POWERDOWN9 allocated.
+State S_OLDSKIM_POWERDOWN10 allocated.
+State S_OLDSKIM_POWERDOWN11 allocated.
+State S_OLDSKIM_POWERDOWN12 allocated.
+State S_OLDSKIM_POWERDOWN13 allocated.
+Sprite SPR_SKM2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/fishbot/LUA_TFSH
+MobjType MT_TGFFISH allocated.
+State S_TGFFISH_TGFMOVEMENT allocated.
+State S_TGFFISH_ROAM allocated.
+State S_TGFFISH_CHOMP allocated.
+Sprite SPR_TFSH allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Mines/LUA_MINE
+MobjType MT_AQUAMINE allocated.
+State S_AQUAMINE1 allocated.
+State S_AQUAMINE2 allocated.
+State S_AQUAMINE3 allocated.
+State S_AQUAMINE4 allocated.
+State S_AQUAMINE5 allocated.
+State S_AQUAMINE6 allocated.
+State S_AQUAMINE7 allocated.
+State S_AQUAMINE8 allocated.
+Sprite SPR_DSMN allocated.
+MobjType MT_AIRMINE allocated.
+State S_AIRMINE1 allocated.
+State S_AIRMINE2 allocated.
+State S_AIRMINE3 allocated.
+State S_AIRMINE4 allocated.
+State S_AIRMINE5 allocated.
+State S_AIRMINE6 allocated.
+State S_AIRMINE7 allocated.
+State S_AIRMINE8 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.0 Robohood/LUA_RBHD
+MobjType MT_RETROROBOHOOD allocated.
+State S_RETROROBOHOOD_LOOK allocated.
+State S_RETROROBOHOOD_STAND allocated.
+State S_RETROROBOHOOD_JUMP1 allocated.
+State S_RETROROBOHOOD_JUMP2 allocated.
+State S_RETROROBOHOOD_JUMP3 allocated.
+State S_RETROROBOHOOD_FIRE1 allocated.
+Sprite SPR_RBHD allocated.
+MobjType MT_OLDARROW allocated.
+State S_OLDARROWUP allocated.
+State S_OLDARROW allocated.
+State S_OLDARROWDOWN allocated.
+Sprite SPR_RARW allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Egg Guard 2.1/LUA_EGRD
+MobjType MT_OGEGGGUARD allocated.
+State S_OGEGGGUARD_STND allocated.
+State S_OGEGGGUARD_WALK1 allocated.
+State S_OGEGGGUARD_WALK2 allocated.
+State S_OGEGGGUARD_WALK3 allocated.
+State S_OGEGGGUARD_WALK4 allocated.
+State S_OGEGGGUARD_MAD1 allocated.
+State S_OGEGGGUARD_MAD2 allocated.
+State S_OGEGGGUARD_MAD3 allocated.
+State S_OGEGGGUARD_RUN1 allocated.
+State S_OGEGGGUARD_RUN2 allocated.
+State S_OGEGGGUARD_RUN3 allocated.
+State S_OGEGGGUARD_RUN4 allocated.
+Sprite SPR_OPSH allocated.
+MobjType MT_OGEGGSHIELD allocated.
+State S_OGEGGSHIELD allocated.
+Sprite SPR_OSHI allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Castlebot Facestabber/LUA_CBF2
+MobjType MT_CASTLEBOT2 allocated.
+State S_CASTLEBOT2_STND1 allocated.
+State S_CASTLEBOT2_STND2 allocated.
+State S_CASTLEBOT2_STND3 allocated.
+State S_CASTLEBOT2_STND4 allocated.
+State S_CASTLEBOT2_STND5 allocated.
+State S_CASTLEBOT2_STND6 allocated.
+State S_CASTLEBOT2_CHARGE1 allocated.
+State S_CASTLEBOT2_CHARGE2 allocated.
+State S_CASTLEBOT2_CHARGE3 allocated.
+State S_CASTLEBOT2_CHARGE4 allocated.
+Sprite SPR_LNAB allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/TGF Minus/LUA_TMIN
+MobjType MT_TGF_MINUS allocated.
+State S_TMIN_TGFMOVEMENT allocated.
+State S_TMIN_FLOAT allocated.
+State S_TMIN_FLOAT2 allocated.
+State S_TMIN_FLY allocated.
+State S_TMIN_FLY2 allocated.
+Sprite SPR_TMIN allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/User Minus/LUA_UMIN
+MobjType MT_USER_MINUS allocated.
+State S_UMIN_FLOT allocated.
+State S_UMIN_FLOT2 allocated.
+State S_UMIN_FLY allocated.
+State S_UMIN_FLY2 allocated.
+Sprite SPR_UMIN allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Minus 2.0/LUA_MNUS
+MobjType MT_MINUS2 allocated.
+State S_MINUS2_STND allocated.
+State S_MINUS2_DIGGING allocated.
+State S_MINUS2_POPUP allocated.
+State S_MINUS2_UPWARD1 allocated.
+State S_MINUS2_UPWARD2 allocated.
+State S_MINUS2_UPWARD3 allocated.
+State S_MINUS2_UPWARD4 allocated.
+State S_MINUS2_UPWARD5 allocated.
+State S_MINUS2_UPWARD6 allocated.
+State S_MINUS2_UPWARD7 allocated.
+State S_MINUS2_UPWARD8 allocated.
+State S_MINUS2_DOWNWARD1 allocated.
+State S_MINUS2_DOWNWARD2 allocated.
+State S_MINUS2_DOWNWARD3 allocated.
+State S_MINUS2_DOWNWARD4 allocated.
+State S_MINUS2_DOWNWARD5 allocated.
+State S_MINUS2_DOWNWARD6 allocated.
+State S_MINUS2_DOWNWARD7 allocated.
+State S_MINUS2_DOWNWARD8 allocated.
+Sprite SPR_MNU2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Drillakilla/LUA_TDRL
+MobjType MT_DRILLA allocated.
+State S_DRIL_TGFMOVEMENT allocated.
+State S_DRIL_STAND allocated.
+State S_DRIL_STAND2 allocated.
+State S_DRIL_RUN allocated.
+State S_DRIL_RUN2 allocated.
+State S_DRIL_RUN3 allocated.
+State S_DRIL_RUN4 allocated.
+Sprite SPR_DRIL allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.0 Snapper/LUA_SNAP
+MobjType MT_OSNAPPER allocated.
+State S_OSNAPPER_STND allocated.
+State S_OSNAPPER1 allocated.
+State S_OSNAPPER2 allocated.
+State S_OSNAPPER3 allocated.
+State S_OSNAPPER4 allocated.
+Sprite SPR_OSNP allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/BASH/LUA_BASH
+MobjType MT_OLDVULTURE allocated.
+State S_OVULTURE_STND allocated.
+State S_OVULTURE_VTOL1 allocated.
+State S_OVULTURE_VTOL2 allocated.
+State S_OVULTURE_VTOL3 allocated.
+State S_OVULTURE_VTOL4 allocated.
+State S_OVULTURE_ZOOM1 allocated.
+State S_OVULTURE_ZOOM2 allocated.
+State S_OVULTURE_ZOOM3 allocated.
+State S_OVULTURE_ZOOM4 allocated.
+State S_OVULTURE_ZOOM5 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Rockbot/LUA_RKBT
+MobjType MT_ROCKBOT allocated.
+State S_ROCKLOOK1 allocated.
+State S_ROCKLOOK2 allocated.
+State S_ROCKLOOK3 allocated.
+State S_ROCKLOOK4 allocated.
+State S_ROCKSPLODE allocated.
+State S_ROCKSEARCH allocated.
+State S_ROCKSEARCH2 allocated.
+State S_ROCKCHARGE allocated.
+State S_ROCKCHARGE2 allocated.
+State S_ROCKCHARGE3 allocated.
+State S_ROCKCRUMBLE1 allocated.
+State S_ROCKCRUMBLE2 allocated.
+State S_ROCKCRUMBLE3 allocated.
+State S_ROCKCRUMBLE4 allocated.
+State S_ROCKCRUMBLE5 allocated.
+State S_ROCKCRUMBLE6 allocated.
+Sprite SPR_RKBT allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Old Fireball/LUA_OPUM
+MobjType MT_OLDPUMA allocated.
+State S_OPUMA1 allocated.
+State S_OPUMA2 allocated.
+State S_OPUMA3 allocated.
+State S_OPUMA4 allocated.
+State S_OPUMA5 allocated.
+State S_OPUMA6 allocated.
+Sprite SPR_OPUM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/UNIDUS/LUA_OUNI
+MobjType MT_OUNIDUS allocated.
+State S_UNIDUS_STND allocated.
+State S_UNIDUS_RUN allocated.
+MobjType MT_21UNIDUS_BALL allocated.
+State S_21UNIDUS_BALL allocated.
+Sprite SPR_OUNI allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.0 Sharp/LUA_SHRP
+MobjType MT_OSHARP allocated.
+State S_OSHARP_ROAM1 allocated.
+State S_OSHARP_ROAM2 allocated.
+State S_OSHARP_AIM1 allocated.
+State S_OSHARP_AIM2 allocated.
+State S_OSHARP_AIM3 allocated.
+State S_OSHARP_AIM4 allocated.
+State S_OSHARP_SPIN allocated.
+State S_OSHARP_STOP allocated.
+Sprite SPR_OSRP allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/2.0 Snailer/LUA_SNAL
+MobjType MT_OLDSNAILER allocated.
+State S_SNAILER2 allocated.
+Sprite SPR_OSNL allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Dev Turret/LUA_DTUR
+MobjType MT_OLD_TURRET allocated.
+State S_POPUPTURRET_SCAN allocated.
+State S_POPUPTURRET_SIGHT allocated.
+State S_POPUPTURRET_TRYCHASE allocated.
+State S_POPUPTURRET_FIRE allocated.
+State S_POPUPTURRET_FIRE2 allocated.
+State S_POPUPTURRET_FIRE3 allocated.
+State S_POPUPTURRET_REFIRE allocated.
+Sprite SPR_TUR2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/FD Popup turret/LUA_PTUR
+MobjType MT_OLDPOP allocated.
+State S_OLDPOP_LOOK allocated.
+State S_OLDPOP_UP1 allocated.
+State S_OLDPOP_UP2 allocated.
+State S_OLDPOP_UP3 allocated.
+State S_OLDPOP_UP4 allocated.
+State S_OLDPOP_SHOOT allocated.
+State S_OLDPOP_DOWN1 allocated.
+State S_OLDPOP_DOWN2 allocated.
+State S_OLDPOP_DOWN3 allocated.
+State S_OLDPOP_DOWN4 allocated.
+Sprite SPR_PTUR allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/EggHead/LUA_EHED
+MobjType MT_EGGHEAD allocated.
+State S_EGGH_FLOAT allocated.
+State S_EGGH_FLY allocated.
+State S_EGGH_SHOOT allocated.
+State S_EGGH_SHOOT2 allocated.
+State S_EGGH_SHOOT3 allocated.
+State S_EGGH_SHOOT4 allocated.
+State S_EGGH_SHOOT5 allocated.
+State S_EGGH_OW allocated.
+Sprite SPR_EGGH allocated.
+Sound sfx_firsht allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_HALO
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_MACH
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_ADVE
+TypeOfLevel TOL_FDADVENTURE allocated.
+Sound sfx_sahitg allocated.
+MobjType MT_FDADVENTURECAM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_LEGP
+Skincolor SKINCOLOR_LEGACYWHITE allocated.
+Skincolor SKINCOLOR_LEGACYSILVER allocated.
+Skincolor SKINCOLOR_LEGACYGREY allocated.
+Skincolor SKINCOLOR_LEGACYBLACK allocated.
+Skincolor SKINCOLOR_LEGACYCYAN allocated.
+Skincolor SKINCOLOR_LEGACYTEAL allocated.
+Skincolor SKINCOLOR_LEGACYSTEELBLUE allocated.
+Skincolor SKINCOLOR_LEGACYBLUE allocated.
+Skincolor SKINCOLOR_LEGACYPEACH allocated.
+Skincolor SKINCOLOR_LEGACYTAN allocated.
+Skincolor SKINCOLOR_LEGACYPINK allocated.
+Skincolor SKINCOLOR_LEGACYLAVENDER allocated.
+Skincolor SKINCOLOR_LEGACYPURPLE allocated.
+Skincolor SKINCOLOR_LEGACYORANGE allocated.
+Skincolor SKINCOLOR_LEGACYROSEWOOD allocated.
+Skincolor SKINCOLOR_LEGACYBEIGE allocated.
+Skincolor SKINCOLOR_LEGACYBROWN allocated.
+Skincolor SKINCOLOR_LEGACYRED allocated.
+Skincolor SKINCOLOR_LEGACYDARKRED allocated.
+Skincolor SKINCOLOR_LEGACYNEONGREEN allocated.
+Skincolor SKINCOLOR_LEGACYZIM allocated.
+Skincolor SKINCOLOR_LEGACYOLIVE allocated.
+Skincolor SKINCOLOR_LEGACYYELLOW allocated.
+Skincolor SKINCOLOR_LEGACYGOLD allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_RING
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_LMON
+MobjType MT_LEMON allocated.
+State S_LEMON allocated.
+State S_SOUNDPLAYERLMN allocated.
+Sprite SPR_PLSS allocated.
+Sound sfx_plasma allocated.
+Sound sfx_firxpl allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_DNDN
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_7BSS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_SSFX
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_TKNS
+MobjType MT_FINALDEMOTOKEN allocated.
+MobjType MT_EMMY allocated.
+State S_FINALDEMOTOKEN1 allocated.
+State S_FINALDEMOTOKEN2 allocated.
+State S_EMMY allocated.
+Sprite SPR_EMMY allocated.
+Sprite SPR_TKOR allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_SIGN
+MobjType MT_OLDSIGN allocated.
+State S_OLDSIGNSTART allocated.
+State S_OLDSIGN1 allocated.
+State S_OLDSIGN2 allocated.
+State S_OLDSIGN3 allocated.
+State S_OLDSIGN4 allocated.
+State S_OLDSIGN5 allocated.
+State S_OLDSIGN6 allocated.
+State S_OLDSIGN7 allocated.
+State S_OLDSIGN8 allocated.
+State S_OLDSIGN9 allocated.
+State S_OLDSIGN10 allocated.
+State S_OLDSIGN11 allocated.
+State S_OLDSIGN12 allocated.
+State S_OLDSIGN13 allocated.
+State S_OLDSIGN14 allocated.
+State S_OLDSIGN15 allocated.
+State S_OLDSIGN16 allocated.
+State S_OLDSIGN17 allocated.
+State S_OLDSIGN18 allocated.
+State S_OLDSIGN19 allocated.
+State S_OLDSIGN20 allocated.
+State S_OLDSIGN21 allocated.
+State S_OLDSIGN22 allocated.
+State S_OLDSIGN23 allocated.
+State S_OLDSIGN24 allocated.
+State S_OLDSIGN25 allocated.
+State S_OLDSIGN26 allocated.
+State S_OLDSIGN27 allocated.
+State S_OLDSIGN28 allocated.
+State S_OLDSIGNEND allocated.
+Sprite SPR_OSGN allocated.
+State S_PLAY_OLDSIGN allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_GAME
+MobjType MT_CUSTOMCAMERA allocated.
+MobjType MT_CAMERASTAND allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_PRTI
+MobjType MT_PDPARTICLE allocated.
+State S_PEXIST allocated.
+State S_VACUUM allocated.
+Sprite SPR_INVS allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_SILR
+MobjType MT_HYPERRINGBOX allocated.
+MobjType MT_HYPERRINGICON allocated.
+State S_HYPERRINGBOX allocated.
+State S_HYPERRINGBOX1 allocated.
+State S_HYPERRINGBOX2 allocated.
+State S_HYPERRINGBOX3 allocated.
+Sprite SPR_SILR allocated.
+State S_HYPERRINGICON allocated.
+State S_HYPERRINGICON2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_CAPS
+Sprite SPR_CAPJ allocated.
+MobjType MT_GGCAPSULE allocated.
+State S_GGCAPSULE allocated.
+State S_GGCAPSULE_JUNK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_NSTP
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_LMTL
+MobjType MT_LOSERMETAL allocated.
+State S_LOSERFALL1 allocated.
+State S_LOSERFALL2 allocated.
+State S_LOSERCRASHF allocated.
+State S_LOSERCRASH1 allocated.
+State S_LOSERCRASH2 allocated.
+State S_LOSERCRASH3 allocated.
+State S_LOSERCRASH4 allocated.
+State S_LOSERCRASH5 allocated.
+Sprite SPR_MLOS allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_CMMN
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_OMCE
+Sprite SPR_21MC allocated.
+Sprite SPR_20MC allocated.
+MobjType MT_OLDMACEPOINT allocated.
+MobjType MT_OLDSWINGMACEPOINT allocated.
+MobjType MT_OLDHANGMACEPOINT allocated.
+MobjType MT_OLDSPINMACEPOINT allocated.
+MobjType MT_OLD_HIDDEN_SLING allocated.
+MobjType MT_21SMALLMACECHAIN allocated.
+MobjType MT_21BIGMACECHAIN allocated.
+MobjType MT_21SMALLMACE allocated.
+MobjType MT_21BIGMACE allocated.
+MobjType MT_20SMALLMACECHAIN allocated.
+MobjType MT_20BIGMACECHAIN allocated.
+MobjType MT_20SMALLMACE allocated.
+MobjType MT_20BIGMACE allocated.
+State S_21SLING1 allocated.
+State S_21SLING2 allocated.
+State S_21SMALLMACECHAIN allocated.
+State S_21BIGMACECHAIN allocated.
+State S_21SMALLMACE allocated.
+State S_21BIGMACE allocated.
+State S_20SMALLMACECHAIN allocated.
+State S_20BIGMACECHAIN allocated.
+State S_20SMALLMACE allocated.
+State S_20BIGMACE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_OJTF
+MobjType MT_OLDJETFUME1 allocated.
+State S_OLDJETFUME1 allocated.
+State S_OLDJETFUME2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Plasma Drone/LUA_PDRN
+MobjType MT_ENERGYBALLCLONE allocated.
+State S_ENERGYBALL3 allocated.
+State S_ENERGYBALL4 allocated.
+MobjType MT_PLASMADRONE allocated.
+State S_DRONE_EXIST allocated.
+State S_DRONE_CHASE allocated.
+State S_DRONE_HIT allocated.
+State S_DRONE_HIT2 allocated.
+State S_DRONE_HIT3 allocated.
+State S_DRONE_DROP_ATTACK1 allocated.
+State S_DRONE_DROP_ATTACK2 allocated.
+State S_DRONE_ENERGY_ATTACK1 allocated.
+State S_DRONE_ENERGY_ATTACK2 allocated.
+State S_DRONE_ENERGY_ATTACK3 allocated.
+State S_DRONE_DEAD allocated.
+State S_DRONE_DEAD2 allocated.
+State S_DRONE_DEAD3 allocated.
+State S_DRONE_PREPARE allocated.
+State S_DRONE_PREPARE_DONE allocated.
+Sprite SPR_PLSD allocated.
+State S_DRONE_DEADBOOM allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/Fan-a-tic/LUA_FATC
+MobjType MT_FANATIC allocated.
+MobjType MT_ROLLYBOMB allocated.
+MobjType MT_PLAYTRACKER allocated.
+MobjType MT_FANATIC_HEAD allocated.
+State S_ATIC_EXIST allocated.
+State S_ATIC_STILLEXIST allocated.
+State S_ATIC_BOMB_ATTACK allocated.
+State S_ATIC_BOMB_ATTACK_STALL allocated.
+State S_ATIC_BOMB_ATTACKNOW allocated.
+State S_ATIC_BOMB_ATTACK_AGAIN allocated.
+State S_ATIC_BOMB_RETURN allocated.
+State S_ATIC_BOMB_RETURN_STALL allocated.
+State S_ATIC_DEATH_BEGIN allocated.
+State S_ATIC_DEATH_MOVE1 allocated.
+State S_ATIC_DEATH_MOVE2 allocated.
+State S_ATIC_DEATH_SOUND allocated.
+State S_ROLLYBOMB allocated.
+State S_ATIC_DETECTHEAD allocated.
+State S_ATIC_TARGET allocated.
+State S_ATIC_TARGETHOLDING allocated.
+State S_TRACKERSPAWN allocated.
+State S_TRACKER1 allocated.
+State S_TRACKER2 allocated.
+State S_TRACKERFIRE allocated.
+State S_TRACKERDIE allocated.
+State S_TRACKERDIE2 allocated.
+State S_TRACKERDIEONLOOP allocated.
+State S_TRACKERDIEALREADY allocated.
+State S_TRACKERDIEALREADY2 allocated.
+State S_ATIC_PAIN1 allocated.
+State S_ATIC_PAIN2 allocated.
+State S_ATIC_PAIN3 allocated.
+State S_ATIC_PAIN4 allocated.
+State S_ATIC_PAINREPEAT allocated.
+Sprite SPR_FATB allocated.
+Sprite SPR_FATH allocated.
+Sprite SPR_RLBM allocated.
+Sprite SPR_TRKR allocated.
+State S_HEAD_EXIST allocated.
+State S_HEAD_EXIST2 allocated.
+State S_HEAD_EXIST3 allocated.
+State S_HEADACHE allocated.
+State S_HEADACHE2 allocated.
+State S_HEADACHE3 allocated.
+State S_HEADACHE4 allocated.
+State S_HEADACHELOOP allocated.
+State S_MIGRAIN allocated.
+State S_HEADDEATH allocated.
+State S_HEADDEATH2 allocated.
+State S_HEADDEATH3 allocated.
+State S_HEADDEATH4 allocated.
+State S_HEADDEATHSOUND allocated.
+State S_HEADLOOP allocated.
+State S_ATIC_HEADFALL allocated.
+State S_HEAD_SHOOT1 allocated.
+State S_HEAD_SHOOT2 allocated.
+State S_HEAD_SHOOT3 allocated.
+State S_HEAD_SHOOT4 allocated.
+State S_HEAD_SHOOT5 allocated.
+State S_HEAD_SHOOT6 allocated.
+State S_HEADSHOOTLOOP allocated.
+State S_ATIC_HEADHOLDING allocated.
+State S_ATIC_TARGETCOOLOFF allocated.
+State S_FAN_EXIST allocated.
+State S_FAN_EXIST2 allocated.
+State S_FANDEATH allocated.
+State S_FANDEATH2 allocated.
+State S_FANDEATH3 allocated.
+State S_FANDEATH4 allocated.
+State S_FANDEATH5 allocated.
+MobjType MT_FANATIC_FAN allocated.
+Sprite SPR_ATFN allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_EMCM
+Sprite SPR_21EM allocated.
+State S_21EGGMOBILE_DIE1 allocated.
+State S_21EGGMOBILE_DIE2 allocated.
+State S_21EGGMOBILE_DIE3 allocated.
+State S_21EGGMOBILE_DIE4 allocated.
+State S_21EGGMOBILE_FLEE1 allocated.
+State S_21EGGMOBILE_FLEE2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_20EM
+MobjType MT_20EGGMOBILE allocated.
+State S_20EGGMOBILE_STND allocated.
+State S_20EGGMOBILE_LATK1 allocated.
+State S_20EGGMOBILE_LATK2 allocated.
+State S_20EGGMOBILE_LATK3 allocated.
+State S_20EGGMOBILE_LATK4 allocated.
+State S_20EGGMOBILE_LATK5 allocated.
+State S_20EGGMOBILE_LATK6 allocated.
+State S_20EGGMOBILE_LATK7 allocated.
+State S_20EGGMOBILE_LATK8 allocated.
+State S_20EGGMOBILE_LATK9 allocated.
+State S_20EGGMOBILE_LATK10 allocated.
+State S_20EGGMOBILE_RATK1 allocated.
+State S_20EGGMOBILE_RATK2 allocated.
+State S_20EGGMOBILE_RATK3 allocated.
+State S_20EGGMOBILE_RATK4 allocated.
+State S_20EGGMOBILE_RATK5 allocated.
+State S_20EGGMOBILE_RATK6 allocated.
+State S_20EGGMOBILE_RATK7 allocated.
+State S_20EGGMOBILE_RATK8 allocated.
+State S_20EGGMOBILE_RATK9 allocated.
+State S_20EGGMOBILE_RATK10 allocated.
+State S_20EGGMOBILE_PANIC1 allocated.
+State S_20EGGMOBILE_PANIC2 allocated.
+State S_20EGGMOBILE_PAIN allocated.
+State S_20EGGMOBILE_PAIN2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_21EM
+MobjType MT_21EGGMOBILE allocated.
+MobjType MT_21EGGMOBILE_BALL allocated.
+MobjType MT_OLDLASER allocated.
+MobjType MT_21EGGMOBILE_FIRE allocated.
+MobjType MT_21EGGMOBILE_TARGET allocated.
+State S_21EGGMOBILE_STND allocated.
+State S_21EGGMOBILE_LATK1 allocated.
+State S_21EGGMOBILE_LATK2 allocated.
+State S_21EGGMOBILE_LATK3 allocated.
+State S_21EGGMOBILE_LATK4 allocated.
+State S_21EGGMOBILE_LATK5 allocated.
+State S_21EGGMOBILE_LATK6 allocated.
+State S_21EGGMOBILE_LATK7 allocated.
+State S_21EGGMOBILE_LATK8 allocated.
+State S_21EGGMOBILE_LATK9 allocated.
+State S_21EGGMOBILE_LATK10 allocated.
+State S_21EGGMOBILE_RATK1 allocated.
+State S_21EGGMOBILE_RATK2 allocated.
+State S_21EGGMOBILE_RATK3 allocated.
+State S_21EGGMOBILE_RATK4 allocated.
+State S_21EGGMOBILE_RATK5 allocated.
+State S_21EGGMOBILE_RATK6 allocated.
+State S_21EGGMOBILE_RATK7 allocated.
+State S_21EGGMOBILE_RATK8 allocated.
+State S_21EGGMOBILE_RATK9 allocated.
+State S_21EGGMOBILE_RATK10 allocated.
+State S_21EGGMOBILE_PANIC1 allocated.
+State S_21EGGMOBILE_PANIC2 allocated.
+State S_21EGGMOBILE_PANIC3 allocated.
+State S_21EGGMOBILE_PANIC4 allocated.
+State S_21EGGMOBILE_PANIC5 allocated.
+State S_21EGGMOBILE_PANIC6 allocated.
+State S_21EGGMOBILE_PANIC7 allocated.
+State S_21EGGMOBILE_PANIC8 allocated.
+State S_21EGGMOBILE_PANIC9 allocated.
+State S_21EGGMOBILE_PANIC10 allocated.
+State S_21EGGMOBILE_PAIN allocated.
+State S_21EGGMOBILE_PAIN2 allocated.
+State S_21EGGMOBILE_BALL allocated.
+State S_21EGGMOBILE_TARGET allocated.
+State S_OLDLASER allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_FDEG
+MobjType MT_OLD_MISSLE allocated.
+State S_REDLAZER allocated.
+Sprite SPR_FMIS allocated.
+MobjType MT_EGGOMATIC allocated.
+State S_EGGOMATIC_HOVER allocated.
+State S_EGGOMATIC_BEAM_HAULT allocated.
+State S_EGGOMATIC_BEAM allocated.
+State S_EGGOMATIC_LAZER_HAULT allocated.
+State S_EGGOMATIC_LAZER allocated.
+State S_EGGOMATIC_RETREAT allocated.
+State S_EGGOMATIC_RETREAT2 allocated.
+State S_EGGOMATIC_HIT allocated.
+State S_EGGOMATIC_KABOOM allocated.
+State S_EGGOMATIC_KABOOM2 allocated.
+State S_EGGOMATIC_KABOOM3 allocated.
+State S_EGGOMATIC_KABOOM4 allocated.
+State S_EGGOMATIC_RUNAWAY allocated.
+Sprite SPR_EGG1 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_OMIS
+MobjType MT_OLD_LAZER allocated.
+State S_LAZERMISSLE allocated.
+State S_SOUNDPLAYER allocated.
+Sprite SPR_9MIS allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_D4EG
+MobjType MT_EGGDEMOHOVER allocated.
+State S_EGGDEMOHOVER_IDLE allocated.
+State S_EGGDEMOHOVER_IDLE2 allocated.
+State S_EGGDEMOHOVER_HOVER allocated.
+State S_EGGDEMOHOVER_HOVER2 allocated.
+State S_EGGDEMOHOVER_HOVER3 allocated.
+State S_EGGDEMOHOVER_HOVER4 allocated.
+State S_EGGDEMOHOVER_ATTACK allocated.
+State S_EGGDEMOHOVER_ATTACK2 allocated.
+State S_EGGDEMOHOVER_HURT allocated.
+State S_EGGDEMOHOVER_DEAD allocated.
+State S_EGGDEMOHOVER_DEAD2 allocated.
+State S_EGGDEMOHOVER_DEAD3 allocated.
+State S_EGGDEMOHOVER_DEAD4 allocated.
+State S_EGGDEMOHOVER_DEAD5 allocated.
+State S_EGGDEMOHOVER_DEAD6 allocated.
+State S_EGGDEMOHOVER_DEAD7 allocated.
+State S_EGGDEMOHOVER_DEAD8 allocated.
+State S_EGGDEMOHOVER_DEAD9 allocated.
+State S_EGGDEMOHOVER_DEAD10 allocated.
+State S_EGGDEMOHOVER_DEAD11 allocated.
+State S_EGGDEMOHOVER_DEAD12 allocated.
+State S_EGGDEMOHOVER_DEAD13 allocated.
+State S_EGGDEMOHOVER_DEAD14 allocated.
+State S_EGGDEMOHOVER_RUNAWAY allocated.
+State S_EGGDEMOHOVER_RUNAWAY2 allocated.
+Sprite SPR_EGG9 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_ENCM
+Sprite SPR_21EN allocated.
+Sprite SPR_2ENJ allocated.
+Sprite SPR_OGOP allocated.
+MobjType MT_20BOSSJUNK allocated.
+MobjType MT_20BOSSSPIGOTJUNK allocated.
+State S_21EGGMOBILE2_STND allocated.
+State S_21EGGMOBILE2_POGO4 allocated.
+State S_21EGGMOBILE2_PAIN allocated.
+State S_21EGGMOBILE2_PAIN2 allocated.
+State S_21EGGMOBILE2_DIE1 allocated.
+State S_21EGGMOBILE2_DIE2 allocated.
+State S_21EGGMOBILE2_DIE3 allocated.
+State S_21EGGMOBILE2_DIE4 allocated.
+State S_21EGGMOBILE2_FLEE1 allocated.
+State S_21EGGMOBILE2_FLEE2 allocated.
+State S_20BOSSTANK1 allocated.
+State S_20BOSSTANK2 allocated.
+State S_20BOSSSPIGOT allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_20EN
+MobjType MT_20EGGMOBILE2 allocated.
+MobjType MT_OLDGOOP allocated.
+State S_20EGGMOBILE2_POGO1 allocated.
+State S_20EGGMOBILE2_POGO2 allocated.
+State S_20EGGMOBILE2_POGO3 allocated.
+State S_OLDGOOP1 allocated.
+State S_OLDGOOP2 allocated.
+State S_OLDGOOP3 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_21EN
+MobjType MT_21EGGMOBILE2 allocated.
+MobjType MT_21EGGMOBILE2_POGO allocated.
+MobjType MT_21GOOP allocated.
+State S_21EGGMOBILE2_STND allocated.
+State S_21EGGMOBILE2_POGO1 allocated.
+State S_21EGGMOBILE2_POGO2 allocated.
+State S_21EGGMOBILE2_POGO3 allocated.
+State S_21EGGMOBILE2_POGO5 allocated.
+State S_21EGGMOBILE2_POGO6 allocated.
+State S_21EGGMOBILE2_POGO7 allocated.
+State S_21GOOP1 allocated.
+State S_21GOOP2 allocated.
+State S_21GOOP3 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_FDEN
+Sprite SPR_FDES allocated.
+Sprite SPR_FDEJ allocated.
+MobjType MT_FDEGGMOBILE2 allocated.
+MobjType MT_FDBOSSJUNK allocated.
+MobjType MT_FDBOSSSPIGOTJUNK allocated.
+State S_FDEGGMOBILE2_STND allocated.
+State S_FDEGGMOBILE2_POGO4 allocated.
+State S_FDEGGMOBILE2_PAIN allocated.
+State S_FDEGGMOBILE2_PAIN2 allocated.
+State S_FDEGGMOBILE2_DIE1 allocated.
+State S_FDEGGMOBILE2_DIE2 allocated.
+State S_FDEGGMOBILE2_DIE3 allocated.
+State S_FDEGGMOBILE2_DIE4 allocated.
+State S_FDEGGMOBILE2_FLEE1 allocated.
+State S_FDEGGMOBILE2_FLEE2 allocated.
+State S_FDEGGMOBILE2_POGO1 allocated.
+State S_FDEGGMOBILE2_POGO2 allocated.
+State S_FDEGGMOBILE2_POGO3 allocated.
+State S_FDBOSSTANK1 allocated.
+State S_FDBOSSTANK2 allocated.
+State S_FDBOSSSPIGOT allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_EOCM
+Sprite SPR_OEGO allocated.
+Sprite SPR_OTRP allocated.
+Sprite SPR_PRPL allocated.
+MobjType MT_OLDTORPEDO allocated.
+MobjType MT_PROPELLER allocated.
+State S_PROPELLER1 allocated.
+State S_PROPELLER2 allocated.
+State S_PROPELLER3 allocated.
+State S_PROPELLER4 allocated.
+State S_PROPELLER5 allocated.
+State S_PROPELLER6 allocated.
+State S_PROPELLER7 allocated.
+State S_21EGGMOBILE3_STND allocated.
+State S_21EGGMOBILE3_ATK1 allocated.
+State S_21EGGMOBILE3_ATK2 allocated.
+State S_21EGGMOBILE3_ATK3A allocated.
+State S_21EGGMOBILE3_ATK3B allocated.
+State S_21EGGMOBILE3_ATK3C allocated.
+State S_21EGGMOBILE3_ATK3D allocated.
+State S_21EGGMOBILE3_ATK4 allocated.
+State S_21EGGMOBILE3_ATK5 allocated.
+State S_21EGGMOBILE3_LAUGH1 allocated.
+State S_21EGGMOBILE3_LAUGH2 allocated.
+State S_21EGGMOBILE3_LAUGH3 allocated.
+State S_21EGGMOBILE3_LAUGH4 allocated.
+State S_21EGGMOBILE3_LAUGH5 allocated.
+State S_21EGGMOBILE3_LAUGH6 allocated.
+State S_21EGGMOBILE3_LAUGH7 allocated.
+State S_21EGGMOBILE3_LAUGH8 allocated.
+State S_21EGGMOBILE3_LAUGH9 allocated.
+State S_21EGGMOBILE3_LAUGH10 allocated.
+State S_21EGGMOBILE3_LAUGH11 allocated.
+State S_21EGGMOBILE3_LAUGH12 allocated.
+State S_21EGGMOBILE3_LAUGH13 allocated.
+State S_21EGGMOBILE3_LAUGH14 allocated.
+State S_21EGGMOBILE3_LAUGH15 allocated.
+State S_21EGGMOBILE3_LAUGH16 allocated.
+State S_21EGGMOBILE3_LAUGH17 allocated.
+State S_21EGGMOBILE3_LAUGH18 allocated.
+State S_21EGGMOBILE3_LAUGH19 allocated.
+State S_21EGGMOBILE3_LAUGH20 allocated.
+State S_21EGGMOBILE3_PAIN allocated.
+State S_21EGGMOBILE3_PAIN2 allocated.
+State S_21EGGMOBILE3_DIE1 allocated.
+State S_21EGGMOBILE3_DIE2 allocated.
+State S_21EGGMOBILE3_DIE3 allocated.
+State S_21EGGMOBILE3_DIE4 allocated.
+State S_21EGGMOBILE3_FLEE1 allocated.
+State S_21EGGMOBILE3_FLEE2 allocated.
+State S_OLDTORPEDO allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_20EO
+MobjType MT_20EGGMOBILE3 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_21EO
+Sprite SPR_OFAK allocated.
+MobjType MT_21EGGMOBILE3 allocated.
+MobjType MT_OLDFAKEMOBILE allocated.
+MobjType MT_OLDTORPEDO2 allocated.
+State S_OLDFAKEMOBILE_INIT allocated.
+State S_OLDFAKEMOBILE allocated.
+State S_OLDFAKEMOBILE_ATK1 allocated.
+State S_OLDFAKEMOBILE_ATK2 allocated.
+State S_OLDFAKEMOBILE_ATK3A allocated.
+State S_OLDFAKEMOBILE_ATK3B allocated.
+State S_OLDFAKEMOBILE_ATK3C allocated.
+State S_OLDFAKEMOBILE_ATK3D allocated.
+State S_OLDFAKEMOBILE_ATK4 allocated.
+State S_OLDFAKEMOBILE_ATK5 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_21EP
+Sprite SPR_21EP allocated.
+Sprite SPR_OEFR allocated.
+MobjType MT_21JETFLAME allocated.
+MobjType MT_21EGGMOBILE4 allocated.
+MobjType MT_21EGGMOBILE4_MACE allocated.
+State S_21JETFLAME1 allocated.
+State S_21JETFLAME2 allocated.
+State S_21EGGMOBILE4_STND allocated.
+State S_21EGGMOBILE4_LATK1 allocated.
+State S_21EGGMOBILE4_LATK2 allocated.
+State S_21EGGMOBILE4_LATK3 allocated.
+State S_21EGGMOBILE4_LATK4 allocated.
+State S_21EGGMOBILE4_LATK5 allocated.
+State S_21EGGMOBILE4_LATK6 allocated.
+State S_21EGGMOBILE4_RATK1 allocated.
+State S_21EGGMOBILE4_RATK2 allocated.
+State S_21EGGMOBILE4_RATK3 allocated.
+State S_21EGGMOBILE4_RATK4 allocated.
+State S_21EGGMOBILE4_RATK5 allocated.
+State S_21EGGMOBILE4_RATK6 allocated.
+State S_21EGGMOBILE4_RAISE1 allocated.
+State S_21EGGMOBILE4_RAISE2 allocated.
+State S_21EGGMOBILE4_RAISE3 allocated.
+State S_21EGGMOBILE4_RAISE4 allocated.
+State S_21EGGMOBILE4_RAISE5 allocated.
+State S_21EGGMOBILE4_RAISE6 allocated.
+State S_21EGGMOBILE4_RAISE7 allocated.
+State S_21EGGMOBILE4_RAISE8 allocated.
+State S_21EGGMOBILE4_RAISE9 allocated.
+State S_21EGGMOBILE4_RAISE10 allocated.
+State S_21EGGMOBILE4_PAIN allocated.
+State S_21EGGMOBILE4_DIE1 allocated.
+State S_21EGGMOBILE4_DIE2 allocated.
+State S_21EGGMOBILE4_DIE3 allocated.
+State S_21EGGMOBILE4_DIE4 allocated.
+State S_21EGGMOBILE4_FLEE1 allocated.
+State S_21EGGMOBILE4_FLEE2 allocated.
+State S_21EGGMOBILE4_MACE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_21MS
+Sprite SPR_OMTS allocated.
+Sprite SPR_OMTC allocated.
+Sprite SPR_OENR allocated.
+MobjType MT_21METALSONIC_BATTLE allocated.
+MobjType MT_21MSSHIELD_FRONT allocated.
+MobjType MT_21MSGATHER allocated.
+MobjType MT_OLDENERGYBALL allocated.
+State S_21METALSONIC_FLOAT allocated.
+State S_21METALSONIC_VECTOR allocated.
+State S_21METALSONIC_STUN allocated.
+State S_21METALSONIC_BLOCK allocated.
+State S_21METALSONIC_RAISE allocated.
+State S_21METALSONIC_GATHER allocated.
+State S_21METALSONIC_DASH allocated.
+State S_21METALSONIC_BOUNCE allocated.
+State S_21METALSONIC_SHOOT allocated.
+State S_21METALSONIC_PAIN allocated.
+State S_21METALSONIC_DEATH allocated.
+State S_21METALSONIC_FLEE1 allocated.
+State S_21METALSONIC_FLEE2 allocated.
+State S_21METALSONIC_FLEE3 allocated.
+State S_21METALSONIC_FLEE4 allocated.
+State S_21MSSHIELD_F1 allocated.
+State S_OLDENERGYBALL1 allocated.
+State S_OLDENERGYBALL2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_BECM
+Sprite SPR_OBRK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_20BE
+MobjType MT_OLDBLACKEGGMAN allocated.
+MobjType MT_OLDBLACKEGGMAN_HELPER allocated.
+MobjType MT_OLDBLACKEGGMAN_GOOPFIRE allocated.
+MobjType MT_OLDBLACKEGGMAN_MISSILE allocated.
+MobjType MT_OLDEXPLODE allocated.
+State S_OLDBLACKEGG_STND allocated.
+State S_OLDBLACKEGG_STND2 allocated.
+State S_OLDBLACKEGG_WALK1 allocated.
+State S_OLDBLACKEGG_WALK2 allocated.
+State S_OLDBLACKEGG_WALK3 allocated.
+State S_OLDBLACKEGG_WALK4 allocated.
+State S_OLDBLACKEGG_WALK5 allocated.
+State S_OLDBLACKEGG_WALK6 allocated.
+State S_OLDBLACKEGG_SHOOT1 allocated.
+State S_OLDBLACKEGG_SHOOT2 allocated.
+State S_OLDBLACKEGG_PAIN1 allocated.
+State S_OLDBLACKEGG_PAIN2 allocated.
+State S_OLDBLACKEGG_PAIN3 allocated.
+State S_OLDBLACKEGG_PAINREPEAT allocated.
+State S_OLDBLACKEGG_PAIN4 allocated.
+State S_OLDBLACKEGG_PAIN5 allocated.
+State S_OLDBLACKEGG_HITFACE1 allocated.
+State S_OLDBLACKEGG_HITFACE2 allocated.
+State S_OLDBLACKEGG_HITFACE3 allocated.
+State S_OLDBLACKEGG_HITFACE4 allocated.
+State S_OLDBLACKEGG_DIE1 allocated.
+State S_OLDBLACKEGG_DIE2 allocated.
+State S_OLDBLACKEGG_DIE3 allocated.
+State S_OLDBLACKEGG_DIE4 allocated.
+State S_OLDBLACKEGG_DIE5 allocated.
+State S_OLDBLACKEGG_MISSILE1 allocated.
+State S_OLDBLACKEGG_MISSILE2 allocated.
+State S_OLDBLACKEGG_MISSILE3 allocated.
+State S_OLDBLACKEGG_GOOP allocated.
+State S_OLDBLACKEGG_JUMP1 allocated.
+State S_OLDBLACKEGG_JUMP2 allocated.
+State S_OLDBLACKEGG_DESTROYPLAT1 allocated.
+State S_OLDBLACKEGG_DESTROYPLAT2 allocated.
+State S_OLDBLACKEGG_DESTROYPLAT3 allocated.
+State S_OLDBLACKEGG_HELPER allocated.
+State S_OLDBLACKEGG_GOOP1 allocated.
+State S_OLDBLACKEGG_GOOP2 allocated.
+State S_OLDBLACKEGG_GOOP3 allocated.
+State S_OLDBLACKEGG_GOOP4 allocated.
+State S_OLDBLACKEGG_GOOP5 allocated.
+State S_OLDBLACKEGG_GOOP6 allocated.
+State S_OLDBLACKEGG_GOOP7 allocated.
+State S_OLDBLACKEGG_MISSILE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_21BE
+Sprite SPR_OELC allocated.
+Sprite SPR_OFLE allocated.
+Sprite SPR_OFLA allocated.
+Sprite SPR_OHOP allocated.
+MobjType MT_OLDCYBRAKDEMON allocated.
+MobjType MT_OLDCYBRAKDEMON_ELECTRIC_BARRIER allocated.
+MobjType MT_OLDCYBRAKDEMON_MISSILE allocated.
+MobjType MT_OLDCYBRAKDEMON_FLAMESHOT allocated.
+MobjType MT_OLDCYBRAKDEMON_FLAMEREST allocated.
+MobjType MT_OLDCYBRAKDEMON_TARGET_RETICULE allocated.
+MobjType MT_OLDCYBRAKDEMON_TARGET_DOT allocated.
+MobjType MT_OLDCYBRAKDEMON_NAPALM_BOMB_LARGE allocated.
+MobjType MT_OLDCYBRAKDEMON_NAPALM_BOMB_SMALL allocated.
+MobjType MT_OLDCYBRAKDEMON_NAPALM_FLAMES allocated.
+State S_OLDCYBRAKDEMON_IDLE allocated.
+State S_OLDCYBRAKDEMON_WALK1 allocated.
+State S_OLDCYBRAKDEMON_WALK2 allocated.
+State S_OLDCYBRAKDEMON_WALK3 allocated.
+State S_OLDCYBRAKDEMON_WALK4 allocated.
+State S_OLDCYBRAKDEMON_WALK5 allocated.
+State S_OLDCYBRAKDEMON_WALK6 allocated.
+State S_OLDCYBRAKDEMON_CHOOSE_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK3 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK4 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK5 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK6 allocated.
+State S_OLDCYBRAKDEMON_FLAME_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_FLAME_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_FLAME_ATTACK3 allocated.
+State S_OLDCYBRAKDEMON_FLAME_ATTACK4 allocated.
+State S_OLDCYBRAKDEMON_CHOOSE_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK3 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK4 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK5 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK6 allocated.
+State S_OLDCYBRAKDEMON_NAPALM_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_NAPALM_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_NAPALM_ATTACK3 allocated.
+State S_OLDCYBRAKDEMON_FINISH_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_FINISH_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_PAIN1 allocated.
+State S_OLDCYBRAKDEMON_PAIN2 allocated.
+State S_OLDCYBRAKDEMON_PAIN3 allocated.
+State S_OLDCYBRAKDEMON_DIE1 allocated.
+State S_OLDCYBRAKDEMON_DIE2 allocated.
+State S_OLDCYBRAKDEMON_DIE3 allocated.
+State S_OLDCYBRAKDEMON_DIE4 allocated.
+State S_OLDCYBRAKDEMON_DIE5 allocated.
+State S_OLDCYBRAKDEMON_DIE6 allocated.
+State S_OLDCYBRAKDEMON_DIE7 allocated.
+State S_OLDCYBRAKDEMON_DIE8 allocated.
+State S_OLDCYBRAKDEMON_DEINVINCIBLERIZE allocated.
+State S_OLDCYBRAKDEMON_INVINCIBLERIZE allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_INIT1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_INIT2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_PLAYSOUND allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER3 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER4 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER5 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER6 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER7 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER8 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER9 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER10 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER11 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER12 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER13 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER14 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER15 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER16 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER17 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER18 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER19 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER20 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER21 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER22 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER23 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER24 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_DIE1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_DIE2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_DIE3 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMCHECK allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMSUCCESS allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMCHOOSE allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM3 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM4 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM5 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM6 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM7 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM8 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM9 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM10 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM11 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM12 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMFAIL allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMLOOP allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_REVIVE1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_REVIVE2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_REVIVE3 allocated.
+State S_OLDCYBRAKDEMONMISSILE allocated.
+State S_OLDCYBRAKDEMONMISSILE_EXPLODE1 allocated.
+State S_OLDCYBRAKDEMONMISSILE_EXPLODE2 allocated.
+State S_OLDCYBRAKDEMONMISSILE_EXPLODE3 allocated.
+State S_OLDCYBRAKDEMONFLAMESHOT_FLY1 allocated.
+State S_OLDCYBRAKDEMONFLAMESHOT_FLY2 allocated.
+State S_OLDCYBRAKDEMONFLAMESHOT_FLY3 allocated.
+State S_OLDCYBRAKDEMONFLAMESHOT_DIE allocated.
+State S_OLDCYBRAKDEMONFLAMEREST allocated.
+State S_OLDFLAME allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE1 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE2 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE3 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE4 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE5 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE6 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE7 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE8 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE9 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE10 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE11 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE12 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE13 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE14 allocated.
+State S_OLDCYBRAKDEMONTARGETDOT allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_FLY allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_DIE1 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_DIE2 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_DIE3 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_DIE4 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE1 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE2 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE3 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE4 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE5 allocated.
+State S_OLDCYBRAKDEMONNAPALMFLAME_FLY allocated.
+State S_OLDCYBRAKDEMONNAPALMFLAME_DIE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_OFIR
+MobjType MT_OLDFIRE allocated.
+State S_OLDFIRE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|Lua/LUA_UNSD
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/MAINCFG
+Added gametype Chaos
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_CHAR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_LVL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_CUTS
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_PODE
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/OBJCTCFG.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_DACT
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_FKEM
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_TKNS
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_FKCL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_FKFL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_RMTR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_WIND
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_RAND
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_SPRI
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_SCEN
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_GFB1
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_7BSS
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_GARG
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_SNMN
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_CNDY
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_TOAD
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_POST
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_FDMP
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_KAOS
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/CHAOSCRE
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_BEER
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_ZMTV
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_SWED
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_SOUN
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_SBOM
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_GLAB
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_CAMA
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_POSC
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_FWRK
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SOC_PNPC
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SRB1/
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SRB1/SOC_SRBM
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\SRMFCL_srb2thepast_v2.0.13.pk3|SOC/SRB1/SOC_SRBP
+SRMFCL_srb2thepast_v2.0.13.pk3 added 3755 frames in 250 sprites
+Added skin 'megamand3'
+Added skin 'chaod3'
+Added skin 'zimfd'
+Added skin 'cinossu'
+Added skin 'xtremesonic'
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP14
+MAP15
+MAP16
+MAP17
+MAP18
+MAP19
+MAP20
+MAP21
+MAP22
+MAP23
+MAP24
+MAP25
+MAP26
+MAP27
+MAP28
+MAP29
+MAP30
+MAP31
+MAP34
+MAP35
+MAP36
+MAP37
+MAP38
+MAP39
+MAP40
+MAP41
+MAP42
+MAP43
+MAP44
+MAP45
+MAP46
+MAP47
+MAP48
+MAP50
+MAP51
+MAP52
+MAP53
+MAP54
+MAP55
+MAP56
+MAP58
+MAP59
+MAP60
+MAP61
+MAP62
+MAP63
+MAP64
+MAP65
+MAP66
+MAP67
+MAP68
+MAP69
+MAP70
+MAP71
+MAP72
+MAP73
+MAP74
+MAP75
+MAP76
+MAP77
+MAP78
+MAP79
+MAP80
+MAP81
+MAP82
+MAP83
+MAP84
+MAP85
+MAP86
+MAP87
+MAP88
+MAP89
+MAP90
+MAP91
+MAP92
+MAP93
+MAP94
+MAP95
+MAP96
+MAP97
+MAP98
+MAP99
+MAPA0
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAA
+MAPAB
+MAPAC
+MAPAD
+MAPAZ
+MAPB0
+MAPB1
+MAPB2
+MAPB3
+MAPB4
+MAPB5
+MAPB6
+MAPB7
+MAPB8
+MAPB9
+MAPBA
+MAPBB
+MAPBC
+MAPBD
+MAPBE
+MAPBF
+MAPBG
+MAPBH
+MAPBI
+MAPBJ
+MAPBK
+MAPBL
+MAPBM
+MAPBN
+MAPBO
+MAPBP
+MAPBQ
+MAPBR
+MAPBS
+MAPBT
+MAPBU
+MAPBV
+MAPBW
+MAPBX
+MAPBY
+MAPBZ
+MAPC0
+MAPC1
+MAPC2
+MAPC3
+MAPC4
+MAPC5
+MAPC6
+MAPC7
+MAPC8
+MAPC9
+MAPCA
+MAPCB
+MAPCC
+MAPCD
+MAPCE
+MAPCF
+MAPCG
+MAPCH
+MAPCI
+MAPCZ
+MAPD0
+MAPD1
+MAPD2
+MAPD3
+MAPD4
+MAPD5
+MAPD6
+MAPD7
+MAPD8
+MAPD9
+MAPDA
+MAPDB
+MAPDC
+MAPDD
+MAPDZ
+MAPE0
+MAPE1
+MAPE2
+MAPE3
+MAPE4
+MAPE5
+MAPE6
+MAPE7
+MAPE8
+MAPE9
+MAPEA
+MAPEB
+MAPEC
+MAPED
+MAPEE
+MAPEY
+MAPEZ
+MAPF9
+MAPFA
+MAPFB
+MAPFC
+MAPFD
+MAPFE
+MAPFF
+MAPFG
+MAPFH
+MAPFI
+MAPFJ
+MAPFK
+MAPFL
+MAPFM
+MAPFN
+MAPFO
+MAPFP
+MAPFQ
+MAPFR
+MAPFS
+MAPFT
+MAPFU
+MAPFV
+MAPFW
+MAPFX
+MAPFY
+MAPFZ
+MAPG0
+MAPG1
+MAPG2
+MAPG3
+MAPG4
+MAPG5
+MAPG6
+MAPG7
+MAPG8
+MAPG9
+MAPGA
+MAPGB
+MAPGC
+MAPGD
+MAPGE
+MAPGF
+MAPGG
+MAPGH
+MAPGI
+MAPGJ
+MAPGK
+MAPGL
+MAPGM
+MAPGN
+MAPGO
+MAPGP
+MAPGQ
+MAPGZ
+MAPH0
+MAPH1
+MAPH2
+MAPH3
+MAPH4
+MAPH5
+MAPH6
+MAPH7
+MAPH8
+MAPH9
+MAPHA
+MAPHB
+MAPHC
+MAPHD
+MAPHE
+MAPHF
+MAPHG
+MAPHH
+MAPHI
+MAPHJ
+MAPHK
+MAPHL
+MAPHM
+MAPHN
+MAPHO
+MAPHP
+MAPHQ
+MAPHR
+MAPHS
+MAPHT
+MAPHU
+MAPHV
+MAPHW
+MAPHX
+MAPHY
+MAPHZ
+MAPI0
+MAPI1
+MAPI2
+MAPI3
+MAPI4
+MAPI5
+MAPI6
+MAPI7
+MAPI8
+MAPI9
+MAPIA
+MAPIB
+MAPIC
+MAPID
+MAPIE
+MAPIF
+MAPIG
+MAPIH
+MAPII
+MAPIJ
+MAPIK
+MAPIL
+MAPIM
+MAPIN
+MAPIO
+MAPIP
+MAPIQ
+MAPIR
+MAPIS
+MAPIT
+MAPIU
+MAPIV
+MAPIW
+MAPIX
+MAPIY
+MAPIZ
+MAPJ0
+MAPJ1
+MAPJ2
+MAPJ3
+MAPJ4
+MAPJ5
+MAPJ6
+MAPJ7
+MAPJ8
+MAPJ9
+MAPJA
+MAPJB
+MAPJC
+MAPJD
+MAPJE
+MAPJF
+MAPJG
+MAPJH
+MAPJI
+MAPJJ
+MAPJK
+MAPJL
+MAPJM
+MAPJN
+MAPJO
+MAPJP
+MAPJQ
+MAPJR
+MAPJS
+MAPJT
+MAPJU
+MAPJV
+MAPJW
+MAPJX
+MAPJY
+MAPJZ
+MAPK0
+MAPK1
+MAPK2
+MAPK3
+MAPK4
+MAPK5
+MAPK6
+MAPK7
+MAPK8
+MAPK9
+MAPKA
+MAPKB
+MAPKC
+MAPKD
+MAPKE
+MAPKF
+MAPKG
+MAPKH
+MAPKI
+MAPKJ
+MAPKK
+MAPKL
+MAPKM
+MAPKN
+MAPKO
+MAPKP
+MAPKQ
+MAPKR
+MAPKS
+MAPKT
+MAPKU
+MAPKV
+MAPKW
+MAPKX
+MAPKY
+MAPKZ
+MAPL0
+MAPL1
+MAPL3
+MAPL4
+MAPL5
+MAPL6
+MAPL7
+MAPL8
+MAPL9
+MAPLA
+MAPLB
+MAPLC
+MAPLD
+MAPLE
+MAPLF
+MAPLG
+MAPLH
+MAPLI
+MAPLJ
+MAPLK
+MAPLL
+MAPLM
+MAPLN
+MAPLO
+MAPLP
+MAPLQ
+MAPLR
+MAPLS
+MAPLT
+MAPLU
+MAPLV
+MAPLW
+MAPLX
+MAPMZ
+MAPN0
+MAPN1
+MAPN2
+MAPN3
+MAPN4
+MAPN5
+MAPN6
+MAPN7
+MAPN8
+MAPN9
+MAPNA
+MAPNB
+MAPNC
+MAPND
+MAPNE
+MAPNZ
+MAPO0
+MAPO1
+MAPO2
+MAPO3
+MAPO4
+MAPO5
+MAPO6
+MAPO7
+MAPO8
+MAPO9
+MAPOA
+MAPOB
+MAPOC
+MAPOD
+MAPOE
+MAPOF
+MAPOG
+MAPOH
+MAPOI
+MAPOJ
+MAPOK
+MAPP0
+MAPP1
+MAPP2
+MAPP3
+MAPP4
+MAPP5
+MAPP6
+MAPP7
+MAPP8
+MAPP9
+MAPPA
+MAPPB
+MAPPC
+MAPPD
+MAPPE
+MAPPF
+MAPPG
+MAPPH
+MAPPI
+MAPPJ
+MAPPK
+MAPPL
+MAPPM
+MAPPN
+MAPPO
+MAPPP
+MAPPQ
+MAPPR
+MAPPS
+MAPPT
+MAPPU
+MAPPV
+MAPPW
+MAPPX
+MAPPY
+MAPPZ
+MAPQ0
+MAPQ1
+MAPQ2
+MAPQ3
+MAPQ4
+MAPQ5
+MAPQ6
+MAPQ7
+MAPQ8
+MAPQ9
+MAPQA
+MAPQB
+MAPQC
+MAPQD
+MAPQE
+MAPQF
+MAPQG
+MAPQH
+MAPQI
+MAPQJ
+MAPQK
+MAPQL
+MAPQM
+MAPQN
+MAPQO
+MAPQP
+MAPR0
+MAPR1
+MAPR2
+MAPR3
+MAPR5
+MAPR6
+MAPR7
+MAPR8
+MAPR9
+MAPRA
+MAPRB
+MAPRZ
+MAPT0
+MAPT1
+MAPT2
+MAPT3
+MAPT4
+MAPT5
+MAPT6
+MAPT7
+MAPT8
+MAPT9
+MAPTA
+MAPTB
+MAPTC
+MAPTD
+MAPTE
+MAPTF
+MAPTG
+MAPTH
+MAPTI
+MAPTJ
+MAPTK
+MAPTL
+MAPTM
+MAPTN
+MAPTO
+MAPTP
+MAPTQ
+MAPTZ
+MAPU0
+MAPU1
+MAPU2
+MAPU3
+MAPU4
+MAPU5
+MAPU6
+MAPU7
+MAPU8
+MAPUZ
+MAPW0
+MAPW1
+MAPW2
+MAPX0
+MAPX1
+MAPX2
+MAPX3
+MAPX4
+MAPX5
+MAPX6
+MAPX7
+MAPX8
+MAPX9
+MAPXA
+MAPXB
+MAPXC
+MAPY0
+MAPY1
+MAPY2
+MAPY3
+MAPY4
+MAPY5
+MAPY6
+MAPY7
+MAPY8
+MAPY9
+MAPYA
+MAPYB
+MAPYZ
+MAPZ1
+MAPZ2
+MAPZ3
+MAPZW
+MAPZX
+MAPZY
+MAPZZ
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_2.1Rosy-v2.3.wad (253 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_2.1Rosy-v2.3.wad|LUA_ROSY
+Sprite SPR_HART allocated.
+Sprite SPR_CHRT allocated.
+MobjType MT_CAPEHAMMER allocated.
+MobjType MT_HEART allocated.
+MobjType MT_HEARTATTACK allocated.
+MobjType MT_BLINKHEART allocated.
+MobjType MT_ORBITHEART allocated.
+State S_CAPEHAMMER allocated.
+State S_HAMMERCHASE1 allocated.
+State S_HAMMERCHASE2 allocated.
+State S_PLAY_CYCLONE allocated.
+State S_PLAY_TWIRL1 allocated.
+State S_PLAY_TWIRL2 allocated.
+State S_PLAY_TWIRL3 allocated.
+State S_PLAY_TWIRL4 allocated.
+State S_PLAY_TWIRL5 allocated.
+State S_PLAY_TWIRL6 allocated.
+State S_PLAY_TWIRL7 allocated.
+State S_PLAY_TWIRL8 allocated.
+State S_PLAY_TWIRL9 allocated.
+State S_PLAY_TWIRL10 allocated.
+State S_PLAY_TWIRL11 allocated.
+State S_PLAY_TWIRL12 allocated.
+State S_PLAY_HAMMER1 allocated.
+State S_PLAY_HAMMER2 allocated.
+State S_PLAY_HAMMER3 allocated.
+State S_PLAY_HAMMER4 allocated.
+State S_PLAY_HAMMER5 allocated.
+State S_PLAY_HAMMER6 allocated.
+State S_PLAY_HAMMERDOWN1 allocated.
+State S_PLAY_HAMMERDOWN2 allocated.
+State S_PLAY_HAMMERDOWN3 allocated.
+State S_PLAY_HAMMERDOWN4 allocated.
+State S_PLAY_HAMMERDOWN5 allocated.
+State S_PLAY_HAMMERDOWN6 allocated.
+State S_PLAY_LAUNCH allocated.
+State S_PLAY_ROSYCHARGE allocated.
+State S_PLAY_ROSYDASH allocated.
+State S_PLAY_ROSYSLIDE allocated.
+State S_HEART allocated.
+State S_HEARTATTACK allocated.
+State S_BLINKHEART allocated.
+State S_ORBITHEART1 allocated.
+State S_ORBITHEART2 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_2.1Rosy-v2.3.wad|LUA_BAMY
+Sprite SPR_RCRM allocated.
+MobjType MT_ROSYCHARM allocated.
+State S_ROSYCHARM1 allocated.
+State S_ROSYCHARM2 allocated.
+State S_ROSYCHARM3 allocated.
+State S_ROSYCHARM4 allocated.
+State S_ROSYCHARM5 allocated.
+State S_ROSYCHARM6 allocated.
+State S_ROSYCHARM7 allocated.
+State S_ORBITCHARM1 allocated.
+State S_ORBITCHARM2 allocated.
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_2.1Rosy-v2.3.wad
+CL_2.1Rosy-v2.3.wad added 10 frames in 3 sprites
+Added skin 'rosy'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_EarlessReRedo_v1.2.1.pk3 (276 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_EarlessReRedo_v1.2.1.pk3|Lua/EarMain.lua
+State S_EAR_ROLLSTND allocated.
+Skincolor SKINCOLOR_SUPER_EARLESS_1 allocated.
+Skincolor SKINCOLOR_SUPER_EARLESS_2 allocated.
+Skincolor SKINCOLOR_SUPER_EARLESS_3 allocated.
+Skincolor SKINCOLOR_SUPER_EARLESS_4 allocated.
+Skincolor SKINCOLOR_SUPER_EARLESS_5 allocated.
+Skincolor SKINCOLOR_EARFUL1 allocated.
+Skincolor SKINCOLOR_EARFUL2 allocated.
+Skincolor SKINCOLOR_EARFUL3 allocated.
+Skincolor SKINCOLOR_EARFUL4 allocated.
+Skincolor SKINCOLOR_EARFUL5 allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_EarlessReRedo_v1.2.1.pk3|Lua/Groove.lua
+State S_PLAY_EARDANCE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_EarlessReRedo_v1.2.1.pk3|Lua/AP_Psupport.LUA
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_EarlessReRedo_v1.2.1.pk3|Soc/SOC_ERLS
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\CL_EarlessReRedo_v1.2.1.pk3|Soc/SOC_SPR2
+Added skin 'earlessreredo'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\Terminal-edit.pk3 (3 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\Terminal-edit.pk3|Lua/LUA_TCOR
+Added command "defaultpermission"
+Added command "setpermission"
+Added command "removepermission"
+Added command "iamtheserver"
+Added command "showplayers"
+Added command "changemap"
+Added command "kill"
+Added command "dokick"
+Added command "doban"
+Added command "do"
+Added command "dopromote"
+Added command "dodemote"
+Added command "suicidetoggle"
+Added command "findmap"
+Added command "term_help"
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\Terminal-edit.pk3|Lua/LUA_TCHE
+Replaced command "setrings"
+Added command "togglespectator"
+Added command "togglespectatorfor"
+Replaced command "setlives"
+Replaced command "god"
+Replaced command "noclip"
+Added command "notactualdevmode"
+Added command "warpto"
+Replaced command "teleport"
+Added command "getpos"
+Added command "warptome"
+Replaced command "suicide"
+Replaced command "scale"
+Added command "normalspeed"
+Added command "runspeed"
+Added command "jumpfactor"
+Added command "thrustfactor"
+Added command "accelstart"
+Added command "acceleration"
+Added command "mindash"
+Added command "maxdash"
+Added command "actionspd"
+Replaced command "gravflip"
+Added command "giveshield"
+Added command "runonwater"
+Added command "superon"
+Added command "superoff"
+Added command "addflags"
+Added command "setstate"
+Added command "damage"
+Added command "mass"
+Added command "painchance"
+Added command "speed"
+Added command "removeflags"
+Added command "thokitem"
+Added command "spinitem"
+Added command "revitem"
+Added command "panim"
+Added command "removeallenemies"
+Added command "removeallmobjswithhighcrashpossibility"
+Added command "removealltype"
+Added command "destroyallenemiestype"
+Added command "destroyallenemies"
+Added command "mobjinfo"
+Added command "spawnobject"
+Replaced command "charability"
+Added command "charability2"
+Added command "setscalefor"
+Added command "setringsfor"
+Added command "setlivesfor"
+Added command "freeze"
+Added command "setmyrings"
+Added command "setmylives"
+Added command "giveammo"
+Added command "giveammoeveryone"
+Added command "nonights"
+Added command "rally"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\VCL_TailsGuy-v1.2.pk3 (269 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\VCL_TailsGuy-v1.2.pk3|Lua/Lua_TailsGuy
+MobjType MT_DOOMBULLET allocated.
+MobjType MT_DOOMROCKET allocated.
+MobjType MT_DOOMSPLODE allocated.
+Sprite SPR_DMIS allocated.
+State S_DOOMROCKET1 allocated.
+State S_DOOMROCKET2 allocated.
+State S_DOOMSPLODE1 allocated.
+State S_DOOMSPLODE2 allocated.
+State S_DOOMSPLODE3 allocated.
+State S_DOOMSPLODE4 allocated.
+MobjType MT_ROCKETSPIKECOL allocated.
+State S_ROCKETSPIKECOL allocated.
+Sound sfx_dgshot allocated.
+Sound sfx_dgrokt allocated.
+Sound sfx_dgrokb allocated.
+Sound sfx_dgchan allocated.
+Sprite SPR2_DOOM allocated.
+State S_PLAY_DOOMSHOT allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\VCL_TailsGuy-v1.2.pk3|Lua/Lua_Damage
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\VCL_TailsGuy-v1.2.pk3|Lua/Lua_Rocket
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\VCL_TailsGuy-v1.2.pk3|SOC/SOC_PLAY
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\VCL_TailsGuy-v1.2.pk3|SOC/SOC_TGUY
+VCL_TailsGuy-v1.2.pk3 added 8 frames in 1 sprites
+Added skin 'tailsguy'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\xmastails.pk3 (392 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\xmastails.pk3|SOC/MAINCFG
+WARNING: Line 2: Unknown word: DISPLAYNAME
+WARNING: Line 3: Unknown word: TAGTEXTCOLOR
+WARNING: Line 4: Unknown word: TAGOUTLINECOLOR
+WARNING: Line 5: Unknown word: PLAYERTEXT
+WARNING: Line 7: Unknown word: ABILITY:
+WARNING: Line 9: Unknown word: NOTE:
+6 warnings in the SOC lump
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\Xmas_Sonic.wad (203 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\Xmas_Sonic.wad|LUA_GAME
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\SRB2 History Tour\Xmas_Sonic.wad|SOC_CHAR
+WARNING: Line 2: Unknown word: DISPLAYNAME
+WARNING: Line 3: Unknown word: STATUS
+WARNING: Line 4: Unknown word: PLAYERTEXT
+WARNING: Line 6: Unknown word: ABILITIES:
+WARNING: Line 7: missing argument for 'WHAT'
+WARNING: Line 9: Unknown word: TIP:
+6 warnings in the SOC lump
+Added skin 'xmassonic'
+No maps added
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Sending join request...
+Join accepted, waiting for complete game state...
+*Vertz1515 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: SRB2 Museum Zone"
+executing C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\Early Gang\files\Early-Gang-Files\initialize.txt
+Skin "sonic" has been banned.
+Skin "tails" has been banned.
+Skin "knuckles" has been banned.
+Skin "metalsonic" has been banned.
+Skin "amy" has been banned.
+Skin "fang" has been banned.
+*Sonix the sucky do has joined the game (player 1)
+$password amcinyessu
+Password set.
+Vertz1515 has completed the level.
+$exitlevel
+Speeding off to level...
+Map is now "MAPGZ: Greenflower Hub"
+Sonix the sucky do passed authentication.
+Sonix the sucky do has been given the admin L3 permissions.
+Vertz1515 has completed the level.
+Speeding off to level...
+Map is now "MAPGO: Greenflower Zone 1"
+Map is now "MAPGO: Greenflower Zone 1"
+*PrismaticAngel has joined the game (player 2)
+*PrismaticAngel left the game (Connection timeout)
+*PrismaticAnge has joined the game (player 3)
+Sonix the sucky do has completed the level.
+*PrismaticAnge left the game
+*PrismaticAnge has rejoined the game (player 3)
+*PrismaticAnge renamed to PrismaticAngel
+*glaber has joined the game (player 2)
+Screen shot srb20185.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\screenshots\
+Vertz1515 has completed the level.
+*Coolio has joined the game (player 4)
+$bind h "hi sonic"
+Speeding off to level...
+Map is now "MAP60: Special Stage 7"
+*Coolio left the game
+*Coolio has rejoined the game (player 4)
+*Coolio left the game
+*Coolio has rejoined the game (player 4)
+*Julia (she/her) has joined the game (player 5)
+Speeding off to level...
+Map is now "MAPGZ: Greenflower Hub"
+Vertz1515 has completed the level.
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/unlist'...
+Server deregistration request successfully sent.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

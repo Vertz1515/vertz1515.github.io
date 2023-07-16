@@ -1,0 +1,1026 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-07-28_01-06-56.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\2.0zones.wad (213 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\2.0zones.wad
+WARNING: Line 32: Level header 103: unknown word 'NOPERFECTBONUS'
+WARNING: Line 142: Unknown word: SUBTITLE
+WARNING: Line 179: Level header 17: unknown word 'NOPERFECTBONUS'
+3 warnings in the SOC lump
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAC
+MAPAD
+MAPAE
+MAPAH
+MAPAI
+MAPAF
+MAPAG
+MAPAB
+MAPAA
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "whois"
+Added command "die"
+Added command "goto"
+Added command "super"
+Added command "rings"
+Added command "lives"
+Added command "shoes"
+Added command "invuln"
+Added command "flower"
+Added command "shield"
+Added command "print"
+Added command "dofor"
+Added command "rally"
+Added command "nuke"
+Added command "kill"
+Added command "adminhelp"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3 (196 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3|Lua/LuaSpinsound
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3|SOC/SOC_CRUST
+WARNING: unexpected symbol near '<eof>'
+crustcidna.pk3 added 5 frames in 2 sprites
+Added skin 'crustcidna'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad (618 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad
+31 midi musics replaced
+MAP74
+MAP76
+MAP78
+MAP80
+MAP79
+MAP75
+MAP77
+MAP81
+MAP60
+MAP61
+MAP62
+MAP63
+MAP64
+MAP66
+MAP65
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad (328 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+32 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\extras.wad (1 lumps)
+1 sounds replaced
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\finaldemo.wad (102 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\finaldemo.wad
+1 midi musics replaced
+MAPB3
+MAPB6
+MAPB1
+MAPB2
+MAPB4
+MAPB5
+MAPB7
+MAPB8
+MAPB9
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3 (218 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3|Lua/LuaSpinsound
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3|SOC/MAINCFG
+WARNING: unexpected symbol near '<eof>'
+hedge.pk3 added 1 frames in 1 sprites
+Added skin 'hedgenic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3 (155 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Stuff
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoSlide
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_OldGlideLogic
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|SOC/MAINCFG
+knux.pk3 added 1 frames in 1 sprites
+Added skin 'k.t.e'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3 (158 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|Lua/Lua_Sdash
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|Lua/Lua_Fly
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|SOC/MAINCFG
+WARNING: unexpected symbol near '<eof>'
+miles.pk3 added 1 frames in 1 sprites
+Added skin 'miles'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua
+WARNING: ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: the Terminal core script must be added first!
+stack traceback:
+    [C]: in function 'assert'
+    ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: in main chunk
+No maps added
+ERROR: C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua is already loaded
+Errors occurred while loading C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1662>
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3 (392 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|SOC/MAINCFG
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: GREENFLOWER Zone 1"
+$maxsend max
+$banskin sonic
+Skin "sonic" has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+$banskin tails
+Skin "tails" has been banned.
+You currently cannot play with the skin "tails" as it has been banned.
+$banskin knuckles
+Skin "knuckles" has been banned.
+You currently cannot play with the skin "knuckles" as it has been banned.
+$banskin amy
+Skin "amy" has been banned.
+You currently cannot play with the skin "amy" as it has been banned.
+$banskin fang
+Skin "fang" has been banned.
+You currently cannot play with the skin "fang" as it has been banned.
+$banskin metalsonic
+Skin "metalsonic" has been banned.
+You currently cannot play with the skin "metalsonic" as it has been banned.
+$map mapb5
+Speeding off to level...
+Map is now "MAPB5: TECHNO HILL Zone 2"
+*Bluelight#3987 has joined the game (player 1)
+$lives 69
+*Vcl185 has joined the game (player 2)
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: in function '?'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1608: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1582>
+<~ImpatientHedgehog15> that hurt the server
+*Xavier has joined the game (player 3)
+ImpatientHedgehog15 has completed the level.
+Xavier calls a vote "exitlevel"
+<~ImpatientHedgehog15> tgekj7ashgertyuh5aesth
+<~ImpatientHedgehog15> yghsrttst
+<~ImpatientHedgehog15> yht
+<~ImpatientHedgehog15> gss
+$vote no
+ImpatientHedgehog15 votes 'NO'.
+Bluelight#3987 votes 'NO'.
+*Sonic the Hedgehog has joined the game (player 4)
+<Sonic the Hedgehog> WHO CRASHED THE SERVER!?
+<~ImpatientHedgehog15> idk lol
+<Xavier> not me
+<Xavier> was that callvote trash
+<~ImpatientHedgehog15> whoever did that i'm not even mad at
+Sonic the Hedgehog has completed the level.
+Bluelight#3987 has completed the level.
+$exitlevel
+<Bluelight#3987> i win
+Speeding off to level...
+Map is now "MAPB6: TECHNO HILL Zone 3"
+Xavier calls a vote "exitlevel"
+Sonic the Hedgehog votes "YES".
+Vcl185 votes 'NO'.
+<Bluelight#3987> amazing
+Speeding off to level...
+Map is now "MAPB7: CASTLE EGGMAN Zone 1"
+<Vcl185> What happened to Deep Sea?
+<Xavier> blue whats that callvote shitty
+<~ImpatientHedgehog15> THIS IS FINAL DEMO
+<Bluelight#3987> deep sea didn't exist in the main campaing at that point
+<Vcl185> Never played Final Demo
+<Xavier> blue did you like the callvote
+<Bluelight#3987> ?
+<~ImpatientHedgehog15> no
+<Xavier> the callvote
+<Xavier> did you like it blue
+<Bluelight#3987> no
+<Xavier> why
+<Bluelight#3987> because
+<Xavier> ?
+*Tails the fox has joined the game (player 5)
+Sonic the Hedgehog has completed the level.
+<Xavier> because what blue
+*Tails the fox renamed to Chripsy marriage
+Bluelight#3987 has completed the level.
+<Bluelight#3987> Just because
+Xavier has completed the level.
+<Sonic the Hedgehog> I WIN I WIN I WIN I WIN
+Speeding off to level...
+Map is now "MAPB8: CASTLE EGGMAN Zone 2"
+<~ImpatientHedgehog15> k
+<Xavier> i told you to smash yourself out of the window and suck a dick?
+<~ImpatientHedgehog15> lol
+<Bluelight#3987> wha
+<Bluelight#3987> my man
+<Bluelight#3987> I already suck dick
+<~ImpatientHedgehog15> this is the part where xavier leaves for some reason
+Xavier calls a vote "exitlevel"
+$vote no
+ImpatientHedgehog15 votes 'NO'.
+Bluelight#3987 votes 'NO'.
+Sonic the Hedgehog votes 'NO'.
+<Sonic the Hedgehog> FIND THE BUTTON
+<Xavier> you voted no?
+Sonic the Hedgehog has completed the level.
+Bluelight#3987 has completed the level.
+Xavier has completed the level.
+ImpatientHedgehog15 has completed the level.
+<Bluelight#3987> i win
+<Sonic the Hedgehog> I WIN I WIN I WIN I WIN I WIN
+<~ImpatientHedgehog15> ok
+Speeding off to level...
+WARNING: Unknown thing type 146 placed at (-3648, 256)
+WARNING: Unknown thing type 146 placed at (-3648, -256)
+WARNING: Unknown thing type 146 placed at (4160, -256)
+WARNING: Unknown thing type 146 placed at (4160, 256)
+WARNING: Unknown thing type 146 placed at (-384, -3520)
+WARNING: Unknown thing type 146 placed at (128, -3520)
+WARNING: Unknown thing type 146 placed at (128, 4288)
+WARNING: Unknown thing type 146 placed at (-384, 4288)
+WARNING: Unknown thing type 146 placed at (-64, 704)
+WARNING: Unknown thing type 146 placed at (-64, -768)
+WARNING: Unknown thing type 146 placed at (832, 0)
+WARNING: Unknown thing type 146 placed at (832, -896)
+WARNING: Unknown thing type 146 placed at (832, 832)
+WARNING: Unknown thing type 146 placed at (-64, -896)
+WARNING: Unknown thing type 146 placed at (-960, -896)
+WARNING: Unknown thing type 146 placed at (-960, -64)
+WARNING: Unknown thing type 146 placed at (-960, 832)
+WARNING: Unknown thing type 146 placed at (-64, 832)
+Map is now "MAPB9: CASTLE EGGMAN Zone 3"
+<Bluelight#3987> MISSING OBJECTS
+$exitlevel
+<Vcl185> Bopping
+<~ImpatientHedgehog15> stupid level converter
+<Sonic the Hedgehog> The End
+<Sonic the Hedgehog> Or not
+\\\\\\\\\\\\\\\\\\\Multiplayer games can't unlock extras!
+<Vcl185> And that's it lol
+<~ImpatientHedgehog15> how's about some tag
+<Bluelight#3987> THIS IS THE FINAL RELEASE BEFORE THE FINAL GAME COMES OUT
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+<Xavier> yes lets do tag
+Gametype was changed from Co-op to Tag
+Speeding off to level...
+No player currently available to become IT. Awaiting available players.
+WARNING: ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: attempt to index field 'mo' (a nil value)
+stack traceback:
+    ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: in function <...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:2>
+Map is now "MAP74: Zero Ring Zone"
+Levels will end after 5 minutes.
+Point limit disabled
+<Chripsy marriage> yes
+Vcl185 entered the game.
+Vcl185 is now IT!
+Chripsy marriage entered the game.
+<Bluelight#3987> ZERO RING
+Vcl185 died.
+Vcl185 became a spectator.
+Chripsy marriage is now IT!
+ImpatientHedgehog15 entered the game.
+Vcl185 entered the game.
+<Sonic the Hedgehog> spectating
+<Xavier> in co-op maps
+<Bluelight#3987> ALL YOUR RINGS ARE BELONG TO US!
+Chripsy marriage died.
+Chripsy marriage became a spectator.
+ImpatientHedgehog15 is now IT!
+Bluelight#3987 entered the game.
+Chripsy marriage entered the game.
+Xavier entered the game.
+<~ImpatientHedgehog15> what if we race
+<Xavier> whay
+<Sonic the Hedgehog> ALL YOUR RINGS BELONG TO ME!!!
+<~ImpatientHedgehog15> we haven't done that before on this server
+<Xavier> you said tag
+<~ImpatientHedgehog15> after
+<Xavier> we have just started tag
+Sonic the Hedgehog is now IT!
+ImpatientHedgehog15's thrown ring hit Bluelight#3987.
+Bluelight#3987 is now IT!
+Sonic the Hedgehog died.
+Sonic the Hedgehog became a spectator.
+Sonic the Hedgehog is now IT!
+Sonic the Hedgehog died.
+Sonic the Hedgehog became a spectator.
+Bluelight#3987's thrown ring hit Xavier.
+Xavier is now IT!
+*Sonic the Hedgehog renamed to Before Srb2 was 3D
+<~ImpatientHedgehog15> I actually can modify the old 2D srb2 and SRB1
+Before Srb2 was 3D is now IT!
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+ImpatientHedgehog15's thrown ring hit Vcl185.
+Vcl185 is now IT!
+*URBN has joined the game (player 6)
+<Vcl185> NO 
+Before Srb2 was 3D is now IT!
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+URBN is now IT!
+URBN entered the game.
+Before Srb2 was 3D is now IT!
+Before Srb2 was 3D entered the game.
+<Vcl185> I WAS RIGHT THERE
+<Bluelight#3987> bruh what
+ImpatientHedgehog15's thrown ring hit Chripsy marriage.
+Chripsy marriage is now IT!
+All players have been tagged!
+The round has ended.
+<Bluelight#3987> why is this part of the fof gone
+<Bluelight#3987> a
+WARNING: ... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:82: Do not access an mobj_t field outside a level!
+stack traceback:
+    [C]: ?
+    ... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:82: in function <... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:81>
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+All players have been tagged!
+Before Srb2 was 3D is now IT!
+All players have been tagged!
+Before Srb2 was 3D became a spectator.
+All players have been tagged!
+Speeding off to level...
+Map is now "MAP75: Orange Crater Zone"
+ImpatientHedgehog15 is now IT!
+Before Srb2 was 3D entered the game.
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+<~ImpatientHedgehog15> death to lava
+Xavier was killed by molten lava.
+<~ImpatientHedgehog15> the zone
+Before Srb2 was 3D entered the game.
+Bluelight#3987 was hit by molten lava.
+URBN was hit by molten lava.
+Bluelight#3987 was hit by molten lava.
+Vcl185 died.
+Vcl185 became a spectator.
+URBN was killed by molten lava.
+Vcl185 entered the game.
+*URBN left the game
+Vcl185 was killed by molten lava.
+Vcl185 is now IT!
+Xavier was hit by molten lava.
+Xavier was killed by molten lava.
+Xavier is now IT!
+<Vcl185> Welp
+Before Srb2 was 3D was hit by molten lava.
+Before Srb2 was 3D was hit by molten lava.
+Xavier was killed by molten lava.
+Vcl185 was hit by molten lava.
+Before Srb2 was 3D was hit by molten lava.
+Before Srb2 was 3D died.
+Before Srb2 was 3D is now IT!
+Before Srb2 was 3D became a spectator.
+Vcl185's thrown ring hit URBN.
+URBN is now IT!
+Before Srb2 was 3D is now IT!
+Bluelight#3987 was hit by molten lava.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+Xavier was killed by molten lava.
+Bluelight#3987 was killed by molten lava.
+Bluelight#3987 is now IT!
+<Bluelight#3987> fu 
+Before Srb2 was 3D is now IT!
+Vcl185 was hit by molten lava.
+Bluelight#3987 was hit by molten lava.
+Xavier was killed by molten lava.
+Before Srb2 was 3D was killed by molten lava.
+Bluelight#3987 was killed by molten lava.
+Before Srb2 was 3D was killed by molten lava.
+Bluelight#3987 was hit by molten lava.
+Vcl185 was killed by molten lava.
+ImpatientHedgehog15's thrown ring hit Chripsy marriage.
+Chripsy marriage is now IT!
+All players have been tagged!
+The round has ended.
+<Bluelight#3987> dead
+<Chripsy marriage> fuck
+<Before Srb2 was 3D> Bruh
+Speeding off to level...
+Map is now "MAP76: Air Haven Zone"
+Before Srb2 was 3D is now IT!
+Bluelight#3987 fell into a bottomless pit.
+Vcl185 fell into a bottomless pit.
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+ImpatientHedgehog15 is now IT!
+<~ImpatientHedgehog15> death to sky
+Before Srb2 was 3D entered the game.
+<~ImpatientHedgehog15> the zone
+<Chripsy marriage> hehehe
+Bluelight#3987 fell into a bottomless pit.
+Before Srb2 was 3D fell into a bottomless pit.
+<Bluelight#3987> Aerial garden
+Bluelight#3987 fell into a bottomless pit.
+Bluelight#3987 is now IT!
+ImpatientHedgehog15's thrown ring hit Before Srb2 was 3D.
+Before Srb2 was 3D is now IT!
+Before Srb2 was 3D fell into a bottomless pit.
+Before Srb2 was 3D became a spectator.
+Screen shot srb20095.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+Before Srb2 was 3D is now IT!
+Before Srb2 was 3D entered the game.
+Screen shot srb20096.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+Bluelight#3987's thrown ring hit Xavier.
+Xavier is now IT!
+Bluelight#3987 fell into a bottomless pit.
+Before Srb2 was 3D fell into a bottomless pit.
+Xavier fell into a bottomless pit.
+Bluelight#3987 fell into a bottomless pit.
+<Xavier> tune name for this
+<Bluelight#3987> I suck
+Before Srb2 was 3D fell into a bottomless pit.
+<Bluelight#3987> tunes -show
+<~ImpatientHedgehog15> It's mine maze act 2
+ImpatientHedgehog15 fell into a bottomless pit.
+Bluelight#3987 fell into a bottomless pit.
+ImpatientHedgehog15 fell into a bottomless pit.
+Bluelight#3987 fell into a bottomless pit.
+ImpatientHedgehog15 fell into a bottomless pit.
+Vcl185 fell into a bottomless pit.
+Vcl185 is now IT!
+<Vcl185> So close
+ImpatientHedgehog15 fell into a bottomless pit.
+<Xavier> i did tunes 11 and it said lump map1qm not fund
+Bluelight#3987 fell into a bottomless pit.
+<Bluelight#3987> 1q
+Vcl185 fell into a bottomless pit.
+<Xavier> tune name for air haven
+Xavier fell into a bottomless pit.
+<~ImpatientHedgehog15> Mine Maze Act 2\
+Vcl185 fell into a bottomless pit.
+<Bluelight#3987> MAP11M
+<Xavier> tune name for mine maze 2
+Vcl185 fell into a bottomless pit.
+<~ImpatientHedgehog15> roij0rj0jrt90ju0rhu0ut90rsd
+Vcl185 fell into a bottomless pit.
+Vcl185 fell into a bottomless pit.
+Bluelight#3987 fell into a bottomless pit.
+Vcl185 fell into a bottomless pit.
+ImpatientHedgehog15 fell into a bottomless pit.
+<Xavier> TUNE NAME FOR MINE MAZE ACT 2 HERE????
+Bluelight#3987 fell into a bottomless pit.
+Vcl185 fell into a bottomless pit.
+Before Srb2 was 3D fell into a bottomless pit.
+<Bluelight#3987> ITS MAP11M
+Vcl185 fell into a bottomless pit.
+Bluelight#3987 fell into a bottomless pit.
+Before Srb2 was 3D fell into a bottomless pit.
+Vcl185 fell into a bottomless pit.
+ImpatientHedgehog15 fell into a bottomless pit.
+Vcl185 fell into a bottomless pit.
+<Xavier> NOT WORKING
+Vcl185 fell into a bottomless pit.
+Before Srb2 was 3D fell into a bottomless pit.
+<~ImpatientHedgehog15> it's 14
+<Xavier> not working
+<Xavier> wait
+<Xavier> what the f****
+ImpatientHedgehog15 fell into a bottomless pit.
+*Before Srb2 was 3D left the game
+Vcl185 fell into a bottomless pit.
+<Xavier> how is this possible
+*Before Srb2 was 3D has rejoined the game (player 4)
+Before Srb2 was 3D fell into a bottomless pit.
+Vcl185 fell into a bottomless pit.
+<Bluelight#3987> I think you named the file just "D_11"
+ImpatientHedgehog15's thrown ring hit Chripsy marriage.
+Chripsy marriage is now IT!
+All players have been tagged!
+The round has ended.
+<Chripsy marriage> bruh
+<Before Srb2 was 3D> HOW!?
+<~ImpatientHedgehog15> yes i did
+<~ImpatientHedgehog15> no
+<Bluelight#3987> Rename it to MAP11M
+Speeding off to level...
+Map is now "MAP77: Airborne Temple Zone"
+Xavier is now IT!
+<~ImpatientHedgehog15> IT"S D_14
+Xavier died.
+Xavier became a spectator.
+Chripsy marriage is now IT!
+Xavier entered the game.
+Chripsy marriage died.
+Chripsy marriage became a spectator.
+ImpatientHedgehog15 is now IT!
+Chripsy marriage entered the game.
+ImpatientHedgehog15's thrown ring hit Vcl185.
+Vcl185 is now IT!
+<Vcl185> OH COME ON-
+ImpatientHedgehog15's thrown ring hit Chripsy marriage.
+Chripsy marriage is now IT!
+Chripsy marriage's thrown ring hit Bluelight#3987.
+Bluelight#3987 is now IT!
+<Xavier> i think bwfore srb2 was 3d is making this noise
+<Xavier> before*
+<Bluelight#3987> who
+ImpatientHedgehog15's thrown ring hit Xavier.
+Xavier is now IT!
+<Xavier> BITCH
+<~ImpatientHedgehog15> yes
+<~ImpatientHedgehog15> oooh
+<~ImpatientHedgehog15> should we do hide and seek in the normal levels?
+<Bluelight#3987> Where's UNO? We have DOS
+<Xavier> FUCKING BITCH I WAS HIDING
+<Bluelight#3987> But
+<Bluelight#3987> WHERER'S TRES
+<Bluelight#3987> OR CUATRO
+<Xavier> can we do  tag in normal levels
+<Bluelight#3987> OR CINCO
+<~ImpatientHedgehog15> what
+<Xavier> tag in normal levels
+<Bluelight#3987> He did not understand my spanish joke
+Chripsy marriage's thrown ring hit Before Srb2 was 3D.
+Before Srb2 was 3D is now IT!
+All players have been tagged!
+The round has ended.
+<Chripsy marriage> gotem
+<Before Srb2 was 3D> I WIN
+<Bluelight#3987> lol
+<Before Srb2 was 3D> 1st Place
+<~ImpatientHedgehog15> Tag is problamatic for big levels
+Speeding off to level...
+Map is now "MAP78: Grass Plateau Zone"
+Vcl185 is now IT!
+Vcl185 died.
+Vcl185 became a spectator.
+ImpatientHedgehog15 is now IT!
+Vcl185 entered the game.
+<~ImpatientHedgehog15> rwtywr
+Resending game state to Chripsy marriage...
+Resending game state to Before Srb2 was 3D...
+Resending game state to Xavier...
+<~ImpatientHedgehog15> yrytrrt
+<~ImpatientHedgehog15> rtghd
+$csay rfegthotygeyhrfeyh
+Put notice #1 into the Noticeboard queue.
+= ~ImpatientHedgehog15 says =
+rfegthotygeyhrfeyh 
+Resending game state to Chripsy marriage...
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+Xavier is now IT!
+ImpatientHedgehog15 entered the game.
+Xavier died.
+Xavier became a spectator.
+Before Srb2 was 3D is now IT!
+Xavier entered the game.
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+Vcl185 is now IT!
+Vcl185 died.
+Vcl185 became a spectator.
+Xavier is now IT!
+Vcl185 is now IT!
+Before Srb2 was 3D is now IT!
+Before Srb2 was 3D entered the game.
+Xavier died.
+Xavier became a spectator.
+Xavier is now IT!
+Xavier entered the game.
+<Xavier> J8YERIEGCIBUHETHNUKDFIBHUDEFOUJIDFNJKD GUJIKD GOJIUDGONIHRGD NIOHRGNUIKGR4NIHE4GHNIKERGBUMHD GNUMHDRVKUYDRVUIHERHIONE 4GYNUOR GIOHNER GOUNHE GHIONDRV7H
+Before Srb2 was 3D's thrown ring hit Chripsy marriage.
+Chripsy marriage is now IT!
+Chripsy marriage's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15 is now IT!
+*Vcl185 left the game
+<Before Srb2 was 3D> BlueLight here's a hint: Press Alt and F4 to get admin
+<~ImpatientHedgehog15> no
+<~ImpatientHedgehog15> you have to type a password in
+<Chripsy marriage> im in android
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<Chripsy marriage> how do i get admin?
+<~ImpatientHedgehog15> passwords
+<Chripsy marriage> idk
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+<Bluelight#3987> android user
+<Xavier> whats your password so i can admjn
+<Bluelight#3987> lol no
+<Xavier> admin*
+<~ImpatientHedgehog15> I didn't set a password for this server yet\
+<Xavier> ok
+<Before Srb2 was 3D> BlueLight type quit admin in console
+<~ImpatientHedgehog15> because none of my admins are awake
+<Bluelight#3987> no
+Before Srb2 was 3D calls a vote "exitlevel"
+Xavier votes "YES".
+Chripsy marriage votes 'NO'.
+Before Srb2 was 3D votes "YES".
+Bluelight#3987 votes 'NO'.
+Bluelight#3987 received double points for surviving the round.
+The round has ended.
+<Bluelight#3987> I FUCKING WIN
+<~ImpatientHedgehog15> NICE
+<Chripsy marriage> ...
+Speeding off to level...
+Map is now "MAP79: Starlit Warehouse Zone"
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+Xavier is now IT!
+Xavier is now IT!
+ImpatientHedgehog15 entered the game.
+<Bluelight#3987> LMAO
+Before Srb2 was 3D entered the game.
+<Bluelight#3987> might go
+<~ImpatientHedgehog15> ok
+Xavier died.
+Xavier became a spectator.
+Chripsy marriage is now IT!
+Xavier entered the game.
+Xavier calls a vote "exitlevel"
+<Chripsy marriage> fuck
+Before Srb2 was 3D votes "YES".
+Chripsy marriage votes "YES".
+<Bluelight#3987> chicken nuggies
+Xavier votes "YES".
+Gametype was changed from Tag to Hide & Seek
+Speeding off to level...
+No player currently available to become IT. Awaiting available players.
+Map is now "MAP74: Zero Ring Zone"
+Point limit disabled
+Chripsy marriage entered the game.
+Before Srb2 was 3D entered the game.
+Before Srb2 was 3D is now IT!
+ImpatientHedgehog15 entered the game.
+Xavier entered the game.
+<Bluelight#3987> ZERORI
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+ImpatientHedgehog15 is now IT!
+Before Srb2 was 3D entered the game.
+<Bluelight#3987> 0RI
+Before Srb2 was 3D died.
+Before Srb2 was 3D became a spectator.
+$map map01
+WARNING: GREENFLOWER Zone 1 (MAP01) doesn't support Hide & Seek mode!
+(Use -force to override)
+Before Srb2 was 3D entered the game.
+$map map01 -force
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP01: GREENFLOWER Zone 1"
+Xavier is now IT!
+Xavier died.
+Xavier became a spectator.
+ImpatientHedgehog15 is now IT!
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+Before Srb2 was 3D is now IT!
+ImpatientHedgehog15 entered the game.
+WARNING: No Deathmatch starts in this map!
+Xavier entered the game.
+<Before Srb2 was 3D> WHAT!?
+Viewpoint: Xavier
+<Before Srb2 was 3D> WHAT HAPPEND
+Viewpoint: Before Srb2 was 3D
+<Chripsy marriage> boi
+Viewpoint: Chripsy marriage
+<Bluelight#3987> hey uh
+Viewpoint: Xavier
+Viewpoint: Before Srb2 was 3D
+Viewpoint: Chripsy marriage
+Viewpoint: ImpatientHedgehog15
+<Chripsy marriage> oof
+Viewpoint: Xavier
+Viewpoint: Before Srb2 was 3D
+<Bluelight#3987> The zero ring track is already in vanilla srb2
+<~ImpatientHedgehog15> yeah
+<Bluelight#3987> it's MP_0RI
+Xavier calls a vote "exitlevel"
+Chripsy marriage votes 'NO'.
+Before Srb2 was 3D votes 'NO'.
+$quitvote
+Unknown command 'quitvote'
+$cancelvote
+~ImpatientHedgehog15 forcibly cancelled the vote.
+<Xavier> :(
+<Before Srb2 was 3D> Me who doesn't want to tag anyone
+<~ImpatientHedgehog15> this isn't tag
+<Bluelight#3987> Ok gonna die
+*Bluelight#3987 left the game
+<~ImpatientHedgehog15> this is hide and seek
+<Chripsy marriage> hide n seek
+<Chripsy marriage> Before srb2 was 3d go find us
+*Before Srb2 was 3D renamed to Knuckles before 2.1
+<Chripsy marriage> ...
+*Classic Sonic has joined the game (player 2)
+<Chripsy marriage> oh no
+<Chripsy marriage> phew
+<~ImpatientHedgehog15> pffhahahahaha
+<Knuckles before 2.1> Wait was i close?
+<Chripsy marriage> shit!
+Knuckles before 2.1's thrown ring hit Chripsy marriage.
+Chripsy marriage was found!
+<Chripsy marriage> idiot
+Knuckles before 2.1's thrown ring hit Xavier.
+Xavier was found!
+Viewpoint: Xavier
+Viewpoint: Knuckles before 2.1
+Xavier calls a vote "exitlevel"
+$cancelvote
+~ImpatientHedgehog15 forcibly cancelled the vote.
+<Chripsy marriage> dangit i cant change to taiks
+<Chripsy marriage> tails
+<~ImpatientHedgehog15> do miles or xmastails
+<Chripsy marriage> and help im stuck
+<Chripsy marriage> xmss
+<Chripsy marriage> xmas
+<Xavier> why cancel
+<Knuckles before 2.1> Anybody has any hints on where the last player is?
+<~ImpatientHedgehog15> water
+<Chripsy marriage> in the water
+Xavier calls a vote "exitlevel"
+<Chripsy marriage> next to the token
+$vote no
+ImpatientHedgehog15 votes 'NO'.
+Chripsy marriage votes 'NO'.
+<~ImpatientHedgehog15> stop being so specific
+<Xavier> who?
+Knuckles before 2.1's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15 was found!
+All players have been tagged!
+The round has ended.
+WARNING: Can't find a compatible map after map 1; using map 2 anyway
+<~ImpatientHedgehog15> ok
+<~ImpatientHedgehog15> i wonder
+<Knuckles before 2.1> HOW AM I IN 4TH PLACE!?
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP02: GREENFLOWER Zone 2"
+Knuckles before 2.1 is now IT!
+Classic Sonic entered the game.
+$map map50 -force
+Speeding off to level...
+ERROR: Music MAPB0M could not be loaded: lump not found!
+WARNING: No Deathmatch starts in this map!
+ERROR: Music MAPB0M could not be loaded: lump not found!
+Map is now "MAP50: Floral Field Zone"
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/unlist'...
+Server deregistration request successfully sent.
+
+Process killed by signal: SIGSEGV - segment violation
+
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

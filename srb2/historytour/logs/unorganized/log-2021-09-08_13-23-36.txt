@@ -1,0 +1,1537 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-09-08_13-23-36.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\admin.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\admin.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "whois"
+Added command "die"
+Added command "goto"
+Added command "super"
+Added command "rings"
+Added command "lives"
+Added command "shoes"
+Added command "invuln"
+Added command "flower"
+Added command "shield"
+Added command "print"
+Added command "dofor"
+Added command "rally"
+Added command "nuke"
+Added command "kill"
+Added command "adminhelp"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\banskins.lua
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_AltSonic-v7.6b.pk3 (477 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_AltSonic-v7.6b.pk3|Lua/LUA_ALTCOLORHANDLER
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_AltSonic-v7.6b.pk3|Lua/LUA_ALTMAIN
+MobjType MT_ALTSPARKLES allocated.
+State S_ASPARKLES1 allocated.
+State S_ASPARKLES2 allocated.
+State S_ASPARKLES3 allocated.
+State S_ASPARKLES4 allocated.
+State S_ASPARKLES5 allocated.
+State S_ASPARKLES6 allocated.
+State S_ASPARKLES7 allocated.
+State S_ASPARKLES8 allocated.
+State S_ASPARKLES9 allocated.
+State S_ASPARKLES10 allocated.
+State S_ASPARKLES11 allocated.
+State S_ASPARKLES12 allocated.
+State S_ASPARKLES13 allocated.
+State S_ASPARKLES14 allocated.
+State S_ASPARKLES15 allocated.
+Sprite SPR_ASPK allocated.
+MobjType MT_ALTSSPARKLES allocated.
+State S_ASSPARKLES1 allocated.
+State S_ASSPARKLES2 allocated.
+State S_ASSPARKLES3 allocated.
+State S_ASSPARKLES4 allocated.
+State S_ASSPARKLES5 allocated.
+State S_ASSPARKLES6 allocated.
+State S_ASSPARKLES7 allocated.
+State S_ASSPARKLES8 allocated.
+State S_ASSPARKLES9 allocated.
+Sprite SPR_ASSP allocated.
+State S_PLAY_SUPERDASH allocated.
+State S_PLAY_HYPER_TRANS allocated.
+State S_PLAY_HYPER_TRANSEND allocated.
+Sprite SPR2_SDSH allocated.
+Sprite SPR2_HTRN allocated.
+Sound sfx_sdsh allocated.
+Sound sfx_ispn allocated.
+Sound sfx_aspn allocated.
+Sound sfx_chrg allocated.
+Sound sfx_astp allocated.
+Sound sfx_atwn allocated.
+Sound sfx_adsh allocated.
+Sound sfx_abom allocated.
+Sound sfx_ahom allocated.
+Sound sfx_hypert allocated.
+State S_ALTSHOCKWAVE1 allocated.
+State S_ALTSHOCKWAVE2 allocated.
+State S_ALTSHOCKWAVE3 allocated.
+State S_ALTSHOCKWAVE4 allocated.
+State S_ALTSHOCKWAVE5 allocated.
+Sprite SPR_SCKW allocated.
+MobjType MT_ALTSHOCKWAVE allocated.
+Added command "legacymode"
+Added command "altquakes"
+Added command "hypermusic"
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_AltSonic-v7.6b.pk3|Lua/LUA_ALTCOLORS
+Skincolor SKINCOLOR_SUPER_ALTGOLD_1 allocated.
+Skincolor SKINCOLOR_SUPER_ALTGOLD_2 allocated.
+Skincolor SKINCOLOR_SUPER_ALTGOLD_3 allocated.
+Skincolor SKINCOLOR_SUPER_ALTGOLD_4 allocated.
+Skincolor SKINCOLOR_SUPER_ALTGOLD_5 allocated.
+Skincolor SKINCOLOR_SUPER_HYPER_1 allocated.
+Skincolor SKINCOLOR_SUPER_HYPER_2 allocated.
+Skincolor SKINCOLOR_SUPER_HYPER_3 allocated.
+Skincolor SKINCOLOR_SUPER_HYPER_4 allocated.
+Skincolor SKINCOLOR_SUPER_HYPER_5 allocated.
+Skincolor SKINCOLOR_ALTBLUE allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_AltSonic-v7.6b.pk3|Lua/LUA_ALTMISC
+MobjType MT_SDMPARTICLES allocated.
+State S_SDMPARTICLES1 allocated.
+State S_SDMPARTICLES2 allocated.
+State S_SDMPARTICLES3 allocated.
+State S_SDMPARTICLES4 allocated.
+Sprite SPR_SDMP allocated.
+MobjType MT_TRNSEMMY1 allocated.
+MobjType MT_TRNSEMMY2 allocated.
+MobjType MT_TRNSEMMY3 allocated.
+MobjType MT_TRNSEMMY4 allocated.
+MobjType MT_TRNSEMMY5 allocated.
+MobjType MT_TRNSEMMY6 allocated.
+MobjType MT_TRNSEMMY7 allocated.
+State S_TRNSEMMY1A allocated.
+State S_TRNSEMMY1B allocated.
+State S_TRNSEMMY1C allocated.
+State S_TRNSEMMY1D allocated.
+State S_TRNSEMMY2A allocated.
+State S_TRNSEMMY2B allocated.
+State S_TRNSEMMY2C allocated.
+State S_TRNSEMMY2D allocated.
+State S_TRNSEMMY3A allocated.
+State S_TRNSEMMY3B allocated.
+State S_TRNSEMMY3C allocated.
+State S_TRNSEMMY3D allocated.
+State S_TRNSEMMY4A allocated.
+State S_TRNSEMMY4B allocated.
+State S_TRNSEMMY4C allocated.
+State S_TRNSEMMY4D allocated.
+State S_TRNSEMMY5A allocated.
+State S_TRNSEMMY5B allocated.
+State S_TRNSEMMY5C allocated.
+State S_TRNSEMMY5D allocated.
+State S_TRNSEMMY6A allocated.
+State S_TRNSEMMY6B allocated.
+State S_TRNSEMMY6C allocated.
+State S_TRNSEMMY6D allocated.
+State S_TRNSEMMY7A allocated.
+State S_TRNSEMMY7B allocated.
+State S_TRNSEMMY7C allocated.
+State S_TRNSEMMY7D allocated.
+Sprite SPR_ASEM allocated.
+MobjType MT_STRNSEMMY1 allocated.
+MobjType MT_STRNSEMMY2 allocated.
+MobjType MT_STRNSEMMY3 allocated.
+MobjType MT_STRNSEMMY4 allocated.
+MobjType MT_STRNSEMMY5 allocated.
+MobjType MT_STRNSEMMY6 allocated.
+MobjType MT_STRNSEMMY7 allocated.
+State S_STRNSEMMY1A allocated.
+State S_STRNSEMMY1B allocated.
+State S_STRNSEMMY1C allocated.
+State S_STRNSEMMY1D allocated.
+State S_STRNSEMMY2A allocated.
+State S_STRNSEMMY2B allocated.
+State S_STRNSEMMY2C allocated.
+State S_STRNSEMMY2D allocated.
+State S_STRNSEMMY3A allocated.
+State S_STRNSEMMY3B allocated.
+State S_STRNSEMMY3C allocated.
+State S_STRNSEMMY3D allocated.
+State S_STRNSEMMY4A allocated.
+State S_STRNSEMMY4B allocated.
+State S_STRNSEMMY4C allocated.
+State S_STRNSEMMY4D allocated.
+State S_STRNSEMMY5A allocated.
+State S_STRNSEMMY5B allocated.
+State S_STRNSEMMY5C allocated.
+State S_STRNSEMMY5D allocated.
+State S_STRNSEMMY6A allocated.
+State S_STRNSEMMY6B allocated.
+State S_STRNSEMMY6C allocated.
+State S_STRNSEMMY6D allocated.
+State S_STRNSEMMY7A allocated.
+State S_STRNSEMMY7B allocated.
+State S_STRNSEMMY7C allocated.
+State S_STRNSEMMY7D allocated.
+MobjType MT_EMMYSPARKLES allocated.
+Sprite SPR2_LAFF allocated.
+State S_PLAY_ALTLAUGH allocated.
+Sprite SPR2_SINS allocated.
+State S_PLAY_SINSLAUGH allocated.
+Sound sfx_sins allocated.
+Sound sfx_mike allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_AltSonic-v7.6b.pk3|SOC/SOC_PLAY
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_AltSonic-v7.6b.pk3|SOC/OBJCTCFG
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_AltSonic-v7.6b.pk3|SOC/SOC_XMOM
+CL_AltSonic-v7.6b.pk3 added 32 frames in 5 sprites
+Added skin 'altsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_Bandages-v1.2.pk3 (416 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_Bandages-v1.2.pk3|Lua/LUA_BOOM.lua
+State S_PLAY_BANDAGEFLIP allocated.
+State S_PLAY_BANDAGEEAGLE1 allocated.
+State S_PLAY_BANDAGEEAGLE2 allocated.
+State S_PLAY_BANDAGEEAGLE3 allocated.
+Sprite SPR_BNLK allocated.
+State S_BANDAGE_LOCKON allocated.
+Sound sfx_bndaim allocated.
+State S_PLAY_SHIT allocated.
+MobjType MT_BANDAGES_LEGACY allocated.
+MobjType MT_ENERBEAMHELPER allocated.
+State S_ENERBEAMHELPER allocated.
+Added command "enerbeampoint"
+Added command "badnikdeletus"
+Added command "legacyisreal2401"
+MobjType MT_ENERBEAMPOINT allocated.
+State S_ENERBEAMPOINT allocated.
+Added command "secretcommand"
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_Bandages-v1.2.pk3|Lua/LUA_FROSTII
+Sound sfx_bpad1 allocated.
+Sound sfx_bpad2 allocated.
+Sound sfx_bpad3 allocated.
+Sound sfx_brng1 allocated.
+Sound sfx_brng2 allocated.
+Sound sfx_brng3 allocated.
+Sound sfx_brng4 allocated.
+Sound sfx_brng5 allocated.
+Sound sfx_brng6 allocated.
+Sound sfx_brng7 allocated.
+Sound sfx_brng8 allocated.
+Sound sfx_brng9 allocated.
+Sound sfx_bsds1 allocated.
+Sound sfx_bsds2 allocated.
+Sound sfx_bsds3 allocated.
+Sound sfx_bsds4 allocated.
+Sound sfx_bsds5 allocated.
+Sound sfx_bsds6 allocated.
+Sound sfx_bsds7 allocated.
+Sound sfx_bene1 allocated.
+Sound sfx_bene2 allocated.
+Sound sfx_bene3 allocated.
+Sound sfx_bene4 allocated.
+Sound sfx_bene5 allocated.
+Sound sfx_bene6 allocated.
+Sound sfx_bene7 allocated.
+Sound sfx_bene8 allocated.
+Sound sfx_bene9 allocated.
+Sound sfx_bnow1 allocated.
+Sound sfx_bnow2 allocated.
+Sound sfx_bnow3 allocated.
+Sound sfx_bnow4 allocated.
+Sound sfx_bnow5 allocated.
+Sound sfx_bdie1 allocated.
+Sound sfx_bdie2 allocated.
+Sound sfx_bdie3 allocated.
+Sound sfx_bdie4 allocated.
+Sound sfx_bvic1 allocated.
+Sound sfx_bvic2 allocated.
+Sound sfx_bvic3 allocated.
+Sound sfx_bvic4 allocated.
+Sound sfx_bvic5 allocated.
+Sound sfx_bvic6 allocated.
+Sound sfx_bvic7 allocated.
+Sound sfx_bvic8 allocated.
+Sound sfx_bvic9 allocated.
+Sound sfx_bvic10 allocated.
+Sound sfx_bvic11 allocated.
+Sound sfx_bwin1 allocated.
+Sound sfx_bwin2 allocated.
+Sound sfx_bwin3 allocated.
+Sound sfx_bwin4 allocated.
+Sound sfx_bwin5 allocated.
+Sound sfx_bwin6 allocated.
+Sound sfx_bwin7 allocated.
+Sound sfx_bwin8 allocated.
+Sound sfx_bwin9 allocated.
+Sound sfx_bwin10 allocated.
+Sound sfx_bwin11 allocated.
+Sound sfx_bramp allocated.
+Added command "bandagevoice"
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_Bandages-v1.2.pk3|SOC/SOC_PLAY
+CL_Bandages-v1.2.pk3 added 1 frames in 1 sprites
+Added skin 'bandages'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_Xtreme-v1.4.1.pk3 (604 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_Xtreme-v1.4.1.pk3|LUA/LUA_XSON
+State S_XSONIC_SPINSLASH allocated.
+State S_XSONIC_SPINSLASH2 allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_Xtreme-v1.4.1.pk3|SOC/SOC_XSON
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\CL_Xtreme-v1.4.1.pk3|SOC/MAINCFG.soc
+Added skin 'xtreme'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\C_Thokles-V1.1.pk3 (345 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\C_Thokles-V1.1.pk3|Lua/LUA_THOK
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\C_Thokles-V1.1.pk3|Lua/LUA_COMP
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\C_Thokles-V1.1.pk3|SOC/SOC_THOK
+Added skin 'thokles'
+Added skin 'oldthox'
+No maps added
+Errors occurred while loading addfile; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\levels.wad (83 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\levels.wad
+MAP01
+MAP02
+MAP04
+MAP05
+MAP07
+MAP10
+MAP11
+MAP08
+executing C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\New Text Document.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: ...o Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ...o Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua:1697: in function <...o Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua:1662>
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_JunioSonic-v1.2.pk3 (213 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_JunioSonic-v1.2.pk3|lua/CONFIG.lua
+Sprite SPR_AIDU allocated.
+State S_KICKDUST allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_JunioSonic-v1.2.pk3|lua/PEELOUT.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_JunioSonic-v1.2.pk3|lua/IO.lua
+Added command "dashinvert"
+Added command "dashinvert2"
+Added command "freeaim"
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_JunioSonic-v1.2.pk3|lua/Freedom.lua
+State S_PLAY_ROLL1_1 allocated.
+State S_PLAY_ROLL1_2 allocated.
+State S_PLAY_ROLL1_3 allocated.
+State S_PLAY_ROLL1_4 allocated.
+State S_PLAY_ROLL2_1 allocated.
+State S_PLAY_ROLL2_2 allocated.
+State S_PLAY_ROLL2_3 allocated.
+State S_PLAY_ROLL2_4 allocated.
+State S_PLAY_ROLL3_1 allocated.
+State S_PLAY_ROLL3_2 allocated.
+State S_PLAY_ROLL3_3 allocated.
+State S_PLAY_ROLL3_4 allocated.
+State S_PLAY_ROLL4_1 allocated.
+State S_PLAY_ROLL4_2 allocated.
+State S_PLAY_ROLL4_3 allocated.
+State S_PLAY_ROLL4_4 allocated.
+Sound sfx_spnwnd allocated.
+Sound sfx_tdash allocated.
+Sound sfx_plchrg allocated.
+Sound sfx_plrles allocated.
+Sound sfx_tcurl allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_JunioSonic-v1.2.pk3|soc/OBJCTCFG
+VCL_JunioSonic-v1.2.pk3 added 6 frames in 1 sprites
+Added skin 'juniosonic'
+No maps added
+Errors occurred while loading addfile; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3 (981 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/ModernSonic.lua
+Sound sfx_chkbst allocated.
+Sound sfx_drift allocated.
+Sound sfx_dhurt1 allocated.
+Sound sfx_dhurt2 allocated.
+Sound sfx_dhurt3 allocated.
+Sound sfx_rhurt1 allocated.
+Sound sfx_rhurt2 allocated.
+Sound sfx_rjhurt3 allocated.
+Sound sfx_ahurt1 allocated.
+Sound sfx_ahurt2 allocated.
+Sound sfx_ahurt3 allocated.
+Sound sfx_jhurt1 allocated.
+Sound sfx_jhurt2 allocated.
+Sound sfx_jhurt3 allocated.
+Sound sfx_dready allocated.
+Sound sfx_aready allocated.
+Sound sfx_rready allocated.
+Sound sfx_jready allocated.
+Sound sfx_rgo allocated.
+Sound sfx_engygn allocated.
+Sound sfx_taunt1 allocated.
+Sound sfx_taunt2 allocated.
+Sound sfx_taunt3 allocated.
+Sound sfx_taunt4 allocated.
+Sound sfx_crowd1 allocated.
+Sound sfx_crowd2 allocated.
+Sound sfx_crowd3 allocated.
+Sound sfx_crowd4 allocated.
+Sound sfx_rstrck allocated.
+Sound sfx_rdgo allocated.
+Sound sfx_yeaa allocated.
+Sound sfx_huhj allocated.
+Sound sfx_woahj allocated.
+Sound sfx_hehj allocated.
+Sound sfx_wooj allocated.
+Sound sfx_hyehj allocated.
+Sound sfx_goj allocated.
+Sound sfx_yeowj allocated.
+Sound sfx_goodj allocated.
+Sound sfx_tricks allocated.
+Sound sfx_trickg allocated.
+Sound sfx_tricke allocated.
+Sound sfx_rslose allocated.
+Sound sfx_rsgain allocated.
+Sound sfx_itemu2 allocated.
+Sound sfx_itemu3 allocated.
+Sound sfx_itemu1 allocated.
+Sound sfx_mthok allocated.
+Sound sfx_mthokw allocated.
+Sound sfx_homing allocated.
+Sound sfx_spsh allocated.
+Sound sfx_wodlnd allocated.
+Sound sfx_cnclnd allocated.
+Sound sfx_drtlnd allocated.
+Sound sfx_mtllnd allocated.
+Sound sfx_grslnd allocated.
+Sound sfx_wtrlnd allocated.
+Sound sfx_wtrbrk allocated.
+Sound sfx_watr1 allocated.
+Sound sfx_watr2 allocated.
+Sound sfx_watr3 allocated.
+Sound sfx_watr4 allocated.
+Sound sfx_watr5 allocated.
+Sound sfx_grsbrk allocated.
+Sound sfx_mtlbrk allocated.
+Sound sfx_wodbrk allocated.
+Sound sfx_cncbrk allocated.
+Sound sfx_drtbrk allocated.
+Sound sfx_wood1 allocated.
+Sound sfx_wood2 allocated.
+Sound sfx_wood3 allocated.
+Sound sfx_wood4 allocated.
+Sound sfx_wood5 allocated.
+Sound sfx_dirt1 allocated.
+Sound sfx_dirt2 allocated.
+Sound sfx_dirt3 allocated.
+Sound sfx_dirt4 allocated.
+Sound sfx_dirt5 allocated.
+Sound sfx_conct1 allocated.
+Sound sfx_conct2 allocated.
+Sound sfx_conct3 allocated.
+Sound sfx_conct4 allocated.
+Sound sfx_conct5 allocated.
+Sound sfx_grass1 allocated.
+Sound sfx_grass2 allocated.
+Sound sfx_grass3 allocated.
+Sound sfx_grass4 allocated.
+Sound sfx_grass5 allocated.
+Sound sfx_metal1 allocated.
+Sound sfx_metal2 allocated.
+Sound sfx_metal3 allocated.
+Sound sfx_metal4 allocated.
+Sound sfx_metal5 allocated.
+Sound sfx_hm2 allocated.
+Sound sfx_hahh allocated.
+Sound sfx_bstawy allocated.
+Sound sfx_yah allocated.
+Sound sfx_huut allocated.
+Sound sfx_hitt allocated.
+Sound sfx_catch allocated.
+Sound sfx_allrt allocated.
+Sound sfx_yes allocated.
+Sound sfx_hih allocated.
+Sound sfx_hutt allocated.
+Sound sfx_hett allocated.
+Sound sfx_hah allocated.
+Sound sfx_yea allocated.
+Sound sfx_hat allocated.
+Sound sfx_hit allocated.
+Sound sfx_haah allocated.
+Sound sfx_hut allocated.
+Sound sfx_mtexp1 allocated.
+Sound sfx_mtexp2 allocated.
+Sound sfx_mthit1 allocated.
+Sound sfx_mthit2 allocated.
+Sound sfx_mthit3 allocated.
+Sound sfx_glss1 allocated.
+Sound sfx_glss2 allocated.
+Sound sfx_glss3 allocated.
+Sound sfx_glslnd allocated.
+Sound sfx_glsbrk allocated.
+Sound sfx_mjump allocated.
+Sound sfx_silenc allocated.
+Sound sfx_yeow allocated.
+Sound sfx_sldst allocated.
+Sound sfx_sldng allocated.
+Sound sfx_lsd allocated.
+Sound sfx_lsdw allocated.
+Sound sfx_flgood allocated.
+Sound sfx_jumpwt allocated.
+Sound sfx_airspn allocated.
+Sound sfx_spnwtr allocated.
+Sound sfx_heh allocated.
+Sound sfx_boost2 allocated.
+Sound sfx_boost3 allocated.
+Sound sfx_boost4 allocated.
+Sound sfx_wtbst1 allocated.
+Sound sfx_wtbst4 allocated.
+Sound sfx_wtbst3 allocated.
+Sound sfx_wtbst2 allocated.
+Sound sfx_huh allocated.
+Sound sfx_woah allocated.
+Sound sfx_boost1 allocated.
+Sound sfx_go allocated.
+Sound sfx_hyeh allocated.
+Sound sfx_woo allocated.
+Sound sfx_stmps allocated.
+Sound sfx_stmpg allocated.
+Sound sfx_stmpsw allocated.
+Sound sfx_stmpgw allocated.
+MobjType MT_BOOSTSPARKLE allocated.
+MobjType MT_ANCIENTLIGHT allocated.
+MobjType MT_BOOSTENERGY allocated.
+MobjType MT_MSBOOSTAURA allocated.
+MobjType MT_FAKEEMMY allocated.
+MobjType MT_MODERNRETICLE allocated.
+MobjType MT_RINGRANGE allocated.
+MobjType MT_BOOSTSHOCKWAVE allocated.
+MobjType MT_FAKEAURA allocated.
+State S_PLAY_GRND allocated.
+State S_PLAY_MODERNGRIND allocated.
+State S_PLAY_WALLCLING allocated.
+State S_PLAY_TAUNT allocated.
+State S_PLAY_CROUCH2 allocated.
+State S_PLAY_CROUCH1 allocated.
+State S_FAKEEMMY allocated.
+State S_PLAY_SLIDE allocated.
+State S_PLAY_LDSH allocated.
+State S_PLAY_LDSH2 allocated.
+State S_PLAY_BOOSTRUN allocated.
+State S_PLAY_AIRBOOST allocated.
+State S_PLAY_HOP allocated.
+State S_PLAY_HOPFALL allocated.
+Sprite SPR2_GRND allocated.
+Sprite SPR_CLNG allocated.
+Sprite SPR_TSPK allocated.
+Sprite SPR2_TANT allocated.
+Sprite SPR2_CRCH allocated.
+Sprite SPR2_SLID allocated.
+Sprite SPR2_AIRB allocated.
+Sprite SPR2_SPNR allocated.
+Sprite SPR2_TCK1 allocated.
+Sprite SPR2_TCK2 allocated.
+Sprite SPR2_TCK3 allocated.
+Sprite SPR2_TCK4 allocated.
+Sprite SPR2_TCK5 allocated.
+Sprite SPR2_TCK6 allocated.
+Sprite SPR2_TCK7 allocated.
+Sprite SPR2_TCK8 allocated.
+Sprite SPR2_TCK9 allocated.
+Sprite SPR2_TCKA allocated.
+Sprite SPR2_TCKB allocated.
+Sprite SPR2_TCKC allocated.
+Sprite SPR2_TCKD allocated.
+Sprite SPR2_TCKE allocated.
+Sprite SPR2_TCKF allocated.
+Sprite SPR2_TCKG allocated.
+State S_PLAY_TRICK1_1 allocated.
+State S_PLAY_TRICK1_2 allocated.
+State S_PLAY_TRICK1_3 allocated.
+State S_PLAY_TRICK2_1 allocated.
+State S_PLAY_TRICK2_2 allocated.
+State S_PLAY_TRICK2_3 allocated.
+State S_PLAY_TRICK2_4 allocated.
+State S_PLAY_TRICK3_1 allocated.
+State S_PLAY_TRICK3_2 allocated.
+State S_PLAY_TRICK3_3 allocated.
+State S_PLAY_TRICK3_4 allocated.
+State S_PLAY_TRICK4_1 allocated.
+State S_PLAY_TRICK4_2 allocated.
+State S_PLAY_TRICK4_3 allocated.
+State S_PLAY_TRICK4_4 allocated.
+State S_PLAY_TRICK5_1 allocated.
+State S_PLAY_TRICK5_2 allocated.
+State S_PLAY_TRICK5_3 allocated.
+State S_PLAY_TRICK5_4 allocated.
+State S_PLAY_TRICK6_1 allocated.
+State S_PLAY_TRICK6_2 allocated.
+State S_PLAY_TRICK6_3 allocated.
+State S_PLAY_TRICK6_4 allocated.
+State S_PLAY_TRICK7_1 allocated.
+State S_PLAY_TRICK7_2 allocated.
+State S_PLAY_TRICK7_3 allocated.
+State S_PLAY_TRICK7_4 allocated.
+State S_PLAY_TRICK8_1 allocated.
+State S_PLAY_TRICK8_2 allocated.
+State S_PLAY_TRICK8_3 allocated.
+State S_PLAY_TRICK8_4 allocated.
+State S_PLAY_TRICK9_1 allocated.
+State S_PLAY_TRICK9_2 allocated.
+State S_PLAY_TRICK9_3 allocated.
+State S_PLAY_TRICK9_4 allocated.
+State S_PLAY_TRICK10_1 allocated.
+State S_PLAY_TRICK10_2 allocated.
+State S_PLAY_TRICK10_3 allocated.
+State S_PLAY_TRICK10_4 allocated.
+State S_PLAY_TRICK11_1 allocated.
+State S_PLAY_TRICK11_2 allocated.
+State S_PLAY_TRICK11_3 allocated.
+State S_PLAY_TRICK11_4 allocated.
+State S_PLAY_TRICK12_1 allocated.
+State S_PLAY_TRICK12_2 allocated.
+State S_PLAY_TRICK12_3 allocated.
+State S_PLAY_TRICK12_4 allocated.
+State S_PLAY_TRICK13_1 allocated.
+State S_PLAY_TRICK13_2 allocated.
+State S_PLAY_TRICK13_3 allocated.
+State S_PLAY_TRICK13_4 allocated.
+State S_PLAY_TRICK14_1 allocated.
+State S_PLAY_TRICK14_2 allocated.
+State S_PLAY_TRICK14_3 allocated.
+State S_PLAY_TRICK14_4 allocated.
+State S_PLAY_TRICK15_1 allocated.
+State S_PLAY_TRICK15_2 allocated.
+State S_PLAY_TRICK15_3 allocated.
+State S_PLAY_TRICK15_4 allocated.
+State S_PLAY_TRICK16_1 allocated.
+State S_PLAY_TRICK16_2 allocated.
+State S_PLAY_TRICK16_3 allocated.
+State S_PLAY_TRICK16_4 allocated.
+State S_PLAY_TRICKE_1 allocated.
+State S_PLAY_TRICKE_2 allocated.
+State S_PLAY_TRICKEND allocated.
+State S_PLAY_TRICKE_3 allocated.
+Skincolor SKINCOLOR_LAPIS allocated.
+Added command "footsteps"
+Added command "footsteps2"
+Added command "modernfov"
+Added command "modernfov2"
+Added command "voices"
+Added command "voices2"
+Added command "hudstyle"
+Added command "hudstyle2"
+Added command "homingattack"
+Added command "homingattack2"
+Added command "actionswap"
+Added command "actionswap2"
+Added command "supermusic"
+Added command "poses"
+Added command "poses2"
+Added command "rushglow"
+Added command "rushglow2"
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|SOC/MAINCFG
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|SOC/OBJCTCFG
+VCL_ModernSonic-V5.01.pk3 added 70 frames in 8 sprites
+Added skin 'modernsonic'
+No maps added
+WARNING: Already processed addfile, skipping
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_NeoSonic-v1.13.pk3 (331 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_NeoSonic-v1.13.pk3|Lua/LUA_MSFX.txt
+Sprite SPR_MSBO allocated.
+MobjType MT_MSSBOOM allocated.
+State S_MSSBOOM allocated.
+State S_MSSBOOM2 allocated.
+State S_MSSBOOM3 allocated.
+State S_MSSBOOM4 allocated.
+State S_MSSBOOM5 allocated.
+Sprite SPR_MSWV allocated.
+MobjType MT_MSWAVE allocated.
+State S_MSWAVE allocated.
+Sprite SPR_BSMD allocated.
+MobjType MT_MSBSMDL allocated.
+State S_MSBSMDL allocated.
+Sprite SPR_MHTK allocated.
+MobjType MT_MHTK allocated.
+State S_MHTK allocated.
+Sprite SPR_MHTW allocated.
+MobjType MT_MHTW allocated.
+State S_MHTW allocated.
+Sprite SPR_MHTS allocated.
+MobjType MT_MHTS allocated.
+State S_MHTS allocated.
+Sound sfx_sshpop allocated.
+Sprite SPR_MRET allocated.
+State S_MSON_MLOCK allocated.
+Sprite SPR_MRTW allocated.
+State S_MSON_MLKW allocated.
+Sprite SPR_MRTS allocated.
+State S_MSON_MLKS allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_NeoSonic-v1.13.pk3|Lua/LUA_MABL.txt
+State S_PLAY_JUMP_STRT1 allocated.
+State S_PLAY_JUMP_STRT2 allocated.
+State S_PLAY_HTHOK_JUMP1 allocated.
+State S_PLAY_HTHOK_JUMP2 allocated.
+State S_PLAY_HTHOK_JUMP3 allocated.
+State S_PLAY_HTHOK_JUMP4 allocated.
+State S_PLAY_HTHOK_DASH1 allocated.
+State S_PLAY_HTHOK_DASH2 allocated.
+State S_PLAY_HTHOK_DASH3 allocated.
+State S_PLAY_HTHOK_HJMP1 allocated.
+State S_PLAY_HTHOK_HJMP2 allocated.
+State S_PLAY_SPNG_SPIN1 allocated.
+State S_PLAY_SPNG_SPIN2 allocated.
+State S_PLAY_MSON_SKID allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_NeoSonic-v1.13.pk3|Lua/LUA_MSMC.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_NeoSonic-v1.13.pk3|SOC/OBJCTCFG.SOC
+VCL_NeoSonic-v1.13.pk3 added 40 frames in 10 sprites
+Added skin 'msonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_SRBii-v1.0.1 (1).pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_SRBii-v1.0.1 (1).pk3|lua/LUA_ROSYHUG
+State S_PLAY_SRBIIHUG allocated.
+State S_THREEDEEHEART allocated.
+Sprite SPR_SRHG allocated.
+Sprite SPR_HRBI allocated.
+Sprite SPR2_HUGJ allocated.
+Sound sfx_ded allocated.
+Sound sfx_hugst allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_SRBii-v1.0.1 (1).pk3|lua/LUA_FROSTII
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VCL_SRBii-v1.0.1 (1).pk3|SOC/MAINCFG
+VCL_SRBii-v1.0.1 (1).pk3 added 4 frames in 3 sprites
+Added skin 'srbii'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\SRB2 Gimmicked\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Gametype was changed from Co-op to Competition
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP10: Castle Eggman Zone"
+Time limit disabled
+Bullet Dash aiming is now default.
+Bullet Dash aiming is now Input Aim.
+Voice actor has been changed to Jason Griffith.
+Footstep sounds have been enabled.
+HomingAttack Enabled.
+Posing after a HomingAttack is Enabled.
+Action Swap is disabled.
+Super music is Custom.
+Dynamic FOV Enabled.
+$maxsend max
+*gianni has joined the game (player 1)
+WARNING: ...o Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ...o Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua:1335: in function '?'
+    ...o Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ...o Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua:1608: in function <...o Blast 2\2.2.9\SRB2 Gimmicked\utility-v0.3b (1).lua:1582>
+<gianni> hello
+<~ImpatientHedgehog15> hi
+$suicide
+*Danix has joined the game (player 2)
+<Danix> sup
+<gianni> how o i make srb2 ports and remake level design
+<gianni> how
+<~ImpatientHedgehog15> You extract the wads from Zones.PK3
+<gianni> what o i use
+<~ImpatientHedgehog15> and edit them with Zone Builder and Slade
+<gianni> so rename them
+*Sonic has joined the game (player 3)
+<~ImpatientHedgehog15> follow some totorials
+<gianni> k
+*sonic lost world has joined the game (player 4)
+<~ImpatientHedgehog15> for zone builder
+<sonic lost world> hi
+<~ImpatientHedgehog15> hi
+<gianni> what do i use to extracked
+<~ImpatientHedgehog15> Slade
+<gianni> how
+<sonic lost world> slade
+<gianni> oh yeah
+*blizzered has joined the game (player 5)
+*Sonic left the game
+<gianni> slade uses pk3 not wads
+<~ImpatientHedgehog15> You open the PK3 in slade and the files that are shown  are the level wads
+*Sonic has rejoined the game (player 3)
+<sonic lost world> mod slade
+Resending game state to Danix...
+<~ImpatientHedgehog15> what
+<sonic lost world> slade
+*Sonic left the game
+*blizzered renamed to colors sonic
+<gianni> so just open the zone.pk3 with slae
+<gianni> soun ez
+*gianni left the game
+<~ImpatientHedgehog15> yep and save the WADs inside the folder to yourcomputer
+<~ImpatientHedgehog15> uh oh
+Resending game state to Danix...
+Danix has completed the level.
+<colors sonic> or if youre lazy like join people who have them
+ImpatientHedgehog15 has completed the level.
+*sonic lost world left the game
+Movie mode enabled (GIF).
+Screen shot srb20098.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+Animated gif closed; wrote 36 frames
+Movie mode disabled.
+<colors sonic> a
+<colors sonic> gg im dead
+sonic lost world ran out of time.
+colors sonic ran out of time.
+The round has ended.
+<~ImpatientHedgehog15> sonic
+Screen shot srb20099.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+Speeding off to level...
+Map is now "MAP11: Castle Eggman Zone"
+<colors sonic> srb2kart look
+<colors sonic> flat earth
+<colors sonic> aw
+*Danix left the game
+<colors sonic> shit
+<colors sonic> shite
+<colors sonic> youre the only one
+<colors sonic> this looks weird
+<~ImpatientHedgehog15> it is
+<colors sonic> im use to 3d not lat dumb bitch flat earthers and stuff
+<~ImpatientHedgehog15> death
+<colors sonic> yeah
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone"
+<colors sonic> small
+ImpatientHedgehog15 has completed the level.
+colors sonic has completed the level.
+The round has ended.
+<~ImpatientHedgehog15> should I add xmomentem or whatever
+<colors sonic> idk you pick
+Speeding off to level...
+Map is now "MAP02: Greenflower Zone"
+<colors sonic> xmom would be too op
+<colors sonic> aka xmomentum
+<colors sonic> i call that xmom
+ImpatientHedgehog15 has completed the level.
+Resending game state to colors sonic...
+colors sonic has completed the level.
+The round has ended.
+Speeding off to level...
+Map is now "MAP04: Techno Hill Zone"
+<colors sonic> skip is use full now
+<colors sonic> where am i
+Viewpoint: colors sonic
+ImpatientHedgehog15 has completed the level.
+Viewpoint: colors sonic
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+Updated master server listing.
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+colors sonic has completed the level.
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+The round has ended.
+<~ImpatientHedgehog15> nice
+<colors sonic> lol
+*Carlos834 has joined the game (player 1)
+<colors sonic> skips use full for flashlight
+Speeding off to level...
+Map is now "MAP05: Techno Hill Zone"
+*Carlos834 left the game (Connection timeout)
+<~ImpatientHedgehog15> skip?
+<colors sonic> yes
+<colors sonic> the fennec fox
+<~ImpatientHedgehog15> he's like a mod?
+<colors sonic> yes
+<~ImpatientHedgehog15> oh
+ImpatientHedgehog15 has completed the level.
+Viewpoint: Carlos834
+Viewpoint: colors sonic
+Viewpoint: ImpatientHedgehog15
+Viewpoint: Carlos834
+Viewpoint: colors sonic
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+<colors sonic> fuck you too resynk
+colors sonic ran out of time.
+<~ImpatientHedgehog15> yeah don't be neo sonic next level
+The round has ended.
+<colors sonic> im not im modern
+<~ImpatientHedgehog15> ok
+<colors sonic> im colors sonic
+*SA2HeroGoodSarieAymen has joined the game (player 1)
+Speeding off to level...
+Map is now "MAP07: Deep Sea Zone"
+*SA2HeroGoodSarieAymen left the game
+*SA2HeroGoodSarieAymen has rejoined the game (player 1)
+*SA2HeroGoodSarieAymen left the game
+*SA2HeroGoodSarieAymen has rejoined the game (player 1)
+Resending game state to colors sonic...
+Resending game state to SA2HeroGoodSarieAymen...
+ImpatientHedgehog15 has completed the level.
+colors sonic has completed the level.
+Viewpoint: SA2HeroGoodSarieAymen
+<colors sonic> no one can keep up with me he says when he is second
+SA2HeroGoodSarieAymen ran out of time.
+The round has ended.
+Speeding off to level...
+Map is now "MAP08: Deep Sea Zone"
+Resending game state to colors sonic...
+Resending game state to SA2HeroGoodSarieAymen...
+<colors sonic> reeee
+Resending game state to colors sonic...
+Resending game state to SA2HeroGoodSarieAymen...
+<colors sonic> im solflocked
+Viewpoint: SA2HeroGoodSarieAymen
+Viewpoint: colors sonic
+*Sonic has joined the game (player 2)
+<~ImpatientHedgehog15> hi sonic
+<SA2HeroGoodSarieAymen> a
+<SA2HeroGoodSarieAymen> oh ITS HIM
+*Sonic left the game
+*sp has joined the game (player 3)
+*sp left the game (Connection timeout)
+*s has joined the game (player 4)
+$csay s
+Put notice #1 into the Noticeboard queue.
+= ~ImpatientHedgehog15 says =
+s 
+*Pedro H71 has joined the game (player 6)
+$suicide
+<colors sonic> immposable
+ImpatientHedgehog15 has completed the level.
+<colors sonic> im at the end but im sollocked
+*Pedro H71 left the game
+<colors sonic> im at the end
+<~ImpatientHedgehog15> ok cool
+*s left the game
+*sp has rejoined the game (player 4)
+*sp left the game
+*sp renamed to s
+*sp has rejoined the game (player 4)
+*sp left the game
+*sp renamed to s
+*sp has rejoined the game (player 4)
+*sp left the game
+SA2HeroGoodSarieAymen ran out of time.
+sp ran out of time.
+colors sonic ran out of time.
+Pedro H71 ran out of time.
+<colors sonic> i say cheats
+The round has ended.
+<~ImpatientHedgehog15> how do you enable cheats on a server?
+<~ImpatientHedgehog15> i've always wondered
+*SonicFFVII has joined the game (player 2)
+Speeding off to level...
+Map is now "MAP10: Castle Eggman Zone"
+<colors sonic> you just be an admin+
+<SA2HeroGoodSarieAymen> bruh
+<colors sonic> then do nolcip or waht ever
+<SA2HeroGoodSarieAymen> isnt working
+<~ImpatientHedgehog15> so it's admin+?
+<colors sonic> yeah
+<~ImpatientHedgehog15> hmm
+*soos ballin!?!?!?!?! has joined the game (player 3)
+<SA2HeroGoodSarieAymen> its cheating in race
+<colors sonic> its nnot cheating admin+
+<SA2HeroGoodSarieAymen> who made this levels
+<soos ballin!?!?!?!?!> joe
+<~ImpatientHedgehog15> me
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+<SA2HeroGoodSarieAymen> cool
+<colors sonic> reeeeeeeeeeeeee
+<~ImpatientHedgehog15> dpm
+<~ImpatientHedgehog15> don't leak them on themaster server please
+<colors sonic> cant waut for act2
+<~ImpatientHedgehog15> *message board
+*soos ballin!?!?!?!?! left the game
+<colors sonic> gess what he is going to do
+ImpatientHedgehog15 has completed the level.
+<SA2HeroGoodSarieAymen> what
+<SA2HeroGoodSarieAymen> not me
+Viewpoint: SA2HeroGoodSarieAymen
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:67: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:65: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+<colors sonic> no soos
+*bliso has joined the game (player 4)
+soos ballin!?!?!?!?! ran out of time.
+bliso ran out of time.
+The round has ended.
+<SA2HeroGoodSarieAymen> the curse COUNTDOWN TIME]
+<colors sonic> what flat zone
+*bliso left the game
+Speeding off to level...
+Map is now "MAP11: Castle Eggman Zone"
+*SonicFFVII left the game
+*SA2HeroGoodSarieAymen left the game
+*ilyes has joined the game (player 3)
+*pointy has joined the game (player 6)
+Viewpoint: SA2HeroGoodSarieAymen
+Viewpoint: SonicFFVII
+Viewpoint: ilyes
+Viewpoint: bliso
+*ilyes left the game (Connection timeout)
+*ilye has joined the game (player 7)
+Viewpoint: colors sonic
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:61: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+*ily has joined the game (player 8)
+*ilye left the game (Connection timeout)
+<~ImpatientHedgehog15> Bye for now.
+Resending game state to colors sonic...
+WARNING: ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: translation colormap index is out of range
+stack traceback:
+    [C]: in function 'getColormap'
+    ...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:63: in function <...SRB2 Gimmicked\VCL_ModernSonic-V5.01.pk3|Lua/HUD.lua:54>
+<~ImpatientHedgehog15> I'll be hosting Early Gang
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/unlist'...
+Server deregistration request successfully sent.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

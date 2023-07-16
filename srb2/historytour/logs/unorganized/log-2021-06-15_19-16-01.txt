@@ -1,0 +1,4587 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-06-15_19-16-01.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad (326 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+31 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3 (645 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/MultiThokCrossMomentum.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/PERSONAHD.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|soc/OBJCTCFG
+CL_OverhauledLegacyTrio-V1.3.pk3 added 1 frames in 1 sprites
+Added skin 'handdrawn'
+Added skin 'lessunique'
+Added skin 'chrispymarriage'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3 (155 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Stuff
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoSlide
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_OldGlideLogic
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|SOC/MAINCFG
+knux.pk3 added 1 frames in 1 sprites
+Added skin 'k.t.e'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1662>
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3 (392 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|SOC/MAINCFG
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+Speeding off to level...
+Map is now "MAP13: ARID CANYON Zone 1"
+Speeding off to level...
+Map is now "MAP13: ARID CANYON Zone 1"
+Speeding off to level...
+Map is now "MAP14: Arid Canyon Zone 2"
+WARNING: ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: attempt to index field 'mo' (a nil value)
+stack traceback:
+    ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: in function <...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:2>
+Speeding off to level...
+Map is now "MAP14: Arid Canyon Zone 2"
+Speeding off to level...
+Map is now "MAP14: Arid Canyon Zone 2"
+Players can now steal lives to avoid game over.
+Lives are now per-player.
+Players can now respawn indefinitely.
+Speeding off to level...
+Map is now "MAP14: Arid Canyon Zone 2"
+Speeding off to level...
+Map is now "MAP14: Arid Canyon Zone 2"
+Speeding off to level...
+Map is now "MAP14: Arid Canyon Zone 2"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+$banskin sonic
+Skin "sonic" has been banned.
+$banskin tails
+Skin "tails" has been banned.
+$banskin knuckles
+Skin "knuckles" has been banned.
+$banskin metalsonic
+Skin "metalsonic" has been banned.
+$banskin fang
+Skin "fang" has been banned.
+$banskin amy
+Skin "amy" has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+You currently cannot play with the skin "tails" as it has been banned.
+You currently cannot play with the skin "knuckles" as it has been banned.
+You currently cannot play with the skin "amy" as it has been banned.
+You currently cannot play with the skin "fang" as it has been banned.
+You currently cannot play with the skin "metalsonic" as it has been banned.
+$password msmsms2
+Password set.
+$maxsend max
+Lives are now shared between players.
+Players can now steal lives to avoid game over.
+Players now only spawn when starposts are hit.
+Starposts are now shared between players.
+Lives are now shared between players.
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Connecting to: The Early Gang
+Gametype: Co-op
+Version: 2.2.9
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+You currently cannot play with the skin "sonic" as it has been banned.
+Map is now "MAP01: GREENFLOWER Zone 1"
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+$maxsend max
+$password msmsms2
+Password set.
+You currently cannot play with the skin "metalsonic" as it has been banned.
+*Suit has joined the game (player 1)
+Viewpoint: Suit
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+Speeding off to level...
+Map is now "MAP60: MP Special Stage 1 Zone"
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: in function '?'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1608: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1582>
+<~ImpatientHedgehog15> I think 2.0 special stages are the best for the occasion.
+<Suit> so
+<Suit> the old rings are working
+<Suit> old springs
+<~ImpatientHedgehog15> yes
+<~ImpatientHedgehog15> i tested before
+<~ImpatientHedgehog15> old emeralds too
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+<Suit> old crawlas
+Suit has completed the level.
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+<~ImpatientHedgehog15> old fly baniks or whatever they're called from techno hill
+<Suit> jetson
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+*Storm's Uber Service has joined the game (player 2)
+Suit passed authentication.
+<@Suit> you got the admin lua
+<@Suit> or nah
+<~ImpatientHedgehog15> no
+<@Suit> might be able to find it again
+<~ImpatientHedgehog15> couldn't find it in downloads
+Suit has completed the level.
+*srb2.2.9 has joined the game (player 3)
+ImpatientHedgehog15 has completed the level.
+*Storm's Uber Service left the game
+Speeding off to level...
+Map is now "MAP61: MP Special Stage 2 Zone"
+The server doesn't have admin.lua
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+[TO]<Suit> The server doesn't have admin.lua
+*srb2.2.9 left the game
+<~ImpatientHedgehog15> no
+The server doesn't have admin.lua
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+[TO]<Suit> The server doesn't have admin.lua
+<@Suit> what the
+<~ImpatientHedgehog15> this lag
+<@Suit> hold on
+*Suit left the game
+<~ImpatientHedgehog15> hmm
+*mario1236 has joined the game (player 4)
+*Suit has rejoined the game (player 1)
+The server doesn't have admin.lua
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+NOTICE: No player with that name!
+[TO]<Suit> The server doesn't have admin.lua
+<@Suit> why cant
+<@Suit> why cant i
+<@Suit> add the stuff
+<~ImpatientHedgehog15> no idea.\
+Speeding off to level...
+Map is now "MAP05: TECHNO HILL Zone 2"
+<~ImpatientHedgehog15> send me it
+Viewpoint: Suit
+*IT Ryan #FangGang has joined the game (player 2)
+<@Suit> sent it
+<~ImpatientHedgehog15> ok\
+<~ImpatientHedgehog15> ok\
+<~ImpatientHedgehog15> everybody might get kicked.
+<@Suit> thats fine
+Added file .\Early Gang\admin.lua (1 lumps)
+Loading Lua script from .\Early Gang\admin.lua
+Added command "whois"
+Added command "die"
+Added command "goto"
+Added command "super"
+Added command "rings"
+Added command "lives"
+Added command "shoes"
+Added command "invuln"
+Added command "flower"
+Added command "shield"
+Added command "print"
+Added command "dofor"
+Added command "rally"
+Added command "nuke"
+Added command "kill"
+Added command "adminhelp"
+No maps added
+*IT Ryan #FangGang left the game
+*mario1236 left the game
+<@Suit> mario will rejoin
+<~ImpatientHedgehog15> there
+Viewpoint: Suit
+*mario1236 has rejoined the game (player 4)
+Viewpoint: Suit
+Viewpoint: IT Ryan #FangGang
+<~ImpatientHedgehog15> help
+ImpatientHedgehog15 has completed the level.
+Viewpoint: Suit
+*IT Ryan #FangGang has joined the game (player 2)
+Viewpoint: Suit
+Viewpoint: IT Ryan #FangGang
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+Suit has completed the level.
+<IT Ryan #FangGang> lol
+Speeding off to level...
+Map is now "MAP06: TECHNO HILL Zone 3"
+$adminhelp
+
+PLAYER COMMANDS
+whois   die
+
+PLAYER CHEATS (co-op only!)
+goto    super   
+rings   lives   
+shoes   invuln  
+shield  flower  
+
+ADMIN COMMANDS
+print   dofor   
+rally   nuke    
+N/A  kill    
+Admins can also use player cheats outside of co-op.
+
+<~ImpatientHedgehog15> help
+<IT Ryan #FangGang> ah god
+<@Suit> the goo
+<~ImpatientHedgehog15> this is what it's like to die
+<@Suit> the goo is purple
+$nukje
+Unknown command 'nukje'
+$nuke
+WARNING: .\Early Gang\admin.lua:242: This can only be used in a level!
+stack traceback:
+    [C]: in function 'P_FlashPal'
+    .\Early Gang\admin.lua:242: in function <.\Early Gang\admin.lua:236>
+*IT Ryan #FangGang left the game
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+Map is now "MAP07: DEEP SEA Zone 1"
+ImpatientHedgehog15 has completed the level.
+*Bombs? has joined the game (player 3)
+$adminhelp
+
+PLAYER COMMANDS
+whois   die
+
+PLAYER CHEATS (co-op only!)
+goto    super   
+rings   lives   
+shoes   invuln  
+shield  flower  
+
+ADMIN COMMANDS
+print   dofor   
+rally   nuke    
+N/A  kill    
+Admins can also use player cheats outside of co-op.
+
+*Bombs? left the game
+$shield
+shield <SH_*>: Gives shields.
+mario1236 has completed the level.
+$shield ar
+$shield 2
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (7968, 12064)
+WARNING: Unknown thing type 524 placed at (7616, 7488)
+WARNING: Unknown thing type 524 placed at (7616, 7808)
+WARNING: Unknown thing type 524 placed at (8704, 8320)
+WARNING: Unknown thing type 524 placed at (8704, 8576)
+WARNING: Unknown thing type 524 placed at (7616, 9152)
+WARNING: Unknown thing type 524 placed at (7776, 10208)
+WARNING: Unknown thing type 524 placed at (7776, 12864)
+WARNING: Unknown thing type 524 placed at (8032, 12864)
+WARNING: Unknown thing type 524 placed at (5952, 14880)
+WARNING: Unknown thing type 524 placed at (6336, 14880)
+WARNING: Unknown thing type 524 placed at (7840, 7648)
+WARNING: Unknown thing type 524 placed at (7904, 12096)
+WARNING: Unknown thing type 524 placed at (7776, 12096)
+WARNING: Unknown thing type 524 placed at (8032, 12096)
+WARNING: Unknown thing type 524 placed at (7840, 12064)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAP08: DEEP SEA Zone 2"
+<~ImpatientHedgehog15> jeez
+ImpatientHedgehog15 has completed the level.
+Viewpoint: Suit
+Viewpoint: mario1236
+Suit has completed the level.
+Speeding off to level...
+Map is now "MAP10: CASTLE EGGMAN Zone 1"
+Speeding off to level...
+Map is now "MAP13: ARID CANYON Zone 1"
+Game paused by Suit
+Speeding off to level...
+Map is now "MAP12: CASTLE EGGMAN Zone 3"
+<~ImpatientHedgehog15> htergkguku5resst]
+<~ImpatientHedgehog15> d]\
+<@Suit> i broke the cage
+<@Suit> you can fight him now
+<@Suit> nevermind
+<@Suit> oh wait
+<@Suit> that wasnt the cage noise
+<~ImpatientHedgehog15> transperency
+<@Suit> fight away
+<@Suit> ha
+<@Suit> eggman is really the kill
+Speeding off to level...
+Map is now "MAP13: ARID CANYON Zone 1"
+$adminhelp
+
+PLAYER COMMANDS
+whois   die
+
+PLAYER CHEATS (co-op only!)
+goto    super   
+rings   lives   
+shoes   invuln  
+shield  flower  
+
+ADMIN COMMANDS
+print   dofor   
+rally   nuke    
+N/A  kill    
+Admins can also use player cheats outside of co-op.
+
+$shield
+shield <SH_*>: Gives shields.
+$shield sh_a
+$shield sh_1
+$shield sh_2
+$shield sh_s
+$shield sh_d
+$shield sh_ar,
+$shield sh_arm
+$shield sh
+$shield sh_7
+$shield sh_A
+$shield sh_a
+$shield sh_1
+$shield sh_2
+$shield sh_3\
+$shield sh_4
+$shield sh_5
+$adminhelp
+
+PLAYER COMMANDS
+whois   die
+
+PLAYER CHEATS (co-op only!)
+goto    super   
+rings   lives   
+shoes   invuln  
+shield  flower  
+
+ADMIN COMMANDS
+print   dofor   
+rally   nuke    
+N/A  kill    
+Admins can also use player cheats outside of co-op.
+
+$super
+ImpatientHedgehog15 has turned super.
+mario1236 has completed the level.
+Suit has completed the level.
+$nuke
+WARNING: .\Early Gang\admin.lua:242: This can only be used in a level!
+stack traceback:
+    [C]: in function 'P_FlashPal'
+    .\Early Gang\admin.lua:242: in function <.\Early Gang\admin.lua:236>
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+$super
+ImpatientHedgehog15 has turned super.
+mario1236 has turned super.
+Suit has turned super.
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+Viewpoint: Suit
+Viewpoint: mario1236
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+$nuke
+Viewpoint: ImpatientHedgehog15
+Viewpoint: Suit
+Viewpoint: mario1236
+$super
+ImpatientHedgehog15 has turned super.
+$nuke
+$super
+ImpatientHedgehog15 has turned super.
+mario1236 has completed the level.
+$nuke
+$super
+ImpatientHedgehog15 has reverted back.
+$super
+ImpatientHedgehog15 has turned super.
+Suit has reverted back.
+Suit has completed the level.
+$nuke
+$super
+ImpatientHedgehog15 has turned super.
+$super
+ImpatientHedgehog15 has reverted back.
+$super
+$super
+Speeding off to level...
+Map is now "MAP22: EGG ROCK Zone 1"
+*mario1236 left the game
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$bind n "nuke"
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$super
+ImpatientHedgehog15 has turned super.
+$bind b "super"
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has reverted back.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has turned super.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+<@Suit> what the fuck
+<@Suit> is going on
+Viewpoint: Suit
+Viewpoint: Suit
+Viewpoint: mario1236
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+$whois 
+whois <node>: Gives the given node's name
+$whois 1
+they are Suit.
+$whois 2
+WARNING: .\Early Gang\admin.lua:54: attempt to index local 'arg' (a nil value)
+stack traceback:
+    .\Early Gang\admin.lua:54: in function <.\Early Gang\admin.lua:42>
+$adminhelp
+
+PLAYER COMMANDS
+whois   die
+
+PLAYER CHEATS (co-op only!)
+goto    super   
+rings   lives   
+shoes   invuln  
+shield  flower  
+
+ADMIN COMMANDS
+print   dofor   
+rally   nuke    
+N/A  kill    
+Admins can also use player cheats outside of co-op.
+
+$rings
+rings <amount>: Changes your current ring counter to the given amount.
+$rings 999
+$score 99999999
+Unknown command 'score'
+*IT Ryan #FangGang has joined the game (player 2)
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+$score 9999999\
+Unknown command 'score'
+ERROR: There was a problem contacting the master server...
+From curl_easy_perform: Timeout was reached
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Suit has turned super.
+ERROR: There was a problem contacting the master server...
+From curl_easy_perform: Timeout was reached
+$lives 3333
+$lives 73
+$lives 3
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has reverted back.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+*IT Ryan #FangGang left the game
+ImpatientHedgehog15 has turned super.
+*mario1236 has joined the game (player 3)
+mario1236 has turned super.
+Suit has turned super.
+$lives 99
+$ADMINHELP
+
+PLAYER COMMANDS
+whois   die
+
+PLAYER CHEATS (co-op only!)
+goto    super   
+rings   lives   
+shoes   invuln  
+shield  flower  
+
+ADMIN COMMANDS
+print   dofor   
+rally   nuke    
+N/A  kill    
+Admins can also use player cheats outside of co-op.
+
+$rings 999
+$goto
+goto <node>: Goes to the given player's coordinates
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has turned super.
+mario1236 has turned super.
+Suit has turned super.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+*IT Ryan #FangGang has joined the game (player 2)
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has reverted back.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+mario1236 has completed the level.
+$bind h nuke
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has turned super.
+mario1236 has turned super.
+WARNING: .\Early Gang\admin.lua:74: attempt to compare number with nil
+stack traceback:
+    .\Early Gang\admin.lua:74: in function <.\Early Gang\admin.lua:64>
+ImpatientHedgehog15 has turned super.
+WARNING: .\Early Gang\admin.lua:74: attempt to compare number with nil
+stack traceback:
+    .\Early Gang\admin.lua:74: in function <.\Early Gang\admin.lua:64>
+WARNING: .\Early Gang\admin.lua:74: attempt to compare number with nil
+stack traceback:
+    .\Early Gang\admin.lua:74: in function <.\Early Gang\admin.lua:64>
+ImpatientHedgehog15 has turned super.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has turned super.
+Speeding off to level...
+Map is now "MAP23: EGG ROCK Zone 2"
+ImpatientHedgehog15 has turned super.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+*IT Ryan #FangGang left the game
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+*Suit left the game
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+*mario1236 left the game
+ImpatientHedgehog15 has reverted back.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+ImpatientHedgehog15 has turned super.
+*mario1236 has rejoined the game (player 3)
+*Suit has rejoined the game (player 1)
+<~ImpatientHedgehog15> wow
+mario1236 has turned super.
+<@Suit> nuke was a bit
+<@Suit> to literal
+<~ImpatientHedgehog15> yeah
+<~ImpatientHedgehog15> probably not a good idea to bind it to 2 keys and jitterclick them.
+mario1236 has turned super.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has turned super.
+mario1236 has turned super.
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+<@Suit> impatient
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+$goto 1
+<@Suit> do you keep teleporting to me
+<@Suit> or is there like
+mario1236 has completed the level.
+<~ImpatientHedgehog15> yes
+<@Suit> how
+<~ImpatientHedgehog15> goto 1
+<~ImpatientHedgehog15> or whatever your node is
+WARNING: .\Early Gang\admin.lua:78: attempt to index local 'target' (a nil value)
+stack traceback:
+    .\Early Gang\admin.lua:78: in function <.\Early Gang\admin.lua:64>
+WARNING: .\Early Gang\admin.lua:78: attempt to index local 'target' (a nil value)
+stack traceback:
+    .\Early Gang\admin.lua:78: in function <.\Early Gang\admin.lua:64>
+Suit has completed the level.
+$goto 1
+WARNING: .\Early Gang\admin.lua:242: This can only be used in a level!
+stack traceback:
+    [C]: in function 'P_FlashPal'
+    .\Early Gang\admin.lua:242: in function <.\Early Gang\admin.lua:236>
+Speeding off to level...
+WARNING: constant 'ERZGREY4' could not be parsed.
+
+WARNING: Failed to load bot recording for this map, format version incompatible.
+Map is now "MAP24: EGG ROCK Zone 3"
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+mario1236 has turned super.
+ImpatientHedgehog15 has turned super.
+Suit has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+<~ImpatientHedgehog15> what happened to the starposts
+<@Suit> i dont know
+<@Suit> what happened to metal
+<~ImpatientHedgehog15> a side effects of nuke
+<@Suit> no
+<@Suit> cause 
+<@Suit> i only began spamming just now
+<@Suit> and im not using the nuke command
+<@Suit> im just giving myself armageddon shields
+<@Suit> got a key binded to whirl aswell
+<~ImpatientHedgehog15> same thing or
+$adminhelp
+
+PLAYER COMMANDS
+whois   die
+
+PLAYER CHEATS (co-op only!)
+goto    super   
+rings   lives   
+shoes   invuln  
+shield  flower  
+
+ADMIN COMMANDS
+print   dofor   
+rally   nuke    
+N/A  kill    
+Admins can also use player cheats outside of co-op.
+
+$kill
+kill <node>: Kills the player.
+$whois 2
+WARNING: .\Early Gang\admin.lua:54: attempt to index local 'arg' (a nil value)
+stack traceback:
+    .\Early Gang\admin.lua:54: in function <.\Early Gang\admin.lua:42>
+$whois 3
+they are mario1236.
+$whois 4
+WARNING: .\Early Gang\admin.lua:54: attempt to index local 'arg' (a nil value)
+stack traceback:
+    .\Early Gang\admin.lua:54: in function <.\Early Gang\admin.lua:42>
+Speeding off to level...
+Map is now "MAP25: EGG ROCK CORE Zone"
+$whois 2
+WARNING: .\Early Gang\admin.lua:54: attempt to index local 'arg' (a nil value)
+stack traceback:
+    .\Early Gang\admin.lua:54: in function <.\Early Gang\admin.lua:42>
+mario1236 has turned super.
+ImpatientHedgehog15 has turned super.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+<~ImpatientHedgehog15> oh
+<@Suit> uhh
+<@Suit> i didnt do tyhat
+<@Suit> i swear
+<~ImpatientHedgehog15> what is happening
+*david(mobile has joined the game (player 2)
+<@Suit> why the fuck
+<@Suit> does this happen
+<@Suit> when i just use a shield
+<david(mobile> yes brak is dead
+<~ImpatientHedgehog15> oh wait i'm using nuke
+Speeding off to level...
+Map is now "MAP25: EGG ROCK CORE Zone"
+<~ImpatientHedgehog15> fuck
+mario1236 has turned super.
+<david(mobile> pain
+$shields
+Unknown command 'shields'
+$shield
+shield <SH_*>: Gives shields.
+$shield sh_1
+$shield sh_2
+$shield sh_3
+$shield sh_4
+$shield sh_5
+$shield sh_a
+$shield a\
+$shield a
+$shield 1
+$shield 2
+$shield3
+Unknown command 'shield3'
+$shield 3
+Suit has turned super.
+mario1236 has reverted back.
+ImpatientHedgehog15 has turned super.
+mario1236 has turned super.
+<david(mobile> yes
+<@Suit> gotem
+\\\\\\\\\\\\\\\\\\\Multiplayer games can't unlock extras!
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+mario1236 has turned super.
+ImpatientHedgehog15 has turned super.
+Suit has completed the level.
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+ImpatientHedgehog15 has turned super.
+mario1236 has turned super.
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+mario1236 has completed the level.
+WARNING: .\Early Gang\admin.lua:242: This can only be used in a level!
+stack traceback:
+    [C]: in function 'P_FlashPal'
+    .\Early Gang\admin.lua:242: in function <.\Early Gang\admin.lua:236>
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+mario1236 has turned super.
+<david(mobile> sklow don!
+<@Suit> bye bye
+<@Suit> no more gge nam
+$exitlevel
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+Speeding off to level...
+Map is now "MAP12: CASTLE EGGMAN Zone 3"
+<david(mobile> can you change the clear ratio to all?
+mario1236 has turned super.
+$bind E 'exitleveL"
+<~ImpatientHedgehog15> sure
+<@Suit> you needa make his head hurt
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Master server registration successful.
+<@Suit> then block off the uhh
+<@Suit> walls
+<@Suit> up here
+<@Suit> so people have to survive
+<@Suit> go get em tiger
+mario1236 has turned super.
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (7968, 12064)
+WARNING: Unknown thing type 524 placed at (7616, 7488)
+WARNING: Unknown thing type 524 placed at (7616, 7808)
+WARNING: Unknown thing type 524 placed at (8704, 8320)
+WARNING: Unknown thing type 524 placed at (8704, 8576)
+WARNING: Unknown thing type 524 placed at (7616, 9152)
+WARNING: Unknown thing type 524 placed at (7776, 10208)
+WARNING: Unknown thing type 524 placed at (7776, 12864)
+WARNING: Unknown thing type 524 placed at (8032, 12864)
+WARNING: Unknown thing type 524 placed at (5952, 14880)
+WARNING: Unknown thing type 524 placed at (6336, 14880)
+WARNING: Unknown thing type 524 placed at (7840, 7648)
+WARNING: Unknown thing type 524 placed at (7904, 12096)
+WARNING: Unknown thing type 524 placed at (7776, 12096)
+WARNING: Unknown thing type 524 placed at (8032, 12096)
+WARNING: Unknown thing type 524 placed at (7840, 12064)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAP08: DEEP SEA Zone 2"
+Speeding off to level...
+Map is now "MAP09: DEEP SEA Zone 3"
+mario1236 has turned super.
+*A'Dilla has joined the game (player 4)
+<@Suit> WAIT
+<@Suit> IT WORKS
+<@Suit> KIDN OF
+<@Suit> KIND OF
+<~ImpatientHedgehog15> what
+<@Suit> howd you do it
+<@Suit> or not do it
+<~ImpatientHedgehog15> i did nothing besides hit him
+<@Suit> What in the
+<david(mobile> can we get infinite rings or no?
+<@Suit> no im ean
+<@Suit> how did he
+<~ImpatientHedgehog15> ok
+<@Suit> come out the tube
+$rings 999
+Speeding off to level...
+Map is now "MAP10: CASTLE EGGMAN Zone 1"
+ImpatientHedgehog15 has turned super.
+mario1236 has turned super.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+david(mobile has turned super.
+mario1236 has turned super.
+$rings 999
+david(mobile has reverted back.
+mario1236 has completed the level.
+Suit has completed the level.
+mario1236 has turned super.
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP09: DEEP SEA Zone 3"
+<@Suit> wait
+<@Suit> shoot
+<@Suit> sorry
+mario1236 has turned super.
+Speeding off to level...
+WARNING: Unknown thing type 525 placed at (-13792, -10592)
+WARNING: Unknown thing type 525 placed at (-14432, -12064)
+WARNING: Unknown thing type 525 placed at (-13376, -13280)
+WARNING: Unknown thing type 525 placed at (-14624, -13696)
+WARNING: Unknown thing type 525 placed at (-15584, -12768)
+WARNING: Unknown thing type 525 placed at (-16704, -8480)
+WARNING: Unknown thing type 525 placed at (-17984, -12448)
+WARNING: Unknown thing type 525 placed at (-16992, -11616)
+WARNING: Unknown thing type 525 placed at (-17920, -10720)
+WARNING: Unknown thing type 525 placed at (-15968, -11360)
+WARNING: Unknown thing type 525 placed at (-14944, -10304)
+WARNING: Unknown thing type 525 placed at (-13920, -9312)
+WARNING: Unknown thing type 525 placed at (-14656, -8608)
+WARNING: Unknown thing type 525 placed at (-16000, -9088)
+WARNING: Unknown thing type 525 placed at (-16768, -10368)
+WARNING: Unknown thing type 525 placed at (-17920, -8704)
+WARNING: Unknown thing type 526 placed at (-18784, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7904)
+WARNING: Unknown thing type 526 placed at (-18720, -7840)
+WARNING: Unknown thing type 526 placed at (-18464, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7968)
+WARNING: Unknown thing type 526 placed at (-18400, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8032)
+WARNING: Unknown thing type 526 placed at (-18720, -8032)
+WARNING: Unknown thing type 526 placed at (-18528, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8160)
+WARNING: Unknown thing type 526 placed at (-18656, -7840)
+WARNING: Unknown thing type 526 placed at (-18592, -7840)
+WARNING: Unknown thing type 526 placed at (-18656, -7904)
+WARNING: Unknown thing type 526 placed at (-18592, -7904)
+WARNING: Unknown thing type 526 placed at (-19200, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9024)
+WARNING: Unknown thing type 526 placed at (-19264, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9152)
+WARNING: Unknown thing type 526 placed at (-12928, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7840)
+WARNING: Unknown thing type 526 placed at (-13056, -7840)
+WARNING: Unknown thing type 526 placed at (-13184, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7968)
+WARNING: Unknown thing type 526 placed at (-12928, -8032)
+WARNING: Unknown thing type 526 placed at (-12928, -8096)
+WARNING: Unknown thing type 526 placed at (-18784, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13728)
+WARNING: Unknown thing type 526 placed at (-18784, -13664)
+WARNING: Unknown thing type 526 placed at (-18528, -13984)
+Map is now "MAP11: CASTLE EGGMAN Zone 2"
+<@Suit> i ment to grab goto 3
+mario1236 has turned super.
+<@Suit> from command history
+<david(mobile> i hear theres a egg rock 3 now
+<~ImpatientHedgehog15> maybe
+<~ImpatientHedgehog15> is it not the scrapped boss
+ImpatientHedgehog15 has turned super.
+Suit has turned super.
+ImpatientHedgehog15 has reverted back.
+Suit has turned super.
+Suit has turned super.
+Suit has turned super.
+Suit has reverted back.
+Suit has completed the level.
+*SamuraiSG has joined the game (player 5)
+ImpatientHedgehog15 has completed the level.
+*david(mobile left the game (Connection timeout)
+Suit has turned super.
+A'Dilla has completed the level.
+*SamuraiSG left the game
+$exitlevel
+Speeding off to level...
+Map is now "MAP13: ARID CANYON Zone 1"
+ImpatientHedgehog15 has turned super.
+A'Dilla has completed the level.
+Suit has turned super.
+Suit has turned super.
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+$lives 1
+<~ImpatientHedgehog15> hmm
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+ImpatientHedgehog15 has turned super.
+Resending game state to A'Dilla...
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+Suit has completed the level.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has turned super.
+A'Dilla has completed the level.
+ImpatientHedgehog15 has completed the level.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+The server is restricting all players to skin "xmastails".
+<~ImpatientHedgehog15> please
+ImpatientHedgehog15 has turned super.
+<@Suit> i wanna see how this goes
+Speeding off to level...
+Map is now "MAP22: EGG ROCK Zone 1"
+<~ImpatientHedgehog15> k
+<@Suit> if it crashes and burns
+<@Suit> blame it on me
+*That Guy has joined the game (player 2)
+<@Suit> well you kinda sorta can, i have a pocket nuke that can be activated from a single button press
+<@Suit> that would blow eggrock into pieces
+<~ImpatientHedgehog15> me too
+<@Suit> focusing on poor old eggrock
+ImpatientHedgehog15 has turned super.
+<@Suit> hedgehog violence is overrated
+ImpatientHedgehog15 has reverted back.
+*That Guy left the game
+*junio sonic has joined the game (player 5)
+*junio sonic left the game (Connection timeout)
+<~ImpatientHedgehog15> my internet is great today
+Suit has completed the level.
+ImpatientHedgehog15 has completed the level.
+A'Dilla has completed the level.
+<@Suit> hold on
+<@Suit> gotta actually wait a bit for mario
+Viewpoint: Suit
+<@Suit> if he doesnt come back in about
+<@Suit> a minute
+<@Suit> then exitlevel
+<@Suit> i need to get something to eat
+Viewpoint: Suit
+Viewpoint: mario1236
+$exitlevel
+Speeding off to level...
+Map is now "MAP23: EGG ROCK Zone 2"
+mario1236 has turned super.
+*garf has joined the game (player 2)
+<garf> ?
+*Carlos834 has joined the game (player 5)
+<Carlos834> hi
+<~ImpatientHedgehog15> hi
+<Carlos834> cool skin
+Suit has turned super.
+A'Dilla has completed the level.
+mario1236 has turned super.
+Suit has completed the level.
+<~ImpatientHedgehog15> thank suit
+<Carlos834> the xmastails onew
+<@Suit> you
+<@Suit> your
+mario1236 has completed the level.
+<@Suit> somehow
+<garf> i don't like this tails
+<@Suit> possibly welcome
+<@Suit> i have no idea what happened
+Speeding off to level...
+WARNING: constant 'ERZGREY4' could not be parsed.
+
+WARNING: Failed to load bot recording for this map, format version incompatible.
+Map is now "MAP24: EGG ROCK Zone 3"
+<garf> can i change
+<garf> please
+<@Suit> `q`
+<@Suit> uiheasfja
+<~ImpatientHedgehog15> after eggrock
+ImpatientHedgehog15 has turned super.
+*That SRB2historia has joined the game (player 6)
+ImpatientHedgehog15 has turned super.
+<garf> CAN I PLEASE CHANGE
+<That SRB2historia> A
+<~ImpatientHedgehog15> ok
+The server has lifted the forced skin restrictions.
+<@Suit> limit off
+The server is restricting all players to skin "xmastails".
+The server has lifted the forced skin restrictions.
+ImpatientHedgehog15 has turned super.
+<garf> WHAT
+<garf> NORMAL TAILS BANNED
+<~ImpatientHedgehog15> yes
+<~ImpatientHedgehog15> use less unique
+<That SRB2historia> GG
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+<That SRB2historia> gg
+Speeding off to level...
+Map is now "MAP25: EGG ROCK CORE Zone"
+<garf> i mean
+<garf> bubsy is a old addon
+<garf> can we add him
+<~ImpatientHedgehog15> please
+<garf> think he was a 2.1 classic tbh
+<@Suit> please i will do
+<@Suit> brak death pleasure
+<~ImpatientHedgehog15> can we play normally
+<@Suit> we are
+<@Suit> the shield isnt doing anything to him
+<@Suit> and im dead
+<garf> well. 2.1 addon clasic
+<That SRB2historia> AH
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<@Suit> what happened to lives
+<Carlos834> what is he saying?
+<A'Dilla> gg
+<~ImpatientHedgehog15> japaneese giberish
+<Carlos834> ok
+<@Suit> rub piplup you gayjew is all i can make out
+<That SRB2historia> IT COST ME THE HIT
+\\\\\\\\\\\\\\\\\\\Multiplayer games can't unlock extras!
+<Carlos834> btw i have MIDI on
+<garf> but yeah. is bubsy possible or no,
+$csay no extras lol
+Put notice #1 into the Noticeboard queue.
+<@Suit> but i actually know what hes saying since thats in the ova
+Speeding off to level...
+= ~ImpatientHedgehog15 says =
+no extras lol 
+Map is now "MAP01: GREENFLOWER Zone 1"
+ImpatientHedgehog15 has turned super.
+<@Suit> bubsy is just a knuckles reskin
+<garf> he was a 2.1 addon
+<@Suit> id rather somebody actually make a bubsy bubsy
+ImpatientHedgehog15 has completed the level.
+<Carlos834> yes
+<garf> nah. he actually isn't.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+mario1236 has completed the level.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+<garf> he has fall damage.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has turned super.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+ImpatientHedgehog15 has reverted back.
+A'Dilla has completed the level.
+ImpatientHedgehog15 has turned super.
+mario1236 has turned super.
+*A'Dilla left the game
+<@Suit> once they make him have comedic deaths
+<@Suit> or make him have no jump turning
+Carlos834 has completed the level.
+<garf> gliding that isn't knuckles gliding [more like bubsy gliding]
+<@Suit> and the gliding only let you go one way with no midair control
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+<That SRB2historia> u
+<@Suit> then ill cosider it
+mario1236 has turned super.
+ImpatientHedgehog15 has turned super.
+<garf> can't go in water. 
+<@Suit> its pretty much just always glide to never die
+<garf> and he never shuts up
+<@Suit> water is barely in the game besides deep sea
+mario1236 has completed the level.
+<garf> oh, and this fall damage can insta-kill ya
+<@Suit> thats what fall damage is
+<@Suit> i know that
+<@Suit> i beat bubsy 1 and 2
+ImpatientHedgehog15 has completed the level.
+<~ImpatientHedgehog15> ...
+<@Suit> dont ask
+<@Suit> i really have nothing better to do
+ImpatientHedgehog15 has reverted back.
+<garf> but yeah. the bubsy for srb2 is a bit close
+<@Suit> not close enough for my bubsy expectations
+<garf> with qaulity of life improvments
+Carlos834 has completed the level.
+<@Suit> oh also
+<@Suit> he doesnt have any sprites
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+<@Suit> i wanna see somebody draw him modern srb2 sprites
+<That SRB2historia> EGGHEAD
+<@Suit> mostly because i cant expect anybody to draw bubsy legacy
+<@Suit> i did it
+<@Suit> i saved the world
+<garf> eh. he's a ok character.
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+ImpatientHedgehog15 has turned super.
+<That SRB2historia> HIGH FIVE!
+<garf> also. quick qeustion
+<garf> can kirby technically count with his legacy abillity
+<@Suit> no
+<@Suit> but
+*S ranked dirk has joined the game (player 4)
+<S ranked dirk> hi guys
+<@Suit> could port the actual legacy kirby
+ImpatientHedgehog15 has completed the level.
+mario1236 has completed the level.
+<~ImpatientHedgehog15> hi
+ImpatientHedgehog15 has reverted back.
+<@Suit> or try to force him to be legacy
+<@Suit> but the kirby now sucks
+<garf> there is a port of 2.1 bandages on gamebanana
+$suicide
+<@Suit> all the abilities he gets are just wheel and junk, and when you get something good its easy to lose it
+<@Suit> doesnt actually follow the star dropping login with getting hit, just always drops it
+<~ImpatientHedgehog15> toei sonic is pretty much junio sonic, but he sucks.
+<garf> but yeah. 2.1 bandages got a port on gamebana
+Carlos834 has completed the level.
+<garf> fuc
+<garf> k
+<@Suit> toei and junio are separate things
+That SRB2historia has completed the level.
+<@Suit> what
+<~ImpatientHedgehog15> mod wise
+<That SRB2historia> YES!
+Speeding off to level...
+Map is now "MAP05: TECHNO HILL Zone 2"
+<@Suit> wait for real
+<S ranked dirk> this sux
+<@Suit> some idiot made both
+<garf> bandagesre has a port on gamebana. not the remake.
+<S ranked dirk> no new chars an I expected gangs
+<garf> no. the 2.1 one.
+*S ranked dirk left the game
+<@Suit> dirk
+<@Suit> theres like 5 sonics that go insanely fast
+<@Suit> doshog
+<@Suit> halloween
+<@Suit> and metal
+<@Suit> and you cant get them on the board
+<garf> am i able to send you the link suit
+<@Suit> mostly cause there as grounded as can be
+<~ImpatientHedgehog15> early sonic has multi tonk
+<@Suit> yeah but hes just
+<@Suit> the other sonic
+<@Suit> uhh
+<@Suit> hand drawn
+<garf> can bandages count.
+<~ImpatientHedgehog15> he used to suck because I gave him accuracy
+<garf> because he has a cheat to make him the older version
+<garf> and if not.
+mario1236 has completed the level.
+<@Suit> i think i might go work on that chainsaw tails again
+ImpatientHedgehog15 has turned super.
+<garf> on the gamebanana page for srb2 there's a port for the actual 2.1 bandages
+<@Suit> see if i can find a person with good lua knowledge to give me some stuff
+ImpatientHedgehog15 has completed the level.
+Carlos834 has completed the level.
+<@Suit> i hear you out garf, but adding characters is up to impatient
+Speeding off to level...
+Map is now "MAP06: TECHNO HILL Zone 3"
+<~ImpatientHedgehog15> lua
+<@Suit> hes the hoast
+<That SRB2historia> OH
+<@Suit> host
+<garf> oh
+<@Suit> toast
+<garf> k
+<@Suit> yeah
+<@Suit> lua
+<@Suit> i might find somebody more big brain with lua than me
+<@Suit> unless i might be able to pull off stuff with the chainsaw
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+Map is now "MAP07: DEEP SEA Zone 1"
+<garf> so impatient. is the 2.1 bandages port able to be added
+<~ImpatientHedgehog15> I always wanted to learn it but i just don't  set the time enough to learn it
+<@Suit> cant believe im saying this because ill look stupid
+<@Suit> i know roblox lua
+<@Suit> not that well
+<@Suit> but i know it
+<@Suit> and im using some of it to learn with srb
+<@Suit> srb2
+<@Suit> doom
+<@Suit> in general
+ImpatientHedgehog15 has completed the level.
+<@Suit> carlos what in the love of god have you obtained
+<@Suit> wait
+<@Suit> are my binds for everybody
+<~ImpatientHedgehog15> no?
+<@Suit> oh
+<~ImpatientHedgehog15> what are they
+<garf> i'll send the link if that's possible in srb2
+<@Suit> carlos set a armageddon shield bind
+<@Suit> thats ok
+<@Suit> idc
+Suit has completed the level.
+$shield 
+shield <SH_*>: Gives shields.
+$shield SH
+$shield SH_armageddon
+$bind c "shield SH_armageddon"
+<@Suit> war
+mario1236 has completed the level.
+WARNING: .\Early Gang\admin.lua:271: mobjtype 'MT_POLYSPAWNCRUSH' does not exist.
+
+stack traceback:
+    [C]: ?
+    .\Early Gang\admin.lua:271: in function <.\Early Gang\admin.lua:236>
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/unlist'...
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+
+Process killed by signal: SIGSEGV - segment violation
+
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.
