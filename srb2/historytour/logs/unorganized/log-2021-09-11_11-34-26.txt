@@ -1,0 +1,2383 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-09-11_11-34-26.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+WARNING: Demo version does not match game version. Desyncs may occur.
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone 1"
+$cheats
+No CHEAT-marked variables are changed -- Cheats are disabled.
+$cheats -- on
+No CHEAT-marked variables are changed -- Cheats are disabled.
+$noclip
+This only works in single player.
+$noclip on
+This only works in single player.
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone 1"
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone 1"
+ImpatientHedgehog15 has completed the level.
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP02-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP02-amy-last.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-last.lmp
+Added ghost Helvian from MAP02-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP02-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP02-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP02-amy-last.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-last.lmp
+Added ghost Helvian from MAP02-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP02-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP02-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP02-amy-last.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-last.lmp
+Added ghost Helvian from MAP02-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP02-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP02-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP02-amy-last.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-last.lmp
+Added ghost Helvian from MAP02-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP02-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP02-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP02-amy-last.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-last.lmp
+Added ghost Helvian from MAP02-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP02-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-time-best.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP02-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP02-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP02-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP02-amy-last.lmp
+Added ghost ImpatientHedgeho from MAP02-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP02-metalsonic-last.lmp
+Added ghost Helvian from MAP02-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+NEW RECORD TIME! Saved replay as '.\replay\main\MAP01-sonic-time-best.lmp'
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+Contacting the server...
+Network game synchronization aborted.
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/28/servers'...
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/servers'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone 1"
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-guest.lmp
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: Greenflower Zone 1"
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/unlist'...
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+WARNING: Demo version does not match game version. Desyncs may occur.
+WARNING: Demo playback has desynced!
+WARNING: Demo version does not match game version. Desyncs may occur.
+WARNING: Demo playback has desynced!
+WARNING: Demo version does not match game version. Desyncs may occur.
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/28/servers'...
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/servers'...
+executing C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\EarlyGang.txt
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\2.0zones.wad (213 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\2.0zones.wad
+WARNING: Line 32: Level header 103: unknown word 'NOPERFECTBONUS'
+WARNING: Line 142: Unknown word: SUBTITLE
+WARNING: Line 179: Level header 17: unknown word 'NOPERFECTBONUS'
+3 warnings in the SOC lump
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAC
+MAPAD
+MAPAE
+MAPAH
+MAPAI
+MAPAF
+MAPAG
+MAPAB
+MAPAA
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3 (196 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3|Lua/LuaSpinsound
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3|SOC/SOC_CRUST
+WARNING: unexpected symbol near '<eof>'
+crustcidna.pk3 added 5 frames in 2 sprites
+Added skin 'crustcidna'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad (631 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad
+31 midi musics replaced
+MAP74
+MAP76
+MAP78
+MAP80
+MAP79
+MAP75
+MAP77
+MAP81
+MAP60
+MAP61
+MAP62
+MAP63
+MAP64
+MAP66
+MAP65
+MAP82
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad (328 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+32 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\extra.pk3 (2 lumps)
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\finaldemo.wad (102 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\finaldemo.wad
+1 midi musics replaced
+MAPB3
+MAPB6
+MAPB1
+MAPB2
+MAPB4
+MAPB5
+MAPB7
+MAPB8
+MAPB9
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3 (218 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3|Lua/LuaSpinsound
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3|SOC/MAINCFG
+WARNING: unexpected symbol near '<eof>'
+hedge.pk3 added 1 frames in 1 sprites
+Added skin 'hedgenic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3 (155 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Stuff
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoSlide
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_OldGlideLogic
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|SOC/MAINCFG
+knux.pk3 added 1 frames in 1 sprites
+Added skin 'k.t.e'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3 (158 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|Lua/Lua_Sdash
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|Lua/Lua_Fly
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|SOC/MAINCFG
+WARNING: unexpected symbol near '<eof>'
+miles.pk3 added 1 frames in 1 sprites
+Added skin 'miles'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua
+WARNING: ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: the Terminal core script must be added first!
+stack traceback:
+    [C]: in function 'assert'
+    ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: in main chunk
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1662>
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3 (392 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|SOC/MAINCFG
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: GREENFLOWER Zone 1"
+$maxsize max
+Unknown command 'maxsize'
+$maxsend max
+$banskin sonic
+Skin "sonic" has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+$banskin tails
+Skin "tails" has been banned.
+You currently cannot play with the skin "tails" as it has been banned.
+$banskin knuckles
+Skin "knuckles" has been banned.
+You currently cannot play with the skin "knuckles" as it has been banned.
+$banskin amy
+Skin "amy" has been banned.
+You currently cannot play with the skin "amy" as it has been banned.
+$banskin fang
+Skin "fang" has been banned.
+You currently cannot play with the skin "fang" as it has been banned.
+$banskin metalsonic\
+You can't ban a nonexistent skin!
+*Suit has joined the game (player 1)
+WARNING: ...mes\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua:87: skin 5 (argument 2) not usable - check with R_SkinUsable(player_t, skin) first.
+stack traceback:
+    [C]: in function 'R_SetPlayerSkin'
+    ...mes\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua:87: in function <...mes\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua:66>
+$banskin metalsonic
+Skin "metalsonic" has been banned.
+You currently cannot play with the skin "metalsonic" as it has been banned.
+$password msmsms2
+Password set.
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: in function '?'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1608: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1582>
+<Suit> are there any other steps or things i missed
+<~ImpatientHedgehog15> no
+<~ImpatientHedgehog15> in fact i think yours was working
+<Suit> want me to try again
+<~ImpatientHedgehog15> probably
+<~ImpatientHedgehog15> but publically on the master server.
+<Suit> ill actually add the unfinished 2.1 accurate junk
+<Suit> your better off deleting it after were done
+<Suit> only all of gfz is in it and it uses that resuable 2.1 eggman
+<~ImpatientHedgehog15> be sure to type maxsend max to remove the filesize download limit
+<Suit> its small but ill make sure to do that
+Suit has completed the level.
+*Suit left the game
+*Suit has rejoined the game (player 1)
+*Suit left the game
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/unlist'...
+Server deregistration request successfully sent.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

@@ -1,0 +1,1364 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2022 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+The server has lifted the forced skin restrictions.
+HU_LoadGraphics()...
+executing dconfig.cfg
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+R_InitColormaps()...
+ST_Init(): Init status bar.
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+D_CheckNetGame(): Checking network game status.
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+executing .\adedserv.cfg
+Registering this server on the master server...
+Logfile: .\logs\log-2023-02-24_22-22-44.txt
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.10 (Mar  6 2022 22:55:14 82fb731c master) SDL Windows 32-bit 
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone 1"
+Master server registration successful.
+*Vertz1515 has joined the game (player 1)
+$password 2222
+Password set.
+Vertz1515 passed authentication.
+Errors occurred while loading .\Early; not added.
+Added file .\2.0zones.wad (213 lumps)
+Loading main config from .\2.0zones.wad
+WARNING: Line 34: Level header 103: unknown word 'NOPERFECTBONUS'
+WARNING: Line 155: Unknown word: SUBTITLE
+WARNING: Line 193: Level header 17: unknown word 'NOPERFECTBONUS'
+3 warnings in the SOC lump
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAA
+MAPAB
+MAPAC
+MAPAD
+MAPAE
+MAPAF
+MAPAG
+MAPAH
+MAPAI
+Added file .\DOWNLOAD\banskins.lua (1 lumps)
+Loading Lua script from .\DOWNLOAD\banskins.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\CL_2.1Rosy-v2.3.wad (253 lumps)
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\CL_2.1Rosy-v2.3.wad|LUA_ROSY
+Sprite SPR_HART allocated.
+Sprite SPR_CHRT allocated.
+MobjType MT_CAPEHAMMER allocated.
+MobjType MT_HEART allocated.
+MobjType MT_HEARTATTACK allocated.
+MobjType MT_BLINKHEART allocated.
+MobjType MT_ORBITHEART allocated.
+State S_CAPEHAMMER allocated.
+State S_HAMMERCHASE1 allocated.
+State S_HAMMERCHASE2 allocated.
+State S_PLAY_CYCLONE allocated.
+State S_PLAY_TWIRL1 allocated.
+State S_PLAY_TWIRL2 allocated.
+State S_PLAY_TWIRL3 allocated.
+State S_PLAY_TWIRL4 allocated.
+State S_PLAY_TWIRL5 allocated.
+State S_PLAY_TWIRL6 allocated.
+State S_PLAY_TWIRL7 allocated.
+State S_PLAY_TWIRL8 allocated.
+State S_PLAY_TWIRL9 allocated.
+State S_PLAY_TWIRL10 allocated.
+State S_PLAY_TWIRL11 allocated.
+State S_PLAY_TWIRL12 allocated.
+State S_PLAY_HAMMER1 allocated.
+State S_PLAY_HAMMER2 allocated.
+State S_PLAY_HAMMER3 allocated.
+State S_PLAY_HAMMER4 allocated.
+State S_PLAY_HAMMER5 allocated.
+State S_PLAY_HAMMER6 allocated.
+State S_PLAY_HAMMERDOWN1 allocated.
+State S_PLAY_HAMMERDOWN2 allocated.
+State S_PLAY_HAMMERDOWN3 allocated.
+State S_PLAY_HAMMERDOWN4 allocated.
+State S_PLAY_HAMMERDOWN5 allocated.
+State S_PLAY_HAMMERDOWN6 allocated.
+State S_PLAY_LAUNCH allocated.
+State S_PLAY_ROSYCHARGE allocated.
+State S_PLAY_ROSYDASH allocated.
+State S_PLAY_ROSYSLIDE allocated.
+State S_HEART allocated.
+State S_HEARTATTACK allocated.
+State S_BLINKHEART allocated.
+State S_ORBITHEART1 allocated.
+State S_ORBITHEART2 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\CL_2.1Rosy-v2.3.wad|LUA_BAMY
+Sprite SPR_RCRM allocated.
+MobjType MT_ROSYCHARM allocated.
+State S_ROSYCHARM1 allocated.
+State S_ROSYCHARM2 allocated.
+State S_ROSYCHARM3 allocated.
+State S_ROSYCHARM4 allocated.
+State S_ROSYCHARM5 allocated.
+State S_ROSYCHARM6 allocated.
+State S_ROSYCHARM7 allocated.
+State S_ORBITCHARM1 allocated.
+State S_ORBITCHARM2 allocated.
+Loading object config from .\Early Gang\files\Early-Gang-Files\CL_2.1Rosy-v2.3.wad
+CL_2.1Rosy-v2.3.wad added 10 frames in 3 sprites
+Added skin 'rosy'
+No maps added
+Added file .\DOWNLOAD\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from .\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from .\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from .\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from .\DOWNLOAD\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3 (645 lumps)
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/LUA_LUA
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/MultiThokCrossMomentum.lua
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/PERSONAHD.lua
+Loading SOC from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|soc/OBJCTCFG
+CL_OverhauledLegacyTrio-V1.3.pk3 added 1 frames in 1 sprites
+Added skin 'handdrawn'
+Added skin 'lessunique'
+Added skin 'chrispymarriage'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\CL_PastChao_V1.pk3 (234 lumps)
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\CL_PastChao_V1.pk3|Lua/Lua_PUYO
+Loading SOC from .\Early Gang\files\Early-Gang-Files\CL_PastChao_V1.pk3|SOC/SOC_CHAR
+Added skin 'fchaod3'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\CL_PastCinnossu_V1.pk3 (182 lumps)
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\CL_PastCinnossu_V1.pk3|Lua/Lua_PUYO
+Loading SOC from .\Early Gang\files\Early-Gang-Files\CL_PastCinnossu_V1.pk3|SOC/SOC_CHAR
+Added skin 'acinossu'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\CL_PastMegaman_V1.pk3 (152 lumps)
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\CL_PastMegaman_V1.pk3|LUA/LUA_LMON
+MobjType MT_LEMON allocated.
+State S_LEMON allocated.
+State S_SOUNDPLAYERLMN allocated.
+Sprite SPR_PLSS allocated.
+Sound sfx_plasma allocated.
+Sound sfx_firxpl allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\CL_PastMegaman_V1.pk3|LUA/Lua_PUYO
+Loading SOC from .\Early Gang\files\Early-Gang-Files\CL_PastMegaman_V1.pk3|SOC/SOC_CHAR
+CL_PastMegaman_V1.pk3 added 1 frames in 1 sprites
+Added skin 'pmegamand3'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\CL_PastZim_V1.pk3 (70 lumps)
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\CL_PastZim_V1.pk3|LUA/LUA_LEGP
+Skincolor SKINCOLOR_LEGACYWHITE allocated.
+Skincolor SKINCOLOR_LEGACYSILVER allocated.
+Skincolor SKINCOLOR_LEGACYGREY allocated.
+Skincolor SKINCOLOR_LEGACYBLACK allocated.
+Skincolor SKINCOLOR_LEGACYCYAN allocated.
+Skincolor SKINCOLOR_LEGACYTEAL allocated.
+Skincolor SKINCOLOR_LEGACYSTEELBLUE allocated.
+Skincolor SKINCOLOR_LEGACYBLUE allocated.
+Skincolor SKINCOLOR_LEGACYPEACH allocated.
+Skincolor SKINCOLOR_LEGACYTAN allocated.
+Skincolor SKINCOLOR_LEGACYPINK allocated.
+Skincolor SKINCOLOR_LEGACYLAVENDER allocated.
+Skincolor SKINCOLOR_LEGACYPURPLE allocated.
+Skincolor SKINCOLOR_LEGACYORANGE allocated.
+Skincolor SKINCOLOR_LEGACYROSEWOOD allocated.
+Skincolor SKINCOLOR_LEGACYBEIGE allocated.
+Skincolor SKINCOLOR_LEGACYBROWN allocated.
+Skincolor SKINCOLOR_LEGACYRED allocated.
+Skincolor SKINCOLOR_LEGACYDARKRED allocated.
+Skincolor SKINCOLOR_LEGACYNEONGREEN allocated.
+Skincolor SKINCOLOR_LEGACYZIM allocated.
+Skincolor SKINCOLOR_LEGACYOLIVE allocated.
+Skincolor SKINCOLOR_LEGACYYELLOW allocated.
+Skincolor SKINCOLOR_LEGACYGOLD allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\CL_PastZim_V1.pk3|LUA/Lua_PUYO
+Loading SOC from .\Early Gang\files\Early-Gang-Files\CL_PastZim_V1.pk3|SOC/SOC_CHAR
+Added skin 'fdzim'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\CL_Sonikku_v2.2.pk3 (157 lumps)
+Loading Lua script from .\Early Gang\CL_Sonikku_v2.2.pk3|Lua/LUA_GAME
+Loading Lua script from .\Early Gang\CL_Sonikku_v2.2.pk3|Lua/LUA_COMP
+Loading Lua script from .\Early Gang\CL_Sonikku_v2.2.pk3|Lua/L_ThokExample_NoComments-v1.1.lua
+Loading SOC from .\Early Gang\CL_Sonikku_v2.2.pk3|SOC/OBJCTCFG.SOC
+Added skin 'sonikku'
+No maps added
+Added file .\DOWNLOAD\CL_UglyKnux-v4.pk3 (225 lumps)
+Loading Lua script from .\DOWNLOAD\CL_UglyKnux-v4.pk3|Lua/LUA_LUA
+Added command "uglycontrolsoff"
+Added command "uglycontrolson"
+Loading Lua script from .\DOWNLOAD\CL_UglyKnux-v4.pk3|Lua/LUA_OLDS
+Loading Lua script from .\DOWNLOAD\CL_UglyKnux-v4.pk3|Lua/LUA_OLDG
+Loading Lua script from .\DOWNLOAD\CL_UglyKnux-v4.pk3|Lua/LUA_HUD
+Loading SOC from .\DOWNLOAD\CL_UglyKnux-v4.pk3|SOC/OBJCTCFG
+CL_UglyKnux-v4.pk3 added 1 frames in 1 sprites
+Added skin 'uglyknux'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\d4data.wad (631 lumps)
+Loading main config from .\Early Gang\d4data.wad
+31 midi musics replaced
+MAP74
+MAP76
+MAP78
+MAP80
+MAP79
+MAP75
+MAP77
+MAP81
+MAP60
+MAP61
+MAP62
+MAP63
+MAP64
+MAP66
+MAP65
+MAP82
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\demolevels&assets.wad (115 lumps)
+MAPC1
+MAPC2
+MAPC3
+MAPC4
+MAPC5
+MAPC6
+MAPC7
+MAPC8
+MAPC9
+MAPCA
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\doshog.pk3 (95 lumps)
+Loading Lua script from .\Early Gang\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from .\Early Gang\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\earlygang.wad (328 lumps)
+Loading main config from .\Early Gang\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+WARNING: Line 218: Level header 30: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 228: Level header 40: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 238: Level header 41: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 248: Level header 50: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 257: Level header 51: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 266: Level header 52: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 275: Level header 53: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 285: Level header 54: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 294: Level header 55: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 303: Level header 56: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 312: Level header 57: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 323: Level header 58: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 337: Level header 280: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 344: Level header 281: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 351: Level header 282: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 359: Level header 283: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 366: Level header 284: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 373: Level header 285: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 381: Level header 286: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 389: Level header 287: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 396: Level header 288: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 403: Level header 289: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 411: Level header 290: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 418: Level header 532: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 425: Level header 533: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 432: Level header 534: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 439: Level header 535: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 447: Level header 536: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 454: Level header 537: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 461: Level header 538: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 468: Level header 539: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 476: Level header 540: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 483: Level header 541: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 491: Level header 542: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 498: Level header 543: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 505: Level header 544: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+38 warnings in the SOC lump
+32 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+Current map 1 replaced by added file, ending the level to ensure consistency.
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\finaldemo.wad (102 lumps)
+Loading main config from .\Early Gang\files\Early-Gang-Files\finaldemo.wad
+1 midi musics replaced
+MAPB3
+MAPB6
+MAPB1
+MAPB2
+MAPB4
+MAPB5
+MAPB7
+MAPB8
+MAPB9
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\metson.pk3 (153 lumps)
+Loading SOC from .\Early Gang\files\Early-Gang-Files\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3 (764 lumps)
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_CMMN
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_OMCE
+Sprite SPR_21MC allocated.
+Sprite SPR_20MC allocated.
+MobjType MT_OLDMACEPOINT allocated.
+MobjType MT_OLDSWINGMACEPOINT allocated.
+MobjType MT_OLDHANGMACEPOINT allocated.
+MobjType MT_OLDSPINMACEPOINT allocated.
+MobjType MT_OLD_HIDDEN_SLING allocated.
+MobjType MT_21SMALLMACECHAIN allocated.
+MobjType MT_21BIGMACECHAIN allocated.
+MobjType MT_21SMALLMACE allocated.
+MobjType MT_21BIGMACE allocated.
+MobjType MT_20SMALLMACECHAIN allocated.
+MobjType MT_20BIGMACECHAIN allocated.
+MobjType MT_20SMALLMACE allocated.
+MobjType MT_20BIGMACE allocated.
+State S_21SLING1 allocated.
+State S_21SLING2 allocated.
+State S_21SMALLMACECHAIN allocated.
+State S_21BIGMACECHAIN allocated.
+State S_21SMALLMACE allocated.
+State S_21BIGMACE allocated.
+State S_20SMALLMACECHAIN allocated.
+State S_20BIGMACECHAIN allocated.
+State S_20SMALLMACE allocated.
+State S_20BIGMACE allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_OJTF
+Sprite SPR_OJTF allocated.
+MobjType MT_OLDJETFUME1 allocated.
+State S_OLDJETFUME1 allocated.
+State S_OLDJETFUME2 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_EMCM
+Sprite SPR_21EM allocated.
+State S_21EGGMOBILE_DIE1 allocated.
+State S_21EGGMOBILE_DIE2 allocated.
+State S_21EGGMOBILE_DIE3 allocated.
+State S_21EGGMOBILE_DIE4 allocated.
+State S_21EGGMOBILE_FLEE1 allocated.
+State S_21EGGMOBILE_FLEE2 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_20EM
+MobjType MT_20EGGMOBILE allocated.
+State S_20EGGMOBILE_STND allocated.
+State S_20EGGMOBILE_LATK1 allocated.
+State S_20EGGMOBILE_LATK2 allocated.
+State S_20EGGMOBILE_LATK3 allocated.
+State S_20EGGMOBILE_LATK4 allocated.
+State S_20EGGMOBILE_LATK5 allocated.
+State S_20EGGMOBILE_LATK6 allocated.
+State S_20EGGMOBILE_LATK7 allocated.
+State S_20EGGMOBILE_LATK8 allocated.
+State S_20EGGMOBILE_LATK9 allocated.
+State S_20EGGMOBILE_LATK10 allocated.
+State S_20EGGMOBILE_RATK1 allocated.
+State S_20EGGMOBILE_RATK2 allocated.
+State S_20EGGMOBILE_RATK3 allocated.
+State S_20EGGMOBILE_RATK4 allocated.
+State S_20EGGMOBILE_RATK5 allocated.
+State S_20EGGMOBILE_RATK6 allocated.
+State S_20EGGMOBILE_RATK7 allocated.
+State S_20EGGMOBILE_RATK8 allocated.
+State S_20EGGMOBILE_RATK9 allocated.
+State S_20EGGMOBILE_RATK10 allocated.
+State S_20EGGMOBILE_PANIC1 allocated.
+State S_20EGGMOBILE_PANIC2 allocated.
+State S_20EGGMOBILE_PAIN allocated.
+State S_20EGGMOBILE_PAIN2 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_21EM
+Sprite SPR_OUNI allocated.
+MobjType MT_21EGGMOBILE allocated.
+MobjType MT_21EGGMOBILE_BALL allocated.
+MobjType MT_OLDLASER allocated.
+MobjType MT_21EGGMOBILE_FIRE allocated.
+MobjType MT_21EGGMOBILE_TARGET allocated.
+State S_21EGGMOBILE_STND allocated.
+State S_21EGGMOBILE_LATK1 allocated.
+State S_21EGGMOBILE_LATK2 allocated.
+State S_21EGGMOBILE_LATK3 allocated.
+State S_21EGGMOBILE_LATK4 allocated.
+State S_21EGGMOBILE_LATK5 allocated.
+State S_21EGGMOBILE_LATK6 allocated.
+State S_21EGGMOBILE_LATK7 allocated.
+State S_21EGGMOBILE_LATK8 allocated.
+State S_21EGGMOBILE_LATK9 allocated.
+State S_21EGGMOBILE_LATK10 allocated.
+State S_21EGGMOBILE_RATK1 allocated.
+State S_21EGGMOBILE_RATK2 allocated.
+State S_21EGGMOBILE_RATK3 allocated.
+State S_21EGGMOBILE_RATK4 allocated.
+State S_21EGGMOBILE_RATK5 allocated.
+State S_21EGGMOBILE_RATK6 allocated.
+State S_21EGGMOBILE_RATK7 allocated.
+State S_21EGGMOBILE_RATK8 allocated.
+State S_21EGGMOBILE_RATK9 allocated.
+State S_21EGGMOBILE_RATK10 allocated.
+State S_21EGGMOBILE_PANIC1 allocated.
+State S_21EGGMOBILE_PANIC2 allocated.
+State S_21EGGMOBILE_PANIC3 allocated.
+State S_21EGGMOBILE_PANIC4 allocated.
+State S_21EGGMOBILE_PANIC5 allocated.
+State S_21EGGMOBILE_PANIC6 allocated.
+State S_21EGGMOBILE_PANIC7 allocated.
+State S_21EGGMOBILE_PANIC8 allocated.
+State S_21EGGMOBILE_PANIC9 allocated.
+State S_21EGGMOBILE_PANIC10 allocated.
+State S_21EGGMOBILE_PAIN allocated.
+State S_21EGGMOBILE_PAIN2 allocated.
+State S_21EGGMOBILE_BALL allocated.
+State S_21EGGMOBILE_TARGET allocated.
+State S_OLDLASER allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_ENCM
+Sprite SPR_21EN allocated.
+Sprite SPR_2ENJ allocated.
+Sprite SPR_OGOP allocated.
+MobjType MT_20BOSSJUNK allocated.
+MobjType MT_20BOSSSPIGOTJUNK allocated.
+State S_21EGGMOBILE2_STND allocated.
+State S_21EGGMOBILE2_POGO4 allocated.
+State S_21EGGMOBILE2_PAIN allocated.
+State S_21EGGMOBILE2_PAIN2 allocated.
+State S_21EGGMOBILE2_DIE1 allocated.
+State S_21EGGMOBILE2_DIE2 allocated.
+State S_21EGGMOBILE2_DIE3 allocated.
+State S_21EGGMOBILE2_DIE4 allocated.
+State S_21EGGMOBILE2_FLEE1 allocated.
+State S_21EGGMOBILE2_FLEE2 allocated.
+State S_20BOSSTANK1 allocated.
+State S_20BOSSTANK2 allocated.
+State S_20BOSSSPIGOT allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_20EN
+MobjType MT_20EGGMOBILE2 allocated.
+MobjType MT_OLDGOOP allocated.
+State S_20EGGMOBILE2_POGO1 allocated.
+State S_20EGGMOBILE2_POGO2 allocated.
+State S_20EGGMOBILE2_POGO3 allocated.
+State S_OLDGOOP1 allocated.
+State S_OLDGOOP2 allocated.
+State S_OLDGOOP3 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_21EN
+MobjType MT_21EGGMOBILE2 allocated.
+MobjType MT_21EGGMOBILE2_POGO allocated.
+MobjType MT_21GOOP allocated.
+State S_21EGGMOBILE2_STND allocated.
+State S_21EGGMOBILE2_POGO1 allocated.
+State S_21EGGMOBILE2_POGO2 allocated.
+State S_21EGGMOBILE2_POGO3 allocated.
+State S_21EGGMOBILE2_POGO5 allocated.
+State S_21EGGMOBILE2_POGO6 allocated.
+State S_21EGGMOBILE2_POGO7 allocated.
+State S_21GOOP1 allocated.
+State S_21GOOP2 allocated.
+State S_21GOOP3 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_EOCM
+Sprite SPR_OEGO allocated.
+Sprite SPR_OTRP allocated.
+Sprite SPR_PRPL allocated.
+MobjType MT_OLDTORPEDO allocated.
+MobjType MT_PROPELLER allocated.
+State S_PROPELLER1 allocated.
+State S_PROPELLER2 allocated.
+State S_PROPELLER3 allocated.
+State S_PROPELLER4 allocated.
+State S_PROPELLER5 allocated.
+State S_PROPELLER6 allocated.
+State S_PROPELLER7 allocated.
+State S_21EGGMOBILE3_STND allocated.
+State S_21EGGMOBILE3_ATK1 allocated.
+State S_21EGGMOBILE3_ATK2 allocated.
+State S_21EGGMOBILE3_ATK3A allocated.
+State S_21EGGMOBILE3_ATK3B allocated.
+State S_21EGGMOBILE3_ATK3C allocated.
+State S_21EGGMOBILE3_ATK3D allocated.
+State S_21EGGMOBILE3_ATK4 allocated.
+State S_21EGGMOBILE3_ATK5 allocated.
+State S_21EGGMOBILE3_LAUGH1 allocated.
+State S_21EGGMOBILE3_LAUGH2 allocated.
+State S_21EGGMOBILE3_LAUGH3 allocated.
+State S_21EGGMOBILE3_LAUGH4 allocated.
+State S_21EGGMOBILE3_LAUGH5 allocated.
+State S_21EGGMOBILE3_LAUGH6 allocated.
+State S_21EGGMOBILE3_LAUGH7 allocated.
+State S_21EGGMOBILE3_LAUGH8 allocated.
+State S_21EGGMOBILE3_LAUGH9 allocated.
+State S_21EGGMOBILE3_LAUGH10 allocated.
+State S_21EGGMOBILE3_LAUGH11 allocated.
+State S_21EGGMOBILE3_LAUGH12 allocated.
+State S_21EGGMOBILE3_LAUGH13 allocated.
+State S_21EGGMOBILE3_LAUGH14 allocated.
+State S_21EGGMOBILE3_LAUGH15 allocated.
+State S_21EGGMOBILE3_LAUGH16 allocated.
+State S_21EGGMOBILE3_LAUGH17 allocated.
+State S_21EGGMOBILE3_LAUGH18 allocated.
+State S_21EGGMOBILE3_LAUGH19 allocated.
+State S_21EGGMOBILE3_LAUGH20 allocated.
+State S_21EGGMOBILE3_PAIN allocated.
+State S_21EGGMOBILE3_PAIN2 allocated.
+State S_21EGGMOBILE3_DIE1 allocated.
+State S_21EGGMOBILE3_DIE2 allocated.
+State S_21EGGMOBILE3_DIE3 allocated.
+State S_21EGGMOBILE3_DIE4 allocated.
+State S_21EGGMOBILE3_FLEE1 allocated.
+State S_21EGGMOBILE3_FLEE2 allocated.
+State S_OLDTORPEDO allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_20EO
+MobjType MT_20EGGMOBILE3 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_21EO
+Sprite SPR_OFAK allocated.
+MobjType MT_21EGGMOBILE3 allocated.
+MobjType MT_OLDFAKEMOBILE allocated.
+MobjType MT_OLDTORPEDO2 allocated.
+State S_OLDFAKEMOBILE_INIT allocated.
+State S_OLDFAKEMOBILE allocated.
+State S_OLDFAKEMOBILE_ATK1 allocated.
+State S_OLDFAKEMOBILE_ATK2 allocated.
+State S_OLDFAKEMOBILE_ATK3A allocated.
+State S_OLDFAKEMOBILE_ATK3B allocated.
+State S_OLDFAKEMOBILE_ATK3C allocated.
+State S_OLDFAKEMOBILE_ATK3D allocated.
+State S_OLDFAKEMOBILE_ATK4 allocated.
+State S_OLDFAKEMOBILE_ATK5 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_21EP
+Sprite SPR_21EP allocated.
+Sprite SPR_OEFR allocated.
+MobjType MT_21JETFLAME allocated.
+MobjType MT_21EGGMOBILE4 allocated.
+MobjType MT_21EGGMOBILE4_MACE allocated.
+State S_21JETFLAME1 allocated.
+State S_21JETFLAME2 allocated.
+State S_21EGGMOBILE4_STND allocated.
+State S_21EGGMOBILE4_LATK1 allocated.
+State S_21EGGMOBILE4_LATK2 allocated.
+State S_21EGGMOBILE4_LATK3 allocated.
+State S_21EGGMOBILE4_LATK4 allocated.
+State S_21EGGMOBILE4_LATK5 allocated.
+State S_21EGGMOBILE4_LATK6 allocated.
+State S_21EGGMOBILE4_RATK1 allocated.
+State S_21EGGMOBILE4_RATK2 allocated.
+State S_21EGGMOBILE4_RATK3 allocated.
+State S_21EGGMOBILE4_RATK4 allocated.
+State S_21EGGMOBILE4_RATK5 allocated.
+State S_21EGGMOBILE4_RATK6 allocated.
+State S_21EGGMOBILE4_RAISE1 allocated.
+State S_21EGGMOBILE4_RAISE2 allocated.
+State S_21EGGMOBILE4_RAISE3 allocated.
+State S_21EGGMOBILE4_RAISE4 allocated.
+State S_21EGGMOBILE4_RAISE5 allocated.
+State S_21EGGMOBILE4_RAISE6 allocated.
+State S_21EGGMOBILE4_RAISE7 allocated.
+State S_21EGGMOBILE4_RAISE8 allocated.
+State S_21EGGMOBILE4_RAISE9 allocated.
+State S_21EGGMOBILE4_RAISE10 allocated.
+State S_21EGGMOBILE4_PAIN allocated.
+State S_21EGGMOBILE4_DIE1 allocated.
+State S_21EGGMOBILE4_DIE2 allocated.
+State S_21EGGMOBILE4_DIE3 allocated.
+State S_21EGGMOBILE4_DIE4 allocated.
+State S_21EGGMOBILE4_FLEE1 allocated.
+State S_21EGGMOBILE4_FLEE2 allocated.
+State S_21EGGMOBILE4_MACE allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_21MS
+Sprite SPR_OMTS allocated.
+Sprite SPR_OMTC allocated.
+Sprite SPR_OENR allocated.
+MobjType MT_21METALSONIC_BATTLE allocated.
+MobjType MT_21MSSHIELD_FRONT allocated.
+MobjType MT_21MSGATHER allocated.
+MobjType MT_OLDENERGYBALL allocated.
+State S_21METALSONIC_FLOAT allocated.
+State S_21METALSONIC_VECTOR allocated.
+State S_21METALSONIC_STUN allocated.
+State S_21METALSONIC_BLOCK allocated.
+State S_21METALSONIC_RAISE allocated.
+State S_21METALSONIC_GATHER allocated.
+State S_21METALSONIC_DASH allocated.
+State S_21METALSONIC_BOUNCE allocated.
+State S_21METALSONIC_SHOOT allocated.
+State S_21METALSONIC_PAIN allocated.
+State S_21METALSONIC_DEATH allocated.
+State S_21METALSONIC_FLEE1 allocated.
+State S_21METALSONIC_FLEE2 allocated.
+State S_21METALSONIC_FLEE3 allocated.
+State S_21METALSONIC_FLEE4 allocated.
+State S_21MSSHIELD_F1 allocated.
+State S_OLDENERGYBALL1 allocated.
+State S_OLDENERGYBALL2 allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_BECM
+Sprite SPR_OBRK allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_20BE
+MobjType MT_OLDBLACKEGGMAN allocated.
+MobjType MT_OLDBLACKEGGMAN_HELPER allocated.
+MobjType MT_OLDBLACKEGGMAN_GOOPFIRE allocated.
+MobjType MT_OLDBLACKEGGMAN_MISSILE allocated.
+MobjType MT_OLDEXPLODE allocated.
+State S_OLDBLACKEGG_STND allocated.
+State S_OLDBLACKEGG_STND2 allocated.
+State S_OLDBLACKEGG_WALK1 allocated.
+State S_OLDBLACKEGG_WALK2 allocated.
+State S_OLDBLACKEGG_WALK3 allocated.
+State S_OLDBLACKEGG_WALK4 allocated.
+State S_OLDBLACKEGG_WALK5 allocated.
+State S_OLDBLACKEGG_WALK6 allocated.
+State S_OLDBLACKEGG_SHOOT1 allocated.
+State S_OLDBLACKEGG_SHOOT2 allocated.
+State S_OLDBLACKEGG_PAIN1 allocated.
+State S_OLDBLACKEGG_PAIN2 allocated.
+State S_OLDBLACKEGG_PAIN3 allocated.
+State S_OLDBLACKEGG_PAINREPEAT allocated.
+State S_OLDBLACKEGG_PAIN4 allocated.
+State S_OLDBLACKEGG_PAIN5 allocated.
+State S_OLDBLACKEGG_HITFACE1 allocated.
+State S_OLDBLACKEGG_HITFACE2 allocated.
+State S_OLDBLACKEGG_HITFACE3 allocated.
+State S_OLDBLACKEGG_HITFACE4 allocated.
+State S_OLDBLACKEGG_DIE1 allocated.
+State S_OLDBLACKEGG_DIE2 allocated.
+State S_OLDBLACKEGG_DIE3 allocated.
+State S_OLDBLACKEGG_DIE4 allocated.
+State S_OLDBLACKEGG_DIE5 allocated.
+State S_OLDBLACKEGG_MISSILE1 allocated.
+State S_OLDBLACKEGG_MISSILE2 allocated.
+State S_OLDBLACKEGG_MISSILE3 allocated.
+State S_OLDBLACKEGG_GOOP allocated.
+State S_OLDBLACKEGG_JUMP1 allocated.
+State S_OLDBLACKEGG_JUMP2 allocated.
+State S_OLDBLACKEGG_DESTROYPLAT1 allocated.
+State S_OLDBLACKEGG_DESTROYPLAT2 allocated.
+State S_OLDBLACKEGG_DESTROYPLAT3 allocated.
+State S_OLDBLACKEGG_HELPER allocated.
+State S_OLDBLACKEGG_GOOP1 allocated.
+State S_OLDBLACKEGG_GOOP2 allocated.
+State S_OLDBLACKEGG_GOOP3 allocated.
+State S_OLDBLACKEGG_GOOP4 allocated.
+State S_OLDBLACKEGG_GOOP5 allocated.
+State S_OLDBLACKEGG_GOOP6 allocated.
+State S_OLDBLACKEGG_GOOP7 allocated.
+State S_OLDBLACKEGG_MISSILE allocated.
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\SL_RetroBossesAndMaces-v2.3.5.pk3|Lua/LUA_21BE
+Sprite SPR_OELC allocated.
+Sprite SPR_OFLE allocated.
+Sprite SPR_OFLA allocated.
+Sprite SPR_OHOP allocated.
+MobjType MT_OLDCYBRAKDEMON allocated.
+MobjType MT_OLDCYBRAKDEMON_ELECTRIC_BARRIER allocated.
+MobjType MT_OLDCYBRAKDEMON_MISSILE allocated.
+MobjType MT_OLDCYBRAKDEMON_FLAMESHOT allocated.
+MobjType MT_OLDCYBRAKDEMON_FLAMEREST allocated.
+MobjType MT_OLDCYBRAKDEMON_TARGET_RETICULE allocated.
+MobjType MT_OLDCYBRAKDEMON_TARGET_DOT allocated.
+MobjType MT_OLDCYBRAKDEMON_NAPALM_BOMB_LARGE allocated.
+MobjType MT_OLDCYBRAKDEMON_NAPALM_BOMB_SMALL allocated.
+MobjType MT_OLDCYBRAKDEMON_NAPALM_FLAMES allocated.
+State S_OLDCYBRAKDEMON_IDLE allocated.
+State S_OLDCYBRAKDEMON_WALK1 allocated.
+State S_OLDCYBRAKDEMON_WALK2 allocated.
+State S_OLDCYBRAKDEMON_WALK3 allocated.
+State S_OLDCYBRAKDEMON_WALK4 allocated.
+State S_OLDCYBRAKDEMON_WALK5 allocated.
+State S_OLDCYBRAKDEMON_WALK6 allocated.
+State S_OLDCYBRAKDEMON_CHOOSE_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK3 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK4 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK5 allocated.
+State S_OLDCYBRAKDEMON_MISSILE_ATTACK6 allocated.
+State S_OLDCYBRAKDEMON_FLAME_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_FLAME_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_FLAME_ATTACK3 allocated.
+State S_OLDCYBRAKDEMON_FLAME_ATTACK4 allocated.
+State S_OLDCYBRAKDEMON_CHOOSE_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK3 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK4 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK5 allocated.
+State S_OLDCYBRAKDEMON_VILE_ATTACK6 allocated.
+State S_OLDCYBRAKDEMON_NAPALM_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_NAPALM_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_NAPALM_ATTACK3 allocated.
+State S_OLDCYBRAKDEMON_FINISH_ATTACK1 allocated.
+State S_OLDCYBRAKDEMON_FINISH_ATTACK2 allocated.
+State S_OLDCYBRAKDEMON_PAIN1 allocated.
+State S_OLDCYBRAKDEMON_PAIN2 allocated.
+State S_OLDCYBRAKDEMON_PAIN3 allocated.
+State S_OLDCYBRAKDEMON_DIE1 allocated.
+State S_OLDCYBRAKDEMON_DIE2 allocated.
+State S_OLDCYBRAKDEMON_DIE3 allocated.
+State S_OLDCYBRAKDEMON_DIE4 allocated.
+State S_OLDCYBRAKDEMON_DIE5 allocated.
+State S_OLDCYBRAKDEMON_DIE6 allocated.
+State S_OLDCYBRAKDEMON_DIE7 allocated.
+State S_OLDCYBRAKDEMON_DIE8 allocated.
+State S_OLDCYBRAKDEMON_DEINVINCIBLERIZE allocated.
+State S_OLDCYBRAKDEMON_INVINCIBLERIZE allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_INIT1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_INIT2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_PLAYSOUND allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER3 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER4 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER5 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER6 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER7 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER8 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER9 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER10 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER11 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER12 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER13 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER14 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER15 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER16 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER17 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER18 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER19 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER20 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER21 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER22 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER23 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER24 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_DIE1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_DIE2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_DIE3 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMCHECK allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMSUCCESS allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMCHOOSE allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM3 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM4 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM5 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM6 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM7 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM8 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM9 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM10 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM11 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOM12 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMFAIL allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_SPARK_RANDOMLOOP allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_REVIVE1 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_REVIVE2 allocated.
+State S_OLDCYBRAKDEMONELECTRICBARRIER_REVIVE3 allocated.
+State S_OLDCYBRAKDEMONMISSILE allocated.
+State S_OLDCYBRAKDEMONMISSILE_EXPLODE1 allocated.
+State S_OLDCYBRAKDEMONMISSILE_EXPLODE2 allocated.
+State S_OLDCYBRAKDEMONMISSILE_EXPLODE3 allocated.
+State S_OLDCYBRAKDEMONFLAMESHOT_FLY1 allocated.
+State S_OLDCYBRAKDEMONFLAMESHOT_FLY2 allocated.
+State S_OLDCYBRAKDEMONFLAMESHOT_FLY3 allocated.
+State S_OLDCYBRAKDEMONFLAMESHOT_DIE allocated.
+State S_OLDCYBRAKDEMONFLAMEREST allocated.
+State S_OLDFLAME allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE1 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE2 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE3 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE4 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE5 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE6 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE7 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE8 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE9 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE10 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE11 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE12 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE13 allocated.
+State S_OLDCYBRAKDEMONTARGETRETICULE14 allocated.
+State S_OLDCYBRAKDEMONTARGETDOT allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_FLY allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_DIE1 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_DIE2 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_DIE3 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBLARGE_DIE4 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE1 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE2 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE3 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE4 allocated.
+State S_OLDCYBRAKDEMONNAPALMBOMBSMALL_DIE5 allocated.
+State S_OLDCYBRAKDEMONNAPALMFLAME_FLY allocated.
+State S_OLDCYBRAKDEMONNAPALMFLAME_DIE allocated.
+SL_RetroBossesAndMaces-v2.3.5.pk3 added 714 frames in 22 sprites
+MAP03
+MAP06
+MAP09
+MAP12
+MAP24
+MAP25
+MAPA3
+MAPA6
+MAPA9
+Errors occurred while loading .\Early; not added.
+Errors occurred while loading Gang\files\Early-Gang-Files\utility-v0.3b; not added.
+Errors occurred while loading (1).lua; not added.
+Errors occurred while loading .\Early; not added.
+Errors occurred while loading Gang\files\Early-Gang-Files\utility-v0.3b; not added.
+Errors occurred while loading (1).lua; not added.
+Errors occurred while loading .\Early; not added.
+Added file .\addons\Char\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from .\addons\Char\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Errors occurred while loading .\Early; not added.
+Added file .\Early Gang\files\Early-Gang-Files\xmastails.pk3 (392 lumps)
+Loading Lua script from .\Early Gang\files\Early-Gang-Files\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from .\Early Gang\files\Early-Gang-Files\xmastails.pk3|SOC/MAINCFG
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/2$maxsend 5000000
+*Sonix the sucky do has joined the game (player 2)
+Levels will end after 5 minutes.
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/servers'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/servers'...
+Contacting the server...
+Connecting to: The SRB2 History Tour
+Gametype: Co-op
+Version: 2.2.10
+Sending join request...
+Join accepted, waiting for complete game state...
+.\$$$.sav...
+Downloading .\$$$.sav...(done)
+Loading savegame length 11484
+Map is now "MAP01: GREENFLOWER Zone  1"
+*Vertz1515 has rejoined the game (player 1)
+$callvote exitlevel
+Unknown command 'callvote'
+<~SERVER> hi
+Server message: ayo
+Server message: Welcum to the suckiest server on earth
+Added file .\Fast Bois\utility-v0.3b.lua (1 lumps)
+Loading Lua script from .\Fast Bois\utility-v0.3b.lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+*Sonix the sucky do left the game
+WARNING: .\Fast Bois\utility-v0.3b.lua:1335: attempt to compare nil with number
+stack traceback:
+    .\Fast Bois\utility-v0.3b.lua:1335: in function '?'
+    .\Fast Bois\utility-v0.3b.lua:1451: in function 'ChatMacro'
+    .\Fast Bois\utility-v0.3b.lua:1608: in function <.\Fast Bois\utility-v0.3b.lua:1582>
+Server message: Welcum to the suckiest server on earth
+*Sonix the sucky do has rejoined the game (player 2)
+*Sonix the sucky do left the game
+*Sonix the sucky do has rejoined the game (player 2)
+*Sonix the sucky do left the game
+*Sonix the sucky do has rejoined the game (player 2)
+*Sonix the sucky do left the game
+*Sonix the sucky do has rejoined the game (player 2)
+Viewpoint: Sonix the sucky do
+Viewpoint: Sonix the sucky do
+Vertz1515 has completed the level.
+Sonix the sucky do has completed the level.
+*luigi budd.pk3 has joined the game (player 3)
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP60: Special Stage 1 Zone"
+*luigi budd.pk3 left the game (Connection timeout)
+*bolt has joined the game (player 4)
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+*bolt left the game (Connection timeout)
+*bol has joined the game (player 5)
+= ~Server says =
+what 
+bol has completed the level.
+Vertz1515 has completed the level.
+Sonix the sucky do has completed the level.
+Speeding off to level...
+WARNING: Unknown thing type 4001 placed at (-2432, 2304)
+WARNING: Unknown thing type 4002 placed at (2496, 2304)
+WARNING: Unknown thing type 4003 placed at (2496, -2624)
+WARNING: Unknown thing type 4004 placed at (-2432, -2624)
+ERROR: FOF (line 284) has a top height below its bottom.
+Map is now "MAP61: Special Stage 2 Zone"
+$map mapah
+WARNING: (null) (MAPAH) doesn't support Co-op mode!
+(Use -force to override)
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+$map mapah -force
+Speeding off to level...
+ERROR: Music MAPAHM could not be loaded: lump not found!
+Map is now "MAPAH"
+ERROR: Music MAPAHM could not be loaded: lump not found!
+ERROR: Music MAPAHM could not be loaded: lump not found!
+WARNING: Can't find a compatible map after map 117; using map 117 anyway
+Speeding off to level...
+ERROR: Music MAPAHM could not be loaded: lump not found!
+Map is now "MAPAH"
+ERROR: Music MAPAHM could not be loaded: lump not found!
+<@Vertz1515> gf
+<@Vertz1515> sorry if weird stuff is happening, we're just testing.
+ERROR: Music MAPAHM could not be loaded: lump not found!
+*bol left the game
+WARNING: Can't find a compatible map after map 117; using map 117 anyway
+Speeding off to level...
+ERROR: Music MAPAHM could not be loaded: lump not found!
+Map is now "MAPAH"
+= ~Server says =
+gyuerfgh8irhgih 
+ERROR: Music MAPAHM could not be loaded: lump not found!
+ERROR: Music MAPAHM could not be loaded: lump not found!
+WARNING: Can't find a compatible map after map 117; using map 117 anyway
+Speeding off to level...
+ERROR: Music MAPAHM could not be loaded: lump not found!
+Map is now "MAPAH"
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.
+s/225751/update'...
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+*Sonix the sucky do has joined the game (player 2)
+*Vertz1515 left the game
+Password from Sonix the sucky do failed.
+*Vertz1515 has rejoined the game (player 1)
+Sonix the sucky do passed authentication.
+$say hi
+<~SERVER> hi
+Errors occurred while loading .\Early; not added.
+Errors occurred while loading Gang\files\Early-Gang-Files\utility-v0.3b; not added.
+Errors occurred while loading (1).lua; not added.
+$csay ayo
+Server message: ayo
+Server message: Welcum to the suckiest server on earth
+$addfile utility-v0.3b.lua
+Added file .\Fast Bois\utility-v0.3b.lua (1 lumps)
+Loading Lua script from .\Fast Bois\utility-v0.3b.lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+Password from  failed.
+Password from  failed.
+*Sonix the sucky do left the game
+Password from Sonix the sucky do failed.
+Sonix the sucky do passed authentication.
+WARNING: .\Fast Bois\utility-v0.3b.lua:1335: attempt to compare nil with number
+stack traceback:
+    .\Fast Bois\utility-v0.3b.lua:1335: in function '?'
+    .\Fast Bois\utility-v0.3b.lua:1451: in function 'ChatMacro'
+    .\Fast Bois\utility-v0.3b.lua:1608: in function <.\Fast Bois\utility-v0.3b.lua:1582>
+Server message: Welcum to the suckiest server on earth
+*Sonix the sucky do has rejoined the game (player 2)
+Password from  failed.
+Password from  failed.
+*Sonix the sucky do left the game
+Password from Sonix the sucky do failed.
+Sonix the sucky do passed authentication.
+*Sonix the sucky do has rejoined the game (player 2)
+Password from  failed.
+Password from  failed.
+*Sonix the sucky do left the game
+Password from Sonix the sucky do failed.
+Sonix the sucky do passed authentication.
+*Sonix the sucky do has rejoined the game (player 2)
+*Sonix the sucky do left the game
+*Sonix the sucky do has rejoined the game (player 2)
+Vertz1515 has completed the level.
+Sonix the sucky do has completed the level.
+*luigi budd.pk3 has joined the game (player 3)
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP60: Special Stage 1 Zone"
+*luigi budd.pk3 left the game (Connection timeout)
+*bolt has joined the game (player 4)
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+*bolt left the game (Connection timeout)
+*bol has joined the game (player 5)
+Sonix the sucky do passed authentication.
+$csay what
+Put notice #1 into the Noticeboard queue.
+= ~Server says =
+what 
+bol has completed the level.
+Vertz1515 has completed the level.
+Sonix the sucky do has completed the level.
+Speeding off to level...
+WARNING: Unknown thing type 4001 placed at (-2432, 2304)
+WARNING: Unknown thing type 4002 placed at (2496, 2304)
+WARNING: Unknown thing type 4003 placed at (2496, -2624)
+WARNING: Unknown thing type 4004 placed at (-2432, -2624)
+ERROR: FOF (line 284) has a top height below its bottom.
+Map is now "MAP61: Special Stage 2 Zone"
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+Speeding off to level...
+Map is now "MAPAH"
+WARNING: Can't find a compatible map after map 117; using map 117 anyway
+Speeding off to level...
+Map is now "MAPAH"
+<@Vertz1515> gf
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+<@Vertz1515> sorry if weird stuff is happening, we're just testing.
+*bol left the game
+WARNING: Can't find a compatible map after map 117; using map 117 anyway
+Speeding off to level...
+Map is now "MAPAH"
+$csay gyuerfgh8irhgih
+Put notice #1 into the Noticeboard queue.
+= ~Server says =
+gyuerfgh8irhgih 
+WARNING: Can't find a compatible map after map 117; using map 117 anyway
+Speeding off to level...
+Map is now "MAPAH"
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+*Vertz1515 left the game

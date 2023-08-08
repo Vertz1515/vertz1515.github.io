@@ -1,0 +1,828 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-05-22_23-18-19.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\2.1midi.wad (95 lumps)
+95 midi musics replaced
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\2.1ogg.wad (76 lumps)
+76 digital musics replaced
+No maps added
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\2.1zones.wad (962 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\2.1zones.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP22
+MAP23
+MAP24
+MAP25
+MAP30
+MAP40
+MAP41
+MAP50
+MAP51
+MAP52
+MAP53
+MAP54
+MAP55
+MAP56
+MAP57
+MAP58
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAA
+MAPAB
+MAPAC
+MAPAD
+MAPAE
+MAPAF
+MAPAG
+MAPAH
+MAPAI
+MAPAJ
+MAPAK
+MAPAN
+MAPAO
+MAPAR
+MAPAS
+MAPAT
+MAPAU
+MAPAV
+MAPAW
+MAPF0
+MAPF1
+MAPF2
+MAPF3
+MAPF4
+MAPF5
+MAPF6
+MAPF7
+MAPF8
+MAPF9
+MAPFA
+MAPM0
+MAPM1
+MAPM2
+MAPM3
+MAPM4
+MAPM5
+MAPM6
+MAPM7
+MAPM8
+MAPM9
+MAPMA
+MAPMB
+MAPMC
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\DOWNLOAD\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\DOWNLOAD\banskins.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\DOWNLOAD\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\DOWNLOAD\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\DOWNLOAD\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3 (645 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/MultiThokCrossMomentum.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/PERSONAHD.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|soc/OBJCTCFG
+CL_OverhauledLegacyTrio-V1.3.pk3 added 1 frames in 1 sprites
+Added skin 'handdrawn'
+Added skin 'lessunique'
+Added skin 'chrispymarriage'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\addons\Char\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: GREENFLOWER Zone 1"
+$banskin sonic
+Skin "sonic" has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+*Suit has joined the game (player 1)
+$banskin tails
+Skin "tails" has been banned.
+You currently cannot play with the skin "tails" as it has been banned.
+$banskin knuckles
+Skin "knuckles" has been banned.
+You currently cannot play with the skin "knuckles" as it has been banned.
+$banskin amy
+Skin "amy" has been banned.
+You currently cannot play with the skin "amy" as it has been banned.
+$banskin fang
+Skin "fang" has been banned.
+You currently cannot play with the skin "fang" as it has been banned.
+$banskin metalsonic
+Skin "metalsonic" has been banned.
+You currently cannot play with the skin "metalsonic" as it has been banned.
+<~ImpatientHedgehog15> good?
+<Suit> hold on
+<Suit> Nothing so far
+<Suit> did you replace
+<~ImpatientHedgehog15> no music?
+<Suit> all of the music, or just some
+<~ImpatientHedgehog15> all
+<Suit> No im just gettin 2.2 gfz
+<Suit> go to egg rock 2
+<~ImpatientHedgehog15> what's going on
+Speeding off to level...
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAP23: EGG ROCK Zone 2"
+<Suit> WAIT
+<~ImpatientHedgehog15> what
+<Suit> God damnit
+<Suit> So close
+<Suit> I thought it was it
+<Suit> Well nothing seems to be replaced
+<~ImpatientHedgehog15> so weird
+<Suit> did you name it right?
+<~ImpatientHedgehog15> yeah....
+<Suit> Did you make sure to save save save
+<Suit> not just save
+<Suit> since if your using slade
+*Sonic has joined the game (player 2)
+<Suit> its good to press the first save option, then the third
+<~ImpatientHedgehog15> OH
+<Suit> never forget
+<~ImpatientHedgehog15> WHAT DO YOU MEAN BY THAT
+<Suit> there are three save options
+<Suit> save
+<Suit> and then save all
+<Suit> do both of those when you save
+<~ImpatientHedgehog15> hmm
+<Suit> dont use the middle one unless your really unsure slade is tryna screw you over
+<Suit> its not bad
+<Suit> its just a save as
+<~ImpatientHedgehog15> weird thing is that
+<~ImpatientHedgehog15> the music is working for me
+*Sonic left the game
+<~ImpatientHedgehog15> but nobody else
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+<Suit> hold on
+*MarioXSonicGamer has joined the game (player 3)
+<Suit> nope
+<Suit> nothin
+<Suit> are you like
+<Suit> directly modifying srb2
+<~ImpatientHedgehog15> no
+<Suit> hm
+<~ImpatientHedgehog15> it's 2 wads
+<Suit> i was able to replace music before
+<~ImpatientHedgehog15> one for ogg and one for midi
+<Suit> i changed some random song thats not used in srb2 to be something else
+<~ImpatientHedgehog15> me too
+MarioXSonicGamer has completed the level.
+<~ImpatientHedgehog15> and it works for me but nobody else in the server
+<MarioXSonicGamer> I have the music remade for 2.2
+<~ImpatientHedgehog15> you do?
+<MarioXSonicGamer> and it doesn't mark the game modified
+<MarioXSonicGamer> Yes I have
+<MarioXSonicGamer> it
+<Suit> afk for a hot second
+<MarioXSonicGamer> oh ok makes sense
+ImpatientHedgehog15 has completed the level.
+<Suit> alright back
+<MarioXSonicGamer> Also I got Logan's Offical 2.1 Model (Only for Sonic)
+<~ImpatientHedgehog15> does srb2 not allow custom music for servers or something?
+<Suit> No they do
+<Suit> and if you want to try testing that
+<MarioXSonicGamer> Yes
+<Suit> i can send a test wad to you from a mega file
+<Suit> and have that have a modified song
+Suit has completed the level.
+<~ImpatientHedgehog15> do they need to be in the same wad that uses the MUSIC?
+Speeding off to level...
+Map is now "MAP60: MP Special Stage 1 Zone"
+<Suit> the midi has to be in the wad and named the same
+<Suit> as the song your replacing
+<Suit> i can send you an example
+<Suit> that i got once
+<~ImpatientHedgehog15> I tried that but it exeeds the filesize limit
+*Conbille64 has joined the game (player 2)
+<~ImpatientHedgehog15> maybe I could compress them
+<Suit> the oggs?
+<Conbille64> hey
+<~ImpatientHedgehog15> yeah
+<Suit> the midis cant be that big
+<Suit> oh
+<Suit> i could help with that
+<~ImpatientHedgehog15> the midis are fine but oggs...
+<Suit> i got movavi
+<MarioXSonicGamer> How Do I make Custom music.dta files?
+<~ImpatientHedgehog15> slade
+<MarioXSonicGamer> oh ok
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+Conbille64 has completed the level.
+*Sonic has joined the game (player 4)
+<~ImpatientHedgehog15> hi sonic
+MarioXSonicGamer has completed the level.
+Viewpoint: Suit
+Viewpoint: Conbille64
+Viewpoint: MarioXSonicGamer
+Viewpoint: Sonic
+<Sonic> hi
+<~ImpatientHedgehog15> I'm thinking of putting Demo 3 knuckles in this server
+<Sonic> I WANT TO PLAY AS TAILS
+<Suit> Hey impatient
+<~ImpatientHedgehog15> hi
+<Suit> Do you possibly know of a demo
+<Suit> that has
+<MarioXSonicGamer> Great Picture
+<Suit> a knuckles that uses tails, sonic, and xtreme sprites
+<Suit> and has a icon of a smily face
+<~ImpatientHedgehog15> yes
+<Suit> Is that like in a demo you can still get or no
+<~ImpatientHedgehog15> well... no
+<Suit> Do you have it or no
+<~ImpatientHedgehog15> Maybw... idk
+<~ImpatientHedgehog15> haven't looked
+<Suit> now that im saying this
+<Suit> i can just watch the one video on youtube
+<Suit> snapshot the smily face icon
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<Suit> and just do the other sprites from there sources
+<~ImpatientHedgehog15> I know what it looks like
+<Suit> yeah
+<Sonic> why did you guys ban sonic, tails and knux
+*Austin has joined the game (player 5)
+<~ImpatientHedgehog15> it's the default icon for modded SSKINS
+<Suit> i was thinking of makin g a wad of that for you to add here
+<~ImpatientHedgehog15> in the demos
+<Austin> h
+<MarioXSonicGamer> Good
+<Austin> hi
+<Sonic> I WANT SONIC
+<~ImpatientHedgehog15> hi
+<~ImpatientHedgehog15> dude
+<~ImpatientHedgehog15> the skins are banned, use the old ones
+<Sonic> bruh
+<Suit> you could like
+<Suit> delete them
+<Suit> im pretty sure
+<Austin> me?
+<Suit> since you can replace them entirely
+<~ImpatientHedgehog15> idk
+<Suit> Sonic is replaced already
+<Suit> so i dont think he will have any trouble
+<Suit> Actually
+Austin has completed the level.
+*Sonic left the game (Connection timeout)
+<Suit> you could just make every main character force you to be halloween sonic
+<Suit> save you the deleting process
+<MarioXSonicGamer> We Need Legacy Tails
+<~ImpatientHedgehog15> Legacy tails?
+<~ImpatientHedgehog15> you mean the one used in wgd.wad
+<MarioXSonicGamer> For this Picture
+Speeding off to level...
+Map is now "MAP61: MP Special Stage 2 Zone"
+<Suit> now that one would be fun
+<Austin> ima be trash sonic
+*Austin renamed to AustinH
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+ImpatientHedgehog15 has completed the level.
+$suicide
+AustinH has completed the level.
+Conbille64 has completed the level.
+MarioXSonicGamer has completed the level.
+<Conbille64> sonic and knuckles screenshot
+<MarioXSonicGamer> yes
+Suit has completed the level.
+<Conbille64> there we go
+Speeding off to level...
+Map is now "MAP62: MP Special Stage 3 Zone"
+<MarioXSonicGamer> I got the token :)
+<AustinH> do you guys have a yt
+<~ImpatientHedgehog15> yeah
+<Conbille64> yeah
+<Suit> i have one with two videos uploaded
+<MarioXSonicGamer> yes
+<AustinH> channel names?
+Speeding off to level...
+Map is now "MAP05: TECHNO HILL Zone 2"
+<~ImpatientHedgehog15> I have one with more then 70 videos
+<Conbille64> Fang The Sniper
+<Suit> one is an unlisted trailer for sd2 tails and the other is a test for a engine
+<MarioXSonicGamer> My Username here
+AustinH has completed the level.
+Conbille64 has completed the level.
+<Conbille64> BRUH
+<~ImpatientHedgehog15> elevator
+Viewpoint: Suit
+Viewpoint: Conbille64
+Viewpoint: MarioXSonicGamer
+Viewpoint: AustinH
+Viewpoint: ImpatientHedgehog15
+Viewpoint: Suit
+<AustinH> my yt is ahopkins4life
+<~ImpatientHedgehog15> the elevator is cool thouge
+ImpatientHedgehog15 has completed the level.
+<~ImpatientHedgehog15> *though
+MarioXSonicGamer has completed the level.
+Viewpoint: Suit
+Viewpoint: Suit
+Viewpoint: Conbille64
+Suit has completed the level.
+Viewpoint: Suit
+Viewpoint: Conbille64
+<Conbille64> perfect
+Speeding off to level...
+Map is now "MAP06: TECHNO HILL Zone 3"
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+Map is now "MAP07: DEEP SEA Zone 1"
+<Conbille64> AAAAAA
+Conbille64 has completed the level.
+<Conbille64> Ha!
+ImpatientHedgehog15 has completed the level.
+MarioXSonicGamer has completed the level.
+<~ImpatientHedgehog15> water running is funny
+<MarioXSonicGamer> 3rd
+Viewpoint: Suit
+Viewpoint: Conbille64
+AustinH has completed the level.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<Conbille64> oof
+Suit has completed the level.
+<Suit> Got it
+<Suit> finally
+<Suit> i need to get something to eat
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (7968, 12064)
+WARNING: Unknown thing type 524 placed at (7616, 7488)
+WARNING: Unknown thing type 524 placed at (7616, 7808)
+WARNING: Unknown thing type 524 placed at (8704, 8320)
+WARNING: Unknown thing type 524 placed at (8704, 8576)
+WARNING: Unknown thing type 524 placed at (7616, 9152)
+WARNING: Unknown thing type 524 placed at (7776, 10208)
+WARNING: Unknown thing type 524 placed at (7776, 12864)
+WARNING: Unknown thing type 524 placed at (8032, 12864)
+WARNING: Unknown thing type 524 placed at (5952, 14880)
+WARNING: Unknown thing type 524 placed at (6336, 14880)
+WARNING: Unknown thing type 524 placed at (7840, 7648)
+WARNING: Unknown thing type 524 placed at (7904, 12096)
+WARNING: Unknown thing type 524 placed at (7776, 12096)
+WARNING: Unknown thing type 524 placed at (8032, 12096)
+WARNING: Unknown thing type 524 placed at (7840, 12064)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAP08: DEEP SEA Zone 2"
+<MarioXSonicGamer> What is your channel name Suit?
+ImpatientHedgehog15 has completed the level.
+Conbille64 has completed the level.
+AustinH has completed the level.
+Suit has completed the level.
+<Conbille64> sup
+<Suit> Suit
+*PeeledSheep has joined the game (player 4)
+<Suit> oh wait
+<Suit> i took down the tails trailer i think
+<Suit> wait nvm
+<Conbille64> welp
+<Suit> youtube just doesnt show unlisted videos when you view your own profile
+<Conbille64> ALAKBHAR
+<MarioXSonicGamer> Hey Suit what is your yt channel name?
+<Suit> channel link
+<Suit> https://www.youtube.com/channel/UCIm212CXlx3324tzAljlq-w/videos
+<Conbille64> channel name
+<Suit> suit
+<Suit> its better you go link
+<Suit> and heres a link to the unlisted sd2tails trailer
+<Suit> https://youtu.be/u0mjhY2ZBeE
+<Suit> go off of this instead
+<MarioXSonicGamer> How can I do a link
+Screen shot srb20024.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+<MarioXSonicGamer> this is not discord
+<Suit> look at it and type it into the search bar
+<Suit> like the good ol days
+<Suit> https://youtu.be/u0mjhY2ZBeE
+<~ImpatientHedgehog15> I have a channel too, it's a little inactive though
+<Conbille64> in my channel i upload srb2 ghost races or gameplays
+<~ImpatientHedgehog15> on my channel... I pretty much upload whatever
+<AustinH> same
+<Suit> same with mine but theres nothing
+<~ImpatientHedgehog15> if it's sonic or one of my creations
+<AustinH> i only have 31 subs
+<Suit> what i have uploaded is miniscule and the sd2 tails trailer (that is something decent) is unlisted due to it not actually being approved yet
+MarioXSonicGamer has completed the level.
+<Suit> because im a big sissy and dont have the balls to ask for permission
+<MarioXSonicGamer> Do you have discord
+<Suit> yeah
+<~ImpatientHedgehog15> I only have 333 subscribers at the moment
+<AustinH> cool
+<MarioXSonicGamer> Here's my Discord Name
+<Conbille64> i get 52 subscriber
+<Suit> i have no public image on anybody besides my friends
+<Suit> with my yt
+<MarioXSonicGamer> SonicGamerTheStickmin#1519
+<Suit> Suit#7031
+Screen shot srb20025.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+<MarioXSonicGamer> oh ok
+<~ImpatientHedgehog15> mine has weird characters\
+<MarioXSonicGamer> Hold on brb
+<Conbille64> Conbille64#5399
+*MarioXSonicGamer left the game (Connection timeout)
+<Suit> just friend me or the others
+*Conbille64 left the game (Connection timeout)
+Screen shot srb20026.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+<Suit> saves you the time of trying to put yours in
+<AustinH> AustinHopkins#7810
+$exitlevel
+Speeding off to level...
+Map is now "MAP09: DEEP SEA Zone 3"
+$exitlevel
+*MarioXSonicGamer has rejoined the game (player 3)
+Speeding off to level...
+Map is now "MAP10: CASTLE EGGMAN Zone 1"
+*skunktooth24 has joined the game (player 6)
+*PeeledSheep left the game
+AustinH has completed the level.
+*skunktooth24 left the game
+ImpatientHedgehog15 has completed the level.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Master server registration successful.
+<MarioXSonicGamer> MADE IT!
+<AustinH> i go now
+<AustinH> cya
+*AustinH left the game
+<~ImpatientHedgehog15> bye.
+<~ImpatientHedgehog15> I think I might shut the server down now.
+<Suit> ok
+Screen shot srb20027.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+<Suit> want me to see if i can get midis working
+<~ImpatientHedgehog15> I will add you
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/unlist'...
+Server deregistration request successfully sent.
+WARNING: Demo version does not match game version. Desyncs may occur.
+You currently cannot play with the skin "sonic" as it has been banned.
+WARNING: Demo playback has desynced!
+WARNING: Demo version does not match game version. Desyncs may occur.
+You currently cannot play with the skin "tails" as it has been banned.
+WARNING: Demo version does not match game version. Desyncs may occur.
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+You currently cannot play with the skin "knuckles" as it has been banned.
+WARNING: Demo playback has desynced!
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+WARNING: Demo playback has desynced!
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

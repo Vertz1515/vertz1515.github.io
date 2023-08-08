@@ -1,0 +1,1969 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2022 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\music.dta (181 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+ERROR: Mix_LoadMUS_RW: Unrecognized audio format
+ERROR: Music _clear could not be loaded: engine failure!
+Levels will end after 5 minutes.
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2023-02-21_22-55-13.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.10 (Mar  6 2022 22:55:14 82fb731c master) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\2.0zones.wad (213 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\2.0zones.wad
+WARNING: Line 32: Level header 103: unknown word 'NOPERFECTBONUS'
+WARNING: Line 142: Unknown word: SUBTITLE
+WARNING: Line 179: Level header 122: unknown word 'NOPERFECTBONUS'
+3 warnings in the SOC lump
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAC
+MAPAD
+MAPAE
+MAPAH
+MAPAI
+MAPAF
+MAPAB
+MAPAA
+MAPAG
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\banskins.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_OverhauledLegacyTrio-V1.3.pk3 (645 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/MultiThokCrossMomentum.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/PERSONAHD.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_OverhauledLegacyTrio-V1.3.pk3|soc/OBJCTCFG
+CL_OverhauledLegacyTrio-V1.3.pk3 added 1 frames in 1 sprites
+Added skin 'handdrawn'
+Added skin 'lessunique'
+Added skin 'chrispymarriage'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastChao_V1.pk3 (234 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastChao_V1.pk3|Lua/Lua_PUYO
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastChao_V1.pk3|SOC/SOC_CHAR
+Added skin 'fchaod3'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastCinnossu_V1.pk3 (182 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastCinnossu_V1.pk3|Lua/Lua_PUYO
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastCinnossu_V1.pk3|SOC/SOC_CHAR
+Added skin 'acinossu'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastMegaman_V1.pk3 (152 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastMegaman_V1.pk3|LUA/LUA_LMON
+MobjType MT_LEMON allocated.
+State S_LEMON allocated.
+State S_SOUNDPLAYERLMN allocated.
+Sprite SPR_PLSS allocated.
+Sound sfx_plasma allocated.
+Sound sfx_firxpl allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastMegaman_V1.pk3|LUA/Lua_PUYO
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastMegaman_V1.pk3|SOC/SOC_CHAR
+CL_PastMegaman_V1.pk3 added 1 frames in 1 sprites
+Added skin 'pmegamand3'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastZim_V1.pk3 (70 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastZim_V1.pk3|LUA/LUA_LEGP
+Skincolor SKINCOLOR_LEGACYWHITE allocated.
+Skincolor SKINCOLOR_LEGACYSILVER allocated.
+Skincolor SKINCOLOR_LEGACYGREY allocated.
+Skincolor SKINCOLOR_LEGACYBLACK allocated.
+Skincolor SKINCOLOR_LEGACYCYAN allocated.
+Skincolor SKINCOLOR_LEGACYTEAL allocated.
+Skincolor SKINCOLOR_LEGACYSTEELBLUE allocated.
+Skincolor SKINCOLOR_LEGACYBLUE allocated.
+Skincolor SKINCOLOR_LEGACYPEACH allocated.
+Skincolor SKINCOLOR_LEGACYTAN allocated.
+Skincolor SKINCOLOR_LEGACYPINK allocated.
+Skincolor SKINCOLOR_LEGACYLAVENDER allocated.
+Skincolor SKINCOLOR_LEGACYPURPLE allocated.
+Skincolor SKINCOLOR_LEGACYORANGE allocated.
+Skincolor SKINCOLOR_LEGACYROSEWOOD allocated.
+Skincolor SKINCOLOR_LEGACYBEIGE allocated.
+Skincolor SKINCOLOR_LEGACYBROWN allocated.
+Skincolor SKINCOLOR_LEGACYRED allocated.
+Skincolor SKINCOLOR_LEGACYDARKRED allocated.
+Skincolor SKINCOLOR_LEGACYNEONGREEN allocated.
+Skincolor SKINCOLOR_LEGACYZIM allocated.
+Skincolor SKINCOLOR_LEGACYOLIVE allocated.
+Skincolor SKINCOLOR_LEGACYYELLOW allocated.
+Skincolor SKINCOLOR_LEGACYGOLD allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastZim_V1.pk3|LUA/Lua_PUYO
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_PastZim_V1.pk3|SOC/SOC_CHAR
+Added skin 'fdzim'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3 (157 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3|Lua/LUA_GAME
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3|Lua/LUA_COMP
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3|Lua/L_ThokExample_NoComments-v1.1.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3|SOC/OBJCTCFG.SOC
+Added skin 'sonikku'
+No maps added
+Errors occurred while loading addfile; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\d4data.wad (631 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\d4data.wad
+31 midi musics replaced
+MAP74
+MAP76
+MAP78
+MAP80
+MAP79
+MAP75
+MAP77
+MAP81
+MAP60
+MAP61
+MAP62
+MAP63
+MAP64
+MAP66
+MAP65
+MAP82
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Errors occurred while loading addfile; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\earlygang.wad (328 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+WARNING: Line 218: Level header 30: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 228: Level header 40: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 238: Level header 41: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 248: Level header 50: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 257: Level header 51: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 266: Level header 52: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 275: Level header 53: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 285: Level header 54: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 294: Level header 55: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 303: Level header 56: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 312: Level header 57: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 323: Level header 58: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 337: Level header 280: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 344: Level header 281: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 351: Level header 282: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 359: Level header 283: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 366: Level header 284: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 373: Level header 285: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 381: Level header 286: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 389: Level header 287: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 396: Level header 288: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 403: Level header 289: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 411: Level header 290: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 418: Level header 532: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 425: Level header 533: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 432: Level header 534: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 439: Level header 535: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 447: Level header 536: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 454: Level header 537: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 461: Level header 538: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 468: Level header 539: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 476: Level header 540: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 483: Level header 541: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 491: Level header 542: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 498: Level header 543: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 505: Level header 544: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+38 warnings in the SOC lump
+32 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+WARNING: Already processed addfile, skipping
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\extra.pk3 (3 lumps)
+No maps added
+WARNING: Already processed addfile, skipping
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\finaldemo.wad (102 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\finaldemo.wad
+1 midi musics replaced
+MAPB3
+MAPB6
+MAPB1
+MAPB2
+MAPB4
+MAPB5
+MAPB7
+MAPB8
+MAPB9
+WARNING: Already processed addfile, skipping
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+WARNING: Already processed addfile, skipping
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+Errors occurred while loading addfile; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+WARNING: Already processed addfile, skipping
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+WARNING: Already processed addfile, skipping
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3 (392 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3|SOC/MAINCFG
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+WARNING: Already processed addfile, skipping
+WARNING: Already processed C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3, skipping
+WARNING: Already processed addfile, skipping
+WARNING: Already processed C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3, skipping
+WARNING: Already processed addfile, skipping
+WARNING: Already processed C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3, skipping
+WARNING: ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1697: in function <...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1662>
+executing C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\initialize.txt
+Skin "sonic" has been banned.
+Skin "tails" has been banned.
+Skin "knuckles" has been banned.
+Skin "metalsonic" has been banned.
+Skin "amy" has been banned.
+Skin "fang" has been banned.
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*Vertz1515 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+You currently cannot play with the skin "sonic" as it has been banned.
+Map is now "MAP01: GREENFLOWER Zone 1"
+$password 222
+Password set.
+$password 2222
+Password set.
+*Sonix the sucky do has joined the game (player 1)
+Sonix the sucky do passed authentication.
+Added file .\Early Gang\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+*Sonic has joined the game (player 2)
+WARNING: ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1335: in function '?'
+    ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1608: in function <...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1582>
+<@Sonix the sucky do> HI SONIC
+<~Vertz1515> hi sonic
+$map ac
+Speeding off to level...
+Map is now "MAPAC: ARID CANYON Zone 1"
+$map ad\
+ERROR: Could not find any map described as 'ad\'.
+$map ad
+Speeding off to level...
+Map is now "MAPAD: RED VOLCANO Zone 1"
+Speeding off to level...
+Map is now "MAP22: EGG ROCK Zone 1"
+$map ad
+Speeding off to level...
+Map is now "MAPAD: RED VOLCANO Zone 1"
+Speeding off to level...
+WARNING: Unknown thing type 553 placed at (-7616, -11104)
+WARNING: Unknown thing type 553 placed at (-7616, -11136)
+WARNING: Unknown thing type 553 placed at (-7616, -11168)
+WARNING: Unknown thing type 553 placed at (-7616, -11200)
+WARNING: Unknown thing type 553 placed at (-7616, -11232)
+WARNING: Unknown thing type 553 placed at (-7616, -11264)
+WARNING: Unknown thing type 553 placed at (-7616, -11296)
+WARNING: Unknown thing type 553 placed at (-6464, -5920)
+WARNING: Unknown thing type 553 placed at (-6432, -5920)
+WARNING: Unknown thing type 553 placed at (-6400, -5920)
+WARNING: Unknown thing type 553 placed at (-6368, -5920)
+WARNING: Unknown thing type 553 placed at (-6336, -5920)
+WARNING: Unknown thing type 553 placed at (-6304, -5920)
+WARNING: Unknown thing type 553 placed at (-6272, -5920)
+WARNING: Unknown thing type 553 placed at (-6496, -5920)
+WARNING: Unknown thing type 553 placed at (-6528, -5920)
+WARNING: Unknown thing type 553 placed at (-6560, -5920)
+WARNING: Unknown thing type 553 placed at (-6592, -5920)
+ERROR: FOF (line 2955) has a top height below its bottom.
+Map is now "MAPAF: EGG ROCK Zone 1"
+*Sonic left the game
+<~Vertz1515> bye sonic
+$map ag
+Speeding off to level...
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: constant 'DISCOW1' could not be parsed.
+
+WARNING: Unknown thing type 554 placed at (-3392, -640)
+WARNING: Unknown thing type 554 placed at (-3392, -832)
+WARNING: Unknown thing type 554 placed at (-3392, -736)
+WARNING: Unknown thing type 527 placed at (11168, 21344)
+WARNING: Unknown thing type 527 placed at (10592, 21664)
+WARNING: Unknown thing type 527 placed at (10656, 21344)
+WARNING: Unknown thing type 527 placed at (10912, 21600)
+WARNING: Unknown thing type 527 placed at (10464, 21600)
+WARNING: Unknown thing type 527 placed at (10784, 21408)
+WARNING: Unknown thing type 527 placed at (11040, 22816)
+WARNING: Unknown thing type 527 placed at (10976, 23008)
+WARNING: Unknown thing type 527 placed at (10464, 22944)
+WARNING: Unknown thing type 527 placed at (10592, 22752)
+WARNING: Unknown thing type 527 placed at (11168, 22816)
+WARNING: Unknown thing type 527 placed at (10720, 23072)
+WARNING: Unknown thing type 527 placed at (10912, 22944)
+WARNING: Unknown thing type 527 placed at (10528, 22880)
+WARNING: Unknown thing type 527 placed at (10720, 22688)
+WARNING: Unknown thing type 527 placed at (10528, 22016)
+WARNING: Unknown thing type 527 placed at (11104, 21952)
+WARNING: Unknown thing type 527 placed at (11232, 21728)
+WARNING: Unknown thing type 527 placed at (10400, 21792)
+WARNING: Unknown thing type 527 placed at (10656, 21600)
+WARNING: Unknown thing type 527 placed at (11040, 21792)
+WARNING: Unknown thing type 527 placed at (10976, 22688)
+WARNING: Unknown thing type 527 placed at (11104, 22752)
+WARNING: Unknown thing type 527 placed at (11232, 22624)
+WARNING: Unknown thing type 527 placed at (11168, 22560)
+WARNING: Unknown thing type 527 placed at (11040, 22496)
+WARNING: Unknown thing type 527 placed at (10848, 22432)
+WARNING: Unknown thing type 527 placed at (10656, 22496)
+WARNING: Unknown thing type 527 placed at (10592, 22400)
+WARNING: Unknown thing type 527 placed at (11232, 21472)
+WARNING: Unknown thing type 527 placed at (10528, 22560)
+WARNING: Unknown thing type 527 placed at (10400, 22368)
+WARNING: Unknown thing type 527 placed at (10528, 21856)
+WARNING: Unknown thing type 527 placed at (10784, 22080)
+WARNING: Unknown thing type 527 placed at (11168, 22080)
+WARNING: Unknown thing type 527 placed at (10848, 22624)
+WARNING: Unknown thing type 527 placed at (10720, 22208)
+WARNING: Unknown thing type 527 placed at (10592, 22272)
+WARNING: Unknown thing type 527 placed at (10880, 21312)
+WARNING: Unknown thing type 527 placed at (10848, 22336)
+WARNING: Unknown thing type 527 placed at (10912, 22208)
+WARNING: Unknown thing type 527 placed at (10464, 22208)
+WARNING: Unknown thing type 527 placed at (10464, 22336)
+WARNING: Unknown thing type 527 placed at (11168, 22432)
+WARNING: Unknown thing type 527 placed at (11232, 22336)
+WARNING: Unknown thing type 527 placed at (10976, 21408)
+WARNING: Unknown thing type 527 placed at (11232, 21536)
+WARNING: Unknown thing type 527 placed at (10528, 21536)
+WARNING: Unknown thing type 527 placed at (10592, 22080)
+WARNING: Unknown thing type 527 placed at (11232, 21952)
+WARNING: Unknown thing type 527 placed at (11232, 21792)
+WARNING: Unknown thing type 527 placed at (10464, 21792)
+WARNING: Unknown thing type 527 placed at (10976, 21920)
+WARNING: Unknown thing type 527 placed at (10464, 21952)
+WARNING: Unknown thing type 527 placed at (10528, 21280)
+WARNING: Unknown thing type 527 placed at (11104, 21600)
+WARNING: Unknown thing type 527 placed at (10400, 21664)
+WARNING: Unknown thing type 527 placed at (10848, 21952)
+WARNING: Unknown thing type 527 placed at (11168, 22208)
+WARNING: Unknown thing type 527 placed at (10976, 22400)
+WARNING: Unknown thing type 527 placed at (11040, 22080)
+WARNING: Unknown thing type 527 placed at (10720, 21920)
+WARNING: Unknown thing type 527 placed at (11168, 21856)
+WARNING: Unknown thing type 527 placed at (10656, 21792)
+WARNING: Unknown thing type 527 placed at (10912, 21792)
+WARNING: Unknown thing type 527 placed at (10464, 21408)
+WARNING: Unknown thing type 527 placed at (10848, 21728)
+WARNING: Unknown thing type 527 placed at (10528, 21792)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+ERROR: FOF (line 24045) has a top height below its bottom.
+Map is now "MAPAG: EGG ROCK Zone 2"
+*survival46 has joined the game (player 2)
+<survival46> wind tunnel!
+<@Sonix the sucky do> And shrink room!
+<survival46> why'd they remove this room :(
+<~Vertz1515> Right?
+<@Sonix the sucky do> People have skill issues apparently
+<@Sonix the sucky do> But like... it's the final zone
+<survival46> theres still a shrink thing in the background of v2.2
+<survival46> going into it works
+<survival46> but later makes your movement stop
+<@Sonix the sucky do> Give us a challenge, don't gut it. Build upon it.
+Vertz1515 has completed the level.
+<survival46> no disco?
+<@Sonix the sucky do> It wasn't in 2.0 I think
+<survival46> erm....
+<survival46> i'm teleported outside now
+<survival46> yo
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+<@Sonix the sucky do> Hold on
+<~Vertz1515> what
+Screen shot srb20120.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\screenshots\
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+<survival46> elvator glitched
+<survival46> help
+<@Sonix the sucky do> The elevator murdered me in cold blood
+<~Vertz1515> did you walk while in the elvator?
+Viewpoint: Sonix the sucky do
+$exitlevel
+Screen shot srb20121.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\screenshots\
+<survival46> wind tunnel for 2.3 :troll:
+Speeding off to level...
+Map is now "MAPAH: EGG ROCK Zone 3"
+<survival46> umm
+<survival46> small brak
+<@Sonix the sucky do> OH GOD THIS THING
+<survival46> NO LIVES
+Speeding off to level...
+Map is now "MAPAH: EGG ROCK Zone 3"
+<survival46> why is brak so small
+<~Vertz1515> idk
+<@Sonix the sucky do> Bro should've used the ERZ3 parameter
+<survival46> RUN
+<@Sonix the sucky do> This makes the boss needlessly more tedious...
+<survival46> WHY IS HE SMALL!? fake v2.0!
+<survival46> yay
+$exitlevel
+<survival46> ty
+<~Vertz1515> he died
+Speeding off to level...
+Map is now "MAPB1: GREENFLOWER Zone 1"
+<@Sonix the sucky do> He died due to slapping himself in the face :(
+<survival46> huh!?
+Map is now "MAPB1: GREENFLOWER Zone 1"
+$announce did you get all those chaos emeralDS?
+Unknown command 'announce'
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+$shout did you get all those chaos emeralds?
+Unknown command 'shout'
+<survival46> no redvxi
+<@Sonix the sucky do> Emeralds were reset. The server crashed
+<~Vertz1515> we didn't beat the game 3 times, that's the issue.
+<survival46> damn
+Sonix the sucky do has completed the level.
+survival46 has completed the level.
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP60: Special Stage 1 Zone"
+<survival46> isn't this 7
+<@Sonix the sucky do> Yes.
+<~Vertz1515> it's both actually.
+<survival46> oh..
+<~Vertz1515> it's not an oversight.
+Speeding off to level...
+Map is now "MAPB2: GREENFLOWER Zone 2"
+<survival46> gonna get the tokens
+<~Vertz1515> got one
+<@Sonix the sucky do> I'll hang back I guess
+Vertz1515 has completed the level.
+<survival46> oh there isn't one on the bridge huh
+<~Vertz1515> i picked it up
+survival46 has completed the level.
+<survival46> oh
+Speeding off to level...
+WARNING: Unknown thing type 4001 placed at (-2432, 2304)
+WARNING: Unknown thing type 4002 placed at (2496, 2304)
+WARNING: Unknown thing type 4003 placed at (2496, -2624)
+WARNING: Unknown thing type 4004 placed at (-2432, -2624)
+ERROR: FOF (line 284) has a top height below its bottom.
+Map is now "MAP61: Special Stage 2 Zone"
+<survival46> some platforms are missing
+Speeding off to level...
+Map is now "MAP62: Special Stage 3 Zone"
+<survival46> MY FAVORITE!
+Speeding off to level...
+Map is now "MAPB3: GREENFLOWER Zone 3"
+<survival46> that ain't final demo eggy!!!!
+Speeding off to level...
+Map is now "MAPB4: TECHNO HILL Zone 1"
+<@Sonix the sucky do> THZ time
+Vertz1515 has completed the level.
+survival46 has completed the level.
+Speeding off to level...
+Map is now "MAP63: Special Stage 4 Zone"
+<@Sonix the sucky do> Legit looks like Emerald Hill way too much
+<survival46> emerald hill?
+<@Sonix the sucky do> Old Techno Hill Act 1
+<survival46> yeah. by the time 2.0 released it already look dated
+*SpeedlordiumZ has joined the game (player 3)
+<survival46> welcome
+Speeding off to level...
+Map is now "MAP64: Special Stage 5 Zone"
+<~Vertz1515> banger alert
+Speeding off to level...
+Map is now "MAPB5: TECHNO HILL Zone 2"
+<@Sonix the sucky do> Orange Emerald moment
+<survival46> WHA
+Vertz1515 has completed the level.
+<survival46> HOW DID I DIE
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Sonix the sucky do has completed the level.
+<survival46> THIS PATH IS CURSED
+<~Vertz1515> probably a sector issue
+<@Sonix the sucky do> Faulty sectors?
+Speeding off to level...
+Map is now "MAPB6: TECHNO HILL Zone 3"
+Speeding off to level...
+Map is now "MAPB7: CASTLE EGGMAN Zone 1"
+<@Sonix the sucky do> Castle Eggman Zone Act 1: The Hunt for the Button
+Sonix the sucky do has completed the level.
+SpeedlordiumZ has completed the level.
+<survival46> oh
+Speeding off to level...
+WARNING: No Co-op starts in this map!
+WARNING: No Deathmatch starts in this map!
+ERROR: No player spawns found, spawning at the first mapthing!
+Map is now "MAP65: Special Stage 6 Zone"
+<@Sonix the sucky do> Who's ready for act 2?
+<survival46> i like this music aswell
+<~Vertz1515> This song has a FIRE piano solo!
+<survival46> button hunt 2
+Speeding off to level...
+Map is now "MAPB8: CASTLE EGGMAN Zone 2"
+<~Vertz1515> Bet that half of y'all will be camping at the end.
+<@Sonix the sucky do> Castle Eggman Zone Act 2: The Hunt for 7 More Buttons
+<survival46> "something is different"
+Vertz1515 has completed the level.
+<survival46> look at all those crawlas
+Sonix the sucky do has completed the level.
+<~Vertz1515> nobody was camping?
+<survival46> no
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+<@Sonix the sucky do> Suprisingly
+<~Vertz1515> wow
+<survival46> i was busy killing crawla
+<survival46> s
+Speeding off to level...
+WARNING: Unknown thing type 146 placed at (-3648, 256)
+WARNING: Unknown thing type 146 placed at (-3648, -256)
+WARNING: Unknown thing type 146 placed at (4160, -256)
+WARNING: Unknown thing type 146 placed at (4160, 256)
+WARNING: Unknown thing type 146 placed at (-384, -3520)
+WARNING: Unknown thing type 146 placed at (128, -3520)
+WARNING: Unknown thing type 146 placed at (128, 4288)
+WARNING: Unknown thing type 146 placed at (-384, 4288)
+WARNING: Unknown thing type 146 placed at (-64, 704)
+WARNING: Unknown thing type 146 placed at (-64, -768)
+WARNING: Unknown thing type 146 placed at (832, 0)
+WARNING: Unknown thing type 146 placed at (832, -896)
+WARNING: Unknown thing type 146 placed at (832, 832)
+WARNING: Unknown thing type 146 placed at (-64, -896)
+WARNING: Unknown thing type 146 placed at (-960, -896)
+WARNING: Unknown thing type 146 placed at (-960, -64)
+WARNING: Unknown thing type 146 placed at (-960, 832)
+WARNING: Unknown thing type 146 placed at (-64, 832)
+Map is now "MAPB9: CASTLE EGGMAN Zone 3"
+Screen shot srb20122.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\screenshots\
+<survival46> this theme should return
+$exitlevel
+<@Sonix the sucky do> I love this E1M8 remix tbh
+*Watluigi has joined the game (player 4)
+<survival46> DAMN IT
+\\\\\\\\\\\\\\\\\\\Multiplayer games can't unlock extras!
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+<@Sonix the sucky do> So...
+*SpeedlordiumZ left the game
+<@Sonix the sucky do> Match time?
+<~Vertz1515> hide and seek? or co op again?
+*Watluig has joined the game (player 5)
+<survival46> just 1 emerald and then mathc
+<@Sonix the sucky do> Oh yeah, Hide and Seek
+<@Sonix the sucky do> Anyone up for that?
+<survival46> hmmm
+<~Vertz1515> on the regular maps
+<survival46> if the maps have good hiding spots..
+<survival46> then okay
+survival46 has completed the level.
+Sonix the sucky do has completed the level.
+Vertz1515 has completed the level.
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP66: Special Stage 6 Zone"
+<survival46> banger
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+<~Vertz1515> alright, hide and seek.
+Gametype was changed from Co-op to Hide & Seek
+Speeding off to level...
+No player currently available to become IT. Awaiting available players.
+Map is now "MAP74: Zero Ring Zone"
+Point limit disabled
+survival46 entered the game.
+$map map01
+WARNING: GREENFLOWER Zone 1 (MAP01) doesn't support Hide & Seek mode!
+(Use -force to override)
+*Watluig left the game
+$map map01 -force
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP01: GREENFLOWER Zone 1"
+survival46 is now IT!
+Sonix the sucky do entered the game.
+Vertz1515 entered the game.
+WARNING: No Deathmatch starts in this map!
+<survival46> just us 3
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+<@Sonix the sucky do> OH MY GOD
+<@Sonix the sucky do> I DID NOT TAKE THIS INTO ACCOUNT
+survival46's thrown ring hit Vertz1515.
+Vertz1515 was found!
+Viewpoint: Sonix the sucky do
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+<@Sonix the sucky do> HOW
+survival46's thrown ring hit Sonix the sucky do.
+Sonix the sucky do was found!
+All players have been tagged!
+The round has ended.
+WARNING: Can't find a compatible map after map 1; using map 2 anyway
+<~Vertz1515> HOW DID YOU FIND ME FIRST WTF?!?!?
+<survival46> idk
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP02: GREENFLOWER Zone 2"
+Vertz1515 is now IT!
+<~Vertz1515> that was awesome
+<survival46> oops
+<@Sonix the sucky do> You know what'd be funny? Hide and Seek on the boss arena
+<survival46> lmao
+*Sls64LGamingBro/ST&HE has joined the game (player 3)
+<survival46> hi sls!
+<Sls64LGamingBro/ST&HE> hey everyone
+<@Sonix the sucky do> Playing Hide and Seek as you can see.
+<@Sonix the sucky do> Some nice hiding spots
+<Sls64LGamingBro/ST&HE> Which I saw in the mb
+<@Sonix the sucky do> ?
+<Sls64LGamingBro/ST&HE> I mean ms.srb2.org
+<~Vertz1515> oh
+<Sls64LGamingBro/ST&HE> not mb.srb2.org
+<Sls64LGamingBro/ST&HE> spelling mistake
+<survival46> welcome to the tour!
+*Watluigi left the game (Connection timeout)
+*Sonic has joined the game (player 5)
+<Sls64LGamingBro/ST&HE> the tour?
+*Sonic left the game (Connection timeout)
+*Sonic has rejoined the game (player 5)
+<Sls64LGamingBro/ST&HE> this ain't actual tour by friend
+<Sls64LGamingBro/ST&HE> my*
+*Sonic left the game (Connection timeout)
+*Sonic has rejoined the game (player 5)
+<Sls64LGamingBro/ST&HE> cuz I am here for fun
+*Sonic left the game (Connection timeout)
+*Sonic has rejoined the game (player 5)
+<Sls64LGamingBro/ST&HE> also wb
+<~Vertz1515> hi sonic
+*Sonic left the game (Connection timeout)
+*Sonic has rejoined the game (player 5)
+<@Sonix the sucky do> Fun, that's what we're all here for.
+<survival46> yup
+<Sls64LGamingBro/ST&HE> well awesome!
+*Sonic left the game (Connection timeout)
+*Sonic has rejoined the game (player 5)
+Sonix the sucky do received double points for surviving the round.
+survival46 received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 2; using map 3 anyway
+*Sonic left the game
+<Sls64LGamingBro/ST&HE> this is a need what I want
+<survival46> epic win!
+<Sls64LGamingBro/ST&HE> on to act 3
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+Sonix the sucky do is now IT!
+Sls64LGamingBro/ST&HE entered the game.
+<survival46> OH
+$map map04 -force
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+Sls64LGamingBro/ST&HE died.
+Sls64LGamingBro/ST&HE became a spectator.
+Sonix the sucky do is now IT!
+Sonix the sucky do is now IT!
+Sls64LGamingBro/ST&HE entered the game.
+<Sls64LGamingBro/ST&HE> whoops
+<survival46> damn we should've done the boss lol
+Viewpoint: Sonix the sucky do
+<survival46> NOO
+<@Sonix the sucky do> I was in the room with the ring monitors around the armageddon shield
+<Sls64LGamingBro/ST&HE> we didn't had much time
+<Sls64LGamingBro/ST&HE> werid
+Sonix the sucky do's thrown ring hit survival46.
+survival46 was found!
+<survival46> epic fail!
+Sonix the sucky do's thrown ring hit Vertz1515.
+Vertz1515 was found!
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+<survival46> we need more time to in zones like this..
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<survival46> hide
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+<Sls64LGamingBro/ST&HE> am totally busted
+<~Vertz1515> lmao
+<Sls64LGamingBro/ST&HE> he's not even looking at me
+<@Sonix the sucky do> I need to get my eyes checked
+Sonix the sucky do's thrown ring hit Sls64LGamingBro/ST&HE.
+Sls64LGamingBro/ST&HE was found!
+All players have been tagged!
+The round has ended.
+WARNING: Can't find a compatible map after map 4; using map 5 anyway
+<Sls64LGamingBro/ST&HE> oof
+<~Vertz1515> wow
+<survival46> gg
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP05: TECHNO HILL Zone 2"
+<@Sonix the sucky do> Good job
+survival46 is now IT!
+<Sls64LGamingBro/ST&HE> well glasses help you look
+<Sls64LGamingBro/ST&HE> which is get for you
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+<@Sonix the sucky do> NOOOOOOOOOOOOOOOOOOOOOOo
+<Sls64LGamingBro/ST&HE> am busted
+<Sls64LGamingBro/ST&HE> for sure
+<Sls64LGamingBro/ST&HE> again
+<~Vertz1515> I HAVE THE WORST SPOT SHIIIT
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+survival46's thrown ring hit Vertz1515.
+Vertz1515 was found!
+<@Sonix the sucky do> SHIT! THIS SUCKS!
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+survival46's thrown ring hit Sls64LGamingBro/ST&HE.
+Sls64LGamingBro/ST&HE was found!
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+survival46's thrown ring hit Sonix the sucky do.
+Sonix the sucky do was found!
+All players have been tagged!
+The round has ended.
+WARNING: Can't find a compatible map after map 5; using map 6 anyway
+<Sls64LGamingBro/ST&HE> knew it
+<Sls64LGamingBro/ST&HE> busted
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP06: TECHNO HILL Zone 3"
+<survival46> boss arena
+<Sls64LGamingBro/ST&HE> early in 3rd
+survival46 is now IT!
+<Sls64LGamingBro/ST&HE> we have no space to hide
+*Cloaks#0450 has joined the game (player 4)
+<Sls64LGamingBro/ST&HE> we just gotta SPAM THE THOK
+<survival46> it's funny
+Cloaks#0450 entered the game.
+<Sls64LGamingBro/ST&HE> as SONIC
+<~Vertz1515> this is fun, let's just do it
+<survival46> wait..
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Cloaks#0450
+survival46's thrown ring hit Vertz1515.
+Vertz1515 was found!
+<Sls64LGamingBro/ST&HE> nvm
+Viewpoint: Vertz1515
+survival46's thrown ring hit Sonix the sucky do.
+Sonix the sucky do was found!
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+survival46's thrown ring hit Cloaks#0450.
+Cloaks#0450 was found!
+<Sls64LGamingBro/ST&HE> it's hiding and seek
+survival46's thrown ring hit Sls64LGamingBro/ST&HE.
+Sls64LGamingBro/ST&HE was found!
+All players have been tagged!
+The round has ended.
+WARNING: Can't find a compatible map after map 6; using map 7 anyway
+<@Sonix the sucky do> Lmao
+<Sls64LGamingBro/ST&HE> hide and seek i mean
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+Map is now "MAP07: DEEP SEA Zone 1"
+Sls64LGamingBro/ST&HE is now IT!
+<Sls64LGamingBro/ST&HE> time to get some tag players
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<survival46> erm..
+<@Sonix the sucky do> Oh no...
+*Cloaks#0450 left the game
+<@Sonix the sucky do> Actually, I think this can work
+Sls64LGamingBro/ST&HE's thrown ring hit Vertz1515.
+Vertz1515 was found!
+<survival46> uh oh
+<@Sonix the sucky do> If I had done that good on THZ2, I should be fine here
+*a literal DS has joined the game (player 4)
+<@Sonix the sucky do> Can I just say that I love 2.1's DSZ1 theme?
+<survival46> yeah it's nice
+<survival46> and calm
+<@Sonix the sucky do> Speaking of DSZ's many themes...
+*a literal DS left the game
+Sonix the sucky do received double points for surviving the round.
+survival46 received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 7; using map 8 anyway
+<survival46> phew!
+<Sls64LGamingBro/ST&HE> yeah I did sucked at it
+<@Sonix the sucky do> I put the act 1 from SRB1 Xmas on the Genesis
+<Sls64LGamingBro/ST&HE> oh well
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (7968, 12064)
+WARNING: Unknown thing type 524 placed at (7616, 7488)
+WARNING: Unknown thing type 524 placed at (7616, 7808)
+WARNING: Unknown thing type 524 placed at (8704, 8320)
+WARNING: Unknown thing type 524 placed at (8704, 8576)
+WARNING: Unknown thing type 524 placed at (7616, 9152)
+WARNING: Unknown thing type 524 placed at (7776, 10208)
+WARNING: Unknown thing type 524 placed at (7776, 12864)
+WARNING: Unknown thing type 524 placed at (8032, 12864)
+WARNING: Unknown thing type 524 placed at (5952, 14880)
+WARNING: Unknown thing type 524 placed at (6336, 14880)
+WARNING: Unknown thing type 524 placed at (7840, 7648)
+WARNING: Unknown thing type 524 placed at (7904, 12096)
+WARNING: Unknown thing type 524 placed at (7776, 12096)
+WARNING: Unknown thing type 524 placed at (8032, 12096)
+WARNING: Unknown thing type 524 placed at (7840, 12064)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP08: DEEP SEA Zone 2"
+Sls64LGamingBro/ST&HE is now IT!
+<Sls64LGamingBro/ST&HE> me again
+Vertz1515 died.
+Vertz1515 became a spectator.
+Vertz1515 entered the game.
+WARNING: No Deathmatch starts in this map!
+<Sls64LGamingBro/ST&HE> that might be just more worst
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<survival46> i hope this spot is decent
+<@Sonix the sucky do> FUCK
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<@Sonix the sucky do> I COULDN'T GET THERE IN TIME!
+Sls64LGamingBro/ST&HE's thrown ring hit Vertz1515.
+Vertz1515 was found!
+<~Vertz1515> Why did that take so long?
+<survival46> camera
+<Sls64LGamingBro/ST&HE> yeah
+<Sls64LGamingBro/ST&HE> that's why
+<@Sonix the sucky do> I'm screwed...
+<@Sonix the sucky do> Wait, can we do DSZ2 a second time?
+<survival46> DSZ3 :troll:
+<Sls64LGamingBro/ST&HE> it might be
+<survival46> hmm
+<Sls64LGamingBro/ST&HE> that might be a no no in dsz3
+<Sls64LGamingBro/ST&HE> cuz I got easy get you guys
+<@Sonix the sucky do> I think if we use DosHog to get out of the opening section in this act then we could get better spots.
+<~Vertz1515> My hiding spot was experimental.
+<Sls64LGamingBro/ST&HE> I could do the same thing
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<@Sonix the sucky do> Should I give a hint to where I am? No I don't think I should.
+<~Vertz1515> then why mention it?
+<Sls64LGamingBro/ST&HE> I haven't even gave you hints but sure?
+<survival46> not the best idea
+<Sls64LGamingBro/ST&HE> actually no your right
+<Sls64LGamingBro/ST&HE> it's bad
+<@Sonix the sucky do> I mean, it's such a terrible spot
+Sonix the sucky do received double points for surviving the round.
+survival46 received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 8; using map 10 anyway
+<survival46> oh
+<~Vertz1515> not as bad as mine
+<@Sonix the sucky do> Anyway I was trying to get to the water slide
+<survival46> my spot did work
+<Sls64LGamingBro/ST&HE> knew I didn't do it
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP10: CASTLE EGGMAN Zone 1"
+Sonix the sucky do is now IT!
+Vertz1515 fell into a bottomless pit.
+WARNING: No Deathmatch starts in this map!
+Vertz1515 fell into a bottomless pit.
+WARNING: No Deathmatch starts in this map!
+Viewpoint: Sonix the sucky do
+<Sls64LGamingBro/ST&HE> no
+<survival46> OOOOO
+<survival46> W9SASOUD
+<Sls64LGamingBro/ST&HE> I just didn't get there
+<survival46> IT'S SO OPEN
+<Sls64LGamingBro/ST&HE> am so double busted
+<Sls64LGamingBro/ST&HE> am about to be down
+<~Vertz1515> lmfao
+<Sls64LGamingBro/ST&HE> he's going to right or left
+<@Sonix the sucky do> I was in the water in DSZ1, don't worry
+<Sls64LGamingBro/ST&HE> he wen't right
+<Sls64LGamingBro/ST&HE> thank god am safed
+<survival46> O_o
+<Sls64LGamingBro/ST&HE> also, doing that might not work my friend
+<~Vertz1515> I think my spot may be cheating...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+<Sls64LGamingBro/ST&HE> yeah, that's cheating for sure
+<Sls64LGamingBro/ST&HE> not great at all
+<Sls64LGamingBro/ST&HE> oh no he's here
+<Sls64LGamingBro/ST&HE> am going to be dumped
+Sonix the sucky do's thrown ring hit Sls64LGamingBro/ST&HE.
+Sls64LGamingBro/ST&HE was found!
+<Sls64LGamingBro/ST&HE> dang it
+<~Vertz1515> i had like 4 seconds on the clock, what else was i gonna do? stand at the start again?
+<~Vertz1515> he was close though.
+<Sls64LGamingBro/ST&HE> well I don't know
+Sonix the sucky do fell into a bottomless pit.
+<Sls64LGamingBro/ST&HE> he died
+<Sls64LGamingBro/ST&HE> wow
+<~Vertz1515> wow
+<@Sonix the sucky do> LMFAO
+<Sls64LGamingBro/ST&HE> just has he was gonna get you
+<survival46> WALLAH I'M FINISHED
+<Sls64LGamingBro/ST&HE> this might be the same thing but with not be geing it
+<Sls64LGamingBro/ST&HE> getting*
+Sonix the sucky do's thrown ring hit survival46.
+survival46 was found!
+Screen shot srb20123.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\screenshots\
+Viewpoint: Sonix the sucky do
+<survival46> AAA
+survival46 fell into a bottomless pit.
+<survival46> DEAD
+<Sls64LGamingBro/ST&HE> oof
+<Sls64LGamingBro/ST&HE> died
+<Sls64LGamingBro/ST&HE> atleast I didn't
+<Sls64LGamingBro/ST&HE> lucky
+<survival46> the camo didn't work that well...
+Vertz1515 received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 10; using map 11 anyway
+<@Sonix the sucky do> OH MY GOD
+<survival46> points lost
+<Sls64LGamingBro/ST&HE> oh, noice
+Speeding off to level...
+WARNING: Unknown thing type 525 placed at (-13792, -10592)
+WARNING: Unknown thing type 525 placed at (-14432, -12064)
+WARNING: Unknown thing type 525 placed at (-13376, -13280)
+WARNING: Unknown thing type 525 placed at (-14624, -13696)
+WARNING: Unknown thing type 525 placed at (-15584, -12768)
+WARNING: Unknown thing type 525 placed at (-16704, -8480)
+WARNING: Unknown thing type 525 placed at (-17984, -12448)
+WARNING: Unknown thing type 525 placed at (-16992, -11616)
+WARNING: Unknown thing type 525 placed at (-17920, -10720)
+WARNING: Unknown thing type 525 placed at (-15968, -11360)
+WARNING: Unknown thing type 525 placed at (-14944, -10304)
+WARNING: Unknown thing type 525 placed at (-13920, -9312)
+WARNING: Unknown thing type 525 placed at (-14656, -8608)
+WARNING: Unknown thing type 525 placed at (-16000, -9088)
+WARNING: Unknown thing type 525 placed at (-16768, -10368)
+WARNING: Unknown thing type 525 placed at (-17920, -8704)
+WARNING: Unknown thing type 526 placed at (-18784, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7904)
+WARNING: Unknown thing type 526 placed at (-18720, -7840)
+WARNING: Unknown thing type 526 placed at (-18464, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7968)
+WARNING: Unknown thing type 526 placed at (-18400, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8032)
+WARNING: Unknown thing type 526 placed at (-18720, -8032)
+WARNING: Unknown thing type 526 placed at (-18528, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8160)
+WARNING: Unknown thing type 526 placed at (-18656, -7840)
+WARNING: Unknown thing type 526 placed at (-18592, -7840)
+WARNING: Unknown thing type 526 placed at (-18656, -7904)
+WARNING: Unknown thing type 526 placed at (-18592, -7904)
+WARNING: Unknown thing type 526 placed at (-19200, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9024)
+WARNING: Unknown thing type 526 placed at (-19264, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9152)
+WARNING: Unknown thing type 526 placed at (-12928, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7840)
+WARNING: Unknown thing type 526 placed at (-13056, -7840)
+WARNING: Unknown thing type 526 placed at (-13184, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7968)
+WARNING: Unknown thing type 526 placed at (-12928, -8032)
+WARNING: Unknown thing type 526 placed at (-12928, -8096)
+WARNING: Unknown thing type 526 placed at (-18784, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13728)
+WARNING: Unknown thing type 526 placed at (-18784, -13664)
+WARNING: Unknown thing type 526 placed at (-18528, -13984)
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP11: CASTLE EGGMAN Zone 2"
+Sonix the sucky do is now IT!
+<@Sonix the sucky do> THAT'S SUCH A BULL HIDING SPOT!
+Viewpoint: Sonix the sucky do
+<@Sonix the sucky do> Why am I it again?
+*Egor has joined the game (player 4)
+<Sls64LGamingBro/ST&HE> that might not work
+<Sls64LGamingBro/ST&HE> again
+<Sls64LGamingBro/ST&HE> your using a character
+*Egor left the game (Connection timeout)
+<Sls64LGamingBro/ST&HE> only if poophunt did
+<Sls64LGamingBro/ST&HE> that would have worked
+*Egor has rejoined the game (player 4)
+<Sls64LGamingBro/ST&HE> wb
+<Sls64LGamingBro/ST&HE> + hi
+Sonix the sucky do was hit by an environmental hazard.
+<survival46> it got hurt
+<@Sonix the sucky do> Yeah, anyone wants to restart?
+<survival46> not sure yet...
+<Sls64LGamingBro/ST&HE> that's one simple thing
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Sonix the sucky do fell into a bottomless pit.
+<Sls64LGamingBro/ST&HE> fell again
+<Sls64LGamingBro/ST&HE> a 2nd time
+<Sls64LGamingBro/ST&HE> w o w
+Sonix the sucky do was hit by an environmental hazard.
+Sonix the sucky do fell into a bottomless pit.
+<Sls64LGamingBro/ST&HE> died a 3rd time
+<Sls64LGamingBro/ST&HE> wow
+<@Sonix the sucky do> I refuse
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+<survival46> uhh
+<survival46> next map?
+<~Vertz1515> yeah
+<Sls64LGamingBro/ST&HE> I guess
+$map map12 -force
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP12: CASTLE EGGMAN Zone 3"
+Sls64LGamingBro/ST&HE is now IT!
+Egor entered the game.
+<Sls64LGamingBro/ST&HE> am it
+<survival46> lmao
+<Sls64LGamingBro/ST&HE> i wasn't in dsz3
+<Sls64LGamingBro/ST&HE> but this
+<Sls64LGamingBro/ST&HE> it's gonna be fun
+*Mr Egypt has joined the game (player 5)
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<Sls64LGamingBro/ST&HE> hello there
+Mr Egypt entered the game.
+<@Sonix the sucky do> I want a do-over on CEZ2. That was bull.
+Sls64LGamingBro/ST&HE's thrown ring hit Egor.
+Egor was found!
+Sls64LGamingBro/ST&HE's thrown ring hit Mr Egypt.
+Mr Egypt was found!
+*Egor left the game
+Viewpoint: Egor
+Viewpoint: Mr Egypt
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<Mr Egypt> i can't move!
+*Soaod has joined the game (player 6)
+<@Sonix the sucky do> It's hide and seek
+<~Vertz1515> uhh
+<survival46> YIKES!
+Sls64LGamingBro/ST&HE's thrown ring hit survival46.
+survival46 was found!
+Sls64LGamingBro/ST&HE's thrown ring hit Vertz1515.
+Vertz1515 was found!
+<~Vertz1515> wow
+Viewpoint: Egor
+Viewpoint: Mr Egypt
+<survival46> how did it took that long lol
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<@Sonix the sucky do> That was way too close..
+<Mr Egypt> ya allah!
+<@Sonix the sucky do> HOW AM I DOING THIS?
+<@Sonix the sucky do> My genius is frightening...
+*Soaod left the game
+*Soaod has rejoined the game (player 6)
+*Soaod left the game
+<Sls64LGamingBro/ST&HE> how can't I find you
+<~Vertz1515> you saw him.
+<Sls64LGamingBro/ST&HE> did i?
+<@Sonix the sucky do> OH MY GOD
+<~Vertz1515> He was above me
+Sonix the sucky do received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 12; using map 13 anyway
+<survival46> IT WORKed
+<@Sonix the sucky do> HOW?
+<Sls64LGamingBro/ST&HE> WHAT
+<@Sonix the sucky do> HOLY SHIT
+<~Vertz1515> under the banner
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP13: ARID CANYON Zone 1"
+<Sls64LGamingBro/ST&HE> HE WAS ABOVE YOU
+<Sls64LGamingBro/ST&HE> UNDER THE BANNER
+Vertz1515 is now IT!
+<@Sonix the sucky do> The black one
+<Sls64LGamingBro/ST&HE> HOW WAS I NOT LOOKING AT IT
+Mr Egypt was hit by an environmental hazard.
+Sls64LGamingBro/ST&HE fell into a bottomless pit.
+Sls64LGamingBro/ST&HE was found!
+<survival46> this spot...,.
+<survival46> erm..
+<Sls64LGamingBro/ST&HE> dang it
+<@Sonix the sucky do> Yeah, that's bad...
+<Sls64LGamingBro/ST&HE> the sand was a bad place
+<Sls64LGamingBro/ST&HE> forgot they really suck
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Vertz1515's thrown ring hit Mr Egypt.
+Mr Egypt was found!
+<Sls64LGamingBro/ST&HE> that thing you're doing sonix is cheating as what vertz did
+<@Sonix the sucky do> NO
+Vertz1515 fell into a bottomless pit.
+<~Vertz1515> fuvk
+<survival46> it dead
+<Mr Egypt> how did he find me?
+<@Sonix the sucky do> fuvk
+<Sls64LGamingBro/ST&HE> monitor might not help you survival
+<Sls64LGamingBro/ST&HE> he might just see you a bit some where over in the monitor
+*Mr Egypt renamed to Ice Lizard Egypt
+Vertz1515 fell into a bottomless pit.
+<@Sonix the sucky do> ded
+<~Vertz1515> guck
+<@Sonix the sucky do> guck: the sequel to fuvk
+Vertz1515 fell into a bottomless pit.
+Sonix the sucky do received double points for surviving the round.
+survival46 received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 13; using map 16 anyway
+<survival46> i live!
+<Ice Lizard Egypt> finaly
+<Sls64LGamingBro/ST&HE> rvz1 2.1 time
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP16: RED VOLCANO Zone 1"
+Ice Lizard Egypt is now IT!
+Vertz1515 was killed by molten lava.
+<Ice Lizard Egypt> yes
+WARNING: No Deathmatch starts in this map!
+<Sls64LGamingBro/ST&HE> I am busted
+<survival46> erm.. this spot is quite bad...
+<@Sonix the sucky do> Take pity on him
+Ice Lizard Egypt's thrown ring hit Vertz1515.
+Vertz1515 was found!
+<~Vertz1515> I HAD THE FUCKONG BEST ONE THEN I DIED
+Ice Lizard Egypt was hit by molten lava.
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+<Sls64LGamingBro/ST&HE> am even close to the lava
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Ice Lizard Egypt
+Ice Lizard Egypt was killed by molten lava.
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+<Sls64LGamingBro/ST&HE> it's like
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Ice Lizard Egypt
+<Sls64LGamingBro/ST&HE> this close
+Ice Lizard Egypt was hit by molten lava.
+Ice Lizard Egypt was killed by molten lava.
+<@Sonix the sucky do> Fuckong? Is that one of Donkey Kong's cousins or something?
+Ice Lizard Egypt was hit by molten lava.
+Ice Lizard Egypt was hit by molten lava.
+Ice Lizard Egypt was killed by molten lava.
+<survival46> i think that place is a bit far from us
+<@Sonix the sucky do> Yeah...
+Ice Lizard Egypt was hit by molten lava.
+<~Vertz1515> we wouldn't get that far with the time limit.
+<@Sonix the sucky do> Okay, now I'm afraid
+<~Vertz1515> ... or would we...
+Ice Lizard Egypt was hit by molten lava.
+<Sls64LGamingBro/ST&HE> yeah, imagine that
+Ice Lizard Egypt was killed by molten lava.
+<Sls64LGamingBro/ST&HE> we would have more time
+Ice Lizard Egypt was hit by molten lava.
+<Sls64LGamingBro/ST&HE> It looks like we just playing the level and not getting us
+Ice Lizard Egypt was hit by molten lava.
+<@Sonix the sucky do> Imagine if we did Hide and Seek in Mine Maze Zone (it's not ported yet though)
+Sonix the sucky do received double points for surviving the round.
+survival46 received double points for surviving the round.
+Sls64LGamingBro/ST&HE received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 16; using map 22 anyway
+<~Vertz1515> he got me cause i had the worts one.
+<survival46> the past has it tho..
+<@Sonix the sucky do> Worts
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP22: EGG ROCK Zone 1"
+Vertz1515 is now IT!
+<Sls64LGamingBro/ST&HE> on to egg rock zone
+<survival46> DEATH
+Sonix the sucky do was hit by electricity.
+Sonix the sucky do fell into a bottomless pit.
+<~Vertz1515> egg
+Sls64LGamingBro/ST&HE died.
+<survival46> uh oh..
+<Ice Lizard Egypt> shhh
+Vertz1515's thrown ring hit Sls64LGamingBro/ST&HE.
+Sls64LGamingBro/ST&HE was found!
+<Sls64LGamingBro/ST&HE> dang it
+<@Sonix the sucky do> NO
+<@Sonix the sucky do> I DIED
+<Sls64LGamingBro/ST&HE> I died and I respawn here again
+<Sls64LGamingBro/ST&HE> and now you got me
+*Dream has joined the game (player 4)
+<~Vertz1515> rip my walkie talkie
+<~Vertz1515> omg guys dream
+Vertz1515 fell into a bottomless pit.
+<~Vertz1515> fkcu
+*Ice Lizard Egypt left the game
+<~Vertz1515> wow
+<@Sonix the sucky do> Yeah...
+<@Sonix the sucky do> Uhm...
+Vertz1515's thrown ring hit Sonix the sucky do.
+Sonix the sucky do was found!
+Vertz1515's thrown ring hit Ice Lizard Egypt.
+Ice Lizard Egypt was found!
+Vertz1515 fell into a bottomless pit.
+Sonix the sucky do fell into a bottomless pit.
+<@Sonix the sucky do> Well shit
+Vertz1515 fell into a bottomless pit.
+Vertz1515 was hit by an environmental hazard.
+Vertz1515 was hit by an environmental hazard.
+<survival46> that's a bit too far
+<@Sonix the sucky do> Way too far
+Vertz1515 was hit by molten lava.
+Vertz1515 was killed by molten lava.
+<Dream> no way! no way?
+<@Sonix the sucky do> Ayo, it's Dream
+survival46 received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 22; using map 23 anyway
+<survival46> made it!
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP23: EGG ROCK Zone 2"
+Sls64LGamingBro/ST&HE is now IT!
+<@Sonix the sucky do> I died and that screwed me over
+<Sls64LGamingBro/ST&HE> it's me again
+survival46 was crushed.
+<Sls64LGamingBro/ST&HE> time for a hide and seek match!
+Vertz1515 was hit by an environmental hazard.
+Sonix the sucky do was crushed.
+Vertz1515 was crushed.
+WARNING: No Deathmatch starts in this map!
+*Dream left the game (Connection timeout)
+survival46 fell into a bottomless pit.
+survival46 was found!
+<survival46> NOOO
+<survival46> I DIED
+<@Sonix the sucky do> FUCk
+<~Vertz1515> i died
+Gametype was changed from Hide & Seek to Co-op
+Speeding off to level...
+Map is now "MAP23: EGG ROCK Zone 2"
+Time limit disabled
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+<Sls64LGamingBro/ST&HE> it's now a coop thingy
+Updated master server listing.
+<Sls64LGamingBro/ST&HE> really?
+Gametype was changed from Co-op to Hide & Seek
+Speeding off to level...
+No player currently available to become IT. Awaiting available players.
+Map is now "MAP74: Zero Ring Zone"
+survival46 entered the game.
+Levels will end after 5 minutes.
+Point limit disabled
+survival46 is now IT!
+survival46 is now IT!
+Sls64LGamingBro/ST&HE entered the game.
+<survival46> erm
+$map map23 -force
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP23: EGG ROCK Zone 2"
+<survival46> y
+<Sls64LGamingBro/ST&HE> now that's far
+Sls64LGamingBro/ST&HE is now IT!
+Vertz1515 entered the game.
+WARNING: No Deathmatch starts in this map!
+Sonix the sucky do entered the game.
+Sonix the sucky do was crushed.
+Vertz1515 drowned.
+survival46 was hit by an environmental hazard.
+WARNING: No Deathmatch starts in this map!
+survival46 was hit by spikes.
+*So has joined the game (player 5)
+Viewpoint: Sonix the sucky do
+survival46 was killed by spikes.
+survival46 was found!
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<survival46> SPIKES
+<@Sonix the sucky do> FUCK THIS MAP
+<survival46> i died
+*So left the game
+*So has rejoined the game (player 5)
+*So left the game
+$map map23 -force
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP23: EGG ROCK Zone 2"
+Sonix the sucky do is now IT!
+Sls64LGamingBro/ST&HE died.
+<@Sonix the sucky do> KIIILLLLLLLLLL MEEEEEEEEE
+<Sls64LGamingBro/ST&HE> dang
+survival46 was hit by molten lava.
+survival46 was crushed.
+<survival46> LAVA
+<survival46> DEAD
+Vertz1515 was crushed.
+WARNING: No Deathmatch starts in this map!
+<survival46> FUCK
+<Sls64LGamingBro/ST&HE> am busted
+$map map23 -force
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP23: EGG ROCK Zone 2"
+Sls64LGamingBro/ST&HE is now IT!
+<~Vertz1515> last reset
+<Sls64LGamingBro/ST&HE> alright
+survival46 was hit by an environmental hazard.
+survival46 fell into a bottomless pit.
+<survival46> dead
+<Sls64LGamingBro/ST&HE> cuz the reseting was annoying
+<Sls64LGamingBro/ST&HE> a 2nd time
+Sonix the sucky do was hit by an environmental hazard.
+<survival46> i'll stay dead then
+Vertz1515 fell into a bottomless pit.
+Sonix the sucky do died.
+Sonix the sucky do became a spectator.
+WARNING: No Deathmatch starts in this map!
+<Sls64LGamingBro/ST&HE> that might not work
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+Vertz1515 fell into a bottomless pit.
+Vertz1515 was found!
+<survival46> busted
+<@Sonix the sucky do> I HATE EVERYTHING
+<survival46> I HAD THE PERFECT SPOT BEFORE THE LAVA CAME IN AND KILLED ME
+WARNING: No Deathmatch starts in this map!
+Sls64LGamingBro/ST&HE was crushed.
+<Sls64LGamingBro/ST&HE> ow
+<~Vertz1515> I kept dying on the same spot
+<~Vertz1515> now i had to pick a shitty one
+Sls64LGamingBro/ST&HE's thrown ring hit survival46.
+survival46 was found!
+All players have been tagged!
+The round has ended.
+WARNING: Can't find a compatible map after map 23; using map 24 anyway
+<@Sonix the sucky do> I FUCKING KILLED MYSELF RIGHT BEFORE I GOT TO THE PERFECT SPOT
+<survival46> erz3
+Speeding off to level...
+WARNING: constant 'ERZGREY4' could not be parsed.
+
+WARNING: Failed to load bot recording for this map, format version incompatible.
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP24: EGG ROCK Zone 3"
+survival46 is now IT!
+Sonix the sucky do entered the game.
+Sls64LGamingBro/ST&HE was hit by electricity.
+Sls64LGamingBro/ST&HE fell into a bottomless pit.
+<Sls64LGamingBro/ST&HE> dang
+<Sls64LGamingBro/ST&HE> am STUCK WITH HIM
+<~Vertz1515> this won't work
+<Sls64LGamingBro/ST&HE> OH NO
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+<survival46> umm
+<survival46> no rings
+<Sls64LGamingBro/ST&HE> Also, were locked
+<@Sonix the sucky do> Well...
+<~Vertz1515> he can't even go out into the map wow
+$map map24 -force
+Speeding off to level...
+WARNING: constant 'ERZGREY4' could not be parsed.
+
+WARNING: Failed to load bot recording for this map, format version incompatible.
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP24: EGG ROCK Zone 3"
+Vertz1515 is now IT!
+$map map25 -force
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP25: EGG ROCK CORE Zone"
+Vertz1515 is now IT!
+<Sls64LGamingBro/ST&HE> what the
+<Sls64LGamingBro/ST&HE> different music
+survival46 died.
+survival46 became a spectator.
+<Sls64LGamingBro/ST&HE> thought it was v2.1
+survival46 entered the game.
+<Sls64LGamingBro/ST&HE> srb2
+<Sls64LGamingBro/ST&HE> but this
+survival46 died.
+survival46 became a spectator.
+<Sls64LGamingBro/ST&HE> it's not fitting
+survival46 entered the game.
+<~Vertz1515> That's part of the Xmastails mad.
+Sonix the sucky do fell into a bottomless pit.
+<~Vertz1515> *mod
+survival46 fell into a bottomless pit.
+survival46 was found!
+Sls64LGamingBro/ST&HE fell into a bottomless pit.
+Sls64LGamingBro/ST&HE was found!
+<Sls64LGamingBro/ST&HE> died busted
+<survival46> my dumbass kept specting
+Vertz1515's thrown ring hit Sonix the sucky do.
+Sonix the sucky do was found!
+All players have been tagged!
+The round has ended.
+WARNING: Can't find a compatible map after map 25; using map 101 anyway
+$map mapa1 -force
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAPA1: GREENFLOWER Zone 1"
+Sls64LGamingBro/ST&HE is now IT!
+<Sls64LGamingBro/ST&HE> 2.0 time
+<Sls64LGamingBro/ST&HE> greenflower is a easy target
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<@Sonix the sucky do> Is it now?
+<~Vertz1515> ?
+Sls64LGamingBro/ST&HE's thrown ring hit Vertz1515.
+Vertz1515 was found!
+<survival46> oof
+<@Sonix the sucky do> Damn
+<@Sonix the sucky do> That was... frightening
+<@Sonix the sucky do> Do we tell them?
+<~Vertz1515> NO
+<survival46> no
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<@Sonix the sucky do> After this is done
+<@Sonix the sucky do> SHIT
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Sls64LGamingBro/ST&HE
+<@Sonix the sucky do> THAT'S WAY TOO CLOSE
+*Coolio has joined the game (player 4)
+<survival46> A
+Sonix the sucky do received double points for surviving the round.
+survival46 received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 101; using map 102 anyway
+<survival46> made it!
+*Coolio left the game
+<~Vertz1515> hi coolio
+*Coolio has rejoined the game (player 4)
+*Coolio left the game
+<Sls64LGamingBro/ST&HE> I failed
+Speeding off to level...
+WARNING: No Deathmatch starts in this map!
+Map is now "MAPA2: GREENFLOWER Zone 2"
+<@Sonix the sucky do> Bye Coolio
+Sls64LGamingBro/ST&HE is now IT!
+<Sls64LGamingBro/ST&HE> not going to be it this round
+<Sls64LGamingBro/ST&HE> cuz am leaving
+<Sls64LGamingBro/ST&HE> bye
+Sls64LGamingBro/ST&HE died.
+Sls64LGamingBro/ST&HE became a spectator.
+survival46 is now IT!
+*Sls64LGamingBro/ST&HE left the game
+<survival46> oh
+<survival46> this is gonna be my last round anyway
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+survival46's thrown ring hit Vertz1515.
+Vertz1515 was found!
+*Clunk has joined the game (player 5)
+<survival46> welcome
+<@Sonix the sucky do> Hey Clunk.
+<@Sonix the sucky do> Fancy a game of attempting not to be found?
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: Sonix the sucky do
+Viewpoint: survival46
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+*Dream has joined the game (player 3)
+<~Vertz1515> hi dream
+*Dream left the game (Connection timeout)
+<~Vertz1515> Fancy a game of attempting not to to be found?
+*Clunk left the game
+<survival46> oh shoot
+Sonix the sucky do received double points for surviving the round.
+The round has ended.
+WARNING: Can't find a compatible map after map 102; using map 103 anyway
+<@Sonix the sucky do> YES!
+<@Sonix the sucky do> OH MY GOD
+<~Vertz1515> holy shor
+<survival46> where were you lol
+Speeding off to level...
+Map is now "MAPA3: GREENFLOWER Zone 3"
+Vertz1515 is now IT!
+$map mapa4 -force
+Speeding off to level...
+Map is now "MAPA4: TECHNO HILL Zone 1"
+Vertz1515 is now IT!
+<survival46> i gtg now
+survival46 was hit by dangerous water.
+<survival46> byee
+<~Vertz1515> bye
+<survival46> ggs
+<@Sonix the sucky do> gg
+survival46 was hit by dangerous water.
+*Sonix the sucky do left the game
+*survival46 left the game
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/unlist'...
+Server deregistration request successfully sent.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

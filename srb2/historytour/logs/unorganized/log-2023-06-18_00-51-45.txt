@@ -1,0 +1,2782 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\patch.pk3 (14 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+The server has lifted the forced skin restrictions.
+HU_LoadGraphics()...
+executing dconfig.cfg
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+R_InitColormaps()...
+ST_Init(): Init status bar.
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+D_CheckNetGame(): Checking network game status.
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+executing .\adedserv.cfg
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Logfile: .\logs\log-2023-06-18_02-00-30.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.11 (May 16 2023 18:21:59 2c689bae master) SDL Windows 32-bit 
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: Greenflower Zone 1"
+$addfile coopserver/server.txt
+ERROR: Invalid WAD header
+Errors occurred while loading coopserver/server.txt; not added.
+*Vertz1515 has joined the game (player 1)
+$password amcinyessu
+Password set.
+Vertz1515 passed authentication.
+$addfile\coopserver\server.txt
+Unknown command 'addfile\coopserver\server.txt'
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/updAdded file .\coopserver\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from .\coopserver\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+Pardon me while I initialize the Lua scripting interface...
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from .\coopserver\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from .\coopserver\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from .\coopserver\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file .\coopserver\CL_MarioBros-v2.2.1.pk3 (2619 lumps)
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/EV_MarioBlock.lua
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/P_ButteredSlope.lua
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/P_DoRandomBoxChances.lua
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/PopParticle.lua
+State S_MARIO_DUST allocated.
+MobjType MT_MARIO_DUST allocated.
+State S_MARIO_HITFX allocated.
+Sprite SPR_PUPA allocated.
+MobjType MT_POPPARTICLEMAR allocated.
+State S_POPPARTICLEMAR allocated.
+Sprite SPR_BEEM allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/colors.lua
+Skincolor SKINCOLOR_TOADSTOOL allocated.
+Skincolor SKINCOLOR_BLUEFLOWER allocated.
+Skincolor SKINCOLOR_MUSHROOM allocated.
+Skincolor SKINCOLOR_SHELL allocated.
+Skincolor SKINCOLOR_UNDERGROUND allocated.
+Skincolor SKINCOLOR_MONDO allocated.
+Skincolor SKINCOLOR_TUBULAR allocated.
+Skincolor SKINCOLOR_GROOVY allocated.
+Skincolor SKINCOLOR_FUNKY allocated.
+Skincolor SKINCOLOR_LETHAL allocated.
+Skincolor SKINCOLOR_DIRE allocated.
+Skincolor SKINCOLOR_COURTYARD allocated.
+Skincolor SKINCOLOR_MOSSBUTDARK allocated.
+Skincolor SKINCOLOR_RAINBOW allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/command.lua
+Coins will no longer be replaced with rings for anyone other than Mario in single player.
+Added command "mariosecondcolor"
+Added command "mariosecondcolor2"
+Added command "marioattackbutton"
+Added command "marioattackbutton2"
+Added command "mariocrouchbutton"
+Added command "mariocrouchbutton2"
+Added command "marioabilitybutton"
+Added command "marioabilitybutton2"
+Added command "mariospinbutton"
+Added command "mariospinbutton2"
+Added command "mariodive"
+Added command "mariodive2"
+Added command "marioforcehammer"
+Added command "marioforcehammer2"
+Added command "maLoading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/P_ButteredSlope.lua
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/P_DoRandomBoxChances.lua
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/PopParticle.lua
+State S_MARIO_DUST allocated.
+MobjType MT_MARIO_DUST allocated.
+State S_MARIO_HITFX allocated.
+Sprite SPR_PUPA allocated.
+MobjType MT_POPPARTICLEMAR allocated.
+State S_POPPARTICLEMAR allocated.
+Sprite SPR_BEEM allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/colors.lua
+Skincolor SKINCOLOR_TOADSTOOL allocated.
+Skincolor SKINCOLOR_BLUEFLOWER allocated.
+Skincolor SKINCOLOR_MUSHROOM allocated.
+Skincolor SKINCOLOR_SHELL allocated.
+Skincolor SKINCOLOR_UNDERGROUND allocated.
+Skincolor SKINCOLOR_MONDO allocated.
+Skincolor SKINCOLOR_TUBULAR allocated.
+Skincolor SKINCOLOR_GROOVY allocated.
+Skincolor SKINCOLOR_FUNKY allocated.
+Skincolor SKINCOLOR_LETHAL allocated.
+Skincolor SKINCOLOR_DIRE allocated.
+Skincolor SKINCOLOR_COURTYARD allocated.
+Skincolor SKINCOLOR_MOSSBUTDARK allocated.
+Skincolor SKINCOLOR_RAINBOW allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/command.lua
+Coins will no longer be replaced with rings for anyone other than Mario in single player.
+Added command "mariosecondcolor"
+Added command "mariosecondcolor2"
+Added command "marioattackbutton"
+Added command "marioattackbutton2"
+Added command "mariocrouchbutton"
+Added command "mariocrouchbutton2"
+Added command "marioabilitybutton"
+Added command "marioabilitybutton2"
+Added command "mariospinbutton"
+Added command "mariospinbutton2"
+Added command "mariodive"
+Added command "mariodive2"
+Added command "marioforcehammer"
+Added command "marioforcehammer2"
+Added command "mariospin"
+Added command "mariospin2"
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/io.lua
+Added command "marioio"
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/menu.lua
+Sound sfx_mrselc allocated.
+Sound sfx_mrup allocated.
+Sound sfx_mrdown allocated.
+Sound sfx_mrenab allocated.
+Sound sfx_mrdisa allocated.
+Added command "mariomenu"
+Added command "mariomenu2"
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/sounds.lua
+Sound sfx_mrbrck allocated.
+Sound sfx_mrchek allocated.
+Sound sfx_mrtoke allocated.
+Sound sfx_mremer allocated.
+Sound sfx_mrcnap allocated.
+Sound sfx_mrjmp2 allocated.
+Sound sfx_mrjmp3 allocated.
+Sound sfx_mrwljm allocated.
+Sound sfx_mrlong allocated.
+Sound sfx_mrgnd1 allocated.
+Sound sfx_mrgnd2 allocated.
+Sound sfx_mrduck allocated.
+Sound sfx_mrcwl1 allocated.
+Sound sfx_mrcwl2 allocated.
+Sound sfx_mrchrg allocated.
+Sound sfx_mrgpjm allocated.
+Sound sfx_mrsld1 allocated.
+Sound sfx_mrsld2 allocated.
+Sound sfx_mrswm1 allocated.
+Sound sfx_mrswm2 allocated.
+Sound sfx_mrspn1 allocated.
+Sound sfx_mrspn2 allocated.
+Sound sfx_mrspn3 allocated.
+Sound sfx_mrspn4 allocated.
+Sound sfx_mrflip allocated.
+Sound sfx_mrtrfl allocated.
+Sound sfx_mrrol2 allocated.
+Sound sfx_mrdive allocated.
+Sound sfx_mrlout allocated.
+Sound sfx_mrbonk allocated.
+Sound sfx_mrstmp allocated.
+Sound sfx_mrkill allocated.
+Sound sfx_mrexpl allocated.
+Sound sfx_mrpoof allocated.
+Sound sfx_mrhmr1 allocated.
+Sound sfx_mrhmr2 allocated.
+Sound sfx_mrhmr3 allocated.
+Sound sfx_mrhmr4 allocated.
+Sound sfx_mrhhit allocated.
+Sound sfx_mrheal allocated.
+Sound sfx_mrlowh allocated.
+Sound sfx_mrspun allocated.
+Sound sfx_mrestr allocated.
+Sound sfx_mrresv allocated.
+Sound sfx_mrstar allocated.
+Sound sfx_mrpbln allocated.
+Sound sfx_mrpbfl allocated.
+Sound sfx_mrpbds allocated.
+Sound sfx_mrpbmp allocated.
+Sound sfx_mrpbch allocated.
+Sound sfx_mrblow allocated.
+Sound sfx_mrmini allocated.
+Sound sfx_mrmin1 allocated.
+Sound sfx_mrmin2 allocated.
+Sound sfx_mrmin3 allocated.
+Sound sfx_mrmin4 allocated.
+Sound sfx_mrmin5 allocated.
+Sound sfx_mrmin6 allocated.
+Sound sfx_mrball allocated.
+Sound sfx_mrbal1 allocated.
+Sound sfx_mrbal2 allocated.
+Sound sfx_mrbal3 allocated.
+Sound sfx_mrbal4 allocated.
+Sound sfx_mrbal5 allocated.
+Sound sfx_mrbal6 allocated.
+Sound sfx_mrmega allocated.
+Sound sfx_mrmgap allocated.
+Sound sfx_mrmgls allocated.
+Sound sfx_mrmgjm allocated.
+Sound sfx_mrmgst allocated.
+Sound sfx_mrcape allocated.
+Sound sfx_mrfly allocated.
+Sound sfx_mrspin allocated.
+Sound sfx_mrmetl allocated.
+Sound sfx_mrmeht allocated.
+Sound sfx_mrstep allocated.
+Sound sfx_mrfire allocated.
+Sound sfx_mrglpw allocated.
+Sound sfx_mrgold allocated.
+Sound sfx_mrglfr allocated.
+Sound sfx_mrglxp allocated.
+Sound sfx_mriceb allocated.
+Sound sfx_mricbr allocated.
+Sound sfx_mrfrze allocated.
+Sound sfx_mrslip allocated.
+Sound sfx_mrshtr allocated.
+Sound sfx_mrbtgt allocated.
+Sound sfx_mrbtjm allocated.
+Sound sfx_mrbtls allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/voice.lua
+State S_MARIO_VOICEECHO allocated.
+Sound sfx_mrahah allocated.
+Sound sfx_m2ahah allocated.
+Sound sfx_m3ahah allocated.
+Sound sfx_mrahow allocated.
+Sound sfx_m2ahow allocated.
+Sound sfx_m3ahow allocated.
+Sound sfx_mrboig allocated.
+Sound sfx_m2boig allocated.
+Sound sfx_m3boig allocated.
+Sound sfx_mrdie1 allocated.
+Sound sfx_m2die1 allocated.
+Sound sfx_m3die1 allocated.
+Sound sfx_mrdie2 allocated.
+Sound sfx_m2die2 allocated.
+Sound sfx_m3die2 allocated.
+Sound sfx_mrdie3 allocated.
+Sound sfx_m2die3 allocated.
+Sound sfx_m3die3 allocated.
+Sound sfx_mrdoh allocated.
+Sound sfx_m2doh allocated.
+Sound sfx_m3doh allocated.
+Sound sfx_mrdrwn allocated.
+Sound sfx_m2drwn allocated.
+Sound sfx_m3drwn allocated.
+Sound sfx_mredg1 allocated.
+Sound sfx_m2edg1 allocated.
+Sound sfx_m3edg1 allocated.
+Sound sfx_mredg2 allocated.
+Sound sfx_m2edg2 allocated.
+Sound sfx_m3edg2 allocated.
+Sound sfx_mrfall allocated.
+Sound sfx_m2fall allocated.
+Sound sfx_m3fall allocated.
+Sound sfx_mrgrua allocated.
+Sound sfx_m2grua allocated.
+Sound sfx_m3grua allocated.
+Sound sfx_mrheho allocated.
+Sound sfx_m2heho allocated.
+Sound sfx_m3heho allocated.
+Sound sfx_mrhelo allocated.
+Sound sfx_m2helo allocated.
+Sound sfx_m3helo allocated.
+Sound sfx_mrhmm allocated.
+Sound sfx_m2hmm allocated.
+Sound sfx_m3hmm allocated.
+Sound sfx_mrho allocated.
+Sound sfx_m2ho allocated.
+Sound sfx_m3ho allocated.
+Sound sfx_mrhoho allocated.
+Sound sfx_m2hoho allocated.
+Sound sfx_m3hoho allocated.
+Sound sfx_mrhol allocated.
+Sound sfx_m2hol allocated.
+Sound sfx_m3hol allocated.
+Sound sfx_mrhot allocated.
+Sound sfx_m2hot allocated.
+Sound sfx_m3hot allocated.
+Sound sfx_mrhray allocated.
+Sound sfx_m2hray allocated.
+Sound sfx_m3hray allocated.
+Sound sfx_mrhuah allocated.
+Sound sfx_m2huah allocated.
+Sound sfx_m3huah allocated.
+Sound sfx_mritsa allocated.
+Sound sfx_m2itsa allocated.
+Sound sfx_m3itsa allocated.
+Sound sfx_mrlava allocated.
+Sound sfx_m2lava allocated.
+Sound sfx_m3lava allocated.
+Sound sfx_mrlets allocated.
+Sound sfx_m2lets allocated.
+Sound sfx_m3lets allocated.
+Sound sfx_mrmama allocated.
+Sound sfx_m2mama allocated.
+Sound sfx_m3mama allocated.
+Sound sfx_mrmuh allocated.
+Sound sfx_m2muh allocated.
+Sound sfx_m3muh allocated.
+Sound sfx_mrmuu allocated.
+Sound sfx_m2muu allocated.
+Sound sfx_m3muu allocated.
+Sound sfx_mroh allocated.
+Sound sfx_m2oh allocated.
+Sound sfx_m3oh allocated.
+Sound sfx_mrohho allocated.
+Sound sfx_m2ohho allocated.
+Sound sfx_m3ohho allocated.
+Sound sfx_mrokie allocated.
+Sound sfx_m2okie allocated.
+Sound sfx_m3okie allocated.
+Sound sfx_mroof allocated.
+Sound sfx_m2oof allocated.
+Sound sfx_m3oof allocated.
+Sound sfx_mrow allocated.
+Sound sfx_m2ow allocated.
+Sound sfx_m3ow allocated.
+Sound sfx_mrpull allocated.
+Sound sfx_m2pull allocated.
+Sound sfx_m3pull allocated.
+Sound sfx_mrscrm allocated.
+Sound sfx_m2scrm allocated.
+Sound sfx_m3scrm allocated.
+Sound sfx_mrshoo allocated.
+Sound sfx_m2shoo allocated.
+Sound sfx_m3shoo allocated.
+Sound sfx_mrstnk allocated.
+Sound sfx_m2stnk allocated.
+Sound sfx_m3stnk allocated.
+Sound sfx_mrtime allocated.
+Sound sfx_m2time allocated.
+Sound sfx_m3time allocated.
+Sound sfx_mruh allocated.
+Sound sfx_m2uh allocated.
+Sound sfx_m3uh allocated.
+Sound sfx_mruhn allocated.
+Sound sfx_m2uhn allocated.
+Sound sfx_m3uhn allocated.
+Sound sfx_mrwah allocated.
+Sound sfx_m2wah allocated.
+Sound sfx_m3wah allocated.
+Sound sfx_mrwaha allocated.
+Sound sfx_m2waha allocated.
+Sound sfx_m3waha allocated.
+Sound sfx_mrwaho allocated.
+Sound sfx_m2waho allocated.
+Sound sfx_m3waho allocated.
+Sound sfx_mrwalf allocated.
+Sound sfx_m2walf allocated.
+Sound sfx_m3walf allocated.
+Sound sfx_mrwawl allocated.
+Sound sfx_m2wawl allocated.
+Sound sfx_m3wawl allocated.
+Sound sfx_mrwehe allocated.
+Sound sfx_m2wehe allocated.
+Sound sfx_m3wehe allocated.
+Sound sfx_mrweho allocated.
+Sound sfx_m2weho allocated.
+Sound sfx_m3weho allocated.
+Sound sfx_mrwihe allocated.
+Sound sfx_m2wihe allocated.
+Sound sfx_m3wihe allocated.
+Sound sfx_mrwoah allocated.
+Sound sfx_m2woah allocated.
+Sound sfx_m3woah allocated.
+Sound sfx_mrwoch allocated.
+Sound sfx_m2woch allocated.
+Sound sfx_m3woch allocated.
+Sound sfx_mrwoho allocated.
+Sound sfx_m2woho allocated.
+Sound sfx_m3woho allocated.
+Sound sfx_mryah allocated.
+Sound sfx_m2yah allocated.
+Sound sfx_m3yah allocated.
+Sound sfx_mryaho allocated.
+Sound sfx_m2yaho allocated.
+Sound sfx_m3yaho allocated.
+Sound sfx_mryehe allocated.
+Sound sfx_m2yehe allocated.
+Sound sfx_m3yehe allocated.
+Sound sfx_mryeho allocated.
+Sound sfx_m2yeho allocated.
+Sound sfx_m3yeho allocated.
+Sound sfx_mryhaw allocated.
+Sound sfx_m2yhaw allocated.
+Sound sfx_m3yhaw allocated.
+Sound sfx_mryipe allocated.
+Sound sfx_m2yipe allocated.
+Sound sfx_m3yipe allocated.
+Sound sfx_mryou allocated.
+Sound sfx_m2you allocated.
+Sound sfx_m3you allocated.
+Sound sfx_mryul allocated.
+Sound sfx_m2yul allocated.
+Sound sfx_m3yul allocated.
+Sound sfx_mrsupr allocated.
+Sound sfx_m2supr allocated.
+Sound sfx_m3supr allocated.
+Sound sfx_mrohya allocated.
+Sound sfx_m2ohya allocated.
+Sound sfx_m3ohya allocated.
+Sound sfx_luaaha allocated.
+Sound sfx_l2aaha allocated.
+Sound sfx_l3aaha allocated.
+Sound sfx_luahah allocated.
+Sound sfx_l2ahah allocated.
+Sound sfx_l3ahah allocated.
+Sound sfx_lualrg allocated.
+Sound sfx_l2alrg allocated.
+Sound sfx_l3alrg allocated.
+Sound sfx_ludie1 allocated.
+Sound sfx_l2die1 allocated.
+Sound sfx_l3die1 allocated.
+Sound sfx_ludie2 allocated.
+Sound sfx_l2die2 allocated.
+Sound sfx_l3die2 allocated.
+Sound sfx_ludie3 allocated.
+Sound sfx_l2die3 allocated.
+Sound sfx_l3die3 allocated.
+Sound sfx_ludrwn allocated.
+Sound sfx_l2drwn allocated.
+Sound sfx_l3drwn allocated.
+Sound sfx_luedg1 allocated.
+Sound sfx_l2edg1 allocated.
+Sound sfx_l3edg1 allocated.
+Sound sfx_luedg2 allocated.
+Sound sfx_l2edg2 allocated.
+Sound sfx_l3edg2 allocated.
+Sound sfx_lufall allocated.
+Sound sfx_l2fall allocated.
+Sound sfx_l3fall allocated.
+Sound sfx_lugowg allocated.
+Sound sfx_l2gowg allocated.
+Sound sfx_l3gowg allocated.
+Sound sfx_luha allocated.
+Sound sfx_l2ha allocated.
+Sound sfx_l3ha allocated.
+Sound sfx_luhaya allocated.
+Sound sfx_l2haya allocated.
+Sound sfx_l3haya allocated.
+Sound sfx_luheh allocated.
+Sound sfx_l2heh allocated.
+Sound sfx_l3heh allocated.
+Sound sfx_luhey allocated.
+Sound sfx_l2hey allocated.
+Sound sfx_l3hey allocated.
+Sound sfx_luheya allocated.
+Sound sfx_l2heya allocated.
+Sound sfx_l3heya allocated.
+Sound sfx_luho allocated.
+Sound sfx_l2ho allocated.
+Sound sfx_l3ho allocated.
+Sound sfx_luhoah allocated.
+Sound sfx_l2hoah allocated.
+Sound sfx_l3hoah allocated.
+Sound sfx_luhoho allocated.
+Sound sfx_l2hoho allocated.
+Sound sfx_l3hoho allocated.
+Sound sfx_luhol allocated.
+Sound sfx_l2hol allocated.
+Sound sfx_l3hol allocated.
+Sound sfx_luhot allocated.
+Sound sfx_l2hot allocated.
+Sound sfx_l3hot allocated.
+Sound sfx_luhowa allocated.
+Sound sfx_l2howa allocated.
+Sound sfx_l3howa allocated.
+Sound sfx_luhrm allocated.
+Sound sfx_l2hrm allocated.
+Sound sfx_l3hrm allocated.
+Sound sfx_luhu allocated.
+Sound sfx_l2hu allocated.
+Sound sfx_l3hu allocated.
+Sound sfx_luhuu allocated.
+Sound sfx_l2huu allocated.
+Sound sfx_l3huu allocated.
+Sound sfx_luhwah allocated.
+Sound sfx_l2hwah allocated.
+Sound sfx_l3hwah allocated.
+Sound sfx_luigi allocated.
+Sound sfx_l2igi allocated.
+Sound sfx_l3igi allocated.
+Sound sfx_lulava allocated.
+Sound sfx_l2lava allocated.
+Sound sfx_l3lava allocated.
+Sound sfx_lulets allocated.
+Sound sfx_l2lets allocated.
+Sound sfx_l3lets allocated.
+Sound sfx_lumama allocated.
+Sound sfx_l2mama allocated.
+Sound sfx_l3mama allocated.
+Sound sfx_lumuh allocated.
+Sound sfx_l2muh allocated.
+Sound sfx_l3muh allocated.
+Sound sfx_lunum1 allocated.
+Sound sfx_l2num1 allocated.
+Sound sfx_l3num1 allocated.
+Sound sfx_luohya allocated.
+Sound sfx_l2ohya allocated.
+Sound sfx_l3ohya allocated.
+Sound sfx_luohye allocated.
+Sound sfx_l2ohye allocated.
+Sound sfx_l3ohye allocated.
+Sound sfx_luokie allocated.
+Sound sfx_l2okie allocated.
+Sound sfx_l3okie allocated.
+Sound sfx_luoua allocated.
+Sound sfx_l2oua allocated.
+Sound sfx_l3oua allocated.
+Sound sfx_luow allocated.
+Sound sfx_l2ow allocated.
+Sound sfx_l3ow allocated.
+Sound sfx_luowho allocated.
+Sound sfx_l2owho allocated.
+Sound sfx_l3owho allocated.
+Sound sfx_luowow allocated.
+Sound sfx_l2owow allocated.
+Sound sfx_l3owow allocated.
+Sound sfx_lupull allocated.
+Sound sfx_l2pull allocated.
+Sound sfx_l3pull allocated.
+Sound sfx_luread allocated.
+Sound sfx_l2read allocated.
+Sound sfx_l3read allocated.
+Sound sfx_luscut allocated.
+Sound sfx_l2scut allocated.
+Sound sfx_l3scut allocated.
+Sound sfx_luuh allocated.
+Sound sfx_l2uh allocated.
+Sound sfx_l3uh allocated.
+Sound sfx_luwaah allocated.
+Sound sfx_l2waah allocated.
+Sound sfx_l3waah allocated.
+Sound sfx_luwah allocated.
+Sound sfx_l2wah allocated.
+Sound sfx_l3wah allocated.
+Sound sfx_luwaho allocated.
+Sound sfx_l2waho allocated.
+Sound sfx_l3waho allocated.
+Sound sfx_luwhoh allocated.
+Sound sfx_l2whoh allocated.
+Sound sfx_l3whoh allocated.
+Sound sfx_luwhoo allocated.
+Sound sfx_l2whoo allocated.
+Sound sfx_l3whoo allocated.
+Sound sfx_luwoah allocated.
+Sound sfx_l2woah allocated.
+Sound sfx_l3woah allocated.
+Sound sfx_luwow allocated.
+Sound sfx_l2wow allocated.
+Sound sfx_l3wow allocated.
+Sound sfx_luwowo allocated.
+Sound sfx_l2wowo allocated.
+Sound sfx_l3wowo allocated.
+Sound sfx_luwrha allocated.
+Sound sfx_l2wrha allocated.
+Sound sfx_l3wrha allocated.
+Sound sfx_luwuho allocated.
+Sound sfx_l2wuho allocated.
+Sound sfx_l3wuho allocated.
+Sound sfx_luyaah allocated.
+Sound sfx_l2yaah allocated.
+Sound sfx_l3yaah allocated.
+Sound sfx_luyah allocated.
+Sound sfx_l2yah allocated.
+Sound sfx_l3yah allocated.
+Sound sfx_luyaho allocated.
+Sound sfx_l2yaho allocated.
+Sound sfx_l3yaho allocated.
+Sound sfx_luyahu allocated.
+Sound sfx_l2yahu allocated.
+Sound sfx_l3yahu allocated.
+Sound sfx_luyeho allocated.
+Sound sfx_l2yeho allocated.
+Sound sfx_l3yeho allocated.
+Sound sfx_luyike allocated.
+Sound sfx_l2yike allocated.
+Sound sfx_l3yike allocated.
+Sound sfx_luyuh allocated.
+Sound sfx_l2yuh allocated.
+Sound sfx_l3yuh allocated.
+Sound sfx_lusupr allocated.
+Sound sfx_l2supr allocated.
+Sound sfx_l3supr allocated.
+Sound sfx_lumalu allocated.
+Sound sfx_l2malu allocated.
+Sound sfx_l3malu allocated.
+Sound sfx_lurdcl allocated.
+Sound sfx_l2rdcl allocated.
+Sound sfx_l3rdcl allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/secondcolor.lua
+MobjType MT_MARIO_OVERALLS allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/cape.lua
+State S_MARIO_CAPESPIN allocated.
+Sprite SPR_MRCP allocated.
+MobjType MT_MARIO_CAPE allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/health.lua
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/shoe.lua
+State S_MARIO_GHOST1 allocated.
+Sprite SPR_MRGH allocated.
+State S_MARIO_GHOST2 allocated.
+MobjType MT_MARIO_GHOST allocated.
+State S_MARIO_SHOE allocated.
+Sprite SPR_MRBT allocated.
+MobjType MT_MARIO_SHOE allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/powerup.lua
+Sprite SPR_MPWR allocated.
+State S_MARIO_ICEFLOWER allocated.
+State S_MARIO_GOLDFLOWER allocated.
+State S_MARIO_BALLFLOWER allocated.
+State S_MARIO_POWERUP allocated.
+Sprite SPR_UPPB allocated.
+State S_MARIO_1UP_ICON allocated.
+MobjType MT_MARIO_POWERUP allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/monitor.lua
+Sprite SPR_MMON allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/ability.lua
+State S_MARIO_FIREEXPLODE allocated.
+Sprite SPR_MRPT allocated.
+State S_MARIO_SUPERBALL allocated.
+MobjType MT_MARIO_FIREBALL allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/enemy.lua
+State S_MARIO_ICEBLOCK allocated.
+Sprite SPR_MRIB allocated.
+MobjType MT_MARIO_ICEBLOCK allocated.
+State S_MARIO_ENEMY allocated.
+State S_MARIO_DEADENEMY allocated.
+MobjType MT_MARIO_ENEMY allocated.
+Loading Lua script from .\coopserver\CL_MarioBros-v2.2.1.pk3|lua/mario.lua
+State S_MARIO_JUMP1 allocated.
+State S_MARIO_JUMP2 allocated.
+State S_MARIO_FALL allocated.
+State S_MARIO_DOUBLE allocated.
+State S_MARIO_DOUBLEFALL allocated.
+State S_MARIO_TRIPLE allocated.
+State S_MARIO_SPIN allocated.
+State S_MARIO_RECOVER allocated.
+State S_MARIO_LONGJUMP allocated.
+State S_MARIO_LONGTRANS allocated.
+State S_MARIO_LONGFALL allocated.
+State S_MARIO_BONK allocated.
+State S_MARIO_GROUNDPOUND allocated.
+State S_MARIO_POUNDSTART allocated.
+State S_MARIO_ROLL allocated.
+State S_MARIO_Added file .\coopserver\CL_NeoSonic-v2.2.pk3 (552 lumps)
+Loading Lua script from .\coopserver\CL_NeoSonic-v2.2.pk3|Lua/LUA_MPAL.txt
+Skincolor SKINCOLOR_ADVENTURE allocated.
+Skincolor SKINCOLOR_ADVANCE allocated.
+Skincolor SKINCOLOR_PETIT allocated.
+Loading Lua script from .\coopserver\CL_NeoSonic-v2.2.pk3|Lua/LUA_MSFX.txt
+Sprite SPR_MSBO allocated.
+MobjType MT_MSSBOOM allocated.
+State S_MSSBOOM allocated.
+State S_MSSBOOM2 allocated.
+State S_MSSBOOM3 allocated.
+State S_MSSBOOM4 allocated.
+State S_MSSBOOM5 allocated.
+Sprite SPR_MSWV allocated.
+MobjType MT_MSWAVE allocated.
+State S_MSWAVE1 allocated.
+State S_MSWAVE2 allocated.
+State S_MSWAVE3 allocated.
+State S_MSWAVE4 allocated.
+State S_MSWAVE5 allocated.
+Sprite SPR_MSFS allocated.
+MobjType MT_MSFS allocated.
+State S_MSFS1 allocated.
+State S_MSFS2 allocated.
+State S_MSFS3 allocated.
+State S_MSFS4 allocated.
+State S_MSFS5 allocated.
+Sprite SPR_JUPT allocated.
+MobjType MT_JUPT allocated.
+State S_JUPT1 allocated.
+State S_JUPT2 allocated.
+State S_JUPT3 allocated.
+State S_JUPT4 allocated.
+State S_JUPT5 allocated.
+Sprite SPR_BSMD allocated.
+MobjType MT_MSBSMDL allocated.
+State S_MSBSMDL allocated.
+Sprite SPR_MHTK allocated.
+MobjType MT_MHTK allocated.
+MobjType MT_MHTKBIG allocated.
+State S_MHTK allocated.
+Sprite SPR_MHTT allocated.
+State S_MHTK2 allocated.
+State S_MHTK3 allocated.
+State S_MHTK4 allocated.
+State S_MHTKBIG allocated.
+State S_MHTKBIG2 allocated.
+State S_MHTKBIG3 allocated.
+State S_MHTKBIG4 allocated.
+State S_MHTKBIG5 allocated.
+State S_MHTKBIG6 allocated.
+State S_MHTKBIG7 allocated.
+Sprite SPR_MJBK allocated.
+MobjType MT_MJBK allocated.
+State S_MJBK allocated.
+Sprite SPR_MJBT allocated.
+State S_MJBK2 allocated.
+State S_MJBK3 allocated.
+State S_MJBAdded file .\coopserver\CL_NeoSonic-v2.2.pk3 (552 lumps)
+Loading Lua script from .\coopserver\CL_NeoSonic-v2.2.pk3|Lua/LUA_MPAL.txt
+Skincolor SKINCOLOR_ADVENTURE allocated.
+Skincolor SKINCOLOR_ADVANCE allocated.
+Skincolor SKINCOLOR_PETIT allocated.
+Loading Lua script from .\coopserver\CL_NeoSonic-v2.2.pk3|Lua/LUA_MSFX.txt
+Sprite SPR_MSBO allocated.
+MobjType MT_MSSBOOM allocated.
+State S_MSSBOOM allocated.
+State S_MSSBOOM2 allocated.
+State S_MSSBOOM3 allocated.
+State S_MSSBOOM4 allocated.
+State S_MSSBOOM5 allocated.
+Sprite SPR_MSWV allocated.
+MobjType MT_MSWAVE allocated.
+State S_MSWAVE1 allocated.
+State S_MSWAVE2 allocated.
+State S_MSWAVE3 allocated.
+State S_MSWAVE4 allocated.
+State S_MSWAVE5 allocated.
+Sprite SPR_MSFS allocated.
+MobjType MT_MSFS allocated.
+State S_MSFS1 allocated.
+State S_MSFS2 allocated.
+State S_MSFS3 allocated.
+State S_MSFS4 allocated.
+State S_MSFS5 allocated.
+Sprite SPR_JUPT allocated.
+MobjType MT_JUPT allocated.
+State S_JUPT1 allocated.
+State S_JUPT2 allocated.
+State S_JUPT3 allocated.
+State S_JUPT4 allocated.
+State S_JUPT5 allocated.
+Sprite SPR_BSMD allocated.
+MobjType MT_MSBSMDL allocated.
+State S_MSBSMDL allocated.
+Sprite SPR_MHTK allocated.
+MobjType MT_MHTK allocated.
+MobjType MT_MHTKBIG allocated.
+State S_MHTK allocated.
+Sprite SPR_MHTT allocated.
+State S_MHTK2 allocated.
+State S_MHTK3 allocated.
+State S_MHTK4 allocated.
+State S_MHTKBIG allocated.
+State S_MHTKBIG2 allocated.
+State S_MHTKBIG3 allocated.
+State S_MHTKBIG4 allocated.
+State S_MHTKBIG5 allocated.
+State S_MHTKBIG6 allocated.
+State S_MHTKBIG7 allocated.
+Sprite SPR_MJBK allocated.
+MobjType MT_MJBK allocated.
+State S_MJBK allocated.
+Sprite SPR_MJBT allocated.
+State S_MJBK2 allocated.
+State S_MJBK3 allocated.
+State S_MJBK4 allocated.
+Sprite SPR_MHTW allocated.
+MobjType MT_MHTW allocated.
+State S_MHTW allocated.
+Sprite SPR_MTBM allocated.
+MobjType MT_MTBM allocated.
+State S_MTBM1 allocated.
+State S_MTBM2 allocated.
+State S_MTBM3 allocated.
+State S_MTBM4 allocated.
+State S_MTBM5 allocated.
+Sprite SPR_MHTS allocated.
+MobjType MT_MHTS allocated.
+State S_MHTS allocated.
+Sprite SPR_MSGS allocated.
+MobjType MT_MSGS allocated.
+State S_MSGS allocated.
+Sprite SPR_MSHS allocated.
+MobjType MT_MSHS allocated.
+State S_MSHS allocated.
+Sprite SPR_MPAR allocated.
+MobjType MT_MPAR allocated.
+State S_MPAR allocated.
+Sprite SPR_MSTR allocated.
+MobjType MT_MSTR allocated.
+State S_MSTR allocated.
+Sprite SPR_MHIT allocated.
+MobjType MT_MHIT allocated.
+State S_MHIT allocated.
+Sprite SPR_MSMO allocated.
+MobjType MT_MSMO allocated.
+State S_MSMO allocated.
+State S_MSMO2 allocated.
+State S_MSMO3 allocated.
+Sprite SPR_HTRL allocated.
+MobjType MT_HTRL allocated.
+State S_HTRL allocated.
+State S_HTRL2 allocated.
+State S_HTRL3 allocated.
+State S_HTRL4 allocated.
+State S_HTRL5 allocated.
+State S_HTRL6 allocated.
+Sprite SPR_CDAS allocated.
+Sprite SPR_DCHR allocated.
+MobjType MT_DCHR allocated.
+State S_DCHR1 allocated.
+State S_DCHR2 allocated.
+State S_DCHR3 allocated.
+State S_DCHR4 allocated.
+State S_DCHR5 allocated.
+Sprite SPR_DCHS allocated.
+MobjType MT_DCHS allocated.
+State S_DCHS1 allocated.
+State S_DCHS2 allocated.
+State S_DCHS3 allocated.
+State S_DCHS4 allocated.
+State S_DCHS5 allocated.
+Sprite SPR_DDSP allocated.
+MobjType MT_DDSP allocated.
+State S_DDSP allocated.
+Sprite SPR_HSPK allocated.
+Sound sfx_sshpop allocated.
+Sound sfx_neolck allocated.
+MobjType MT_THKC allocated.
+Sprite SPR_THKC allocated.
+State S_THKC1 allocated.
+State S_THKC2 allocated.
+State S_THKC3 allocated.
+State S_THKC4 allocated.
+State S_THKC5 allocated.
+State S_THKC6 allocated.
+State S_THKC7 allocated.
+State S_THKC8 allocated.
+Sprite SPR_DMSP allocated.
+MobjType MT_DMWV allocated.
+State S_DMWV1 allocated.
+State S_DMWV2 allocated.
+State S_DMWV3 allocated.
+State S_DMWV4 allocated.
+Sprite SPR_SPDT allocated.
+MobjType MT_SPDT allocated.
+State S_SPDT1 allocated.
+Sprite SPR_MRET allocated.
+State S_MSON_MLOCK allocated.
+Sprite SPR_MRTW allocated.
+State S_MSON_MLKW allocated.
+Sprite SPR_MRTS allocated.
+State S_MSON_MLKS allocated.
+Loading Lua script from .\coopserver\CL_NeoSonic-v2.2.pk3|Lua/LUA_MABL.txt
+State S_PLAY_JUMP_STRT1 allocated.
+State S_PLAY_JUMP_STRT2 allocated.
+State S_PLAY_HTHOK_JUMP1 allocated.
+State S_PLAY_HTHOK_JUMP2 allocated.
+State S_PLAY_HTHOK_JUMP3 allocated.
+State S_PLAY_HTHOK_JUMP4 allocated.
+State S_PLAY_HTHOK_DASH1 allocated.
+State S_PLAY_HTHOK_DASH2 allocated.
+State S_PLAY_HTHOK_DASH3 allocated.
+State S_PLAY_HTHOK_HJMP1 allocated.
+State S_PLAY_HTHOK_HJMP2 allocated.
+State S_PLAY_SPNG_SPIN1 allocated.
+Added file .\coopserver\VCL_Werehog-v2.3.pk3 (353 lumps)
+Loading Lua script from .\coopserver\VCL_Werehog-v2.3.pk3|Lua/LUA_HUGS
+Sprite SPR2_RSAA allocated.
+Sound sfx_rsaaa2 allocated.
+Sound sfx_rsaaa1 allocated.
+Sprite SPR2_MEME allocated.
+State S_PLAY_SCREAM1 allocated.
+State S_PLAY_SCREAM2 allocated.
+State S_PLAY_SCREAM3 allocated.
+State S_PLAY_SCREAM4 allocated.
+State S_PLAY_SCREAM5 allocated.
+MobjType MT_WEREHOGRETICLE allocated.
+Sound sfx_homing allocated.
+Sound sfx_whurt1 allocated.
+Sound sfx_whurt2 allocated.
+Sound sfx_whurt3 allocated.
+Sound sfx_whurt4 allocated.
+State S_PLAY_SPIN allocated.
+MobjType MT_WEREHOGFIST allocated.
+Sprite SPR2_CLAW allocated.
+State S_PLAY_WERECLAW allocated.
+Sound sfx_attk1 allocated.
+Sound sfx_attk2 allocated.
+Sound sfx_attk3 allocated.
+Sound sfx_attk4 allocated.
+Sound sfx_attk5 allocated.
+Sound sfx_grapp allocated.
+State S_PLAY_TWIRL allocated.
+Sprite SPR2_DBJP allocated.
+State S_PLAY_GRAB allocated.
+Sprite SPR2_PNCH allocated.
+State S_WEREHOGARM allocated.
+MobjType MT_WEREHOGARM allocated.
+State S_PLAY_SHIT allocated.
+Sprite SPR2_SHIT allocated.
+Added command "runbutton"
+Added command "runbutton2"
+Added command "jazzband"
+Added command "chip"
+Added command "chip2"
+Loading Lua script from .\coopserver\VCL_Werehog-v2.3.pk3|Lua/LUA_WEREHUG.lua
+State S_PLAY_HUG allocated.
+State S_COLORHEART allocated.
+Sprite SPR2_HUG_ allocated.
+Sprite SPR_RHRT allocated.
+Loading Lua script from .\coopserver\VCL_Werehog-v2.3.pk3|Lua/LUA_CHIP
+Loading Lua script from .\coopserver\VCL_Werehog-v2.3.pk3|Lua/LUA_PSUPPORT
+Loading SOC from .\coopserver\VCL_Werehog-v2.3.pk3|SOC/SOC_PLAY
+Loading SOC from .\coopserver\VCL_Werehog-v2.3.pk3|SOC/OBJCTCFG
+VCL_Werehog-v2.3.pk3 added 43 frames in 5 sprites
+Added skin 'werehog'
+No maps added
+Battle music has been enabled.
+Chip is enabled.
+Run button is disabled.
+Added file .\DOWNLOAD\JunioSonic.pk3 (213 lumps)
+Loading Lua script from .\DOWNLOAD\JunioSonic.pk3|lua/CONFIG.lua
+Sprite SPR_AIDU allocated.
+State S_KICKDUST allocated.
+Loading Lua script from .\DOWNLOAD\JunioSonic.pk3|lua/PEELOUT.lua
+Loading Lua script from .\DOWNLOAD\JunioSonic.pk3|lua/IO.lua
+Added command "dashinvert"
+Added command "dashinvert2"
+Added command "freeaim"
+Loading Lua script from .\DOWNLOAD\JunioSonic.pk3|lua/Freedom.lua
+State S_PLAY_ROLL1_1 allocated.
+State S_PLAY_ROLL1_2 allocated.
+State S_PLAY_ROLL1_3 allocated.
+State S_PLAY_ROLL1_4 allocated.
+State S_PLAY_ROLL2_1 allocated.
+State S_PLAY_ROLL2_2 allocated.
+State S_PLAY_ROLL2_3 allocated.
+State S_PLAY_ROLL2_4 allocated.
+State S_PLAY_ROLL3_1 allocated.
+State S_PLAY_ROLL3_2 allocated.
+State S_PLAY_ROLL3_3 allocated.
+State S_PLAY_ROLL3_4 allocated.
+State S_PLAY_ROLL4_1 allocated.
+State S_PLAY_ROLL4_2 allocated.
+State S_PLAY_ROLL4_3 allocated.
+State S_PLAY_ROLL4_4 allocated.
+Sound sfx_spnwnd allocated.
+Sound sfx_tdash allocated.
+Sound sfx_plchrg allocated.
+Sound sfx_plrles allocated.
+Sound sfx_tcurl allocated.
+Loading SOC from .\DOWNLOAD\JunioSonic.pk3|soc/OBJCTCFG
+JunioSonic.pk3 added 6 frames in 1 sprites
+Added skin 'juniosonic'
+No maps added
+Bullet Dash aiming is now default.
+Bullet Dash aiming is now Input Aim.
+Added file .\coopserver\VCL_Kirby-v1.1.pk3 (2610 lumps)
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Lua_Freeslot
+MobjType MT_KIRBYSUCKS allocated.
+MobjType MT_KIRBYSPITSTAR allocated.
+MobjType MT_KIRBYSTARDROP allocated.
+MobjType MT_KIRBYAIRPUFF allocated.
+MobjType MT_KIRBY_STARPARTICLE allocated.
+MobjType MT_KIRBY_BOSSSTAR allocated.
+MobjType MT_ICEBREATH allocated.
+MobjType MT_KIRBYICEBLOCK allocated.
+MobjType MT_DUMMYBOMB allocated.
+MobjType MT_KIRBYBOMB allocated.
+MobjType MT_KIRBYBOMBSPARK allocated.
+MobjType MT_SPARKEFF allocated.
+MobjType MT_SPARKHURT allocated.
+MobjType MT_WHEELGHOST allocated.
+MobjType MT_BALLSPARKLE allocated.
+MobjType MT_KIRBYSWORD allocated.
+MobjType MT_KIRBYHAMMERDUST allocated.
+MobjType MT_KIRBY_MIKE allocated.
+MobjType MT_KIRBY_UFOBEAM allocated.
+MobjType MT_KIRBY_STARSHIPSTAR allocated.
+Sprite SPR_STAR allocated.
+Sprite SPR_STRD allocated.
+Sprite SPR_STRS allocated.
+Sprite SPR_KARP allocated.
+Sprite SPR_KSTR allocated.
+Sprite SPR_INVS allocated.
+Sprite SPR2_TMBL allocated.
+Sprite SPR2_PUFF allocated.
+Sprite SPR2_FLOT allocated.
+Sprite SPR2_DUCK allocated.
+Sprite SPR2_SLID allocated.
+Sprite SPR2_CNSM allocated.
+Sprite SPR2_ABLG allocated.
+Sprite SPR2_SUKM allocated.
+Sprite SPR2_FROZ allocated.
+Sprite SPR2_FSTN allocated.
+Sprite SPR2_FWLK allocated.
+Sprite SPR2_FOWW allocated.
+Sprite SPR2_FSPR allocated.
+Sprite SPR2_FFAL allocated.
+Sprite SPR2_FRID allocated.
+Sprite SPR_KFBL allocated.
+Sprite SPR_FFBL allocated.
+Sprite SPR_KFLM allocated.
+Sprite SPR_KICE allocated.
+Sprite SPR_FICE allocated.
+Sprite SPR_KIBR allocated.
+Sprite SPR_STON allocated.
+Sprite SPR_KHLP allocated.
+Sprite SPR_FHLP allocated.
+Sprite SPR_KBOM allocated.
+Sprite SPR_KBSP allocated.
+Sprite SPR_KSPR allocated.
+Sprite SPR_FSPK allocated.
+Sprite SPR_ESPR allocated.
+Sprite SPR_KNDL allocated.
+Sprite SPR_FNDL allocated.
+Sprite SPR_KTRN allocated.
+Sprite SPR_FTRN allocated.
+Sprite SPR_TRNA allocated.
+Sprite SPR_KWHL allocated.
+Sprite SPR_KBAL allAdded file .\coopserver\VCL_Kirby-v1.1.pk3 (2610 lumps)
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Lua_Freeslot
+MobjType MT_KIRBYSUCKS allocated.
+MobjType MT_KIRBYSPITSTAR allocated.
+MobjType MT_KIRBYSTARDROP allocated.
+MobjType MT_KIRBYAIRPUFF allocated.
+MobjType MT_KIRBY_STARPARTICLE allocated.
+MobjType MT_KIRBY_BOSSSTAR allocated.
+MobjType MT_ICEBREATH allocated.
+MobjType MT_KIRBYICEBLOCK allocated.
+MobjType MT_DUMMYBOMB allocated.
+MobjType MT_KIRBYBOMB allocated.
+MobjType MT_KIRBYBOMBSPARK allocated.
+MobjType MT_SPARKEFF allocated.
+MobjType MT_SPARKHURT allocated.
+MobjType MT_WHEELGHOST allocated.
+MobjType MT_BALLSPARKLE allocated.
+MobjType MT_KIRBYSWORD allocated.
+MobjType MT_KIRBYHAMMERDUST allocated.
+MobjType MT_KIRBY_MIKE allocated.
+MobjType MT_KIRBY_UFOBEAM allocated.
+MobjType MT_KIRBY_STARSHIPSTAR allocated.
+Sprite SPR_STAR allocated.
+Sprite SPR_STRD allocated.
+Sprite SPR_STRS allocated.
+Sprite SPR_KARP allocated.
+Sprite SPR_KSTR allocated.
+Sprite SPR_INVS allocated.
+Sprite SPR2_TMBL allocated.
+Sprite SPR2_PUFF allocated.
+Sprite SPR2_FLOT allocated.
+Sprite SPR2_DUCK allocated.
+Sprite SPR2_SLID allocated.
+Sprite SPR2_CNSM allocated.
+Sprite SPR2_ABLG allocated.
+Sprite SPR2_SUKM allocated.
+Sprite SPR2_FROZ allocated.
+Sprite SPR2_FSTN allocated.
+Sprite SPR2_FWLK allocated.
+Sprite SPR2_FOWW allocated.
+Sprite SPR2_FSPR allocated.
+Sprite SPR2_FFAL allocated.
+Sprite SPR2_FRID allocated.
+Sprite SPR_KFBL allocated.
+Sprite SPR_FFBL allocated.
+Sprite SPR_KFLM allocated.
+Sprite SPR_KICE allocated.
+Sprite SPR_FICE allocated.
+Sprite SPR_KIBR allocated.
+Sprite SPR_STON allocated.
+Sprite SPR_KHLP allocated.
+Sprite SPR_FHLP allocated.
+Sprite SPR_KBOM allocated.
+Sprite SPR_KBSP allocated.
+Sprite SPR_KSPR allocated.
+Sprite SPR_FSPK allocated.
+Sprite SPR_ESPR allocated.
+Sprite SPR_KNDL allocated.
+Sprite SPR_FNDL allocated.
+Sprite SPR_KTRN allocated.
+Sprite SPR_FTRN allocated.
+Sprite SPR_TRNA allocated.
+Sprite SPR_KWHL allocated.
+Sprite SPR_KBAL allocated.
+Sprite SPR_KSPK allocated.
+Sprite SPR_KSWR allocated.
+Sprite SPR_FSWR allocated.
+Sprite SPR_KHMR allocated.
+Sprite SPR_FHMR allocated.
+Sprite SPR_KDST allocated.
+Sprite SPR_FDST allocated.
+Sprite SPR_KMIK allocated.
+Sprite SPR_KPHN allocated.
+Sprite SPR_KSPT allocated.
+Sprite SPR_FSPT allocated.
+Sprite SPR_KSLP allocated.
+Sprite SPR_FSLP allocated.
+Sprite SPR_KUFO allocated.
+Sprite SPR_UFOB allocated.
+State S_KIRBY_DUCK allocated.
+State S_KIRBY_SLIDE allocated.
+State S_KIRBY_FLOATSTART allocated.
+State S_KIRBY_FLOAT allocated.
+State S_KIRBY_FLOATEND allocated.
+State S_KIRBY_FLOATTIRE allocated.
+State S_KIRBY_DEATHTUMBLE allocated.
+State S_KIRBY_SWIM allocated.
+State S_KIRBY_SUCK allocated.
+State S_KIRBY_SUCKMOVE allocated.
+State S_KIRBY_SPIT allocated.
+State S_KIRBY_CONSUME allocated.
+State S_KIRBY_TRANSFORM1 allocated.
+State S_KIRBY_TRANSFORM2 allocated.
+State S_KIRBY_STARSHIP allocated.
+State S_KIRBYSUCKS allocated.
+State S_KIRBYSTAR1 allocated.
+State S_KIRBYSTAR2 allocated.
+State S_KIRBYSTAR3 allocated.
+State S_KIRBYSTAR4 allocated.
+State S_KIRBYSTARDIE1 allocated.
+State S_KIRBYSTARDIE2 allocated.
+State S_KIRBYSTARDIE3 allocated.
+State S_KIRBYSTARDIE4 allocated.
+State S_KIRBYAIRPUFF1 allocated.
+State S_KIRBYAIRPUFF2 allocated.
+State S_KIRBYAIRPUFF3 allocated.
+State S_KIRBYAIRPUFF4 allocated.
+State S_KIRBY_STARPARTICLE allocated.
+State S_KIRBY_FIRE1 allocated.
+State S_KIRBY_FIRE2 allocated.
+State S_KIRBY_ICE1 allocated.
+State S_KIRBY_ICE2 allocated.
+State S_ICEBREATH1 allocated.
+State S_ICEBREATH2 allocated.
+State S_ICEBREATH3 allocated.
+State S_ICEBREATH4 allocated.
+State S_ICEBREATH5 allocated.
+State S_KIRBYICEBLOCK allocated.
+State S_KIRBYICEBLOCKDIE allocated.
+State S_INKIRBYICE allocated.
+State S_KIRBY_STONE allocated.
+State S_KIRBY_STONETRANS allocated.
+State S_KIRBY_BHOLD allocated.
+State S_KIRBY_BWALK1 allocated.
+State S_KIRBY_BWALK2 allocated.
+State S_KIRBY_BWALK3 allocated.
+State S_KIRBY_BWALK4 allocated.
+State S_KIRBY_BWALK5 allocated.
+State S_KIRBY_BWALK6 allocated.
+State S_KIRBY_BWALK7 allocated.
+State S_KIRBY_BWALK8 allocated.
+State S_KIRBY_BTHROW1 allocated.
+State S_KIRBY_BTHROW2 allocated.
+State S_DUMMYBOMB allocated.
+State S_KIRBYBOMB allocated.
+State S_KIRBYBOMBSPARK1 allocated.
+State S_KIRBYBOMBSPARK2 allocated.
+State S_KIRBYBOMBSPARK3 allocated.
+State S_KIRBYBOMBSPARK4 allocated.
+State S_KIRBY_SPARK1 allocated.
+State S_KIRBY_SPARK2 allocated.
+State S_KIRBY_SPARK3 allocated.
+State S_KIRBY_SPARK4 allocated.
+State S_KIRBY_SPARK5 allocated.
+State S_KIRBY_SPARK6 allocated.
+State S_SPARKEFF1 allocated.
+State S_SPARKEFF2 allocated.
+State S_SPARKEFF3 allocated.
+State S_SPARKHURT allocated.
+State S_KIRBY_NEEDLE1 allocated.
+State S_KIRBY_NEEDLE2 allocated.
+State S_KIRBY_NEEDLE3 allocated.
+State S_KIRBY_NEEDLE4 allocated.
+State S_KIRBY_TORNADO allocated.
+State S_TORNADO1 allocated.
+State S_TORNADO2 allocated.
+State S_TORNADO3 allocated.
+State S_TORNADO4 allocated.
+State S_TORNADOEFF1 allocated.
+State S_TORNADOEFF2 allocated.
+State S_KIRBY_WHEEL1 allocated.
+State S_KIRBY_WHEEL2 allocated.
+State S_KIRBY_WHEEL3 allocated.
+State S_KIRBY_WHEEL4 allocated.
+State S_KIRBY_WHEELTRANS1 allocated.
+State S_KIRBY_WHEELTRANS2 allocated.
+State S_KIRBY_BALL1 allocated.
+State S_KIRBY_BALL2 allocated.
+State S_KIRBY_BALL3 allocated.
+State S_KIRBY_BALL4 allocated.
+State S_KIRBY_BALL5 allocated.
+State S_KIRBY_BALL6 allocated.
+State S_KIRBY_BALL7 allocated.
+State S_KIRBY_BALL8 allocated.
+State S_KIRBY_BALL_SD allocated.
+State S_KIRBY_BALL_SU allocated.
+State S_KIRBY_BALL_TA allocated.
+State S_KIRBY_BALL_TB allocated.
+State S_BALLSPARKLE1 allocated.
+State S_BALLSPARKLE2 allocated.
+State S_BALLSPARKLE3 allocated.
+State S_BALLSPARKLE4 allocated.
+State S_BALLSPARKLE5 allocated.
+State S_BALLSPARKLE6 allocated.
+State S_BALLSPARKLE7 allocated.
+State S_BALLSPARKLE8 allocated.
+State S_BALLSPARKLE9 allocated.
+State S_KIRBY_SWORD1 allocated.
+State S_KIRBY_SWORD2 allocated.
+State S_KIRBY_SWORD3 allocated.
+State S_KIRBY_SWORD4 allocated.
+State S_KIRBY_SWORD5 allocated.
+State S_KIRBY_SWORD6 allocated.
+State S_KIRBY_SWORD7 allocated.
+State S_KIRBY_SWORDSPIN allocated.
+State S_KIRBYSWORD allocated.
+State S_KIRBY_HAMMER1 allocated.
+State S_KIRBY_HAMMER2 allocated.
+State S_KIRBY_HAMMER3 allocated.
+State S_KIRBY_HAMMER4 allocated.
+State S_KIRBY_HAMMERLAND1 allocated.
+State S_KIRBY_HAMMERLAND2 allocated.
+State S_KIRBY_HAMMERS allocated.
+State S_KIRBY_SHOUT1 allocated.
+State S_KIRBY_SHOUT2 allocated.
+State S_KIRBY_MFINAL1 allocated.
+State S_KIRBY_MFINAL2 allocated.
+State S_KIRBY_MFINAL3 allocated.
+State S_KIRBY_MFINAL4 allocated.
+State S_KIRBY_MFINAL5 allocated.
+State S_KIRBY_MFINAL6 allocated.
+State S_KIRBY_MFINAL7 allocated.
+State S_KIRBY_MFINAL8 allocated.
+State S_KIRBY_MIKE1 allocated.
+State S_KIRBY_MIKE2 allocated.
+State S_KIRBY_SLEEP1 allocated.
+State S_KIRBY_SLEEP2 allocated.
+State S_KIRBY_SLEEP3 allocated.
+State S_KIRBY_SLEEP4 allocated.
+State S_KIRBY_SLEEP5 allocated.
+State S_KIRBY_SLEEP6 allocated.
+State S_KIRBY_SLEEP7 allocated.
+State S_KIRBY_SLEEP8 allocated.
+State S_KIRBY_SLEEP9 allocated.
+State S_KIRBY_SLEEP10 allocated.
+State S_KIRBY_SLEEP11 allocated.
+State S_KIRBY_UFO1 allocated.
+State S_KIRBY_UFO2 allocated.
+State S_KIRBY_UFO3 allocated.
+State S_KIRBY_UFOOPEN1 allocated.
+State S_KIRBY_UFOOPEN2 allocated.
+State S_KIRBY_UFOHOLD1 allocated.
+State S_KIRBY_UFOHOLD2 allocated.
+State S_KIRBY_UFOHOLD3 allocated.
+State S_KIRBY_UFOCHARGE1 allocated.
+State S_KIRBY_UFOCHARGE2 allocated.
+State S_KIRBY_UFOCHARGE3 allocated.
+State S_KIRBY_UFOBEAM1 allocated.
+State S_KIRBY_UFOBEAM2 allocated.
+State S_KIRBY_UFOBEAM3 allocated.
+State S_KIRBY_UFOBEAM4 allocated.
+State S_KIRBY_UFOBEAMC1 allocated.
+State S_KIRBY_UFOBEAMC2 allocated.
+State S_KIRBY_UFOBEAMC3 allocated.
+State S_KIRBY_UFOBEAMC4 allocated.
+State S_KIRBY_STARSHIPSTAR allocated.
+State S_KIRBYMONINVIS allocated.
+State S_KIRBYMONWILLDIE allocated.
+Sound sfx_kjump allocated.
+Sound sfx_kfloat allocated.
+Sound sfx_kland allocated.
+Sound sfx_klandb allocated.
+Sound sfx_kflat allocated.
+Sound sfx_kbrake allocated.
+Sound sfx_exhale allocated.
+Sound sfx_khurt allocated.
+Sound sfx_kheal allocated.
+Sound sfx_kbarup allocated.
+Sound sfx_hpwarn allocated.
+Sound sfx_kdies allocated.
+Sound sfx_kdiet allocated.
+Sound sfx_suck allocated.
+Sound sfx_suckl allocated.
+Sound sfx_4suck allocated.
+Sound sfx_4suckl allocated.
+Sound sfx_dsuck allocated.
+Sound sfx_dsuckl allocated.
+Sound sfx_fill allocated.
+Sound sfx_spit allocated.
+Sound sfx_spitl allocated.
+Sound sfx_eat allocated.
+Sound sfx_eat2 allocated.
+Sound sfx_ablg allocated.
+Sound sfx_ablt allocated.
+Sound sfx_khurta allocated.
+Sound sfx_beam allocated.
+Sound sfx_spark allocated.
+Sound sfx_rock allocated.
+Sound sfx_stone allocated.
+Sound sfx_stoneb allocated.
+Sound sfx_unrock allocated.
+Sound sfx_sword allocated.
+Sound sfx_swords allocated.
+Sound sfx_hamers allocated.
+Sound sfx_ice allocated.
+Sound sfx_klaser allocated.
+Sound sfx_hijump allocated.
+Sound sfx_tornad allocated.
+Sound sfx_mike allocated.
+Sound sfx_mike2 allocated.
+Sound sfx_mikef allocated.
+Sound sfx_ksleep allocated.
+Sound sfx_kwkeup allocated.
+Sound sfx_kufo allocated.
+MobjType MT_KIRBYUSABIT allocated.
+MobjType MT_KIRBYBITSHOT allocated.
+MobjType MT_KIRBYLOCKON allocated.
+MobjType MT_KIRBY_RCC allocated.
+MobjType MT_KIRBYBULLET allocated.
+MobjType MT_KIRBYFEETFACE allocated.
+Sprite SPR_USAB allocated.
+Sprite SPR_KRBS allocated.
+Sprite SPR_KSUG allocated.
+Sprite SPR_KLCK allocated.
+Sprite SPR_KRC0 allocated.
+Sprite SPR_KRC1 allocated.
+Sprite SPR_KRC2 allocated.
+Sprite SPR_KRC3 allocated.
+Sprite SPR_KRC4 allocated.
+Sprite SPR_KRC5 allocated.
+Sprite SPR_KRC6 allocated.
+Sprite SPR_KRC7 allocated.
+Sprite SPR_KRC8 allocated.
+Sprite SPR_KRC9 allocated.
+Sprite SPR_KGUN allocated.
+Sprite SPR_FGUN allocated.
+Sprite SPR_KBUL allocated.
+Sprite SPR_KYAH allocated.
+Sprite SPR_FYAH allocated.
+Sprite SPR_KLEG allocated.
+Sprite SPR_FLEG allocated.
+Sprite SPR_ALEG allocated.
+Sprite SPR_FATL allocated.
+State S_KIRBYUSABIT1 allocated.
+State S_KIRBYUSABIT2 allocated.
+State S_KIRBYUSABIT3 allocated.
+State S_KIRBYUSABIT4 allocated.
+State S_KIRBYBITSHOT1 allocated.
+State S_KIRBYBITSHOT2 allocated.
+State S_KIRBYDASH1 allocated.
+State S_KIRBYDASH2 allocated.
+State S_KIRBYDASH3 allocated.
+State S_KIRBYDASH4 allocated.
+State S_KIRBYDASH5 allocated.
+State S_KIRBYDASH6 allocated.
+State S_KIRBYDASH7 allocated.
+State S_KIRBYDASH8 allocated.
+State S_KIRBY_RCC1 allocated.
+State S_KIRBY_RCC2 allocated.
+State S_KIRBY_RCC3 allocated.
+State S_KIRBY_RCC4 allocated.
+State S_KIRBY_SUGUSWORD1 allocated.
+State S_KIRBY_SUGUSWORD2 allocated.
+State S_KIRBY_SUGUSWORD3 allocated.
+State S_KIRBYLOCKON allocated.
+State S_KIRBYBULLET allocated.
+State S_KIRBY_GUNSTAND allocated.
+State S_KIRBY_GUNWALK1 allocated.
+State S_KIRBY_GUNWALK2 allocated.
+State S_KIRBY_GUNWALK3 allocated.
+State S_KIRBY_GUNWALK4 allocated.
+State S_KIRBY_GUNWALK5 allocated.
+State S_KIRBY_GUNWALK6 allocated.
+State S_KIRBY_GUNWALK7 allocated.
+State S_KIRBY_GUNWALK8 allocated.
+State S_KIRBY_YAH allocated.
+State S_KIRBY_HOO allocated.
+State S_KIRBY_UHN allocated.
+State S_KLEGACY_STAND allocated.
+State S_KLEGACY_WALK1 allocated.
+State S_KLEGACY_WALK2 allocated.
+State S_KLEGACY_WALK3 allocated.
+State S_KLEGACY_WALK4 allocated.
+State S_KLEGACY_WALK5 allocated.
+State S_KLEGACY_WALK6 allocated.
+State S_KLEGACY_WALK7 allocated.
+State S_KLEGACY_WALK8 allocated.
+State S_KLEGACY_JUMP allocated.
+State S_KLEGACY_FALL allocated.
+State S_KLEGACY_SUCK allocated.
+State S_KLEGACY_FLOAT1 allocated.
+State S_KLEGACY_FLOAT2 allocated.
+State S_KLEGACY_FLOAT3 allocated.
+State S_KLEGACY_FLOAT4 allocated.
+State S_KLEGACY_FLOAT5 allocated.
+State S_KLEGACY_FLOAT6 allocated.
+State S_KLEGACY_FLOAT7 allocated.
+State S_KLEGACY_SPIN1 allocated.
+State S_KLEGACY_SPIN2 allocated.
+State S_KLEGACY_SPIN3 allocated.
+State S_KLEGACY_SPIN4 allocated.
+State S_KLEGACY_SPIN5 allocated.
+State S_KLEGACY_SPIN6 allocated.
+State S_KLEGACY_SPIN7 allocated.
+State S_KLEGACY_SPIN8 allocated.
+State S_KLEGACY_SPIN9 allocated.
+State S_KLEGACY_SPIN10 allocated.
+State S_KLEGACY_SPIT allocated.
+Sound sfx_rbit allocated.
+Sound sfx_bshoot allocated.
+Sound sfx_brifle allocated.
+Sound sfx_krdash allocated.
+Sound sfx_krring allocated.
+Sound sfx_edgysh allocated.
+Sound sfx_ohno allocated.
+Sound sfx_bluesc allocated.
+Sound sfx_kyahoo allocated.
+Sound sfx_floatm allocated.
+Sound sfx_floate allocated.
+Sound sfx_floatf allocated.
+Sound sfx_nouse allocated.
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Lua_KHud
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Abilities/
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Abilities/Lua_FireBall
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Abilities/Lua_Ice
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Abilities/Lua_Stone
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Abilities/Lua_Bomb
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Abilities/Lua_Spark
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Abilities/Lua_Needle
+Loading Lua script from .\coopserver\VCL_Kirby-v1.1.pk3|Lua/Abilities/Lua_Tornado
+Loading Lua script from .\coopserver\VCL_KirbyAdded file .\coopserver\utility-v0.3b.lua (1 lumps)
+Loading Lua script from .\coopserver\utility-v0.3b.lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: Command 'bind' cannot be run from Lua.
+WARNING: Command 'bind' cannot be run from Lua.
+Added file .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3 (1806 lumps)
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|init.lua
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/LoadScripts.lua
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/CC_NECK.lua
+Sprite SPR2_BODY allocated.
+Sprite SPR2_HEDF allocated.
+Sprite SPR2_HEDB allocated.
+State S_PLAY_LOOK allocated.
+State S_PLAY_HEAD allocated.
+MobjType MT_HEAD_BACK allocated.
+MobjType MT_HEAD_FRONT allocated.
+MobjType MT_EMOTE allocated.
+Added command "neck2"
+Added command "neck"
+Added command "curiosity2"
+Added command "curiosity"
+Added command "emotion2"
+Added command "emotion"
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/CC_TRICKS.lua
+Sprite SPR_CONF allocated.
+State S_CHRISPY_CONFETTI allocated.
+State S_CHRISPY_TRICK allocated.
+MobjType MT_CCTRICKSCORE allocated.
+MobjType MT_CHRISPY_CONFETTI allocated.
+Sound sfx_trickf allocated.
+Sound sfx_trick1 allocated.
+Sound sfx_trick2 allocated.
+Sound sfx_trick3 allocated.
+Sound sfx_trick4 allocated.
+Sound sfx_trick5 allocated.
+Sound sfx_trick6 allocated.
+Added command "tricks2"
+Added command "tricks"
+Added command "confetti2"
+Added command "confetti"
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/CC_DANCES.lua
+State S_CHRISPY_DANCE allocated.
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/SOC.lua
+NOTICE: S_PLAY_HUG was not allocated, as it already exists.
+Sprite SPR_HUG_ allocated.
+Sound sfx_null allocated.
+Sound sfx_ddash allocated.
+Sound sfx_dbjump allocated.
+Sound sfx_rbnce allocated.
+Sound sfx_rbound allocated.
+Sound sfx_rskid2 allocated.
+Sound sfx_dab allocated.
+Sound sfx_sneeze allocated.
+Sound sfx_rscrch allocated.
+Sound sfx_trckhs allocated.
+Sound sfx_hifive allocated.
+Sound sfx_rput allocated.
+Sound sfx_rstep1 allocated.
+Sound sfx_rstep2 allocated.
+Sound sfx_marble allocated.
+Sound sfx_squeal allocated.
+SLoading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|init.lua
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/LoadScripts.lua
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/CC_NECK.lua
+Sprite SPR2_BODY allocated.
+Sprite SPR2_HEDF allocated.
+Sprite SPR2_HEDB allocated.
+State S_PLAY_LOOK allocated.
+State S_PLAY_HEAD allocated.
+MobjType MT_HEAD_BACK allocated.
+MobjType MT_HEAD_FRONT allocated.
+MobjType MT_EMOTE allocated.
+Added command "neck2"
+Added command "neck"
+Added command "curiosity2"
+Added command "curiosity"
+Added command "emotion2"
+Added command "emotion"
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/CC_TRICKS.lua
+Sprite SPR_CONF allocated.
+State S_CHRISPY_CONFETTI allocated.
+State S_CHRISPY_TRICK allocated.
+MobjType MT_CCTRICKSCORE allocated.
+MobjType MT_CHRISPY_CONFETTI allocated.
+Sound sfx_trickf allocated.
+Sound sfx_trick1 allocated.
+Sound sfx_trick2 allocated.
+Sound sfx_trick3 allocated.
+Sound sfx_trick4 allocated.
+Sound sfx_trick5 allocated.
+Sound sfx_trick6 allocated.
+Added command "tricks2"
+Added command "tricks"
+Added command "confetti2"
+Added command "confetti"
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/CC_DANCES.lua
+State S_CHRISPY_DANCE allocated.
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/SOC.lua
+NOTICE: S_PLAY_HUG was not allocated, as it already exists.
+Sprite SPR_HUG_ allocated.
+Sound sfx_null allocated.
+Sound sfx_ddash allocated.
+Sound sfx_dbjump allocated.
+Sound sfx_rbnce allocated.
+Sound sfx_rbound allocated.
+Sound sfx_rskid2 allocated.
+Sound sfx_dab allocated.
+Sound sfx_sneeze allocated.
+Sound sfx_rscrch allocated.
+Sound sfx_trckhs allocated.
+Sound sfx_hifive allocated.
+Sound sfx_rput allocated.
+Sound sfx_rstep1 allocated.
+Sound sfx_rstep2 allocated.
+Sound sfx_marble allocated.
+Sound sfx_squeal allocated.
+Sound sfx_ftdash allocated.
+Sound sfx_rmenu1 allocated.
+Sound sfx_rmenua allocated.
+Sound sfx_rmenub allocated.
+Sound sfx_emot0 allocated.
+Sound sfx_emot1 allocated.
+Sound sfx_emot2 allocated.
+Sound sfx_emot3 allocated.
+Sound sfx_emot4 allocated.
+Sound sfx_emot5 allocated.
+Sound sfx_emot6 allocated.
+Skincolor SKINCOLOR_CHRISP allocated.
+Skincolor SKINCOLOR_DREAMY allocated.
+Skincolor SKINCOLOR_TAFFY allocated.
+Skincolor SKINCOLOR_CARDINAL allocated.
+Skincolor SKINCOLOR_BEEG allocated.
+Skincolor SKINCOLOR_MASTER allocated.
+Skincolor SKINCOLOR_HEADLIGHT allocated.
+Skincolor SKINCOLOR_SUPERLIGHTBULB1 allocated.
+Skincolor SKINCOLOR_SUPERLIGHTBULB2 allocated.
+Skincolor SKINCOLOR_SUPERLIGHTBULB3 allocated.
+Skincolor SKINCOLOR_SUPERLIGHTBULB4 allocated.
+Skincolor SKINCOLOR_SUPERLIGHTBULB5 allocated.
+Skincolor SKINCOLOR_HYPERPOINTYSILVER allocated.
+Skincolor SKINCOLOR_HYPERPOINTYRED allocated.
+Skincolor SKINCOLOR_HYPERPOINTYORANGE allocated.
+Skincolor SKINCOLOR_HYPERPOINTYGOLD allocated.
+Skincolor SKINCOLOR_HYPERPOINTYPERIDOT allocated.
+Skincolor SKINCOLOR_HYPERPOINTYSKY allocated.
+Skincolor SKINCOLOR_HYPERPOINTYPURPLE allocated.
+Skincolor SKINCOLOR_SUPERSTREETLAMP1 allocated.
+Skincolor SKINCOLOR_SUPERSTREETLAMP2 allocated.
+Skincolor SKINCOLOR_SUPERSTREETLAMP3 allocated.
+Skincolor SKINCOLOR_SUPERSTREETLAMP4 allocated.
+Skincolor SKINCOLOR_SUPERSTREETLAMP5 allocated.
+Skincolor SKINCOLOR_HYPERFLUFFYSILVER allocated.
+Skincolor SKINCOLOR_HYPERFLUFFYRED allocated.
+Skincolor SKINCOLOR_HYPERFLUFFYORANGE allocated.
+Skincolor SKINCOLOR_HYPERFLUFFYGOLD allocated.
+Skincolor SKINCOLOR_HYPERFLUFFYPERIDOT allocated.
+Skincolor SKINCOLOR_HYPERFLUFFYSKY allocated.
+Skincolor SKINCOLOR_HYPERFLUFFYPURPLE allocated.
+Skincolor SKINCOLOR_CHRISPYTRANS1 allocated.
+Skincolor SKINCOLOR_CHRISPYTRANS2 allocated.
+Skincolor SKINCOLOR_CHRISPYTRANS3 allocated.
+Skincolor SKINCOLOR_CHRISPYTRANS4 allocated.
+Sprite SPR2_FLIP allocated.
+Sprite SPR2_FAN_ allocated.
+Sprite SPR2_POSE allocated.
+Sprite SPR2_CARY allocated.
+Sprite SPR2_SNEZ allocated.
+Sprite SPR2_DNCE allocated.
+NOTICE: SPR2_FROZ was not allocated, as it already exists.
+Sprite SPR2_PDED allocated.
+Sprite SPR2_TPOS allocated.
+Sprite SPR2_DFAL allocated.
+Sprite SPR2_TDAB allocated.
+Sprite SPR2_HI5_ allocated.
+Sprite SPR2_BATL allocated.
+Sprite SPR_CTHK allocated.
+Sprite SPR_CHSP allocated.
+Sprite SPR_RSTR allocated.
+Sprite SPR_ARM_ allocated.
+Sprite SPR_3DFB allocated.
+Sprite SPR_3DFP allocated.
+Sprite SPR_3DFR allocated.
+Sprite SPR_3DFG allocated.
+Sprite SPR_REMG allocated.
+Sprite SPR_EMOT allocated.
+Sprite SPR_NIGH allocated.
+Sprite SPR_CRNA allocated.
+State S_CHRISPY_SPARKLE allocated.
+State S_CHRISPY_REVORB allocated.
+State S_CHRISPY_DUST1 allocated.
+State S_CHRISPY_DUST2 allocated.
+State S_CHRISPY_BUBBLEDUST allocated.
+State S_CHRISPY_CROUCH allocated.
+State S_CHRISPY_DAB allocated.
+State S_CHRISPY_HATER allocated.
+State S_CHRISPY_DROPDASH allocated.
+State S_CHRISPY_MIDFALL allocated.
+State S_CHRISPY_FAN allocated.
+State S_CHRISPY_DEATH allocated.
+State S_CHRISPY_DABTRANS allocated.
+State S_CHRISPY_ACT allocated.
+State S_CHRISPY_TPOSE allocated.
+State S_CHRISPY_HIGHFIVE allocated.
+State S_CHRISPY_NIGHTSFEET allocated.
+State S_CHRISPY_FLICKY_FLAP allocated.
+State S_CHRISPY_FLICKY_FALL allocated.
+State S_CHRISPY_REMERALD_BACK allocated.
+State S_CHRISPY_CASH allocated.
+State S_CHRISPY_COIN allocated.
+State S_CHRISPY_CORONA allocated.
+State S_POINTY_SPINTRAIL allocated.
+State S_POINTY_FLIP allocated.
+State S_POINTY_PEELOUT allocated.
+State S_POINTY_BOUNCE1 allocated.
+State S_POINTY_BOUNCE2 allocated.
+State S_POINTY_BOUNCE_LANDING allocated.
+State S_POINTY_REBOUND allocated.
+State S_POINTY_SNEEZE1 allocated.
+State S_POINTY_SNEEZE2 allocated.
+State S_POINTY_TPOSE allocated.
+State S_POINTY_DEFAULTDANCE1 allocated.
+State S_POINTY_DEFAULTDANCE2 allocated.
+State S_FLUFFY_SPINTRAIL allocated.
+State S_FLUFFY_CARRY allocated.
+State S_FLUFFY_TOSS1 allocated.
+State S_FLUFFY_TOSS2 allocated.
+State S_FLUFFY_GAUGE allocated.
+State S_FLUFFY_GAUGENEEDLE allocated.
+State S_FLUFFY_BATTLE allocated.
+State S_FLUFFYTAIL_IDLE allocated.
+State S_FLUFFYTAIL_TWIRL allocated.
+State S_FLUFFYTAIL_TWIRL_BELOW allocated.
+State S_FLUFFYTAIL_TWIRL_ABOVE allocated.
+State S_FLUFFYTAIL_TWIRL_MIDDLE allocated.
+State S_FLUFFYTAIL_FLY allocated.
+State S_FLUFFYTAIL_RUN allocated.
+State S_FLUFFYTAIL_DAB allocated.
+State S_FLUFFYTAIL_STOP allocated.
+State S_FLUFFYTAIL_BLUR allocated.
+State S_FLUFFYTAIL_TPOSE allocated.
+MobjType MT_CHRISPY_SPARKLE allocated.
+MobjType MT_CHRISPY_DUST allocated.
+MobjType MT_CHRISPY_FLICKY allocated.
+MobjType MT_CHRISPY_COIN allocated.
+MobjType MT_CHRISPY_CORONA allocated.
+MobjType MT_POINTY_SPINTRAIL allocated.
+MobjType MT_POINTY_OVERBALL allocated.
+MobjType MT_FLUFFY_SPINTRAIL allocated.
+MobjType MT_FLUFFY_TAIL allocated.
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.1.pk3|lua/CHRISPYCHARS-HOOKS.lua
+Loading Lua script from .\coopserver\SMCL_ChrispyChars-v1.2.Added skin 'pointy'
+Added skin 'fluffy'
+MAPBB
+ChrispyChars: client/ChrispyChars.dat configuration not found. A new file with default settings was generated instead.
+Press CUSTOM 3 to access the menu and configure your settings!
+Added file .\coopserver\L_HurryUp_v1.1-edited.lua (1 lumps)
+Loading Lua script from .\coopserver\L_HurryUp_v1.1-edited.lua
+hurry_players set to 2/3
+hurry_timelimit set to 0
+Added command "hurry_startcountdown"
+Added command "hurry_cancelcountdown"
+No maps added
+Added file .\coopserver\CL_StephCharsOC-v2.1.pk3 (1904 lumps)
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/LUA_COLORS.lua
+Skincolor SKINCOLOR_DAWNSTAR allocated.
+Skincolor SKINCOLOR_SYRUP allocated.
+Skincolor SKINCOLOR_SUPERSKIP1 allocated.
+Skincolor SKINCOLOR_SUPERSKIP2 allocated.
+Skincolor SKINCOLOR_SUPERSKIP3 allocated.
+Skincolor SKINCOLOR_SUPERSKIP4 allocated.
+Skincolor SKINCOLOR_SUPERSKIP5 allocated.
+Skincolor SKINCOLOR_SUPERJANA1 allocated.
+Skincolor SKINCOLOR_SUPERJANA2 allocated.
+Skincolor SKINCOLOR_SUPERJANA3 allocated.
+Skincolor SKINCOLOR_SUPERJANA4 allocated.
+Skincolor SKINCOLOR_SUPERJANA5 allocated.
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/Skip/
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/Skip/LUA_SKIP.lua
+State S_PLAY_SKIPDIVE allocated.
+State S_PLAY_CRFT allocated.
+Sprite SPR2_JSKI allocated.
+Sprite SPR2_FKIK allocated.
+State S_PLAY_SKIPCANCEL allocated.
+State S_PLAY_SKIPALTDIVE allocated.
+State S_PLAY_SKIPCROUCH allocated.
+State S_PLAY_SKIPDOUBLEJUMP allocated.
+State S_PLAY_SKIPTRANSITION allocated.
+State S_PLAY_SKIPSLIDE allocated.
+State S_PLAY_SKIPBONK allocated.
+State S_PLAY_SKIPJUMP allocated.
+State S_PLAY_SKIPSMUG allocated.
+Sprite SPR_SKRP allocated.
+MobjType MT_SKIPMETALSCRAP allocated.
+State S_SKIPMETALSCRAP allocated.
+Sprite SPR_FLGH allocated.
+MobjType MT_SKIPFLASHLIGHT allocated.
+State S_SKIPFLASHLIGHT allocated.
+Sound sfx_skpflg allocated.
+MobjType MT_SKIPRAYCAST allocated.
+MobjType MT_SKIPHALO allocated.
+Sprite SPR_SKSM allocated.
+MobjType MT_SKIPSUPERBOX allocated.
+State S_SKIPSUPERBOX allocated.
+MobjType MT_SKIPSUPERICON allocated.
+State S_SKIPSUPERICON1 allocated.
+State S_SKIPSUPERICON2 allocated.
+Sound sfx_skpdbl allocated.
+Sound sfx_skpdbm allocated.
+Sound Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/LUA_COLORS.lua
+Skincolor SKINCOLOR_DAWNSTAR allocated.
+Skincolor SKINCOLOR_SYRUP allocated.
+Skincolor SKINCOLOR_SUPERSKIP1 allocated.
+Skincolor SKINCOLOR_SUPERSKIP2 allocated.
+Skincolor SKINCOLOR_SUPERSKIP3 allocated.
+Skincolor SKINCOLOR_SUPERSKIP4 allocated.
+Skincolor SKINCOLOR_SUPERSKIP5 allocated.
+Skincolor SKINCOLOR_SUPERJANA1 allocated.
+Skincolor SKINCOLOR_SUPERJANA2 allocated.
+Skincolor SKINCOLOR_SUPERJANA3 allocated.
+Skincolor SKINCOLOR_SUPERJANA4 allocated.
+Skincolor SKINCOLOR_SUPERJANA5 allocated.
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/Skip/
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/Skip/LUA_SKIP.lua
+State S_PLAY_SKIPDIVE allocated.
+State S_PLAY_CRFT allocated.
+Sprite SPR2_JSKI allocated.
+Sprite SPR2_FKIK allocated.
+State S_PLAY_SKIPCANCEL allocated.
+State S_PLAY_SKIPALTDIVE allocated.
+State S_PLAY_SKIPCROUCH allocated.
+State S_PLAY_SKIPDOUBLEJUMP allocated.
+State S_PLAY_SKIPTRANSITION allocated.
+State S_PLAY_SKIPSLIDE allocated.
+State S_PLAY_SKIPBONK allocated.
+State S_PLAY_SKIPJUMP allocated.
+State S_PLAY_SKIPSMUG allocated.
+Sprite SPR_SKRP allocated.
+MobjType MT_SKIPMETALSCRAP allocated.
+State S_SKIPMETALSCRAP allocated.
+Sprite SPR_FLGH allocated.
+MobjType MT_SKIPFLASHLIGHT allocated.
+State S_SKIPFLASHLIGHT allocated.
+Sound sfx_skpflg allocated.
+MobjType MT_SKIPRAYCAST allocated.
+MobjType MT_SKIPHALO allocated.
+Sprite SPR_SKSM allocated.
+MobjType MT_SKIPSUPERBOX allocated.
+State S_SKIPSUPERBOX allocated.
+MobjType MT_SKIPSUPERICON allocated.
+State S_SKIPSUPERICON1 allocated.
+State S_SKIPSUPERICON2 allocated.
+Sound sfx_skpdbl allocated.
+Sound sfx_skpdbm allocated.
+Sound sfx_skpms1 allocated.
+Sound sfx_skpms2 allocated.
+Sound sfx_skpchg allocated.
+Sound sfx_skpwin allocated.
+Sound sfx_sfstep allocated.
+infinitescrap set to Off
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/Skip/LUA_SKIPHUG.lua
+State S_PLAY_SKIPHUG allocated.
+State S_COLORHEART allocated.
+Sprite SPR2_SHUG allocated.
+Sprite SPR_RHRT allocated.
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/Skip/LUA_SUPCOLORS
+Skincolor SKINCOLOR_SUPERPURPLERUST1 allocated.
+Skincolor SKINCOLOR_SUPERPURPLERUST2 allocated.
+Skincolor SKINCOLOR_SUPERPURPLERUST3 allocated.
+Skincolor SKINCOLOR_SUPERPURPLERUST4 allocated.
+Skincolor SKINCOLOR_SUPERPURPLERUST5 allocated.
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/Jana/
+Loading Lua script from .\coopserver\CL_StephCharsOC-v2.1.pk3|Lua/Jana/LUA_JANA
+State S_PLAY_DRIP allocated.
+State S_PLAY_ROCK allocated.
+Sprite SPR_JCHG allocated.
+State S_PLAY_FKIK allocated.
+Sprite SPR_FKIK allocated.
+Sprite SPR_JPOG allocated.
+Sprite SPR_JEBL allocated.
+Sprite SPR_JAUR allocated.
+Sprite SPR_JNFX allocated.
+Sprite SPR_JCRC allocated.
+MobjType MT_JANACIRCLE allocated.
+State S_JANACIRCLE allocated.
+Sprite SPR2_ROCK allocated.
+Sprite SPR2_DRIP allocated.
+Sound sfx_skpdbl allocated.
+Sound sfx_rchrg allocated.
+MobjType MT_JANA_ENERGYBALL allocated.
+MobjType MT_JANA_BADASSAURA allocated.
+State S_JANA_BADASSAURA allocated.
+State S_JANA_ENERGYBALL allocated.
+MobjType MT_JANA_CHARGEFULL allocated.
+MobjType MT_JANA_DESPACITOSPIDER allocated.
+State S_JANA_CHARGEFULL allocated.
+MobjType MT_JANA_LASER allocated.
+MobjType MT_JANA_LASER_FIRE allocated.
+State S_JANA_LASER allocated.
+State S_PLAY_JANA_LAND allocated.
+State S_PLAY_JANA_MONKEFLIP allocated.
+Sound sfx_jadrip allocAdded skin 'skip'
+Added skin 'jana'
+No maps added
+Jana can now dash by double-tapping movement keys.
+Added file .\coopserver\cl_RushChars-v1.3.pk3 (1427 lumps)
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|init.lua
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/LoadScripts.lua
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_IO.txt
+Added command "firecolor"
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_NEWSTUFF.txt
+MobjType MT_SOLEMERALD allocated.
+MobjType MT_TRANSFORM_SOLEMERALD allocated.
+State S_SOLEMERALD1 allocated.
+State S_SOLEMERALD2 allocated.
+State S_SOLEMERALD3 allocated.
+State S_SOLEMERALD4 allocated.
+State S_SOLEMERALD5 allocated.
+State S_SOLEMERALD6 allocated.
+State S_SOLEMERALD7 allocated.
+MobjType MT_BLAZETAIL allocated.
+MobjType MT_BLAZE_RUNFIRE allocated.
+State S_BLAZERUNFIRE allocated.
+MobjType MT_BLAZE_JUMPFIRE allocated.
+State S_BLAZEJUMPFIRE allocated.
+MobjType MT_BLAZEBOOSTAURA allocated.
+State S_BLAZEBOOSTAURA allocated.
+MobjType MT_BLAZEBOOSTCIRCLE allocated.
+State S_BLAZEBOOSTCIRCLE allocated.
+MobjType MT_BLAZEJUMPFLAME allocated.
+State S_BLAZEJUMPFLAME allocated.
+MobjType MT_BLAZEBOOSTWIND allocated.
+State S_BLAZEBOOSTWIND allocated.
+Sprite SPR_BLZF allocated.
+Sprite SPR_BLZH allocated.
+Sprite SPR_BSPF allocated.
+Sprite SPR_BFPT allocated.
+Sprite SPR_BJFR allocated.
+Sprite SPR_INAE allocated.
+Sprite SPR_BBCR allocated.
+Sprite SPR_BWNE allocated.
+State S_BLAZETAIL_STAND allocated.
+State S_BLAZETAIL_SPRING allocated.
+State S_BLAZETAIL_FALL allocated.
+State S_BLAZETAIL_RUN allocated.
+State S_BLAZETAIL_INVIS allocated.
+Sound sfx_catrl allocated.
+Sound sfx_blzbst allocated.
+Sound sfx_blzbtr allocated.
+Sound sfx_secir allocated.
+Sound sfx_solemr allocated.
+State S_PLAY_BLAZE_HOVER allocated.
+State S_PLAY_BLAZE_SPINDASH allocated.
+State S_PLAY_BLAZE_SPIN allocated.
+State S_PLAY_BLAZE_SPIN_2_BC_IM_LAZY_AS_FUCK allocated.
+State S_BPARTICLE allocated.
+MobjType MT_BLAZE_SPINFIRE allocated.
+State S_BLAZESPINFIRE allocated.
+MobjType MT_BLAZLoading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_NEWSTUFF.txt
+MobjType MT_SOLEMERALD allocated.
+MobjType MT_TRANSFORM_SOLEMERALD allocated.
+State S_SOLEMERALD1 allocated.
+State S_SOLEMERALD2 allocated.
+State S_SOLEMERALD3 allocated.
+State S_SOLEMERALD4 allocated.
+State S_SOLEMERALD5 allocated.
+State S_SOLEMERALD6 allocated.
+State S_SOLEMERALD7 allocated.
+MobjType MT_BLAZETAIL allocated.
+MobjType MT_BLAZE_RUNFIRE allocated.
+State S_BLAZERUNFIRE allocated.
+MobjType MT_BLAZE_JUMPFIRE allocated.
+State S_BLAZEJUMPFIRE allocated.
+MobjType MT_BLAZEBOOSTAURA allocated.
+State S_BLAZEBOOSTAURA allocated.
+MobjType MT_BLAZEBOOSTCIRCLE allocated.
+State S_BLAZEBOOSTCIRCLE allocated.
+MobjType MT_BLAZEJUMPFLAME allocated.
+State S_BLAZEJUMPFLAME allocated.
+MobjType MT_BLAZEBOOSTWIND allocated.
+State S_BLAZEBOOSTWIND allocated.
+Sprite SPR_BLZF allocated.
+Sprite SPR_BLZH allocated.
+Sprite SPR_BSPF allocated.
+Sprite SPR_BFPT allocated.
+Sprite SPR_BJFR allocated.
+Sprite SPR_INAE allocated.
+Sprite SPR_BBCR allocated.
+Sprite SPR_BWNE allocated.
+State S_BLAZETAIL_STAND allocated.
+State S_BLAZETAIL_SPRING allocated.
+State S_BLAZETAIL_FALL allocated.
+State S_BLAZETAIL_RUN allocated.
+State S_BLAZETAIL_INVIS allocated.
+Sound sfx_catrl allocated.
+Sound sfx_blzbst allocated.
+Sound sfx_blzbtr allocated.
+Sound sfx_secir allocated.
+Sound sfx_solemr allocated.
+State S_PLAY_BLAZE_HOVER allocated.
+State S_PLAY_BLAZE_SPINDASH allocated.
+State S_PLAY_BLAZE_SPIN allocated.
+State S_PLAY_BLAZE_SPIN_2_BC_IM_LAZY_AS_FUCK allocated.
+State S_BPARTICLE allocated.
+MobjType MT_BLAZE_SPINFIRE allocated.
+State S_BLAZESPINFIRE allocated.
+MobjType MT_BLAZE_HOVERFIRE allocated.
+State S_BLAZEHOVERFIRE allocated.
+MobjType MT_BLAZE_FLING allocated.
+MobjType MT_BLAZE_DEADFLING allocated.
+Sprite SPR_SEM1 allocated.
+Sprite SPR_SEM2 allocated.
+Sprite SPR_SEM3 allocated.
+Sprite SPR_SEM4 allocated.
+Sprite SPR_SEM5 allocated.
+Sprite SPR_SEM6 allocated.
+Sprite SPR_SEM7 allocated.
+Sprite SPR_BBFD allocated.
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_BLAZECOLORS.txt
+Skincolor SKINCOLOR_BURNING1 allocated.
+Skincolor SKINCOLOR_BURNING2 allocated.
+Skincolor SKINCOLOR_BURNING3 allocated.
+Skincolor SKINCOLOR_BURNING4 allocated.
+Skincolor SKINCOLOR_BURNING5 allocated.
+Skincolor SKINCOLOR_AQUAMARINE1 allocated.
+Skincolor SKINCOLOR_AQUAMARINE2 allocated.
+Skincolor SKINCOLOR_AQUAMARINE3 allocated.
+Skincolor SKINCOLOR_AQUAMARINE4 allocated.
+Skincolor SKINCOLOR_AQUAMARINE5 allocated.
+Skincolor SKINCOLOR_BLAZING allocated.
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_SOLSTUFF.txt
+Added command "resetsolemeralddata"
+Added command "silvaze"
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_BOOSTTRAIL.txt
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_OLDSHIT.txt
+Sprite SPR_BLFR allocated.
+Sound sfx_blzjmp allocated.
+Sound sfx_blzhvr allocated.
+Sound sfx_blzrev allocated.
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_MARI.txt
+Skincolor SKINCOLOR_MATEY allocated.
+MobjType MT_MARINE_PUNCH allocated.
+MobjType MT_MARINE_BUBBLE allocated.
+MobjType MT_MARINE_SUPER allocated.
+MobjType MT_MARINE_FLOAT allocated.
+MobjType MT_MARINE_HIT allocated.
+State S_MARINE_FLUTTER allocated.
+State S_MARINE_SWIPE allocated.
+State S_MARINE_SHOOT allocated.
+State S_MARINE_AERIAL allocated.
+State S_MARINE_PUNCH allocated.
+State S_MARINE_BUBBLE allocated.
+State S_MARINE_LARGE allocated.
+State S_MARINE_SUPER allocated.
+State S_MARINE_FLOAT allocated.
+State S_MARINE_HIT allocated.
+State S_MARINE_FLIP allocated.
+State S_MARINE_FLIP2 allocated.
+State S_MARINE_JOJOKE allocated.
+State S_MARINE_JOJOKE_AURA allocated.
+Sprite SPR_SOLB allocated.
+Sound sfx_pmarin allocated.
+Sound sfx_tmarin allocated.
+Sound sfx_fmarin allocated.
+Sound sfx_bmarin allocated.
+Sound sfx_cmarin allocated.
+Sound sfx_jmarin allocated.
+Loading Lua script from .\coopserver\cl_RushChars-v1.3.pk3|Lua/1 - Everything else/LUA_BOAT.txt
+MobjType MT_MARINEJETSKI allocated.
+MobjType MT_MARINEJETSKI_SPAWNER allocated.
+MobjType MT_BOATSPAWN_CHAOSEMERALD allocated.
+MobjType MT_MARINE_JOJOKE allocated.
+MobjType MT_MARINE_JOJOKE_2 allocated.
+MobjType MT_MARINEJETSKI_OVERLAY allocated.
+Sound sfx_jskiid allocated.
+Sound sfx_jskimo allocated.
+Sound sfx_jskidm allocated.
+Sound sfx_jskijm allocated.
+Sound sfx_jskim1 allocated.
+Sound sfx_jskim2 allocated.
+Sound sfx_jskim3 allocated.
+Sound sfx_jskim4 allocated.
+Sound sfx_jskim5 allocated.
+Sound sfx_jskim6 allocated.
+Sound sfx_jskitk allocated.
+Sound sfx_mstnds allocated.
+Sound sfx_mschgr allocated.
+Sound sfx_msbrAdded skin 'blaze'
+Added skin 'marine'
+No maps added
+RushChars - Sprites by Inazuma, Lightdasher, and Burning Loaf.
+Code by Frostiikin, katsy, SMS Alfredo, Lach, Krabs, Jay and Snu.
+Added file .\coopserver\CL_DeltaChars-v1.pk3 (1518 lumps)
+Loading Lua script from .\coopserver\CL_DeltaChars-v1.pk3|init.lua
+Loading Lua script from .\coopserver\CL_DeltaChars-v1.pk3|Lua/LoadScripts.lua
+Loading Lua script from .\coopserver\CL_DeltaChars-v1.pk3|Lua/CommandQueue.lua
+Added command "cq_send"
+Loading Lua script from .\coopserver\CL_DeltaChars-v1.pk3|Lua/SOC.lua
+Skincolor SKINCOLOR_DC_SPARE allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT1 allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT2 allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT3 allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT4 allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT5 allocated.
+Skincolor SKINCOLOR_SUPERRUDE1 allocated.
+Skincolor SKINCOLOR_SUPERRUDE2 allocated.
+Skincolor SKINCOLOR_SUPERRUDE3 allocated.
+Skincolor SKINCOLOR_SUPERRUDE4 allocated.
+Skincolor SKINCOLOR_SUPERRUDE5 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY1 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY2 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY3 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY4 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY5 allocated.
+Sound sfx_dcswch allocated.
+Sound sfx_dchurt allocated.
+Sound sfx_dcjump allocated.
+Sound sfx_dcdyin allocated.
+Sound sfx_dcdead allocated.
+Sound sfx_dcfall allocated.
+Sound sfx_dcburn allocated.
+Sound sfx_dcslid allocated.
+Sound sfx_dcdash allocated.
+Sound sfx_dcatk allocated.
+Sound sfx_dcdmg allocated.
+Sound sfx_dcslam allocated.
+Sound sfx_dcbrst allocated.
+Sound sfx_dcslic allocated.
+Sound sfx_susiel allocated.
+Sound sfx_susieh allocated.
+Sound sfx_susie6 allocated.
+Sound sfx_rudeba allocated.
+Sound sfx_rudebh allocated.
+Sound sfx_redba allocated.
+Sound sfx_dcatkc allocated.
+Sound sfx_dcexpl allocated.
+Sound sfx_dcspla allocated.
+Sound sfx_dctail allocatLoading Lua script from .\coopserver\CL_DeltaChars-v1.pk3|init.lua
+Loading Lua script from .\coopserver\CL_DeltaChars-v1.pk3|Lua/LoadScripts.lua
+Loading Lua script from .\coopserver\CL_DeltaChars-v1.pk3|Lua/CommandQueue.lua
+Added command "cq_send"
+Loading Lua script from .\coopserver\CL_DeltaChars-v1.pk3|Lua/SOC.lua
+Skincolor SKINCOLOR_DC_SPARE allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT1 allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT2 allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT3 allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT4 allocated.
+Skincolor SKINCOLOR_SUPERKNIGHT5 allocated.
+Skincolor SKINCOLOR_SUPERRUDE1 allocated.
+Skincolor SKINCOLOR_SUPERRUDE2 allocated.
+Skincolor SKINCOLOR_SUPERRUDE3 allocated.
+Skincolor SKINCOLOR_SUPERRUDE4 allocated.
+Skincolor SKINCOLOR_SUPERRUDE5 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY1 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY2 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY3 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY4 allocated.
+Skincolor SKINCOLOR_SUPERFLUFFY5 allocated.
+Sound sfx_dcswch allocated.
+Sound sfx_dchurt allocated.
+Sound sfx_dcjump allocated.
+Sound sfx_dcdyin allocated.
+Sound sfx_dcdead allocated.
+Sound sfx_dcfall allocated.
+Sound sfx_dcburn allocated.
+Sound sfx_dcslid allocated.
+Sound sfx_dcdash allocated.
+Sound sfx_dcatk allocated.
+Sound sfx_dcdmg allocated.
+Sound sfx_dcslam allocated.
+Sound sfx_dcbrst allocated.
+Sound sfx_dcslic allocated.
+Sound sfx_susiel allocated.
+Sound sfx_susieh allocated.
+Sound sfx_susie6 allocated.
+Sound sfx_rudeba allocated.
+Sound sfx_rudebh allocated.
+Sound sfx_redba allocated.
+Sound sfx_dcatkc allocated.
+Sound sfx_dcexpl allocated.
+Sound sfx_dcspla allocated.
+Sound sfx_dctail allocated.
+Sound sfx_dcblnt allocated.
+Sound sfx_ralss1 allocated.
+Sound sfx_ralss2 allocated.
+Sound sfx_ralss3 allocated.
+Sound sfx_ralss4 allocated.
+Sound sfx_ralss5 allocated.
+Sound sfx_ralss6 allocated.
+Sound sfx_spare allocated.
+Sound sfx_swing3 allocated.
+Sound sfx_dcsave allocated.
+Sound sfx_dceggl allocated.
+Sound sfx_rouxls allocated.
+Sound sfx_dcbana allocated.
+Sound sfx_fangus allocated.
+Sound sfx_dcphon allocated.
+Sound sfx_dcnull allocated.
+Sound sfx_drtalk allocated.
+Sound sfx_susie allocated.
+Sound sfx_ralsei allocated.
+Sound sfx_lancer allocated.
+Sound sfx_lancel allocated.
+Sound sfx_dceggm allocated.
+Sound sfx_dcfang allocated.
+Sound sfx_toriel allocated.
+Sound sfx_dcquen allocated.
+Sound sfx_dcspam allocated.
+Sprite SPR_DCEX allocated.
+Sprite SPR_DCFX allocated.
+Sprite SPR_DCSP allocated.
+Sprite SPR_ROUX allocated.
+Sprite SPR_STWK allocated.
+Sprite SPR_RUDB allocated.
+Sprite SPR_LDED allocated.
+Sprite SPR_DCBN allocated.
+Sprite SPR2_CLPS allocated.
+Sprite SPR2_BURN allocated.
+NOTICE: SPR2_FKIK was not allocated, as it already exists.
+NOTICE: SPR2_SHIT was not allocated, as it already exists.
+State S_DC_SPARESPARKLE1 allocated.
+State S_DC_SPARESPARKLE2 allocated.
+State S_DC_EXPLOSION allocated.
+State S_DC_DUST allocated.
+State S_DC_SLASH allocated.
+State S_DC_SLAM allocated.
+State S_DC_SLAP allocated.
+State S_DC_SMOKE allocated.
+State S_DC_LANCER_FALL allocated.
+State S_DC_LANCER_SPLAT allocated.
+State S_DC_ROUXLSLASER allocated.
+State S_DC_EGGMANCOLLAPSE allocated.
+State S_DC_BANANA allocated.
+State S_DC_SAVE allocated.
+State S_DC_HEART allocated.
+State S_DC_COLLAPSE allocated.
+State S_DC_DANCE allocated.
+State S_DC_TERMINATE allocated.
+State S_KRIS_SLIDE allocated.
+State S_KRIS_LUNGE allocated.
+State S_KRIS_CROSSSLASH allocated.
+State S_SUSIE_AXCRASH allocated.
+State S_SUSIE_AXCRASH_LANDING allocated.
+State S_SUSIE_ATTACK allocated.
+State S_SUSIE_RUDEBUSTER allocated.
+State S_SUSIE_RUDEBUSTER_FALL allocated.
+State S_SUSIE_REDCRASH allocated.
+State S_SUSIE_PROJECTILE allocated.
+State S_SUSIE_PROJECTILE_DEATHPART allocated.
+State S_RALSEI_BLUSH allocated.
+State S_RALSEI_SWIPE allocated.
+State S_RALSEI_CAST allocated.
+State S_RALSEI_MIST allocated.
+State S_RALSEI_SLEEP allocated.
+State S_RALSEI_FIRE allocated.
+MobjType MT_DC_SPARESPARKLE allocated.
+MobjType MT_DC_LANCER allocated.
+MobjType MT_DC_BANANA allocated.
+MobjType MT_DC_HEART allocated.
+MoAdded skin 'kris'
+Added skin 'susie'
+Added skin 'ralsei'
+No maps added
+DeltaChars v1 - Sprites by DrStephen, Lightdasher, and HattyBoyo - Code by Lach, SMS Alfredo, and Frostiikin
+Use the dc_help command to see all of the mod's commands!
+Added file .\coopserver\CL_Bandages-v1.2.pk3 (416 lumps)
+Loading Lua script from .\coopserver\CL_Bandages-v1.2.pk3|Lua/LUA_BOOM.lua
+State S_PLAY_BANDAGEFLIP allocated.
+State S_PLAY_BANDAGEEAGLE1 allocated.
+State S_PLAY_BANDAGEEAGLE2 allocated.
+State S_PLAY_BANDAGEEAGLE3 allocated.
+Sprite SPR_BNLK allocated.
+State S_BANDAGE_LOCKON allocated.
+Sound sfx_bndaim allocated.
+State S_PLAY_SHIT allocated.
+MobjType MT_BANDAGES_LEGACY allocated.
+MobjType MT_ENERBEAMHELPER allocated.
+State S_ENERBEAMHELPER allocated.
+Added command "enerbeampoint"
+Added command "badnikdeletus"
+Added command "legacyisreal2401"
+MobjType MT_ENERBEAMPOINT allocated.
+State S_ENERBEAMPOINT allocated.
+Added command "secretcommand"
+Loading Lua script from .\coopserver\CL_Bandages-v1.2.pk3|Lua/LUA_FROSTII
+Sound sfx_bpad1 allocated.
+Sound sfx_bpad2 allocated.
+Sound sfx_bpad3 allocated.
+Sound sfx_brng1 allocated.
+Sound sfx_brng2 allocated.
+Sound sfx_brng3 allocated.
+Sound sfx_brng4 allocated.
+Sound sfx_brng5 allocated.
+Sound sfx_brng6 allocated.
+Sound sfx_brng7 allocated.
+Sound sfx_brng8 allocated.
+Sound sfx_brng9 allocated.
+Sound sfx_bsds1 allocated.
+Sound sfx_bsds2 allocated.
+Sound sfx_bsds3 allocated.
+Sound sfx_bsds4 allocated.
+Sound sfx_bsds5 allocated.
+Sound sfx_bsds6 allocated.
+Sound sfx_bsds7 allocated.
+Sound sfx_bene1 allocated.
+Sound sfx_bene2 allocated.
+Sound sfx_bene3 allocated.
+Sound sfx_bene4 allocated.
+Sound sfx_bene5 allocated.
+Sound sfx_bene6 allocated.
+Sound sfx_bene7 allocated.
+Sound sfx_bene8 allocated.
+Sound sfx_bene9 allocated.
+Sound sfx_bnow1 allocated.
+Sound sfx_bnow2 allocated.
+Sound sfx_bnow3 allocated.
+Sound sfx_bnow4 allocated.
+Sound sfx_bnow5 allocated.
+Sound sfx_bdie1 allocated.
+Sound sfx_bdie2 allocated.
+Sound sfx_bdie3 allocated.
+Sound sfx_bdie4 allocated.
+Sound sfx_bvic1 allocated.
+Sound sfx_bvic2 allocated.
+Sound sfx_bvic3 allocated.
+Sound sfx_bvic4 allocated.
+Sound sfx_bvic5 allocated.
+Sound sfx_bvic6 allocated.
+Sound sfx_bvic7 allocated.
+SouState S_BANDAGE_LOCKON allocated.
+Sound sfx_bndaim allocated.
+State S_PLAY_SHIT allocated.
+MobjType MT_BANDAGES_LEGACY allocated.
+MobjType MT_ENERBEAMHELPER allocated.
+State S_ENERBEAMHELPER allocated.
+Added command "enerbeampoint"
+Added command "badnikdeletus"
+Added command "legacyisreal2401"
+MobjType MT_ENERBEAMPOINT allocated.
+State S_ENERBEAMPOINT allocated.
+Added command "secretcommand"
+Loading Lua script from .\coopserver\CL_Bandages-v1.2.pk3|Lua/LUA_FROSTII
+Sound sfx_bpad1 allocated.
+Sound sfx_bpad2 allocated.
+Sound sfx_bpad3 allocated.
+Sound sfx_brng1 allocated.
+Added skin 'bandages'
+No maps added
+Added file .\coopserver\CL_Espio-v2.0.pk3 (549 lumps)
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|init.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_defs.lua
+Sprite SPR2_EROL allocated.
+State S_ESPIO_ROLL allocated.
+State S_ESPIO_CHARGEJUMP allocated.
+MobjType MT_ESPIO_SOUNDMOBJ allocated.
+State S_ESPIO_LEAFSWIRL allocated.
+State S_ESPIO_LEAFSWIRL_TORNADO allocated.
+MobjType MT_ESPIO_LEAFSWIRL_TORNADO allocated.
+State S_ESPIO_LEAFSWIRL_DUSTLAYER1 allocated.
+State S_ESPIO_LEAFSWIRL_DUSTLAYER2 allocated.
+State S_ESPIO_LEAFSWIRL_DUSTLAYER3 allocated.
+State S_ESPIO_LEAFSWIRL_DUSTLAYER4 allocated.
+State S_ESPIO_LEAFSWIRL_DUSTLAYER5 allocated.
+MobjType MT_ESPIO_LEAFSWIRL_DUSTLAYER allocated.
+Sprite SPR_ESDL allocated.
+State S_ESPIO_LEAFSWIRL_LEAF1 allocated.
+State S_ESPIO_LEAFSWIRL_LEAF2 allocated.
+State S_ESPIO_LEAFSWIRL_LEAF3 allocated.
+State S_ESPIO_LEAFSWIRL_LEAF4 allocated.
+State S_ESPIO_LEAFSWIRL_LEAF5 allocated.
+Sprite SPR2_HOLD allocated.
+Sprite SPR2_PSMN allocated.
+Sprite SPR2_PRTY allocated.
+Skincolor SKINCOLOR_SUPERRASPBERRY1 allocated.
+Skincolor SKINCOLOR_SUPERRASPBERRY2 allocated.
+Skincolor SKINCOLOR_SUPERRASPBERRY3 allocated.
+Skincolor SKINCOLOR_SUPERRASPBERRY4 allocated.
+Skincolor SKINCOLOR_SUPERRASPBERRY5 allocated.
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_io.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_waitframes.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_battle.lua
+Added command "espioinvismode"
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_rsneo.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_drillspin.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_chargejump.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_wallrun.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_ceilingcling.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_persona.lua
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_colourshift.lua
+Added command "espioshiftcolors"
+Loading Lua script from .\coopserver\CL_Espio-v2.0.pk3|Lua/espio_hooks.lua
+Loading SOC from .\coopserver\CL_Espio-v2.0.pk3|SOC/SOC_REAL
+CL_Espio-v2.0.pk3 added 157 frames in 1 sprites
+Added skin 'espio'
+No maps added
+Added file .\coopserver\L_Cosmetics-v2.pk3 (139 lumps)
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/_Registry.lua
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/BattleFix.lua
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/CosmeticsMenu.lua
+Added command "hat"
+Added command "hatcolor"
+Added command "deathsound"
+Added command "hitsound"
+Added command "chatsound"
+Added command "cosmetics"
+Added command "cos_button"
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/HatHooks.lua
+MobjType MT_HAT allocated.
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/SoundHooks.lua
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/Content/
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/Content/Hats.lua
+State S_HAT1 allocated.
+Sprite SPR_HAT1 allocated.
+State S_HAT2 allocated.
+Sprite SPR_HAT2 allocated.
+State S_HAT3 allocated.
+Sprite SPR_HAT3 allocated.
+State S_HAT4 allocated.
+Sprite SPR_HAT4 allocated.
+State S_HAT5 allocated.
+Sprite SPR_HAT5 allocated.
+State S_HAT6 allocated.
+Sprite SPR_HAT6 allocated.
+State S_HAT7 allocated.
+Sprite SPR_HAT7 allocated.
+State S_HAT8 allocated.
+Sprite SPR_HAT8 allocated.
+State S_HAT9 allocated.
+Sprite SPR_HAT9 allocated.
+State S_BURG allocated.
+Sprite SPR_BURG allocated.
+State S_GROM allocated.
+Sprite SPR_GROM allocated.
+State S_MAJO allocated.
+Sprite SPR_MAJO allocated.
+State S_BHAT allocated.
+Sprite SPR_BHAT allocated.
+State S_SOMB allocated.
+Sprite SPR_SOMB allocated.
+State S_GLAS allocated.
+Sprite SPR_GLAS allocated.
+State S_SGLS allocated.
+Sprite SPR_SGLS allocated.
+State S_BDAY allocated.
+Sprite SPR_BDAY allocated.
+State S_DNCE allocated.
+Sprite SPR_DNCE allocated.
+State S_BOWT allocated.
+Sprite SPR_BOWT allocated.
+Registered hat: Dapper Hog by Chuckles Troll
+Registered hat: Starpost Crusader by PeneBoi
+Registered hat: OVA Hat by lightdasher
+Registered hat: Plumber's Cap by PeneBoi
+Registered hat: Champion's Crown by Inazuma
+Registered hat: Hatdog by Chuckles Troll
+Registered hat: Cosmic Jester by Ice Face
+Registered hat: ChieftainAdded command "cosmetics"
+Added command "cos_button"
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/HatHooks.lua
+MobjType MT_HAT allocated.
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/SoundHooks.lua
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/Content/
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/Content/Hats.lua
+State S_HAT1 allocated.
+Sprite SPR_HAT1 allocated.
+State S_HAT2 allocated.
+Sprite SPR_HAT2 allocated.
+State S_HAT3 allocated.
+Sprite SPR_HAT3 allocated.
+State S_HAT4 allocated.
+Sprite SPR_HAT4 allocated.
+State S_HAT5 allocated.
+Sprite SPR_HAT5 allocated.
+State S_HAT6 allocated.
+Sprite SPR_HAT6 allocated.
+State S_HAT7 allocated.
+Sprite SPR_HAT7 allocated.
+State S_HAT8 allocated.
+Sprite SPR_HAT8 allocated.
+State S_HAT9 allocated.
+Sprite SPR_HAT9 allocated.
+State S_BURG allocated.
+Sprite SPR_BURG allocated.
+State S_GROM allocated.
+Sprite SPR_GROM allocated.
+State S_MAJO allocated.
+Sprite SPR_MAJO allocated.
+State S_BHAT allocated.
+Sprite SPR_BHAT allocated.
+State S_SOMB allocated.
+Sprite SPR_SOMB allocated.
+State S_GLAS allocated.
+Sprite SPR_GLAS allocated.
+State S_SGLS allocated.
+Sprite SPR_SGLS allocated.
+State S_BDAY allocated.
+Sprite SPR_BDAY allocated.
+State S_DNCE allocated.
+Sprite SPR_DNCE allocated.
+State S_BOWT allocated.
+Sprite SPR_BOWT allocated.
+Registered hat: Dapper Hog by Chuckles Troll
+Registered hat: Starpost Crusader by PeneBoi
+Registered hat: OVA Hat by lightdasher
+Registered hat: Plumber's Cap by PeneBoi
+Registered hat: Champion's Crown by Inazuma
+Registered hat: Hatdog by Chuckles Troll
+Registered hat: Cosmic Jester by Ice Face
+Registered hat: Chieftain's Challenge by lightdasher
+Registered hat: Popgun Prankster by lightdasher
+Registered hat: Burger by Chuckles Troll
+Registered hat: gromit mug by Chuckles Troll
+Registered hat: Majora's Mask by lightdasher
+Registered hat: Air Bubble by lightdasher
+Registered hat: La Amiga by lightdasher
+Registered hat: Glasses by Chuckles Troll
+Registered hat: Sunglasses by Chuckles Troll
+Registered hat: Birthday Hat by lightdasher
+Registered hat: Dunce Cap by lightdasher
+Registered hat: Bowtie by lightdasher
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/Content/Sounds.lua
+Sound sfx_bass allocated.
+Sound sfx_sans allocated.
+Sound sfx_cast allocated.
+Sound sfx_ganon allocated.
+Sound sfx_mariod allocated.
+Sound sfx_megad allocated.
+Sound sfx_naugh allocated.
+Sound sfx_ohno allocated.
+Sound sfx_oof allocated.
+Sound sfx_smwdie allocated.
+Sound sfx_smwmap allocated.
+Sound sfx_smwmsg allocated.
+Sound sfx_dkdie allocated.
+Sound sfx_ough allocated.
+Sound sfx_falcon allocated.
+Sound sfx_touhou allocated.
+Sound sfx_yoda allocated.
+Sound sfx_keem allocated.
+Sound sfx_hitovr allocated.
+Sound sfx_hitqua allocated.
+Sound sfx_hitcod allocated.
+Sound sfx_hittf2 allocated.
+Sound sfx_hittfq allocated.
+Sound sfx_phil allocated.
+Sound sfx_roydie allocated.
+Sound sfx_roblox allocated.
+Sound sfx_bruh allocated.
+Sound sfx_bum allocated.
+Sound sfx_bonk allocated.
+Sound sfx_piss allocated.
+Sound sfx_pitdie allocated.
+Sound sfx_mario3 allocated.
+Sound sfx_shadie allocated.
+Sound sfx_frypan allocated.
+Sound sfx_ohno2 allocated.
+Sound sfx_ohno3 allocated.
+Sound sfx_oughhh allocated.
+Sound sfx_rbell allocated.
+Sound sfx_quaked allocated.
+Sound sfx_halflf allocated.
+Sound sfx_vinebm allocated.
+Registered Deathsound: Super Mario Bros. (1479)
+Registered Deathsound: Super Mario Bros. 3 (206)
+Registered Deathsound: Super Mario World (1484)
+Registered Deathsound: Megaman (1480)
+Registered Deathsound: Castlevania (1477)
+Registered Deathsound: Touhou (1490)
+Registered Deathsound: Donkey Kong Country (1487)
+Registered Deathsound: Kremling (1488)
+Registered Deathsound: Home Run Bat (156)
+Registered Deathsound: OH NO (Knuckles) (1273)
+Registered Deathsound: OH NO (Sonic) (1509)
+Registered Deathsound: OH NO (Tails) (1510)
+Registered Deathsound: NAUGH (1481)
+Registered Deathsound: Bass boost (1475)
+Registered Deathsound: DIE (1478)
+Registered Deathsound: Oof (Mario) (1483)
+Registered Deathsound: Oof (Roblox) (1500)
+Registered Deathsound: Roy (1499)
+Registered Deathsound: Captain Falcon (1489)
+Registered Deathsound: Lego Yoda (1491)
+Registered Deathsound: Keemstar (1492)
+Registered DeaNo maps added
+WARNING: Command 'exec' cannot be run from Lua.
+$maxsend max
+Players now only spawn when starposts are hit.
+Starposts are now shared between players.
+Players now only spawn when starposts are hit.
+Starposts are now shared between players.
+executing C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.11\coop.txt
+WARNING: "P_TeleportMove" is deprecated and will be removed.
+Use "P_SetOrigin" or "P_MoveOrigin" instead.
+Cosmetics config saved.
+Cosmetics config saved.
+Cosmetics config saved.
+Cosmetics config saved.
+
+Process killed by signal: SIGSEGV - segment violation
+
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.
+)
+Registered Hitsound: Explosion 1 (502)
+Registered Hitsound: Explosion 2 (328)
+Registered Hitsound: Air puff (594)
+Registered Hitsound: Tink (139)
+Registered Hitsound: Boom. (1502)
+Registered Hitsound: THAT GUY GOT HIT IN THE HEAD WITH A COCONUT (1503)
+Registered Hitsound: Frying Pan (1508)
+Registered Hitsound: Bell (1512)
+Registered Hitsound: Vine Boom (1515)
+Registered Chatsound: Ding 1 (165)
+Registered Chatsound: Ding 2 (712)
+Registered Chatsound: Ding 3 (683)
+Registered Chatsound: Ding 4 (92)
+Registered Chatsound: Bwoop (350)
+Registered Chatsound: Tink (270)
+Registered Chatsound: Flicky (575)
+Registered Chatsound: Flop (695)
+Registered Chatsound: NiGHTS Chip (181)
+Registered Chatsound: Mario Bump (204)
+Registered Chatsound: Mario Fireball (210)
+Registered Chatsound: Mario Map (1485)
+Registered Chatsound: Mario Message Box (1486)
+Registered Chatsound: sans. (1476)
+Loading Lua script from .\coopserver\L_Cosmetics-v2.pk3|Lua/Content/SkinOffsets.lua
+L_Cosmetics-v2.pk3 added 85 frames in 19 sprites
+No maps added
+Players now only spawn when starposts are hit.
+Starposts are now shared between players.
+Players now only spawn when starposts are hit.
+Starposts are now shared between players.
+$coop.txt
+Unknown command 'coop.txt'
+$addfile coop.txt
+ERROR: Invalid WAD header
+Errors occurred while loading coop.txt; not added.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/275714/update'...
+Updated master server listing.
+WARNING: "P_TeleportMove" is deprecated and will be removed.
+Use "P_SetOrigin" or "P_MoveOrigin" instead.
+*Vertz1515 left the game

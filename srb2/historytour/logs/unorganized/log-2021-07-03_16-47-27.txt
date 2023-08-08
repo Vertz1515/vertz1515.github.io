@@ -1,0 +1,1059 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-07-03_16-47-27.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\2.1pack.wad (342 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\2.1pack.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+30 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP22
+MAP23
+MAP24
+MAP25
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "whois"
+Added command "die"
+Added command "goto"
+Added command "super"
+Added command "rings"
+Added command "lives"
+Added command "shoes"
+Added command "invuln"
+Added command "flower"
+Added command "shield"
+Added command "print"
+Added command "dofor"
+Added command "rally"
+Added command "nuke"
+Added command "kill"
+Added command "adminhelp"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3 (645 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/MultiThokCrossMomentum.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/PERSONAHD.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|soc/OBJCTCFG
+CL_OverhauledLegacyTrio-V1.3.pk3 added 1 frames in 1 sprites
+Added skin 'handdrawn'
+Added skin 'lessunique'
+Added skin 'chrispymarriage'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad (541 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad
+31 midi musics replaced
+MAP74
+MAP76
+MAP78
+MAP80
+MAP79
+MAP75
+MAP77
+MAP81
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad (328 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+32 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+ERROR: C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hsonic.wad is already loaded
+Errors occurred while loading C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hsonic.wad; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3 (155 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Stuff
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoSlide
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_OldGlideLogic
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|SOC/MAINCFG
+knux.pk3 added 1 frames in 1 sprites
+Added skin 'k.t.e'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua
+WARNING: ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: the Terminal core script must be added first!
+stack traceback:
+    [C]: in function 'assert'
+    ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: in main chunk
+No maps added
+ERROR: C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua is already loaded
+Errors occurred while loading C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1662>
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3 (392 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|SOC/MAINCFG
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Gametype was changed from Co-op to Match
+Speeding off to level...
+Master server registration successful.
+WARNING: ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: attempt to index field 'mo' (a nil value)
+stack traceback:
+    ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: in function <...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:2>
+Map is now "MAP74: Zero Ring Zone"
+Point limit disabled
+Levels will end after 10 minutes.
+$banskin sonic
+Skin "sonic" has been banned.
+$banskin tails
+Skin "tails" has been banned.
+*Suit has joined the game (player 1)
+*mario1236 has joined the game (player 2)
+$banskin knuckles
+Skin "knuckles" has been banned.
+mario1236 entered the game.
+$banskin amy
+Skin "amy" has been banned.
+Password from Suit failed (no password set).
+Suit entered the game.
+$banskin fang
+Skin "fang" has been banned.
+$banskin metalsonic
+Skin "metalsonic" has been banned.
+$maxsend max
+Password from Suit failed (no password set).
+*Suit left the game
+$password msmsms2
+Password set.
+*Suit has rejoined the game (player 1)
+ImpatientHedgehog15 entered the game.
+You currently cannot play with the skin "sonic" as it has been banned.
+Suit passed authentication.
+Suit died.
+Suit became a spectator.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+ImpatientHedgehog15 entered the game.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+ImpatientHedgehog15 entered the game.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+ImpatientHedgehog15 entered the game.
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: in function '?'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1608: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1582>
+<~ImpatientHedgehog15> ok
+The server is restricting all players to skin "xmastails".
+The server is restricting all players to skin "earlysonic".
+The server is restricting all players to skin "uglyknux".
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "k.t.e".
+The server is restricting all players to skin "halloweensonic".
+The server is restricting all players to skin "k.t.e".
+Suit entered the game.
+<~ImpatientHedgehog15> of course
+<@Suit> Why of course
+<~ImpatientHedgehog15> yes
+mario1236's invincibility aura hit Suit.
+mario1236's thrown ring hit Suit.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring killed ImpatientHedgehog15.
+mario1236's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit mario1236.
+Suit's thrown ring hit ImpatientHedgehog15.
+mario1236's thrown ring hit Suit.
+mario1236's thrown ring hit Suit.
+mario1236's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit mario1236.
+Suit's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15's thrown ring hit Suit.
+ImpatientHedgehog15's thrown ring hit mario1236.
+mario1236's thrown ring killed ImpatientHedgehog15.
+Suit's thrown ring hit mario1236.
+Levels will end after 9 minutes.
+Levels will end after 8 minutes.
+Levels will end after 7 minutes.
+Levels will end after 6 minutes.
+The round has ended.
+Levels will end after 5 minutes.
+Levels will end after 6 minutes.
+Speeding off to level...
+Map is now "MAP75: Orange Crater Zone"
+mario1236's thrown ring hit Suit.
+mario1236's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit mario1236.
+mario1236 was killed by molten lava.
+ImpatientHedgehog15's thrown ring hit Suit.
+ImpatientHedgehog15 was hit by molten lava.
+mario1236 was hit by molten lava.
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit mario1236.
+Suit's thrown ring hit mario1236.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit was hit by molten lava.
+*Matty has joined the game (player 3)
+Suit's thrown ring hit ImpatientHedgehog15.
+mario1236 was hit by molten lava.
+<Matty> Hello!
+Suit's thrown ring hit ImpatientHedgehog15.
+Matty entered the game.
+<~ImpatientHedgehog15> HI!
+mario1236's thrown ring hit Suit.
+Matty was hit by molten lava.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+Matty was hit by molten lava.
+mario1236's thrown ring hit Suit.
+mario1236's thrown ring hit Matty.
+ImpatientHedgehog15 was hit by molten lava.
+mario1236's thrown ring hit ImpatientHedgehog15.
+Matty was hit by molten lava.
+ImpatientHedgehog15's thrown ring hit Matty.
+mario1236's thrown ring hit Suit.
+Matty was hit by molten lava.
+Matty was killed by molten lava.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit was hit by molten lava.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit Matty.
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit mario1236.
+ImpatientHedgehog15 was killed by molten lava.
+Matty was hit by molten lava.
+Suit was hit by molten lava.
+mario1236 was hit by molten lava.
+Suit's thrown ring hit Matty.
+Suit's thrown ring killed Matty.
+mario1236 was hit by molten lava.
+Suit's thrown ring hit mario1236.
+mario1236 was hit by molten lava.
+mario1236's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15's thrown ring hit mario1236.
+ImpatientHedgehog15's thrown ring hit Suit.
+<Matty> hi suit
+mario1236 was hit by molten lava.
+Matty was hit by molten lava.
+mario1236 was hit by molten lava.
+Matty was hit by molten lava.
+The round has ended.
+WARNING: ... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:82: Do not access an mobj_t field outside a level!
+stack traceback:
+    [C]: ?
+    ... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:82: in function <... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:81>
+Matty died.
+Matty became a spectator.
+Matty entered the game.
+Gametype was changed from Match to Team Match
+Speeding off to level...
+Map is now "MAP76: Air Haven Zone"
+Suit switched to the Blue team.
+ImpatientHedgehog15 switched to the Red team.
+mario1236 switched to the Red team.
+ImpatientHedgehog15 fell into a bottomless pit.
+Suit fell into a bottomless pit.
+<@Suit> Whys it ctf?
+<~ImpatientHedgehog15> NO IT'S NOT
+<~ImpatientHedgehog15> it's team match
+mario1236 fell into a bottomless pit.
+Matty switched to the Red Team.
+Suit's thrown ring hit ImpatientHedgehog15.
+Matty fell into a bottomless pit.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+Matty fell into a bottomless pit.
+Suit's thrown ring killed ImpatientHedgehog15.
+mario1236 fell into a bottomless pit.
+<~ImpatientHedgehog15> let's just....
+Suit's thrown ring hit ImpatientHedgehog15.
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "uglyknux".
+The server is restricting all players to skin "earlysonic".
+The server is restricting all players to skin "xmastails".
+The server has lifted the forced skin restrictions.
+mario1236 fell into a bottomless pit.
+Suit's thrown ring killed ImpatientHedgehog15.
+Matty fell into a bottomless pit.
+mario1236 fell into a bottomless pit.
+Suit's thrown ring killed Matty.
+Suit's thrown ring killed mario1236.
+Suit's thrown ring hit ImpatientHedgehog15.
+Matty fell into a bottomless pit.
+Suit fell into a bottomless pit.
+Matty fell into a bottomless pit.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Master server registration successful.
+Suit's thrown ring hit mario1236.
+mario1236 fell into a bottomless pit.
+Matty fell into a bottomless pit.
+Suit's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15 fell into a bottomless pit.
+ImpatientHedgehog15 fell into a bottomless pit.
+Matty fell into a bottomless pit.
+Suit's thrown ring hit Matty.
+ImpatientHedgehog15's thrown ring hit Suit.
+Matty fell into a bottomless pit.
+Matty fell into a bottomless pit.
+mario1236's thrown ring hit Suit.
+Suit fell into a bottomless pit.
+Suit's thrown ring hit Matty.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit fell into a bottomless pit.
+mario1236 fell into a bottomless pit.
+Suit's thrown ring hit Matty.
+Matty's thrown ring hit Suit.
+ImpatientHedgehog15 fell into a bottomless pit.
+Suit's thrown ring hit Matty.
+Suit's thrown ring killed Matty.
+Suit's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15 fell into a bottomless pit.
+Suit fell into a bottomless pit.
+Matty fell into a bottomless pit.
+<~ImpatientHedgehog15> I hate software rendering
+<@Suit> opengl all day
+Matty fell into a bottomless pit.
+<~ImpatientHedgehog15> lol i wish the computer that i could port forward had that
+<@Suit> you can use opengl no matter the pc
+Matty fell into a bottomless pit.
+<@Suit> im pretty sure
+<@Suit> ive seen chromebooks use it
+ImpatientHedgehog15's thrown ring hit Suit.
+Matty fell into a bottomless pit.
+Suit's thrown ring killed ImpatientHedgehog15.
+<~ImpatientHedgehog15> i can't
+Matty fell into a bottomless pit.
+The round has ended.
+<~ImpatientHedgehog15> slade's graphics get too far to the top left corner
+Speeding off to level...
+Map is now "MAP77: Airborne Temple Zone"
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit Matty.
+Suit's thrown ring hit mario1236.
+Suit's thrown ring hit Matty.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit Matty.
+Suit's thrown ring killed mario1236.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+mario1236's thrown ring killed Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit Matty.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15's thrown ring hit Suit.
+mario1236's thrown ring hit Suit.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit Matty.
+Matty's thrown ring hit Suit.
+Suit's thrown ring hit mario1236.
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit mario1236.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit mario1236.
+Suit's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+mario1236's thrown ring hit Suit.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit mario1236.
+mario1236's thrown ring hit Suit.
+mario1236's thrown ring hit Suit.
+*Xavier has joined the game (player 4)
+Suit's thrown ring hit Matty.
+Suit's thrown ring killed Matty.
+<Matty> hi
+Xavier switched to the Blue team.
+mario1236's thrown ring hit Xavier.
+ImpatientHedgehog15's thrown ring killed Xavier.
+The round has ended.
+<~ImpatientHedgehog15> o
+Speeding off to level...
+Map is now "MAP78: Grass Plateau Zone"
+Suit's thrown ring hit Matty.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring killed Matty.
+ImpatientHedgehog15's thrown ring hit Xavier.
+ImpatientHedgehog15's thrown ring hit Xavier.
+ImpatientHedgehog15's thrown ring hit Xavier.
+<Matty> hello xavier
+ImpatientHedgehog15's thrown ring hit Suit.
+mario1236's thrown ring hit Suit.
+ImpatientHedgehog15's thrown ring killed Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit Matty.
+Suit's thrown ring hit Matty.
+<~ImpatientHedgehog15> that snipe
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit Matty.
+Suit's thrown ring hit Matty.
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit Matty.
+Suit's thrown ring hit Matty.
+ImpatientHedgehog15's thrown ring hit Xavier.
+Suit's thrown ring hit Matty.
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit mario1236.
+ImpatientHedgehog15's thrown ring hit Xavier.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+ImpatientHedgehog15's thrown ring hit Xavier.
+Xavier's thrown ring hit Matty.
+Xavier's thrown ring hit Matty.
+ImpatientHedgehog15's thrown ring hit Suit.
+Xavier's thrown ring hit Matty.
+Suit's thrown ring hit ImpatientHedgehog15.
+mario1236's thrown ring hit Suit.
+ImpatientHedgehog15's thrown ring hit Suit.
+ImpatientHedgehog15's thrown ring hit Suit.
+The round has ended.
+WARNING: ...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:296: attempt to index local 'arg' (a nil value)
+stack traceback:
+    ...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:296: in function <...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:284>
+WARNING: ...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:296: attempt to index local 'arg' (a nil value)
+stack traceback:
+    ...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:296: in function <...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:284>
+Speeding off to level...
+Map is now "MAP79: Starlit Warehouse Zone"
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit mario1236.
+ImpatientHedgehog15's thrown ring hit Xavier.
+ImpatientHedgehog15's thrown ring hit Xavier.
+ImpatientHedgehog15's thrown ring killed Xavier.
+<Xavier> MATTY I SAID HI WHY ARE YOU NOT SAYING ANYTHING
+Suit's thrown ring hit Matty.
+<~ImpatientHedgehog15> lol
+Suit's thrown ring hit Matty.
+Suit's thrown ring killed Matty.
+mario1236's thrown ring hit Suit.
+mario1236's thrown ring hit Xavier.
+mario1236's thrown ring hit Xavier.
+<Xavier> impatient matty wont say anything
+<Matty> hi
+<~ImpatientHedgehog15> yes
+Suit's thrown ring hit Matty.
+Matty's thrown ring hit Suit.
+Suit's thrown ring hit Matty.
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit Matty.
+Suit's thrown ring hit Matty.
+ImpatientHedgehog15's thrown ring hit Xavier.
+Suit's thrown ring killed Matty.
+*Matty left the game
+<~ImpatientHedgehog15> o
+$csay matty won't say anything help
+Put notice #1 into the Noticeboard queue.
+= ~ImpatientHedgehog15 says =
+matty won't say anything help 
+<Xavier> matty come on
+<@Suit> matty just left
+<~ImpatientHedgehog15> rip
+mario1236's thrown ring hit Xavier.
+<@Suit> XAVIER
+ImpatientHedgehog15's thrown ring hit Xavier.
+<@Suit> RUN
+mario1236's thrown ring killed Xavier.
+Screen shot srb20069.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit ImpatientHedgehog15.
+*So has joined the game (player 5)
+mario1236's thrown ring hit Suit.
+ImpatientHedgehog15's thrown ring hit Suit.
+So switched to the Blue team.
+<Xavier> impatient can we do match or something i am gettin tired of playing team match
+mario1236's thrown ring hit So.
+<@Suit> and i wasnt even on a team
+<~ImpatientHedgehog15> this is the last match level
+mario1236's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring killed ImpatientHedgehog15.
+Suit's thrown ring hit mario1236.
+The round has ended.
+WARNING: Can't find a compatible map after map 79; using map 80 anyway
+Gametype was changed from Team Match to CTF
+Speeding off to level...
+ERROR: FOF (line 172) has a top height below its bottom.
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP80: Lime Forest Zone"
+ImpatientHedgehog15 switched to the Red team.
+Xavier switched to the Blue team.
+<@Suit> Can we go to 2.0 now
+ImpatientHedgehog15 picked up the Blue flag!
+Suit switched to the Red team.
+<~ImpatientHedgehog15> after these
+Xavier picked up the Red flag!
+So switched to the Blue team.
+mario1236 switched to the Blue team.
+Suit's thrown ring hit So.
+Xavier dropped the Red flag.
+ImpatientHedgehog15's thrown ring hit Xavier.
+ImpatientHedgehog15 returned the Red flag to base.
+Suit's thrown ring hit Xavier.
+…ImpatientHedgehog15€\CAPTURED THE „BLUE FLAG€.\\\\
+Xavier picked up the Red flag!
+Suit's thrown ring killed So.
+Suit picked up the Blue flag!
+*So left the game (Connection timeout)
+*icy tails has joined the game (player 3)
+icy tails switched to the Red team.
+icy tails died.
+icy tails became a spectator.
+Xavier dropped the Red flag.
+Suit's thrown ring hit Xavier.
+Suit returned the Red flag to base.
+mario1236 picked up the Red flag!
+icy tails switched to the Red team.
+Suit's thrown ring killed Xavier.
+mario1236 dropped the Red flag.
+ImpatientHedgehog15's thrown ring hit mario1236.
+ImpatientHedgehog15 returned the Red flag to base.
+Xavier picked up the Red flag!
+mario1236's thrown ring hit ImpatientHedgehog15.
+icy tails's thrown ring hit mario1236.
+Suit's thrown ring hit mario1236.
+mario1236 died.
+mario1236 became a spectator.
+Xavier dropped the Red flag.
+Suit's thrown ring hit Xavier.
+Suit returned the Red flag to base.
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+Suit picked up the Blue flag!
+Xavier picked up the Red flag!
+icy tails died.
+icy tails became a spectator.
+icy tails switched to the Blue team.
+Xavier dropped the Red flag.
+Suit's thrown ring hit Xavier.
+Suit returned the Red flag to base.
+icy tails died.
+icy tails switched to the Red Team.
+<~ImpatientHedgehog15> doshog is a balanced character
+Suit's thrown ring hit Xavier.
+Suit's thrown ring hit Xavier.
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+icy tails picked up the Blue flag!
+Suit's thrown ring hit Xavier.
+icy tails tossed the Blue flag.
+icy tails picked up the Blue flag!
+<@Suit> Good for balancing unbalancd tams
+<@Suit> tam
+Xavier picked up the Red flag!
+<@Suit> team
+Xavier dropped the Red flag.
+icy tails's thrown ring killed Xavier.
+icy tails returned the Red flag to base.
+<@Suit> my e key
+Xavier picked up the Red flag!
+Xavier tossed the Red flag.
+Suit's thrown ring killed Xavier.
+Suit returned the Red flag to base.
+<@Suit> GO
+<@Suit> NO
+<@Suit> PUT IT DOWN
+<@Suit> THE FLAG
+Xavier picked up the Red flag!
+<~ImpatientHedgehog15> ui
+Xavier dropped the Red flag.
+Suit's thrown ring hit Xavier.
+The round has ended.
+Speeding off to level...
+WARNING: Unknown thing type 81 placed at (64, 8672)
+Map is now "MAP81: Dual Fortress Zone"
+<icy tails> ui
+Suit picked up the Blue flag!
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+*mario1236 left the game
+Suit picked up the Blue flag!
+[TEAM]<icy tails> icy red
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+Xavier picked up the Red flag!
+Xavier dropped the Red flag.
+Suit's thrown ring hit Xavier.
+Suit returned the Red flag to base.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+Xavier's thrown ring hit Suit.
+ImpatientHedgehog15 picked up the Blue flag!
+Xavier picked up the Red flag!
+Xavier dropped the Red flag.
+Suit's thrown ring hit Xavier.
+…ImpatientHedgehog15€\CAPTURED THE „BLUE FLAG€.\\\\
+icy tails died.
+icy tails became a spectator.
+Suit picked up the Blue flag!
+Suit's thrown ring hit Xavier.
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+ImpatientHedgehog15 picked up the Blue flag!
+icy tails switched to the Blue team.
+icy tails died.
+icy tails switched to the Red Team.
+…ImpatientHedgehog15€\CAPTURED THE „BLUE FLAG€.\\\\
+Suit picked up the Blue flag!
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+Suit's thrown ring hit Xavier.
+Suit picked up the Blue flag!
+icy tails's thrown ring killed Xavier.
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+ImpatientHedgehog15 picked up the Blue flag!
+…ImpatientHedgehog15€\CAPTURED THE „BLUE FLAG€.\\\\
+Suit picked up the Blue flag!
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+ImpatientHedgehog15 picked up the Blue flag!
+ImpatientHedgehog15 tossed the Blue flag.
+*OGAmyDroid has joined the game (player 2)
+ImpatientHedgehog15 picked up the Blue flag!
+icy tails died.
+icy tails became a spectator.
+icy tails switched to the Blue team.
+…ImpatientHedgehog15€\CAPTURED THE „BLUE FLAG€.\\\\
+Suit picked up the Blue flag!
+icy tails died.
+icy tails switched to the Red Team.
+…Suit€\CAPTURED THE „BLUE FLAG€.\\\\
+ImpatientHedgehog15 picked up the Blue flag!
+Xavier picked up the Red flag!
+OGAmyDroid switched to the Blue Team.
+[TEAM]<icy tails> icy team red
+OGAmyDroid's thrown ring hit Suit.
+OGAmyDroid's thrown ring hit icy tails.
+Suit's thrown ring hit OGAmyDroid.
+icy tails's thrown ring hit OGAmyDroid.
+*Son has joined the game (player 5)
+Suit's thrown ring hit OGAmyDroid.
+Son switched to the Blue team.
+ImpatientHedgehog15's thrown ring hit OGAmyDroid.
+Suit's thrown ring hit Son.
+Xavier tossed the Red flag.
+Xavier picked up the Red flag!
+ImpatientHedgehog15 tossed the Blue flag.
+Suit picked up the Blue flag!
+<Xavier> STOP GETTINGS POITNZ
+The round has ended.
+ERROR: Next map given (MAP 82) doesn't exist! Reverting to MAP01.
+<Xavier> PLZ PLZ PLZ
+<@Suit> yeah
+<@Suit> can we 2.0 now
+<Xavier> I HAD ENOUGH
+Speeding off to level...
+WARNING: No CTF starts in this map!
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP01: GREENFLOWER Zone 1"
+<@Suit> what was it again
+<@Suit> map a what
+<~ImpatientHedgehog15> what's the map we crashed on
+[TEAM]<@Suit> deep sea 2 i think
+<@Suit> deep sea 2
+Gametype was changed from CTF to Co-op
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+Time limit disabled
+<@Suit> i think
+[TEAM]<Xavier> how are we even ment to win on this zone
+$map mapaa
+ERROR: Could not find any map described as 'mapaa'.
+$map mapa9
+ERROR: Could not find any map described as 'mapa9'.
+$map mapa8
+ERROR: Could not find any map described as 'mapa8'.
+icy tails has completed the level.
+Added file .\Early Gang\2.0zones.wad (213 lumps)
+Loading main config from .\Early Gang\2.0zones.wad
+WARNING: Line 2: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 34: Level header 103: unknown word 'NOPERFECTBONUS'
+WARNING: Line 69: Level header 106: unknown word 'NOPERFECTBONUS'
+WARNING: Line 105: Level header 109: unknown word 'NOPERFECTBONUS'
+WARNING: Line 136: Unknown word: MUSIC
+WARNING: Line 158: Unknown word: SUBTITLE
+WARNING: Line 197: Level header 17: unknown word 'NOPERFECTBONUS'
+WARNING: Line 280: Level header 116: unknown word 'NOPERFECTBONUS'
+8 warnings in the SOC lump
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+*Son left the game
+*Xavier left the game
+*So has joined the game (player 6)
+*icy tails left the game
+*Son has rejoined the game (player 5)
+*Son left the game
+Suit has completed the level.
+*Son has rejoined the game (player 5)
+*Son left the game
+$map mapa8
+Speeding off to level...
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAPA8: DEEP SEA Zone 2"
+<@Suit> wait
+$map mapa9
+Speeding off to level...
+Map is now "MAPA9: DEEP SEA Zone 3"
+<@Suit> it was deep sea boss
+<@Suit> and
+<@Suit> dont look functional
+$map mapaa
+ERROR: Could not find any map described as 'mapaa'.
+<@Suit> sure looks cool
+$exitlevel
+The server is restricting all players to skin "xmastails".
+The server is restricting all players to skin "earlysonic".
+Speeding off to level...
+
+I_Error(): Internal game map 'MAPAA' not found
+
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/unlist'...
+Server deregistration request successfully sent.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

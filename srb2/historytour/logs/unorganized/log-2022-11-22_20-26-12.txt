@@ -1,0 +1,1255 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2022 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\music.dta (181 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+ERROR: Mix_LoadMUS_RW: Unrecognized audio format
+ERROR: Music _clear could not be loaded: engine failure!
+Levels will end after 10 minutes.
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2022-11-22_20-26-12.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.10 (Mar  6 2022 22:55:14 82fb731c master) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\2.0zones.wad (213 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\2.0zones.wad
+WARNING: Line 32: Level header 103: unknown word 'NOPERFECTBONUS'
+WARNING: Line 142: Unknown word: SUBTITLE
+WARNING: Line 179: Level header 122: unknown word 'NOPERFECTBONUS'
+3 warnings in the SOC lump
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAC
+MAPAD
+MAPAE
+MAPAH
+MAPAI
+MAPAF
+MAPAB
+MAPAA
+MAPAG
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\banskins.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3 (157 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3|Lua/LUA_GAME
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3|Lua/LUA_COMP
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3|Lua/L_ThokExample_NoComments-v1.1.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\CL_Sonikku_v2.2.pk3|SOC/OBJCTCFG.SOC
+Added skin 'sonikku'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\d4data.wad (631 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\d4data.wad
+31 midi musics replaced
+MAP74
+MAP76
+MAP78
+MAP80
+MAP79
+MAP75
+MAP77
+MAP81
+MAP60
+MAP61
+MAP62
+MAP63
+MAP64
+MAP66
+MAP65
+MAP82
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\earlygang.wad (328 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+WARNING: Line 218: Level header 30: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 228: Level header 40: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 238: Level header 41: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 248: Level header 50: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 257: Level header 51: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 266: Level header 52: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 275: Level header 53: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 285: Level header 54: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 294: Level header 55: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 303: Level header 56: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 312: Level header 57: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 323: Level header 58: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 337: Level header 280: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 344: Level header 281: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 351: Level header 282: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 359: Level header 283: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 366: Level header 284: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 373: Level header 285: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 381: Level header 286: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 389: Level header 287: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 396: Level header 288: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 403: Level header 289: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 411: Level header 290: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 418: Level header 532: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 425: Level header 533: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 432: Level header 534: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 439: Level header 535: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 447: Level header 536: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 454: Level header 537: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 461: Level header 538: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 468: Level header 539: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 476: Level header 540: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 483: Level header 541: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 491: Level header 542: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 498: Level header 543: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+WARNING: Line 505: Level header 544: MusicSlot parameter is deprecated and will be removed.
+Use "Music" instead.
+38 warnings in the SOC lump
+32 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\extra.pk3 (3 lumps)
+No maps added
+ERROR: C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\extra.pk3 is already loaded
+Errors occurred while loading C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\extra.pk3; not added.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\finaldemo.wad (102 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\finaldemo.wad
+1 midi musics replaced
+MAPB3
+MAPB6
+MAPB1
+MAPB2
+MAPB4
+MAPB5
+MAPB7
+MAPB8
+MAPB9
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1697: in function <...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1662>
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3 (392 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\NonCurrentTest\xmastails.pk3|SOC/MAINCFG
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\Early Gang\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*Vertz1515 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: GREENFLOWER Zone 1"
+$map af
+Speeding off to level...
+WARNING: Unknown thing type 553 placed at (-7616, -11104)
+WARNING: Unknown thing type 553 placed at (-7616, -11136)
+WARNING: Unknown thing type 553 placed at (-7616, -11168)
+WARNING: Unknown thing type 553 placed at (-7616, -11200)
+WARNING: Unknown thing type 553 placed at (-7616, -11232)
+WARNING: Unknown thing type 553 placed at (-7616, -11264)
+WARNING: Unknown thing type 553 placed at (-7616, -11296)
+WARNING: Unknown thing type 553 placed at (-6464, -5920)
+WARNING: Unknown thing type 553 placed at (-6432, -5920)
+WARNING: Unknown thing type 553 placed at (-6400, -5920)
+WARNING: Unknown thing type 553 placed at (-6368, -5920)
+WARNING: Unknown thing type 553 placed at (-6336, -5920)
+WARNING: Unknown thing type 553 placed at (-6304, -5920)
+WARNING: Unknown thing type 553 placed at (-6272, -5920)
+WARNING: Unknown thing type 553 placed at (-6496, -5920)
+WARNING: Unknown thing type 553 placed at (-6528, -5920)
+WARNING: Unknown thing type 553 placed at (-6560, -5920)
+WARNING: Unknown thing type 553 placed at (-6592, -5920)
+ERROR: FOF (line 2955) has a top height below its bottom.
+Map is now "MAPAF: EGG ROCK Zone 1"
+$map ag
+Speeding off to level...
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: constant 'DISCOW1' could not be parsed.
+
+WARNING: Unknown thing type 554 placed at (-3392, -640)
+WARNING: Unknown thing type 554 placed at (-3392, -832)
+WARNING: Unknown thing type 554 placed at (-3392, -736)
+WARNING: Unknown thing type 527 placed at (11168, 21344)
+WARNING: Unknown thing type 527 placed at (10592, 21664)
+WARNING: Unknown thing type 527 placed at (10656, 21344)
+WARNING: Unknown thing type 527 placed at (10912, 21600)
+WARNING: Unknown thing type 527 placed at (10464, 21600)
+WARNING: Unknown thing type 527 placed at (10784, 21408)
+WARNING: Unknown thing type 527 placed at (11040, 22816)
+WARNING: Unknown thing type 527 placed at (10976, 23008)
+WARNING: Unknown thing type 527 placed at (10464, 22944)
+WARNING: Unknown thing type 527 placed at (10592, 22752)
+WARNING: Unknown thing type 527 placed at (11168, 22816)
+WARNING: Unknown thing type 527 placed at (10720, 23072)
+WARNING: Unknown thing type 527 placed at (10912, 22944)
+WARNING: Unknown thing type 527 placed at (10528, 22880)
+WARNING: Unknown thing type 527 placed at (10720, 22688)
+WARNING: Unknown thing type 527 placed at (10528, 22016)
+WARNING: Unknown thing type 527 placed at (11104, 21952)
+WARNING: Unknown thing type 527 placed at (11232, 21728)
+WARNING: Unknown thing type 527 placed at (10400, 21792)
+WARNING: Unknown thing type 527 placed at (10656, 21600)
+WARNING: Unknown thing type 527 placed at (11040, 21792)
+WARNING: Unknown thing type 527 placed at (10976, 22688)
+WARNING: Unknown thing type 527 placed at (11104, 22752)
+WARNING: Unknown thing type 527 placed at (11232, 22624)
+WARNING: Unknown thing type 527 placed at (11168, 22560)
+WARNING: Unknown thing type 527 placed at (11040, 22496)
+WARNING: Unknown thing type 527 placed at (10848, 22432)
+WARNING: Unknown thing type 527 placed at (10656, 22496)
+WARNING: Unknown thing type 527 placed at (10592, 22400)
+WARNING: Unknown thing type 527 placed at (11232, 21472)
+WARNING: Unknown thing type 527 placed at (10528, 22560)
+WARNING: Unknown thing type 527 placed at (10400, 22368)
+WARNING: Unknown thing type 527 placed at (10528, 21856)
+WARNING: Unknown thing type 527 placed at (10784, 22080)
+WARNING: Unknown thing type 527 placed at (11168, 22080)
+WARNING: Unknown thing type 527 placed at (10848, 22624)
+WARNING: Unknown thing type 527 placed at (10720, 22208)
+WARNING: Unknown thing type 527 placed at (10592, 22272)
+WARNING: Unknown thing type 527 placed at (10880, 21312)
+WARNING: Unknown thing type 527 placed at (10848, 22336)
+WARNING: Unknown thing type 527 placed at (10912, 22208)
+WARNING: Unknown thing type 527 placed at (10464, 22208)
+WARNING: Unknown thing type 527 placed at (10464, 22336)
+WARNING: Unknown thing type 527 placed at (11168, 22432)
+WARNING: Unknown thing type 527 placed at (11232, 22336)
+WARNING: Unknown thing type 527 placed at (10976, 21408)
+WARNING: Unknown thing type 527 placed at (11232, 21536)
+WARNING: Unknown thing type 527 placed at (10528, 21536)
+WARNING: Unknown thing type 527 placed at (10592, 22080)
+WARNING: Unknown thing type 527 placed at (11232, 21952)
+WARNING: Unknown thing type 527 placed at (11232, 21792)
+WARNING: Unknown thing type 527 placed at (10464, 21792)
+WARNING: Unknown thing type 527 placed at (10976, 21920)
+WARNING: Unknown thing type 527 placed at (10464, 21952)
+WARNING: Unknown thing type 527 placed at (10528, 21280)
+WARNING: Unknown thing type 527 placed at (11104, 21600)
+WARNING: Unknown thing type 527 placed at (10400, 21664)
+WARNING: Unknown thing type 527 placed at (10848, 21952)
+WARNING: Unknown thing type 527 placed at (11168, 22208)
+WARNING: Unknown thing type 527 placed at (10976, 22400)
+WARNING: Unknown thing type 527 placed at (11040, 22080)
+WARNING: Unknown thing type 527 placed at (10720, 21920)
+WARNING: Unknown thing type 527 placed at (11168, 21856)
+WARNING: Unknown thing type 527 placed at (10656, 21792)
+WARNING: Unknown thing type 527 placed at (10912, 21792)
+WARNING: Unknown thing type 527 placed at (10464, 21408)
+WARNING: Unknown thing type 527 placed at (10848, 21728)
+WARNING: Unknown thing type 527 placed at (10528, 21792)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+ERROR: FOF (line 24045) has a top height below its bottom.
+Map is now "MAPAG: EGG ROCK Zone 2"
+$banskin sonic
+Skin "sonic" has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+$banskin tails
+Skin "tails" has been banned.
+You currently cannot play with the skin "tails" as it has been banned.
+$banskin knuckles
+Skin "knuckles" has been banned.
+You currently cannot play with the skin "knuckles" as it has been banned.
+$banskin amy
+Skin "amy" has been banned.
+You currently cannot play with the skin "amy" as it has been banned.
+$banskin fang
+Skin "fang" has been banned.
+You currently cannot play with the skin "fang" as it has been banned.
+$banskin metalsonic
+Skin "metalsonic" has been banned.
+You currently cannot play with the skin "metalsonic" as it has been banned.
+$maxsend 50000
+*Sonix the sucky do has joined the game (player 1)
+$password 2723
+Password set.
+WARNING: ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1335: in function '?'
+    ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1608: in function <...2.10\Early Gang\NonCurrentTest\utility-v0.3b (1).lua:1582>
+<Sonix the sucky do> I was actually getting somewhere here
+<~Vertz1515> i saw
+You currently cannot play with the skin "tails" as it has been banned.
+Added file .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3 (645 lumps)
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/LUA_LUA
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/MultiThokCrossMomentum.lua
+Loading Lua script from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/PERSONAHD.lua
+Loading SOC from .\addons\Char\CL_OverhauledLegacyTrio-V1.3.pk3|soc/OBJCTCFG
+CL_OverhauledLegacyTrio-V1.3.pk3 added 1 frames in 1 sprites
+Added skin 'handdrawn'
+Added skin 'lessunique'
+Added skin 'chrispymarriage'
+No maps added
+*sonic rode has joined the game (player 2)
+Sonix the sucky do passed authentication.
+*sonic rode left the game
+*sonic rode has rejoined the game (player 2)
+*xxfirestar18 has joined the game (player 3)
+<@Sonix the sucky do> Ah, the infamous wind tunnel
+Game paused by Sonix the sucky do
+Game unpaused by Sonix the sucky do
+<~Vertz1515> ?
+<@Sonix the sucky do> Finger slipped
+<@Sonix the sucky do> So is anyone planning on getting some 1-ups?
+$exitlevel
+Speeding off to level...
+Map is now "MAPAH: EGG ROCK Zone 3"
+<~Vertz1515> this boss
+<@Sonix the sucky do> I hate this boss with every ounce of my being
+<~Vertz1515> i personally think this boss is... meh
+*prism has joined the game (player 4)
+Speeding off to level...
+Map is now "MAPAH: EGG ROCK Zone 3"
+*dont give a shit has joined the game (player 5)
+*Chris Reds#9275 has joined the game (player 6)
+*dont give a shi has joined the game (player 7)
+*dont give a shit left the game (Connection timeout)
+*dont give a shi left the game (Connection timeout)
+*The_SonicEX has joined the game (player 8)
+<The_SonicEX> dear god not this
+<@Sonix the sucky do> GOD DAMN IT!
+<The_SonicEX> the boss
+<@Sonix the sucky do> I'VE BEEN MURDERED
+<The_SonicEX> the boss uses some 2.2 sprites
+<The_SonicEX> gg
+*Chris Reds#9275 left the game (Connection timeout)
+$exitlevel
+Speeding off to level...
+Map is now "MAPB1: GREENFLOWER Zone 1"
+*dont give a shi has rejoined the game (player 7)
+*dont give a shi left the game (Connection timeout)
+<~Vertz1515> DID YOU GET ALL THOSE CHAOS EMEREALDS?
+Map is now "MAPB1: GREENFLOWER Zone 1"
+<sonic rode> stfu
+*dont give a shi has rejoined the game (player 7)
+The_SonicEX has completed the level.
+prism has completed the level.
+<The_SonicEX> that was ez
+Sonix the sucky do has completed the level.
+xxfirestar18 has completed the level.
+<dont give a shi> hi
+<@Sonix the sucky do> Literal pins for spikes
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP60: Special Stage 1 Zone"
+*Siivonik *They/Them* has joined the game (player 5)
+<Siivonik *They/Them*> took the last spot
+*dont give a shi renamed to ?
+*Gabe has joined the game (player 9)
+<Siivonik *They/Them*> ello
+<The_SonicEX> hi
+<~Vertz1515> hi
+<Gabe> hi
+Screen shot srb20113.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\screenshots\
+Speeding off to level...
+Map is now "MAPB2: GREENFLOWER Zone 2"
+Vertz1515 has completed the level.
+Sonix the sucky do has completed the level.
+The_SonicEX has completed the level.
+Gabe has completed the level.
+xxfirestar18 has completed the level.
+prism has completed the level.
+<Siivonik *They/Them*> oh
+<Gabe> SPEEEEEEEEEEED
+<?> E
+<Siivonik *They/Them*> sweet
+Speeding off to level...
+WARNING: Unknown thing type 4001 placed at (-2432, 2304)
+WARNING: Unknown thing type 4002 placed at (2496, 2304)
+WARNING: Unknown thing type 4003 placed at (2496, -2624)
+WARNING: Unknown thing type 4004 placed at (-2432, -2624)
+ERROR: FOF (line 284) has a top height below its bottom.
+Map is now "MAP61: Special Stage 2 Zone"
+<?> anyone gonna speedrun
+<Gabe> meee
+<Gabe> i always do
+<?> FAST AS FUCK
+<Siivonik *They/Them*> what are these stop signs lol
+<~Vertz1515> should we do race after this. or match & ctf
+<The_SonicEX> the fact that these special stages are harder then the 2.2 ones scares me
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+<~Vertz1515> thanks sonikky
+<Siivonik *They/Them*> i kinda wanna replay the 2.0 stuff
+Speeding off to level...
+Map is now "MAP62: Special Stage 3 Zone"
+<~Vertz1515> *sonikku
+<?> ez
+<@Sonix the sucky do> Best special stages by far
+Speeding off to level...
+Map is now "MAPB3: GREENFLOWER Zone 3"
+<@Sonix the sucky do> Nice job on that massacre
+*prism left the game
+*prism has rejoined the game (player 4)
+*prism left the game
+*prism has rejoined the game (player 4)
+*TheGabo has joined the game (player 6)
+*prism left the game
+<?> speed
+<?> S P E E D
+<sonic rode> ban doshog
+<Gabe> Gamer moment
+Speeding off to level...
+Map is now "MAPB4: TECHNO HILL Zone 1"
+Sonix the sucky do has completed the level.
+The_SonicEX has completed the level.
+Vertz1515 has completed the level.
+? has completed the level.
+<?> 3d
+<@Sonix the sucky do> Welcome to the demos I guess
+<?> wait nvm
+<?> not
+<?> last
+<Siivonik *They/Them*> welp
+Gabe has completed the level.
+xxfirestar18 has completed the level.
+<Siivonik *They/Them*> someones gotta get the tokens
+<Siivonik *They/Them*> oh nvm
+Speeding off to level...
+Map is now "MAP63: Special Stage 4 Zone"
+<Gabe> a
+<Siivonik *They/Them*> hey uhh after this
+<Siivonik *They/Them*> idk if you guys did
+<Siivonik *They/Them*> but can we replay 2.0
+<~Vertz1515> if everybody else wants to.
+<?> ok
+<Gabe> i love this metal sonic
+<~Vertz1515> I was planning on doing match.
+Speeding off to level...
+Map is now "MAP64: Special Stage 5 Zone"
+<@Sonix the sucky do> Sort of already did  that but I'm with Vertz here. If everybody wants to, then yes.
+<sonic rode> add rosy
+<?> add AIR
+<@Sonix the sucky do> Also, what a nice and totaly not eyebleeding Special Stage there.
+Speeding off to level...
+Map is now "MAPB5: TECHNO HILL Zone 2"
+<Siivonik *They/Them*> true
+<Siivonik *They/Them*> breh
+<?> yes
+<Gabe> i need rings
+The_SonicEX has completed the level.
+Vertz1515 has completed the level.
+<?> i need better bitches
+<Siivonik *They/Them*> imagine a level where countless detons chase after you
+*Lilac boi has joined the game (player 4)
+<Lilac boi> sup
+<~Vertz1515> hi
+$exitlevel
+<?> hi
+<Gabe> how
+<Lilac boi> ?I
+Speeding off to level...
+Map is now "MAPB6: TECHNO HILL Zone 3"
+<Siivonik *They/Them*> time to fight eggman and fall out of the map
+<Lilac boi> get em  boys
+<Gabe> aok
+<@Sonix the sucky do> I'll be chilling out outside of the arena thanks
+<Lilac boi> wow
+<Siivonik *They/Them*> time to go to the fatass castle
+Speeding off to level...
+Map is now "MAPB7: CASTLE EGGMAN Zone 1"
+*TheGabo left the game (Connection timeout)
+<~Vertz1515> fat af castle
+Screen shot srb20114.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.10\screenshots\
+<@Sonix the sucky do> Castle McDonalds Zans
+<Lilac boi> ?
+<~Vertz1515> inside jokes
+<Gabe> this is a castle?
+<Lilac boi> lol
+<Gabe> kinda looks like
+Gabe has completed the level.
+The_SonicEX has completed the level.
+<Siivonik *They/Them*> this is why i do not like tails mainsd
+Siivonik *They/Them* has completed the level.
+Lilac boi has completed the level.
+Vertz1515 has completed the level.
+<Lilac boi> haha
+<Lilac boi> token time
+<@Sonix the sucky do> Have no clue where I'm going
+<Siivonik *They/Them*> volcano time i think
+Speeding off to level...
+WARNING: No Co-op starts in this map!
+WARNING: No Deathmatch starts in this map!
+ERROR: No player spawns found, spawning at the first mapthing!
+Map is now "MAP65: Special Stage 6 Zone"
+*TheGabo has rejoined the game (player 6)
+<Gabe> chuck e cheese tokens
+<Lilac boi> wth
+<Siivonik *They/Them*> i played final demo zone many times
+<Lilac boi> uhh
+<Lilac boi> easy token?
+<Siivonik *They/Them*> this'll be easy
+<~Vertz1515> you'll have even less clue where you're going in the next zone
+<@Sonix the sucky do> But I think we still have another act of CEZ right?
+<Siivonik *They/Them*> we have the second act and boss
+<Gabe> best one yet
+<~Vertz1515> best zone
+Speeding off to level...
+Map is now "MAPB8: CASTLE EGGMAN Zone 2"
+<@Sonix the sucky do> Also, is SRB2 'Ween in this pack?
+<~Vertz1515> no. final demo is the last for now
+<~Vertz1515> i didn't add those yet
+<@Sonix the sucky do> Aww, I hoping to play through Superman 64
+<Gabe> bullish
+<sonic rode> add 2.1 rosy pls
+<Gabe> EEEE
+<Gabe> wait guys
+<@Sonix the sucky do> There doesn't need to be that many Crawlas
+<Gabe> button
+<?> i got one token
+<@Sonix the sucky do> Gotta love Clearly Superior Knuckles
+<Lilac boi> nice
+Siivonik *They/Them* has completed the level.
+Sonix the sucky do has completed the level.
+<Siivonik *They/Them*> hehe
+<Gabe> ill get the button then
+Vertz1515 has completed the level.
+xxfirestar18 has completed the level.
+The_SonicEX has completed the level.
+<?> k nice
+<~Vertz1515> found the last button
+<The_SonicEX> last one
+<Siivonik *They/Them*> final chuck e cheese token
+<Gabe> oh
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP66: Special Stage 6 Zone"
+<Siivonik *They/Them*> so we can turn into chuck e cheese himself
+<Lilac boi> specal stage 6 again?
+<Lilac boi> didnt we just do this
+<The_SonicEX> we did it
+<The_SonicEX> yeay
+<@Sonix the sucky do> Nah, it's special stage 1
+<TheGabo> what
+<Lilac boi> yessir
+<Gabe> SUPER
+<Siivonik *They/Them*> who cares we got the emeralds
+<?> lets go
+<~Vertz1515> it's not an oversight
+Speeding off to level...
+WARNING: Unknown thing type 146 placed at (-3648, 256)
+WARNING: Unknown thing type 146 placed at (-3648, -256)
+WARNING: Unknown thing type 146 placed at (4160, -256)
+WARNING: Unknown thing type 146 placed at (4160, 256)
+WARNING: Unknown thing type 146 placed at (-384, -3520)
+WARNING: Unknown thing type 146 placed at (128, -3520)
+WARNING: Unknown thing type 146 placed at (128, 4288)
+WARNING: Unknown thing type 146 placed at (-384, 4288)
+WARNING: Unknown thing type 146 placed at (-64, 704)
+WARNING: Unknown thing type 146 placed at (-64, -768)
+WARNING: Unknown thing type 146 placed at (832, 0)
+WARNING: Unknown thing type 146 placed at (832, -896)
+WARNING: Unknown thing type 146 placed at (832, 832)
+WARNING: Unknown thing type 146 placed at (-64, -896)
+WARNING: Unknown thing type 146 placed at (-960, -896)
+WARNING: Unknown thing type 146 placed at (-960, -64)
+WARNING: Unknown thing type 146 placed at (-960, 832)
+WARNING: Unknown thing type 146 placed at (-64, 832)
+Map is now "MAPB9: CASTLE EGGMAN Zone 3"
+Gabe has completed the level.
+$exitlevel
+<TheGabo> ez
+<Lilac boi> easy
+<Siivonik *They/Them*> we did it
+<The_SonicEX> gg
+<Siivonik *They/Them*> 2.0 time
+<Gabe> E A
+<Gabe> sy
+*sonic rode left the game
+<Lilac boi> huh
+<Lilac boi> thats it?
+<@Sonix the sucky do> Ayo, did I kill Robotnik?
+<Gabe> Guys
+<?> what the fuck
+<Siivonik *They/Them*> s k i p
+<The_SonicEX> it was fun y'all
+\\\\\\\\\\\\\\\\\\\Multiplayer games can't unlock extras!
+<Lilac boi> rip
+<Siivonik *They/Them*> alr
+*TheGabo left the game (Connection timeout)
+<Gabe> This is the game, of all time
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+<~Vertz1515> so 2.0 or Match?
+<Lilac boi> 2.0
+*TheGabo has rejoined the game (player 6)
+<Siivonik *They/Them*> let's do 2.1
+<?> are we done?
+<Siivonik *They/Them*> or ykw
+The_SonicEX has completed the level.
+<Siivonik *They/Them*> 2.0
+Gabe has completed the level.
+<Lilac boi> 2.1 then
+<@Sonix the sucky do> I have no preference.
+*? left the game
+<@Sonix the sucky do> But I suppose 2.1
+Siivonik *They/Them* has completed the level.
+<~Vertz1515> let's just do 2.0 and then we'll do match
+<@Sonix the sucky do> 2.0
+$map mapa1
+Speeding off to level...
+Map is now "MAPA1: GREENFLOWER Zone 1"
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Vertz1515 has completed the level.
+Gabe has completed the level.
+Lilac boi has completed the level.
+The_SonicEX has completed the level.
+<Lilac boi> 3t=rd
+Sonix the sucky do has completed the level.
+<Lilac boi> 3rd'
+<TheGabo> dam
+Speeding off to level...
+Map is now "MAPA2: GREENFLOWER Zone 2"
+<Siivonik *They/Them*> imagine a secret harder mode than ultamine
+<Siivonik *They/Them*> ultimate
+<Lilac boi> i wasgoona ask
+Vertz1515 has completed the level.
+The_SonicEX has completed the level.
+<Lilac boi> can u add green eyes?
+Lilac boi has completed the level.
+Gabe has completed the level.
+Sonix the sucky do has completed the level.
+<Gabe> flare
+<TheGabo> was i 3rd
+<TheGabo> lol
+Speeding off to level...
+Map is now "MAPA3: GREENFLOWER Zone 3"
+<Siivonik *They/Them*> can u add sms?!?!?!?!??!?!?!?!?!
+<Lilac boi> i was  4th]
+<Lilac boi> ye
+<Lilac boi> pls
+<@Sonix the sucky do> Love this arena
+<Lilac boi> can u add sms?
+<Siivonik *They/Them*> time to bully the egg
+<TheGabo> eggman gettin jumped
+*TheSpeedyBlur has joined the game (player 2)
+<The_SonicEX> facts
+<~Vertz1515> i actually tried to part sms before lol.
+Speeding off to level...
+Map is now "MAPA4: TECHNO HILL Zone 1"
+<TheSpeedyBlur> hello
+<~Vertz1515> *port
+<TheSpeedyBlur> a
+Sonix the sucky do has completed the level.
+The_SonicEX has completed the level.
+<@Sonix the sucky do> Ah sweet
+<~Vertz1515> should we do compitition
+Gabe has completed the level.
+<TheSpeedyBlur> idk
+Vertz1515 has completed the level.
+Lilac boi has completed the level.
+<@Sonix the sucky do> Let's spice it up, yah.
+<The_SonicEX> why does doshog make a thok sound when skidding
+<Lilac boi> ?
+<Siivonik *They/Them*> oh ok
+<TheSpeedyBlur> a
+Speeding off to level...
+Map is now "MAPA5: TECHNO HILL Zone 2"
+<~Vertz1515> i didn't make doshog
+<TheSpeedyBlur> what?
+Gametype was changed from Co-op to Competition
+Speeding off to level...
+Map is now "MAP05: TECHNO HILL Zone 2"
+Time limit disabled
+Time limit disabled
+<Lilac boi> BET'
+*ChillCat has joined the game (player 7)
+$map mapa5
+Speeding off to level...
+Map is now "MAPA5: TECHNO HILL Zone 2"
+*TheSpeedyBlur left the game
+<Lilac boi> WTH
+*TheSpeedyBlur has rejoined the game (player 2)
+<TheSpeedyBlur> ello
+The_SonicEX has completed the level.
+<The_SonicEX> im fist
+<The_SonicEX> first
+<@Sonix the sucky do> DosHog is too powerful for my own good
+Vertz1515 has completed the level.
+<TheSpeedyBlur> oh lel
+TheGabo has completed the level.
+<Gabe> does anyone know that flare 2.0 mod?
+xxfirestar18 has completed the level.
+Siivonik *They/Them* has completed the level.
+<TheSpeedyBlur> yes
+<The_SonicEX> no
+<Gabe> My favorite
+TheSpeedyBlur ran out of time.
+ChillCat ran out of time.
+*Siivonik *They/Them* left the game
+<TheSpeedyBlur> how to insta shields
+The round has ended.
+<Lilac boi> DAM
+<TheSpeedyBlur> can we do coop
+Speeding off to level...
+Map is now "MAPB1: GREENFLOWER Zone 1"
+<TheSpeedyBlur> COOOOOOOOOOP
+<Lilac boi> no
+<Lilac boi> rac
+The_SonicEX has completed the level.
+Sonix the sucky do has completed the level.
+*The_SonicEX renamed to The_SonicEXE
+Vertz1515 has completed the level.
+Lilac boi has completed the level.
+Gabe has completed the level.
+xxfirestar18 has completed the level.
+<Lilac boi> 4th
+<Gabe> stuck
+TheGabo has completed the level.
+<The_SonicEXE> first again
+<@Sonix the sucky do> Completed it with no rings, I'm screwed.
+<~Vertz1515> i have 2 rings lmao
+<Lilac boi> lmao
+<The_SonicEXE> i have 19
+<The_SonicEXE> 18
+<Lilac boi> i got 20
+<Gabe> I have 6
+TheSpeedyBlur ran out of time.
+Siivonik *They/Them* ran out of time.
+ChillCat ran out of time.
+<@Sonix the sucky do> GG
+<Lilac boi> g
+<Lilac boi> gg
+<The_SonicEXE> gg
+The round has ended.
+<Gabe> gg
+<TheGabo> ggs
+<Lilac boi> 5th???
+<The_SonicEXE> yey im firts
+<TheGabo> WAIT 3RD
+Speeding off to level...
+Map is now "MAPB2: GREENFLOWER Zone 2"
+<Lilac boi> thought i was 4th
+Vertz1515 has completed the level.
+<Lilac boi> bruh
+<TheSpeedyBlur> what
+Gabe has completed the level.
+The_SonicEXE has completed the level.
+<Gabe> 2nd
+<The_SonicEXE> im third
+<The_SonicEXE> i think
+TheGabo has completed the level.
+Lilac boi has completed the level.
+Sonix the sucky do has completed the level.
+xxfirestar18 has completed the level.
+<Lilac boi> the spring part messed me up
+<Lilac boi> wait...
+<Lilac boi> what if u add just sonic mods
+*ColonelSuperior has joined the game (player 5)
+<@Sonix the sucky do> Hopefully me trying to hit enemies and attempt to get rings helps
+<Lilac boi> we can do sonic racces
+<ColonelSuperior> hello
+TheSpeedyBlur ran out of time.
+ColonelSuperior ran out of time.
+ChillCat ran out of time.
+<Gabe> fart stinkers and smart thinkers
+The round has ended.
+<The_SonicEXE> oh
+<The_SonicEXE> im second
+<TheGabo> WHAT?
+<@Sonix the sucky do> Hey, I'm in second!
+Speeding off to level...
+Map is now "MAPB3: GREENFLOWER Zone 3"
+<Gabe> HUH/
+<Lilac boi> wth
+<~Vertz1515> lmao
+<Lilac boi> im laggin
+<Gabe> glithing out here
+<The_SonicEXE> lord have mercy
+<@Sonix the sucky do> The lag is eating my inputs like a 300 pound obese person at a buffet
+The round has ended.
+<~Vertz1515> everybody's ping is shit rn
+<TheGabo> bruh my gah damn lag
+<Lilac boi> rn
+Speeding off to level...
+Map is now "MAPB4: TECHNO HILL Zone 1"
+<Lilac boi> bro
+<@Sonix the sucky do> I can't play the game anymore
+<Lilac boi> lag eating my inputs
+<Gabe> oa
+<Gabe> I cant do it
+<ColonelSuperior> can't even play
+<TheGabo> i cant
+Vertz1515 has completed the level.
+<The_SonicEXE> i cant jump
+<TheGabo> i fricking cant
+<~Vertz1515> idk why this is happening
+<@Sonix the sucky do> MAKE IT END
+<Lilac boi> pause the game or sum
+<Gabe> i cant move
+<~Vertz1515> is it better now?
+<Lilac boi> PAUSE THE AME
+<Lilac boi> HELP US
+<Lilac boi> o
+<Lilac boi> yes
+<@Sonix the sucky do> JUST PUT ME OUT OF MY MISERY
+Viewpoint: Sonix the sucky do
+Viewpoint: TheSpeedyBlur
+<Lilac boi> we can move nowz!
+Viewpoint: xxfirestar18
+Viewpoint: Lilac boi
+Viewpoint: ColonelSuperior
+<Lilac boi> but were not goona mke it
+<@Sonix the sucky do> Didn't stop me from getting a game over thanks to lag
+Speeding off to level...
+Map is now "MAPB4: TECHNO HILL Zone 1"
+<TheGabo> nah i aint making it
+<Lilac boi> thank god
+<Gabe> arhg
+<~Vertz1515> lets retry
+The_SonicEXE has completed the level.
+<The_SonicEXE> im first
+<The_SonicEXE> yay
+ColonelSuperior has completed the level.
+Sonix the sucky do has completed the level.
+Lilac boi has completed the level.
+xxfirestar18 has completed the level.
+Gabe has completed the level.
+<@Sonix the sucky do> Trying to take a methodical approach to this
+<Gabe> I finally made it
+Vertz1515 ran out of time.
+TheSpeedyBlur ran out of time.
+TheGabo ran out of time.
+ChillCat ran out of time.
+<TheGabo> i went the wrong way
+The round has ended.
+<Lilac boi> rip
+<@Sonix the sucky do> Worked in my favor I see
+Speeding off to level...
+Map is now "MAPB5: TECHNO HILL Zone 2"
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+Updated master server listing.
+Resending game state to TheGabo...
+Vertz1515 has completed the level.
+<Lilac boi> great im ded
+<TheGabo> thats it
+<TheGabo> im dead
+<Lilac boi> i like other act 2 better
+<The_SonicEXE> whatever
+ColonelSuperior has completed the level.
+*ColonelSuperior left the game
+<The_SonicEXE> well
+xxfirestar18 has completed the level.
+Viewpoint: Sonix the sucky do
+Sonix the sucky do has completed the level.
+Viewpoint: TheSpeedyBlur
+Viewpoint: xxfirestar18
+Viewpoint: Lilac boi
+Viewpoint: ColonelSuperior
+Viewpoint: TheGabo
+Viewpoint: ChillCat
+Viewpoint: The_SonicEXE
+Viewpoint: Gabe
+Viewpoint: Vertz1515
+Viewpoint: Sonix the sucky do
+Viewpoint: TheSpeedyBlur
+Viewpoint: xxfirestar18
+<@Sonix the sucky do> I had like 50 rings and lost them all
+<Gabe> dfstnklhuegnyil
+The round has ended.
+Speeding off to level...
+Map is now "MAPB6: TECHNO HILL Zone 3"
+$map mapa1
+Speeding off to level...
+Map is now "MAPA1: GREENFLOWER Zone 1"
+$map mapaa
+WARNING: CASTLE EGGMAN Zone 1 (MAPAA) doesn't support Competition mode!
+(Use -force to override)
+$map mapaa -force
+Speeding off to level...
+Map is now "MAPAA: CASTLE EGGMAN Zone 1"
+<Lilac boi> BRO
+<Lilac boi> IM STUCK
+Viewpoint: Sonix the sucky do
+Viewpoint: TheSpeedyBlur
+Viewpoint: xxfirestar18
+Viewpoint: Lilac boi
+Viewpoint: TheGabo
+<Gabe> where do i go?
+<~Vertz1515> wanna do match after this?
+<Lilac boi> sure
+<Gabe> yes
+<~Vertz1515> ok
+Gametype was changed from Competition to Match
+Speeding off to level...
+Map is now "MAP74: Zero Ring Zone"
+Point limit disabled
+Levels will end after 10 minutes.
+Vertz1515 entered the game.
+Sonix the sucky do entered the game.
+Lilac boi entered the game.
+xxfirestar18 entered the game.
+Gabe entered the game.
+Lilac boi died.
+Lilac boi became a spectator.
+Lilac boi entered the game.
+Lilac boi died.
+Lilac boi became a spectator.
+<The_SonicEXE> let me in
+Sonix the sucky do died.
+Sonix the sucky do became a spectator.
+The_SonicEXE entered the game.
+Lilac boi entered the game.
+Sonix the sucky do entered the game.
+*xxfirestar18 left the game
+*Lilac boi left the game
+TheGabo entered the game.
+Vertz1515's thrown ring hit Gabe.
+Gabe's thrown ring hit TheGabo.
+*sodge the hodge podge has joined the game (player 5)
+Vertz1515's thrown ring hit Gabe.
+sodge the hodge podge entered the game.
+TheGabo's thrown ring hit Gabe.
+sodge the hodge podge died.
+sodge the hodge podge became a spectator.
+Sonix the sucky do's thrown ring hit The_SonicEXE.
+ChillCat entered the game.
+*ChillCat left the game
+*Sonix the sucky do left the game
+*sodge the hodge podge left the game
+*TheGabo left the game
+*Gabe left the game
+*The_SonicEXE left the game
+*TheSpeedyBlur left the game
+*ChillCat has rejoined the game (player 7)
+*ChillCat left the game
+*ChillCat has rejoined the game (player 7)
+*ChillCat left the game
+*ChillCat has rejoined the game (player 7)
+*ChillCat left the game
+Viewpoint: Vertz1515
+Viewpoint: Vertz1515
+Vertz1515 died.
+Vertz1515 became a spectator.
+Viewpoint: Sonix the sucky do
+Viewpoint: TheGabo
+Viewpoint: ChillCat
+Viewpoint: The_SonicEXE
+Viewpoint: Gabe
+Vertz1515 entered the game.
+Vertz1515 died.
+Vertz1515 became a spectator.
+Vertz1515 entered the game.
+The round has ended.
+Speeding off to level...
+Map is now "MAP75: Orange Crater Zone"
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/update'...
+ERROR: There was a problem contacting the master server...
+From curl_easy_perform: Couldn't resolve host name
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+ERROR: There was a problem contacting the master server...
+From curl_easy_perform: Couldn't resolve host name
+Speeding off to level...
+Map is now "MAP74: Zero Ring Zone"
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

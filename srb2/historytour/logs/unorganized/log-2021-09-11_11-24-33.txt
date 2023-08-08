@@ -1,0 +1,188 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-09-11_11-24-33.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Map is now "MAP01: Greenflower Zone 1"
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: Greenflower Zone 1"
+*maxi has joined the game (player 1)
+<maxi> hello
+<~ImpatientHedgehog15> hu
+<~ImpatientHedgehog15> i'm just testing my port
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/225751/unlist'...
+Server deregistration request successfully sent.
+Movie mode enabled (GIF).
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+Contacting the server...
+Network game synchronization aborted.
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+Contacting the server...
+Network game synchronization aborted.
+WARNING: Demo version does not match game version. Desyncs may occur.
+Starting Server....
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.9
+Speeding off to level...
+Added ghost ImpatientHedgeho from MAP01-sonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-score-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-time-best.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-rings-best.lmp
+Added ghost ImpatientHedgeho from MAP01-sonic-last.lmp
+Added ghost ImpatientHedgeho from MAP01-tails-last.lmp
+Added ghost ImpatientHedgeho from MAP01-knuckles-last.lmp
+Added ghost ImpatientHedgeho from MAP01-fang-last.lmp
+Added ghost ImpatientHedgeho from MAP01-metalsonic-last.lmp
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+Contacting the server...
+Network game synchronization aborted.
+Binding to 0.0.0.0
+Network system buffer: 64Kb
+Contacting the server...
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

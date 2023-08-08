@@ -1,0 +1,1985 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+ERROR: Mix_LoadMUS_RW: Unrecognized audio format
+ERROR: Music _clear could not be loaded: engine failure!
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-07-22_13-36-52.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\2.0zones.wad (213 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\2.0zones.wad
+WARNING: Line 32: Level header 103: unknown word 'NOPERFECTBONUS'
+WARNING: Line 142: Unknown word: SUBTITLE
+WARNING: Line 179: Level header 17: unknown word 'NOPERFECTBONUS'
+3 warnings in the SOC lump
+MAPA1
+MAPA2
+MAPA3
+MAPA4
+MAPA5
+MAPA6
+MAPA7
+MAPA8
+MAPA9
+MAPAC
+MAPAD
+MAPAE
+MAPAH
+MAPAI
+MAPAF
+MAPAG
+MAPAB
+MAPAA
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\AIRHELL.wad (13 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\AIRHELL.wad
+1 digital musics replaced
+MAP69
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3 (196 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3|Lua/LuaSpinsound
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\crustcidna.pk3|SOC/SOC_CRUST
+WARNING: unexpected symbol near '<eof>'
+crustcidna.pk3 added 5 frames in 2 sprites
+Added skin 'crustcidna'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad (328 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+32 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\extras.wad (1 lumps)
+1 sounds replaced
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\finaldemo.wad (102 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\finaldemo.wad
+1 midi musics replaced
+MAPB3
+MAPB6
+MAPB1
+MAPB2
+MAPB4
+MAPB5
+MAPB7
+MAPB8
+MAPB9
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3 (221 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3|Lua/LuaSpinsound
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hedge.pk3|SOC/SOC_HEDGE
+WARNING: unexpected symbol near '<eof>'
+hedge.pk3 added 1 frames in 1 sprites
+Added skin 'hedgenic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3 (155 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Stuff
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoSlide
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_OldGlideLogic
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|SOC/MAINCFG
+knux.pk3 added 1 frames in 1 sprites
+Added skin 'k.t.e'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3 (194 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|Lua/Lua_Sdash
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|Lua/Lua_Fly
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\miles.pk3|SOC/MAINCFG
+miles.pk3 added 1 frames in 1 sprites
+Added skin 'miles'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua
+WARNING: ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: the Terminal core script must be added first!
+stack traceback:
+    [C]: in function 'assert'
+    ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: in main chunk
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1662>
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3 (392 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\xmastails.pk3|SOC/MAINCFG
+xmastails.pk3 added 1 frames in 1 sprites
+Added skin 'xmastails'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad (618 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad
+31 midi musics replaced
+MAP74
+MAP76
+MAP78
+MAP80
+MAP79
+MAP75
+MAP77
+MAP81
+MAP60
+MAP61
+MAP62
+MAP63
+MAP64
+MAP65
+MAP66
+executing C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\EarlyGang.txt
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+$banskin sonic
+Skin "sonic" has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+$banskin tails
+Skin "tails" has been banned.
+You currently cannot play with the skin "tails" as it has been banned.
+$banskin knuckles
+Skin "knuckles" has been banned.
+You currently cannot play with the skin "knuckles" as it has been banned.
+$banskin amy
+Skin "amy" has been banned.
+You currently cannot play with the skin "amy" as it has been banned.
+$banskin fang
+Skin "fang" has been banned.
+You currently cannot play with the skin "fang" as it has been banned.
+$banskin metal
+You can't ban a nonexistent skin!
+$banskin metalsonic
+Skin "metalsonic" has been banned.
+You currently cannot play with the skin "metalsonic" as it has been banned.
+$map map60
+WARNING: Special Stage 1 Zone (MAP60) doesn't support Co-op mode!
+(Use -force to override)
+$map map60 -force
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP60: Special Stage 1 Zone"
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Contacting the server...
+Connecting to: The Early Gang
+Gametype: Co-op
+Version: 2.2.9
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+You currently cannot play with the skin "sonic" as it has been banned.
+Map is now "MAP01: GREENFLOWER Zone 1"
+You currently cannot play with the skin "sonic" as it has been banned.
+$maxsend max
+$password msmsms2
+Password set.
+*OGAmyDroid has joined the game (player 1)
+Viewpoint: OGAmyDroid
+OGAmyDroid has completed the level.
+Players now only spawn when starposts are hit.
+Starposts are now shared between players.
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP60: Special Stage 1 Zone"
+*Edd has joined the game (player 2)
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: in function '?'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1608: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1582>
+<OGAmyDroid> hello
+<~ImpatientHedgehog15> hi
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+<Edd> sup
+<Edd> oh no
+<Edd> the resynch.
+<Edd> wait
+<Edd> brb
+*Edd left the game
+*Edd has rejoined the game (player 2)
+<Edd> sup
+*Edd left the game
+*Edd has rejoined the game (player 2)
+<Edd> back
+OGAmyDroid has completed the level.
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+<OGAmyDroid> yo
+<~ImpatientHedgehog15> hold on
+<~ImpatientHedgehog15> emerald token
+<Edd> they finally working
+ImpatientHedgehog15 has completed the level.
+<~ImpatientHedgehog15> WHAT IS/
+<~ImpatientHedgehog15> what is?
+<Edd> my models
+<~ImpatientHedgehog15> no
+*Suit has joined the game (player 3)
+<~ImpatientHedgehog15> I don't use openGL
+<OGAmyDroid> what models do ya use?
+<Edd> im saying i just fixed my models
+<Suit> Did you remove miles?
+OGAmyDroid has completed the level.
+<~ImpatientHedgehog15> no
+<~ImpatientHedgehog15> they are orderd weirdly
+<Suit> oh
+<Suit> ok
+Speeding off to level...
+WARNING: Unknown thing type 4001 placed at (-2432, 2304)
+WARNING: Unknown thing type 4002 placed at (2496, 2304)
+WARNING: Unknown thing type 4003 placed at (2496, -2624)
+WARNING: Unknown thing type 4004 placed at (-2432, -2624)
+ERROR: FOF (line 284) has a top height below its bottom.
+Map is now "MAP61: Special Stage 2 Zone"
+<Suit> i wouldnt care if he was gone i still gotta fix him
+<Edd> bro this knux
+<~ImpatientHedgehog15> this special stage took an hour to port :)
+<Edd> hm
+<Edd> welp ok
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+<Edd> only f sonic are with an model
+<Suit> so you dont use opengl?
+<OGAmyDroid> i have like 
+<Edd> i use
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+<~ImpatientHedgehog15> no... SRB2 crashes when I use it
+<OGAmyDroid> two things with models
+<Suit> are you in fullscreen
+<~ImpatientHedgehog15> no
+<Suit> huh
+<Suit> so its not opengl optimization problems
+<Edd> am also with a high quality
+<Suit> well that sucks
+<Edd> with opengl
+*Fyrid has joined the game (player 4)
+<Suit> you dont get mouselook
+<Edd> and models
+<~ImpatientHedgehog15> I just need to updte my graphics driver
+<Edd> does knux likes smiles
+OGAmyDroid has completed the level.
+<~ImpatientHedgehog15> I do have a computer with OPENGL but I didn't port it forward
+Suit has completed the level.
+<Suit> i need to learn how you do port forwarding
+Edd has completed the level.
+<Suit> if i did i would host every day
+<~ImpatientHedgehog15> it's not hard
+Speeding off to level...
+Map is now "MAP62: Special Stage 3 Zone"
+<Suit> i know, but for some reason for my entire life its been ahrd
+<Suit> hard
+<OGAmyDroid> bop time
+<Suit> woah
+<~ImpatientHedgehog15> anime music time
+<Suit> the music
+*gianni has joined the game (player 5)
+<OGAmyDroid> dang, expected to go into the water
+<Suit> putting gm sf2 in now
+Speeding off to level...
+Map is now "MAP05: TECHNO HILL Zone 2"
+*gianni left the game
+*gianni has rejoined the game (player 5)
+*gianni left the game
+<OGAmyDroid> welp
+Suit has completed the level.
+<OGAmyDroid> i now see why they removed the elevator
+*gianni has rejoined the game (player 5)
+<gianni> i s e e
+<gianni> i seee
+OGAmyDroid has completed the level.
+<~ImpatientHedgehog15> the elevator
+<~ImpatientHedgehog15> was cool though
+<Suit> im gonna brb
+<gianni> thots
+Edd has completed the level.
+ImpatientHedgehog15 has completed the level.
+<Suit> ping me in discord whenever you hit a special stage and ill rejoin
+<Suit> im gonna try to fix miles and hedge
+<gianni> idk is a idh
+<Fyrid> can you add hms123
+Speeding off to level...
+Map is now "MAP06: TECHNO HILL Zone 3"
+*HandDrawn Final Demo has joined the game (player 6)
+<OGAmyDroid>  i have models for fsonic and uglyknux
+<HandDrawn Final Demo> im back
+*Suit left the game
+<Suit> ok
+*Suit has rejoined the game (player 3)
+*Suit left the game
+*Suit has rejoined the game (player 3)
+<Suit> oh
+*Suit left the game
+<Suit> Did you remove miles?
+*Suit has rejoined the game (player 3)
+*Suit left the game
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<gianni> yes
+<OGAmyDroid> funni leave bug
+<Edd> can you gimme these models og?
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+Map is now "MAP07: DEEP SEA Zone 1"
+<OGAmyDroid> hm i could try
+<Edd> do you have discord
+<~ImpatientHedgehog15> yes
+<OGAmyDroid> yeah
+<Edd> so add me
+<gianni> add me
+<Edd> edd `-`#4241
+Screen shot srb20081.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+*chungus bungus has joined the game (player 7)
+<gianni> me gianni.wad
+*icy tails has joined the game (player 8)
+*gianni left the game
+Edd has completed the level.
+ImpatientHedgehog15 has completed the level.
+<Edd> lol
+<Edd> how i got first
+OGAmyDroid has completed the level.
+<Edd> so
+<OGAmyDroid> what's up?
+<Edd> sup
+*HandDrawn Final Demo left the game (Connection timeout)
+Fyrid has completed the level.
+<Edd> are you with ugly knux model
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (7968, 12064)
+WARNING: Unknown thing type 524 placed at (7616, 7488)
+WARNING: Unknown thing type 524 placed at (7616, 7808)
+WARNING: Unknown thing type 524 placed at (8704, 8320)
+WARNING: Unknown thing type 524 placed at (8704, 8576)
+WARNING: Unknown thing type 524 placed at (7616, 9152)
+WARNING: Unknown thing type 524 placed at (7776, 10208)
+WARNING: Unknown thing type 524 placed at (7776, 12864)
+WARNING: Unknown thing type 524 placed at (8032, 12864)
+WARNING: Unknown thing type 524 placed at (5952, 14880)
+WARNING: Unknown thing type 524 placed at (6336, 14880)
+WARNING: Unknown thing type 524 placed at (7840, 7648)
+WARNING: Unknown thing type 524 placed at (7904, 12096)
+WARNING: Unknown thing type 524 placed at (7776, 12096)
+WARNING: Unknown thing type 524 placed at (8032, 12096)
+WARNING: Unknown thing type 524 placed at (7840, 12064)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAP08: DEEP SEA Zone 2"
+*HandDrawn Final Demo has rejoined the game (player 6)
+<HandDrawn Final Demo> errors man
+<HandDrawn Final Demo> it keeps yw
+<HandDrawn Final Demo> yk
+<~ImpatientHedgehog15> everybody's ping goes up when my midi restarts
+*IT Ryan #FangGang has joined the game (player 3)
+<OGAmyDroid> mmm
+<chungus bungus> mmmm cow
+*icy tails left the game
+<OGAmyDroid> there sent you the friend request edd
+ImpatientHedgehog15 has completed the level.
+<Edd> ok
+OGAmyDroid has completed the level.
+<chungus bungus> thx
+<Edd> np
+<HandDrawn Final Demo> oof
+Edd has completed the level.
+<Edd> accepted
+IT Ryan #FangGang has completed the level.
+chungus bungus has completed the level.
+Players now only spawn when starposts are hit.
+Starposts are now per-player.
+Starposts are now shared between players.
+Players now only spawn when starposts are hit.
+Starposts are now per-player.
+Starposts are now shared between players.
+Players now only spawn when starposts are hit.
+Starposts are now per-player.
+Players now only spawn when starposts are hit.
+Starposts are now shared between players.
+Lives are now shared between players.
+<chungus bungus> ulgy knuxk is amazing
+Speeding off to level...
+Map is now "MAP10: CASTLE EGGMAN Zone 1"
+<~ImpatientHedgehog15> we're doing single pool lives
+<Edd> true
+<~ImpatientHedgehog15> don't steal
+<Edd> k
+<chungus bungus> o
+*Fyrid left the game
+*HandDrawn Final Demo left the game (Connection timeout)
+<Edd> bro this acceleration
+Players can now respawn indefinitely.
+Lives are now shared between players.
+<chungus bungus> its amazing
+<Edd> yes
+<chungus bungus> doshog is the REAL SONIC
+Players can now steal lives to avoid game over.
+Lives are now per-player.
+Players can now steal lives to avoid game over.
+OGAmyDroid has completed the level.
+Edd has completed the level.
+ImpatientHedgehog15 has completed the level.
+Speeding off to level...
+Map is now "MAP63: Special Stage 4 Zone"
+<Edd> og
+<chungus bungus> wtf is this special stage
+<~ImpatientHedgehog15> idk
+<~ImpatientHedgehog15> took a long time to port though
+<chungus bungus> u ported this mod
+<~ImpatientHedgehog15> it's not a mod
+<chungus bungus> oh?
+*IT Ryan #FangGang left the game
+*IT Ryan #FangGang has rejoined the game (player 3)
+*IT Ryan #FangGang left the game
+*IT Ryan #FangGang has rejoined the game (player 3)
+*IT Ryan #FangGang left the game
+*IT Ryan #FangGang has rejoined the game (player 3)
+*IT Ryan #FangGang left the game
+<~ImpatientHedgehog15> These are the demo 4 special stages
+Speeding off to level...
+WARNING: Unknown thing type 525 placed at (-13792, -10592)
+WARNING: Unknown thing type 525 placed at (-14432, -12064)
+WARNING: Unknown thing type 525 placed at (-13376, -13280)
+WARNING: Unknown thing type 525 placed at (-14624, -13696)
+WARNING: Unknown thing type 525 placed at (-15584, -12768)
+WARNING: Unknown thing type 525 placed at (-16704, -8480)
+WARNING: Unknown thing type 525 placed at (-17984, -12448)
+WARNING: Unknown thing type 525 placed at (-16992, -11616)
+WARNING: Unknown thing type 525 placed at (-17920, -10720)
+WARNING: Unknown thing type 525 placed at (-15968, -11360)
+WARNING: Unknown thing type 525 placed at (-14944, -10304)
+WARNING: Unknown thing type 525 placed at (-13920, -9312)
+WARNING: Unknown thing type 525 placed at (-14656, -8608)
+WARNING: Unknown thing type 525 placed at (-16000, -9088)
+WARNING: Unknown thing type 525 placed at (-16768, -10368)
+WARNING: Unknown thing type 525 placed at (-17920, -8704)
+WARNING: Unknown thing type 526 placed at (-18784, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7904)
+WARNING: Unknown thing type 526 placed at (-18720, -7840)
+WARNING: Unknown thing type 526 placed at (-18464, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7968)
+WARNING: Unknown thing type 526 placed at (-18400, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8032)
+WARNING: Unknown thing type 526 placed at (-18720, -8032)
+WARNING: Unknown thing type 526 placed at (-18528, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8160)
+WARNING: Unknown thing type 526 placed at (-18656, -7840)
+WARNING: Unknown thing type 526 placed at (-18592, -7840)
+WARNING: Unknown thing type 526 placed at (-18656, -7904)
+WARNING: Unknown thing type 526 placed at (-18592, -7904)
+WARNING: Unknown thing type 526 placed at (-19200, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9024)
+WARNING: Unknown thing type 526 placed at (-19264, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9152)
+WARNING: Unknown thing type 526 placed at (-12928, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7840)
+WARNING: Unknown thing type 526 placed at (-13056, -7840)
+WARNING: Unknown thing type 526 placed at (-13184, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7968)
+WARNING: Unknown thing type 526 placed at (-12928, -8032)
+WARNING: Unknown thing type 526 placed at (-12928, -8096)
+WARNING: Unknown thing type 526 placed at (-18784, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13728)
+WARNING: Unknown thing type 526 placed at (-18784, -13664)
+WARNING: Unknown thing type 526 placed at (-18528, -13984)
+Map is now "MAP11: CASTLE EGGMAN Zone 2"
+<chungus bungus> o
+<Edd> og-
+*IT Ryan #FangGang has rejoined the game (player 3)
+<Edd> og?
+<~ImpatientHedgehog15> ?
+<OGAmyDroid> yes
+<Edd> where is the models codes
+<OGAmyDroid> oh right
+<OGAmyDroid> they're all 3.0 0.0
+<Edd> ok
+ImpatientHedgehog15 has completed the level.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Master server registration successful.
+<Edd> what i put here
+Viewpoint: OGAmyDroid
+Viewpoint: Edd
+<chungus bungus> idk
+Edd has completed the level.
+<chungus bungus> how do i get out of here
+Viewpoint: OGAmyDroid
+Viewpoint: Edd
+Viewpoint: IT Ryan #FangGang
+Viewpoint: chungus bungus
+<~ImpatientHedgehog15> tails
+<~ImpatientHedgehog15> xmastails
+<IT Ryan #FangGang> lmao
+<chungus bungus> this one?
+<~ImpatientHedgehog15> that's knuckles
+*HandDrawn Final Demo has joined the game (player 4)
+<chungus bungus> o
+Viewpoint: ImpatientHedgehog15
+Viewpoint: OGAmyDroid
+Viewpoint: Edd
+Viewpoint: IT Ryan #FangGang
+Viewpoint: HandDrawn Final Demo
+Viewpoint: chungus bungus
+Viewpoint: ImpatientHedgehog15
+<chungus bungus> thx
+<HandDrawn Final Demo> im just gonna play normaly
+*Suit has joined the game (player 5)
+chungus bungus has completed the level.
+<Edd> is knux hair longer
+Suit passed authentication.
+<~ImpatientHedgehog15> no it's better
+Resending game state to HandDrawn Final Demo...
+IT Ryan #FangGang has completed the level.
+<Edd> oh k
+<IT Ryan #FangGang> i won
+Speeding off to level...
+Map is now "MAP13: ARID CANYON Zone 1"
+<IT Ryan #FangGang> oh n
+<IT Ryan #FangGang> ohno
+<HandDrawn Final Demo> suit
+<@Suit> yeah
+<HandDrawn Final Demo> need a lift
+<@Suit> im good
+<HandDrawn Final Demo> here
+<HandDrawn Final Demo> i need to
+<HandDrawn Final Demo> wait
+<@Suit> im knuckles
+<HandDrawn Final Demo> oh
+<@Suit> play as xmas tails or miles
+ImpatientHedgehog15 has completed the level.
+<chungus bungus> wtf do i go
+<@Suit> impatient
+<@Suit> f12 me
+Viewpoint: OGAmyDroid
+Viewpoint: Edd
+Viewpoint: IT Ryan #FangGang
+Viewpoint: HandDrawn Final Demo
+Viewpoint: Suit
+<~ImpatientHedgehog15> hmm
+<@Suit> oh wait
+<@Suit> is this 2.0
+<~ImpatientHedgehog15> this is 2.1
+<Edd> im going to rejoin
+*Edd left the game
+<@Suit> did you know this works
+<~ImpatientHedgehog15> no
+<@Suit> dangit
+<chungus bungus> i didnt know that i would find a token
+*Edd has rejoined the game (player 2)
+<~ImpatientHedgehog15> wow
+Suit has completed the level.
+<@Suit> bam
+<~ImpatientHedgehog15> more anime music for us
+<@Suit> i did the liftless path as hedge
+<~ImpatientHedgehog15> nice
+<@Suit> but anyways
+chungus bungus has completed the level.
+<@Suit> i fixed hedges color problem
+<@Suit> kind of
+$exitlevel
+<@Suit> i need to fix the icons to be old and not trio copy and pastes
+<@Suit> and fix miles
+Speeding off to level...
+Map is now "MAP64: Special Stage 5 Zone"
+<@Suit> ive started work on him
+<HandDrawn Final Demo> oh shit
+<IT Ryan #FangGang> im using the linux flatpak atm so i cant listen to these dumb anime midis
+<@Suit> put an sf2 in
+<HandDrawn Final Demo> oh
+<chungus bungus> ez
+<IT Ryan #FangGang> but w h e r e
+<~ImpatientHedgehog15> too late lol
+<@Suit> ill show you later
+Speeding off to level...
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (10816, 4960)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (12032, 928)
+WARNING: Unknown thing type 3575 placed at (11488, 2112)
+WARNING: Unknown thing type 3575 placed at (11072, 3680)
+Map is now "MAP16: RED VOLCANO Zone 1"
+WARNING: ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: attempt to index field 'mo' (a nil value)
+stack traceback:
+    ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: in function <...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:2>
+<HandDrawn Final Demo> oof
+<~ImpatientHedgehog15> when you life steal
+*Regic Boat has joined the game (player 6)
+<chungus bungus> bruh
+<IT Ryan #FangGang> die moment
+*IvorPlayz has joined the game (player 8)
+<chungus bungus> im ded
+<Edd> rejoining again-
+*Edd left the game
+*chungus bungus left the game
+<Regic Boat> a
+<IT Ryan #FangGang> oh no
+Lives are now per-player.
+Players can now steal lives to avoid game over.
+<@Suit> you have lives now
+*Ahot Dark 1021#6289A has joined the game (player 9)
+Suit has completed the level.
+*Protoredx10sonic6570 has joined the game (player 10)
+<IT Ryan #FangGang> im still ded
+<IT Ryan #FangGang> somehow
+*Mav has joined the game (player 11)
+<@Suit> jump
+Lives are now per-player.
+Players can now respawn indefinitely.
+Lives are now shared between players.
+Players can now steal lives to avoid game over.
+Lives are now per-player.
+Players can now respawn indefinitely.
+Lives are now shared between players.
+Players can now steal lives to avoid game over.
+*Edd has rejoined the game (player 2)
+<IT Ryan #FangGang> i did
+<IT Ryan #FangGang> i didnt respawn
+<~ImpatientHedgehog15> TF
+<@Suit> then
+<Regic Boat> d o s h o g
+<@Suit> your best off waiting actually
+ImpatientHedgehog15 has completed the level.
+OGAmyDroid has completed the level.
+<Edd> it worked
+<@Suit> you seriously shouldnt play xmas tails
+<OGAmyDroid> so
+<@Suit> i know his flight is good but your gonna get fucked from walking off platforms
+<IT Ryan #FangGang> btw, where should i place the sf2
+<@Suit> in srb2
+<OGAmyDroid> whatcha think?
+<@Suit> just in the folder
+<IT Ryan #FangGang> .srb2?
+*Xingsa SoftBelly has joined the game (player 12)
+<@Suit> no
+<Edd> its really good
+<~ImpatientHedgehog15> I spindash as him then
+Ahot Dark 1021#6289A has completed the level.
+<@Suit> put it in the srb2 folder
+<@Suit> isnt xmas spindash shit
+<@Suit> yeah
+<@Suit> crust and hedge get instant spindash
+<@Suit> they have no buildup
+<~ImpatientHedgehog15> I think it's ,
+<@Suit> miles does to but it doesnt matter
+Regic Boat has completed the level.
+<Edd> sadly only 2 is working
+<@Suit> the sf2 path needs to just be
+<Regic Boat> pain
+<Ahot Dark 1021#6289A> tag after coop?
+Speeding off to level...
+WARNING: No Co-op starts in this map!
+WARNING: No Deathmatch starts in this map!
+ERROR: No player spawns found, spawning at the first mapthing!
+Map is now "MAP65: Special Stage 6 Zone"
+<@Suit> if its in just the srb2 folder just put the sf2 filename in
+<Edd> pog
+<~ImpatientHedgehog15> rhjeryhe
+<~ImpatientHedgehog15> y
+<~ImpatientHedgehog15> y
+<~ImpatientHedgehog15> yrt
+<~ImpatientHedgehog15> gr
+<~ImpatientHedgehog15> g
+<~ImpatientHedgehog15> g
+<~ImpatientHedgehog15> ge
+<~ImpatientHedgehog15> well
+<@Suit> wait
+<@Suit> WAIT
+<Edd> amazing
+<@Suit> THIS song
+<Regic Boat> plus
+<Regic Boat> minus
+<OGAmyDroid> heaven
+<Regic Boat> divide
+<HandDrawn Final Demo> wow 
+<OGAmyDroid> literally
+<Edd> heaven
+Speeding off to level...
+Map is now "MAP22: EGG ROCK Zone 1"
+<Regic Boat> amogus
+<Edd> the music
+<Edd> bro its so good
+<Regic Boat> A
+<IT Ryan #FangGang> fuck
+*IvorPlayz left the game
+*IvorPlayz has rejoined the game (player 8)
+*IvorPlayz left the game
+*IvorPlayz has rejoined the game (player 8)
+*IvorPlayz left the game
+*IvorPlayz has rejoined the game (player 8)
+*IvorPlayz left the game
+<Edd> who is hyped for new-
+<~ImpatientHedgehog15> and we're already life stealing
+<HandDrawn Final Demo> help im stuck
+*Mav left the game
+<Edd> who stole my lifes.
+<Regic Boat> dn
+<~ImpatientHedgehog15> everybody
+<Edd> everyone has literally one
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<Regic Boat> there is a impasta among us
+<Regic Boat> who is s-
+<Regic Boat> shit
+<Edd> amog
+<Edd> mogus
+<Edd> sugoma
+<Ahot Dark 1021#6289A> we cant respawn even we are ded
+<IT Ryan #FangGang> the error im getting is that it could open etc/timidity/freepats.cfg
+<Edd> we cant respawn, but we can revive B)
+<IT Ryan #FangGang> it's tryina use timidity
+Viewpoint: Regic Boat
+Lives are now shared between players.
+Players can now respawn indefinitely.
+Lives are now per-player.
+*Protoredx10sonic6570 left the game
+Players can now respawn indefinitely.
+Lives are now shared between players.
+Players can now respawn indefinitely.
+Players can now respawn indefinitely.
+Lives are now per-player.
+ImpatientHedgehog15 has completed the level.
+Players can now steal lives to avoid game over.
+<Edd> what
+Regic Boat has completed the level.
+<HandDrawn Final Demo> recive me pls
+<Regic Boat> impasta
+<Edd> look our li-
+<Regic Boat> amogus
+<HandDrawn Final Demo> nvm
+<Edd> nvm
+<Regic Boat> also itryan why do you you
+Speeding off to level...
+Map is now "MAP23: EGG ROCK Zone 2"
+<@Suit> beat erz2 with miles
+<Regic Boat> have friend requests off in discord
+*Protoredx10sonic6570 has rejoined the game (player 10)
+<Edd> not the lag
+*IT Ryan #FangGang left the game
+<Regic Boat> asedAtdfWEdEASDASd
+<~ImpatientHedgehog15> it's hand drawn's ping
+*Protoredx10sonic6570 left the game
+<Edd> kill him
+<~ImpatientHedgehog15> if you die then you're dead
+*Protoredx10sonic6570 has rejoined the game (player 10)
+<Edd> suit
+Regic Boat has completed the level.
+<Edd> are you tired
+<@Suit> yeah
+<@Suit> no
+OGAmyDroid has completed the level.
+*Protoredx10sonic6570 left the game
+<OGAmyDroid> phew
+ImpatientHedgehog15 has completed the level.
+<Edd> so why you flying tired
+<@Suit> im miles
+<Regic Boat> plural of amogus is amogi
+Suit is now AFK.
+<@Suit> cant kill me
+<Regic Boat> apparently
+<@Suit> `
+Speeding off to level...
+WARNING: Unknown thing type 4003 placed at (-384, -1024)
+Map is now "MAP66: Special Stage 6 Zone"
+Suit is no longer AFK.
+*Protoredx10sonic6570 has rejoined the game (player 10)
+<OGAmyDroid> i am not cooperating just for that comment
+<Edd> stage
+<Edd> ez
+*IT Ryan #FangGang has joined the game (player 3)
+<Regic Boat> ryan
+*IT Ryan #FangGang left the game (Connection timeout)
+Speeding off to level...
+WARNING: constant 'ERZGREY4' could not be parsed.
+
+WARNING: Failed to load bot recording for this map, format version incompatible.
+Map is now "MAP24: EGG ROCK Zone 3"
+<Regic Boat> why do yo-
+<Regic Boat> asdd
+<Edd> brazil music be like
+<Edd> wait
+<Edd> metal glitched
+<Edd> how
+<HandDrawn Final Demo> im back
+ERROR: Music MAP26M could not be loaded: lump not found!
+<HandDrawn Final Demo> just making lkunch
+<Edd> k
+<Regic Boat> fightmetalsonc
+<Edd> fightmaresonic
+<Regic Boat> ok game
+<~ImpatientHedgehog15> gaming
+<Regic Boat> asdasrf
+<Regic Boat> gaeming
+<@Suit> check me out
+*Protoredx10sonic6570 left the game
+<OGAmyDroid> i hate this level
+<Edd> nice psychics
+<@Suit> gotcha
+ERROR: Music MAP26M could not be loaded: lump not found!
+<OGAmyDroid> nice zooom tube not working
+Speeding off to level...
+Map is now "MAP25: EGG ROCK CORE Zone"
+<Regic Boat> cry about it
+<OGAmyDroid> fuck you too
+<Edd> this music
+*Protoredx10sonic6570 has rejoined the game (player 10)
+<HandDrawn Final Demo> zero rings = survival
+<Edd> i dont know why i like it
+*IT Ryan #FangGang has joined the game (player 3)
+<Regic Boat> ryan
+*IT Ryan #FangGang left the game (Connection timeout)
+<Regic Boat> why do you have fri-
+<~ImpatientHedgehog15> ryan be like
+<Regic Boat> GOD DAMN IT
+<Edd> whats this music name
+<~ImpatientHedgehog15> final boss
+<Regic Boat> dn
+<@Suit> NO
+<Edd> f
+*Ahot Dark 1021#6289A has been kicked (Go away)
+<Regic Boat> fuck
+Speeding off to level...
+Map is now "MAP25: EGG ROCK CORE Zone"
+<Edd> who will save us
+<OGAmyDroid> kick ryan
+<OGAmyDroid> he's afk
+<OGAmyDroid> nvm
+<@Suit> what number is he
+<~ImpatientHedgehog15> ryan isn't here ._.
+<Regic Boat> 69
+<Edd> he already dissapeard
+<@Suit> there we go
+<Regic Boat> no rings
+<Regic Boat> wtf how are we so bad at this game that
+<Regic Boat> we're all at 1 life
+<Edd> lol yes
+<@Suit> explain to me
+<@Suit> when
+<@Suit> the rockets
+<Edd> is this so hard
+<@Suit> ever had splash damage
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<Regic Boat> WAIT
+<Regic Boat> DID WE DO IT/
+<@Suit> no not really
+<Regic Boat> yes
+Speeding off to level...
+Map is now "MAPA1: GREENFLOWER Zone 1"
+<Edd> 2.0.
+<@Suit> sonics looking at us with odd intentions so nothings truly over
+<Regic Boat> availible
+*HandDrawn Final Demo renamed to HandDrawn 2.0
+ImpatientHedgehog15 has completed the level.
+Xingsa SoftBelly has completed the level.
+Suit has completed the level.
+<Edd> help 
+<Edd> my ping
+Speeding off to level...
+Map is now "MAPA2: GREENFLOWER Zone 2"
+*Regic Boat left the game
+*Regic Boat has rejoined the game (player 6)
+<Regic Boat> when the chat glitch is
+<Regic Boat> sus
+Suit has completed the level.
+Xingsa SoftBelly has completed the level.
+<Regic Boat> oh god
+<Edd> im also sad
+<Regic Boat> 2.0 brak
+HandDrawn 2.0 has completed the level.
+OGAmyDroid has completed the level.
+ImpatientHedgehog15 has completed the level.
+<@Suit> are there that many people who would care if i set it so were stuck with one of the new trio
+Speeding off to level...
+Map is now "MAPA3: GREENFLOWER Zone 3"
+<@Suit> crustcidna or hedgenic pretty much
+<@Suit> feels like nowadays most people use the fast chars on bosses
+*sonic dx has joined the game (player 3)
+<@Suit> i wanna fight them
+Speeding off to level...
+Map is now "MAPA4: TECHNO HILL Zone 1"
+*sonic dx left the game (Connection timeout)
+*sonic dx has rejoined the game (player 3)
+<sonic dx> hi
+*sonic dx left the game
+*sonic dx has rejoined the game (player 3)
+*sonic dx left the game
+Xingsa SoftBelly has completed the level.
+Suit has completed the level.
+ImpatientHedgehog15 has completed the level.
+OGAmyDroid has completed the level.
+*Regic Boat left the game
+<Edd> ok we going to skip the game
+Speeding off to level...
+Map is now "MAPA5: TECHNO HILL Zone 2"
+<~ImpatientHedgehog15> Why is regic boat like the most frequent person to leave?
+<Edd> idk
+<@Suit> crashing or mobile
+<Edd> yes
+HandDrawn 2.0 has completed the level.
+Xingsa SoftBelly has completed the level.
+OGAmyDroid has completed the level.
+Suit has completed the level.
+ImpatientHedgehog15 has completed the level.
+<HandDrawn 2.0> halloween sonic is fun to use
+Speeding off to level...
+Map is now "MAPA6: TECHNO HILL Zone 3"
+*HandDrawn 2.0 renamed to Halloween sonic
+<Halloween sonic> no more and drawn for noe
+<Halloween sonic> w
+<Edd> help
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (6752, 4000)
+WARNING: Unknown thing type 524 placed at (6784, 3680)
+WARNING: Unknown thing type 524 placed at (7168, 3744)
+WARNING: Unknown thing type 524 placed at (7072, 3904)
+WARNING: Unknown thing type 524 placed at (6496, 3776)
+WARNING: Unknown thing type 524 placed at (6304, 3840)
+WARNING: Unknown thing type 524 placed at (5824, 3008)
+WARNING: Unknown thing type 524 placed at (5568, 3488)
+WARNING: Unknown thing type 524 placed at (5824, 3552)
+WARNING: Unknown thing type 524 placed at (6240, 3328)
+WARNING: Unknown thing type 524 placed at (448, 4416)
+WARNING: Unknown thing type 524 placed at (-256, 3840)
+WARNING: Unknown thing type 524 placed at (-896, 4352)
+WARNING: Unknown thing type 524 placed at (-1344, 3584)
+WARNING: Unknown thing type 524 placed at (768, 3520)
+WARNING: Unknown thing type 524 placed at (128, 3328)
+WARNING: Unknown thing type 524 placed at (-256, 4352)
+WARNING: Unknown thing type 524 placed at (-832, 3776)
+WARNING: Unknown thing type 524 placed at (-704, 2752)
+WARNING: Unknown thing type 524 placed at (-1536, 3968)
+WARNING: Unknown thing type 524 placed at (-1536, 2880)
+Map is now "MAPA7: DEEP SEA Zone 1"
+*sonic dx has joined the game (player 3)
+<sonic dx> HI
+*Edd left the game
+ImpatientHedgehog15 has completed the level.
+OGAmyDroid has completed the level.
+Xingsa SoftBelly has completed the level.
+*Halloween sonic renamed to XmasTails and K.T.E
+<OGAmyDroid> are we just gonna ignore how uglyknux can't break walls anymore?
+<~ImpatientHedgehog15> top 10 biggest breakups
+<@Suit> use crust
+<@Suit> hes a better knuckles
+<OGAmyDroid> and that there's an update that SPECIFICALLY fixes him?
+<@Suit> i would rather get rid of him
+<@Suit> so the server sticks to using original characters
+<~ImpatientHedgehog15> why is xmas tails here though
+<@Suit> oh screw off
+XmasTails and K.T.E has completed the level.
+Screen shot srb20082.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+<@Suit> i guess halloween sonic counterpart
+<OGAmyDroid> Gotem
+<sonic dx> xmas
+<@Suit> and im gonna nuder him even more
+<sonic dx> tails
+Speeding off to level...
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAPA8: DEEP SEA Zone 2"
+<sonic dx> early sonic is cute
+<~ImpatientHedgehog15> I drew walking frames for EarlyKnuckles yesterday
+<@Suit> really?
+<~ImpatientHedgehog15> yes
+<@Suit> neat
+<@Suit> hey
+<@Suit> i just wondered
+<@Suit> where is floppy?
+<~ImpatientHedgehog15> idk
+<~ImpatientHedgehog15> he said he would join
+<XmasTails and K.T.E> can we fix xmas tails with S3 sprites?
+<~ImpatientHedgehog15> no
+<~ImpatientHedgehog15> that's how he was
+<@Suit> id rather get rid of him
+<sonic dx> the xmas original have 3s sprites
+*Xavier has joined the game (player 2)
+<@Suit> or just make a sonic doom 2 tails
+<@Suit> TOKEN
+<sonic dx> the original have sonic 3 sprites
+<Xavier> then make one suit
+*XmasTails and K.T.E renamed to Metal sonic 2.0
+<@Suit> i took an alt path
+<@Suit> i have no idea if im screwed
+<OGAmyDroid> softbellly why
+<Xingsa SoftBelly> sorry
+<@Suit> i made it
+<Xavier> suit can ya port srb2 xemo 3 megaman mod to 2.2?
+<@Suit> i did the maze
+<@Suit> Oh
+<@Suit> We plan on doing that
+<~ImpatientHedgehog15> i THINK HW
+<@Suit> were starting off with chao
+<Xavier> ok
+<@Suit> oh
+<sonic dx> or srb21
+<sonic dx> srb1
+<@Suit> well
+ImpatientHedgehog15 has completed the level.
+<@Suit> now im 
+<@Suit> somewhere
+<Xavier> your planning to port the srb2 demo 3 character mods?
+<OGAmyDroid> why is it on a platform
+<~ImpatientHedgehog15> I'm planning on porting that
+*sonic dx left the game
+OGAmyDroid has completed the level.
+Xingsa SoftBelly has completed the level.
+Metal sonic 2.0 has completed the level.
+<@Suit> i was gonna finish sonikku
+<@Suit> then whip up mega man afterwards
+<Xavier> ok
+<@Suit> and actually give them the shooting
+Speeding off to level...
+Map is now "MAPAA: CASTLE EGGMAN Zone 1"
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<OGAmyDroid> why not just have the level complete the moment you come out the water fall
+<Metal sonic 2.0> hmmm?
+<Xavier> i hope you guys also plan on porting sonic battle shadow
+NOTICE: You can't change your skin at the moment.
+<~ImpatientHedgehog15> what
+$exitlevel
+<OGAmyDroid> uh
+<Xavier> sonic battle shadow mod from 2.0
+Speeding off to level...
+Map is now "MAPAB: CASTLE EGGMAN Zone 2"
+<@Suit> jesis crust
+<OGAmyDroid> again
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+Viewpoint: OGAmyDroid
+Viewpoint: Xavier
+<@Suit> boingy
+*OGAmyDroid left the game
+<~ImpatientHedgehog15> Xavier, jump out the window
+*eri has joined the game (player 3)
+*eri left the game (Connection timeout)
+*er has joined the game (player 6)
+<Xavier> ok
+Viewpoint: OGAmyDroid
+Viewpoint: Xavier
+<@Suit> i think xmas has a messed up radius
+Xingsa SoftBelly has completed the level.
+<@Suit> f12 me
+Viewpoint: eri
+Viewpoint: Metal sonic 2.0
+Viewpoint: Suit
+Viewpoint: er
+Viewpoint: Protoredx10sonic6570
+Viewpoint: Xingsa SoftBelly
+Viewpoint: ImpatientHedgehog15
+Viewpoint: OGAmyDroid
+Viewpoint: Xavier
+<Metal sonic 2.0> oof
+Viewpoint: Xavier
+Viewpoint: Metal sonic 2.0
+Viewpoint: Suit
+Viewpoint: Xavier
+Metal sonic 2.0 has completed the level.
+Speeding off to level...
+Map is now "MAPAC: ARID CANYON Zone 1"
+<Xavier> HOW DID YOU FIND THE END IT WAS SO HARD TO FIND IT
+<@Suit> you were right at it
+<Metal sonic 2.0> idk
+<Xavier> how
+<@Suit> you just had to go under that one part fast
+<Xavier> bruh
+<Xavier> no
+<Xavier> arid canyon
+<Xavier> is hard
+<Xavier> im not risking to beat it
+ImpatientHedgehog15 has completed the level.
+<~ImpatientHedgehog15> bruh
+Xingsa SoftBelly has completed the level.
+Metal sonic 2.0 has completed the level.
+<Xavier> HOW
+<Xavier> BRUH
+<Metal sonic 2.0> its easy
+Speeding off to level...
+Map is now "MAPAD: RED VOLCANO Zone 1"
+$csay ready for life steal
+Put notice #1 into the Noticeboard queue.
+= ~ImpatientHedgehog15 says =
+ready for life steal 
+<@Suit> no
+<@Suit> turn it off
+<Xavier> no
+<@Suit> im keeping my 11
+Lives are now shared between players.
+Players can now respawn indefinitely.
+Lives are now per-player.
+*forest has joined the game (player 1)
+Players now only spawn when starposts are hit.
+<Xavier> WAIT I HAVE- oh
+<~ImpatientHedgehog15> WTF
+<~ImpatientHedgehog15> MY 12 LIVES!!!
+<Xavier> well shit
+Starposts are now per-player.
+Xingsa SoftBelly has completed the level.
+<Metal sonic 2.0> GIVE ME 12
+Players now only spawn when starposts are hit.
+Starposts are now shared between players.
+<~ImpatientHedgehog15> NO
+<Xavier> welp thats fuckin it for me
+<Metal sonic 2.0> :(
+<@Suit> he cant
+*Metal sonic 2.0 renamed to Metal sonic 2.0 (afk)
+<@Suit> where
+<@Suit> are all these lives
+<~ImpatientHedgehog15> TYPE AFK IN CONSOLE
+<Metal sonic 2.0 (afk)> ...
+Suit is now AFK.
+$exitlevel
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:810: Do not access an mobj_t field outside a level!
+stack traceback:
+    [C]: ?
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:810: in function 'BecomeAFK'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:934: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:930>
+Speeding off to level...
+WARNING: Unknown thing type 553 placed at (-7616, -11104)
+WARNING: Unknown thing type 553 placed at (-7616, -11136)
+WARNING: Unknown thing type 553 placed at (-7616, -11168)
+WARNING: Unknown thing type 553 placed at (-7616, -11200)
+WARNING: Unknown thing type 553 placed at (-7616, -11232)
+WARNING: Unknown thing type 553 placed at (-7616, -11264)
+WARNING: Unknown thing type 553 placed at (-7616, -11296)
+WARNING: Unknown thing type 553 placed at (-6464, -5920)
+WARNING: Unknown thing type 553 placed at (-6432, -5920)
+WARNING: Unknown thing type 553 placed at (-6400, -5920)
+WARNING: Unknown thing type 553 placed at (-6368, -5920)
+WARNING: Unknown thing type 553 placed at (-6336, -5920)
+WARNING: Unknown thing type 553 placed at (-6304, -5920)
+WARNING: Unknown thing type 553 placed at (-6272, -5920)
+WARNING: Unknown thing type 553 placed at (-6496, -5920)
+WARNING: Unknown thing type 553 placed at (-6528, -5920)
+WARNING: Unknown thing type 553 placed at (-6560, -5920)
+WARNING: Unknown thing type 553 placed at (-6592, -5920)
+ERROR: FOF (line 2955) has a top height below its bottom.
+Map is now "MAPAF: EGG ROCK Zone 1"
+*er left the game
+Metal sonic 2.0 (afk) is now AFK.
+*eri has rejoined the game (player 6)
+*eri left the game
+*eri renamed to er
+*eri has rejoined the game (player 6)
+*eri left the game
+*eri has rejoined the game (player 6)
+*eri renamed to er
+*er left the game
+<~ImpatientHedgehog15> that's the worst I've every seen chatbug
+*Metal sonic 2.0 (afk) renamed to Metal sonic 2.0
+Metal sonic 2.0 is no longer AFK.
+<Xavier> wow
+<Xavier> this sucks
+<~ImpatientHedgehog15> you're already dead?
+<@Suit> type afk
+<Xavier> also dont do egg rock 2 its laggy
+<~ImpatientHedgehog15> no
+<~ImpatientHedgehog15> it's good
+<@Suit> you like
+<Xavier> NO
+<@Suit> have to play the zones in this videogame
+<Metal sonic 2.0> its laggy
+<Xavier> ITD LAGGY
+<@Suit> how
+<~ImpatientHedgehog15> BRUH
+<@Suit> what are you playing this on
+<Xavier> cuz ping lag
+*Metal sonic 2.0 left the game (Connection timeout)
+<@Suit> fax machine
+<@Suit> why the fuck
+<@Suit> do i have
+<@Suit> 1000 invincibility
+<@Suit> are gravity flip things messed up
+*Protoredx10sonic6570 left the game
+<Xavier> the gravity fli0 things are busted
+forest has completed the level.
+Suit has completed the level.
+<Xavier> flip*
+<~ImpatientHedgehog15> please
+<Xavier> egg rock 2 is laggy
+Speeding off to level...
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: attempt to get length of a number value
+WARNING: constant 'DISCOW1' could not be parsed.
+
+WARNING: Unknown thing type 554 placed at (-3392, -640)
+WARNING: Unknown thing type 554 placed at (-3392, -832)
+WARNING: Unknown thing type 554 placed at (-3392, -736)
+WARNING: Unknown thing type 527 placed at (11168, 21344)
+WARNING: Unknown thing type 527 placed at (10592, 21664)
+WARNING: Unknown thing type 527 placed at (10656, 21344)
+WARNING: Unknown thing type 527 placed at (10912, 21600)
+WARNING: Unknown thing type 527 placed at (10464, 21600)
+WARNING: Unknown thing type 527 placed at (10784, 21408)
+WARNING: Unknown thing type 527 placed at (11040, 22816)
+WARNING: Unknown thing type 527 placed at (10976, 23008)
+WARNING: Unknown thing type 527 placed at (10464, 22944)
+WARNING: Unknown thing type 527 placed at (10592, 22752)
+WARNING: Unknown thing type 527 placed at (11168, 22816)
+WARNING: Unknown thing type 527 placed at (10720, 23072)
+WARNING: Unknown thing type 527 placed at (10912, 22944)
+WARNING: Unknown thing type 527 placed at (10528, 22880)
+WARNING: Unknown thing type 527 placed at (10720, 22688)
+WARNING: Unknown thing type 527 placed at (10528, 22016)
+WARNING: Unknown thing type 527 placed at (11104, 21952)
+WARNING: Unknown thing type 527 placed at (11232, 21728)
+WARNING: Unknown thing type 527 placed at (10400, 21792)
+WARNING: Unknown thing type 527 placed at (10656, 21600)
+WARNING: Unknown thing type 527 placed at (11040, 21792)
+WARNING: Unknown thing type 527 placed at (10976, 22688)
+WARNING: Unknown thing type 527 placed at (11104, 22752)
+WARNING: Unknown thing type 527 placed at (11232, 22624)
+WARNING: Unknown thing type 527 placed at (11168, 22560)
+WARNING: Unknown thing type 527 placed at (11040, 22496)
+WARNING: Unknown thing type 527 placed at (10848, 22432)
+WARNING: Unknown thing type 527 placed at (10656, 22496)
+WARNING: Unknown thing type 527 placed at (10592, 22400)
+WARNING: Unknown thing type 527 placed at (11232, 21472)
+WARNING: Unknown thing type 527 placed at (10528, 22560)
+WARNING: Unknown thing type 527 placed at (10400, 22368)
+WARNING: Unknown thing type 527 placed at (10528, 21856)
+WARNING: Unknown thing type 527 placed at (10784, 22080)
+WARNING: Unknown thing type 527 placed at (11168, 22080)
+WARNING: Unknown thing type 527 placed at (10848, 22624)
+WARNING: Unknown thing type 527 placed at (10720, 22208)
+WARNING: Unknown thing type 527 placed at (10592, 22272)
+WARNING: Unknown thing type 527 placed at (10880, 21312)
+WARNING: Unknown thing type 527 placed at (10848, 22336)
+WARNING: Unknown thing type 527 placed at (10912, 22208)
+WARNING: Unknown thing type 527 placed at (10464, 22208)
+WARNING: Unknown thing type 527 placed at (10464, 22336)
+WARNING: Unknown thing type 527 placed at (11168, 22432)
+WARNING: Unknown thing type 527 placed at (11232, 22336)
+WARNING: Unknown thing type 527 placed at (10976, 21408)
+WARNING: Unknown thing type 527 placed at (11232, 21536)
+WARNING: Unknown thing type 527 placed at (10528, 21536)
+WARNING: Unknown thing type 527 placed at (10592, 22080)
+WARNING: Unknown thing type 527 placed at (11232, 21952)
+WARNING: Unknown thing type 527 placed at (11232, 21792)
+WARNING: Unknown thing type 527 placed at (10464, 21792)
+WARNING: Unknown thing type 527 placed at (10976, 21920)
+WARNING: Unknown thing type 527 placed at (10464, 21952)
+WARNING: Unknown thing type 527 placed at (10528, 21280)
+WARNING: Unknown thing type 527 placed at (11104, 21600)
+WARNING: Unknown thing type 527 placed at (10400, 21664)
+WARNING: Unknown thing type 527 placed at (10848, 21952)
+WARNING: Unknown thing type 527 placed at (11168, 22208)
+WARNING: Unknown thing type 527 placed at (10976, 22400)
+WARNING: Unknown thing type 527 placed at (11040, 22080)
+WARNING: Unknown thing type 527 placed at (10720, 21920)
+WARNING: Unknown thing type 527 placed at (11168, 21856)
+WARNING: Unknown thing type 527 placed at (10656, 21792)
+WARNING: Unknown thing type 527 placed at (10912, 21792)
+WARNING: Unknown thing type 527 placed at (10464, 21408)
+WARNING: Unknown thing type 527 placed at (10848, 21728)
+WARNING: Unknown thing type 527 placed at (10528, 21792)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+ERROR: FOF (line 24045) has a top height below its bottom.
+Map is now "MAPAG: EGG ROCK Zone 2"
+<forest> so laggy
+<~ImpatientHedgehog15> shut
+<Xavier> AAAAAAAAAAAAAAAAAAAAAAAAAAAH
+<forest> yes
+<forest> my fps 1 guys
+<Xavier> wait wut
+<@Suit> are you on mobile using opengl
+<forest> no im playing this on my fridge
+<@Suit> asking xavier
+<forest> actual lag
+<Xavier> yes
+<@Suit> fridge gets 60fps
+<@Suit> DONT
+<Xavier> why
+<@Suit> OPENGL IS ASS ON MOBILE
+<forest> dang so its too fast
+<@Suit> IT LITERALLY CAUSES LAG BECAUSE IT WANTS TO
+<Xavier> opengl is not ass
+<@Suit> im using it rn
+<@Suit> but im on a pc
+<forest> ogl is not ass
+<forest> it's hot ass
+<@Suit> the thing thats ment to run opengl
+<@Suit> it becomes hot ass if you run it on a fucking flip phone
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Master server registration successful.
+<@Suit> it breaks if you play srb2 in fullscreen too
+<@Suit> not saying im a software stan
+<@Suit> but opengl is fucky when your in fullscreen
+<@Suit> and mobile has no screen
+<@Suit> so it gets worse
+<Xavier> i turned off fullscreen before you said that
+<~ImpatientHedgehog15> on mobile?
+<@Suit> is your game running like a game now
+<@Suit> somehow
+<Xavier> yes
+<@Suit> see
+<~ImpatientHedgehog15> wtf
+<@Suit> opengl is fucky cause its basically a portleg from an old gzdoom
+<~ImpatientHedgehog15> does SRB2 have like picture in picture
+<@Suit> no idea
+<@Suit> thats fair
+Viewpoint: forest
+Viewpoint: forest
+Viewpoint: Xavier
+Viewpoint: Suit
+<@Suit> there goes
+<@Suit> all
+<@Suit> my lives
+<~ImpatientHedgehog15> small
+<Xavier> i hate the platform part
+<@Suit> WOAh
+<@Suit> WOAH
+<@Suit> THIS
+<@Suit> this effect
+<Xavier> that is motherfreaking cool
+<@Suit> dont say that
+<Xavier> ok
+Resending game state to Xavier...
+<@Suit> my mom will ban me from playing my play box x station
+Resending game state to Xavier...
+$say don't say the fuck word
+<~ImpatientHedgehog15> don't say the fuck word
+<@Suit> STOP
+<@Suit> PLEASE
+<Xavier> i didnt say
+<@Suit> MY DADS OPENING MY DOOR TO CHECK UP ON ME
+<@Suit> NO
+<@Suit> PLEASE
+<@Suit> NOT THE STICK
+$csay frikc
+Put notice #1 into the Noticeboard queue.
+= ~ImpatientHedgehog15 says =
+frikc 
+$exitlevel
+*forest left the game
+<@Suit> bye guys im getting aborted
+<Xavier> that grammar
+Speeding off to level...
+Map is now "MAPAH: EGG ROCK Zone 3"
+<Xavier> impatient what even is that grammar
+<@Suit> god tier
+<@Suit> suck fishj
+<Xavier> mersfushnag
+<@Suit> im dead
+<Xavier> fucshnaig hitty
+<Xingsa SoftBelly> weeee
+<@Suit> NO
+<@Suit> NOOOOO
+<Xavier> HAHA RIP YOU ASSHOLE
+<Xavier> gagagahahah
+<Xavier> HAHAHAHAHA
+$exitlevel
+Speeding off to level...
+Map is now "MAPB1: GREENFLOWER Zone 1"
+Map is now "MAPB1: GREENFLOWER Zone 1"
+Xingsa SoftBelly has completed the level.
+ImpatientHedgehog15 has completed the level.
+<Xavier>                                < @ Suit> FUCK OFF HAHAHAHAHABA
+<Xavier> Lmaaaoaoaoao
+<Xavier> jdhdudhdhdhdjsjshdb
+Speeding off to level...
+Map is now "MAPB2: GREENFLOWER Zone 2"
+<Xavier> vnufugb dun
+<Xavier> judnud y
+<@Suit> you good man
+<~ImpatientHedgehog15> you sound like xavier
+Xingsa SoftBelly has completed the level.
+ImpatientHedgehog15 has completed the level.
+*Xavier left the game
+<~ImpatientHedgehog15> moment
+<@Suit> moment moment
+Speeding off to level...
+Map is now "MAPB3: GREENFLOWER Zone 3"
+<~ImpatientHedgehog15> moment moment moment
+<@Suit> moment moment moment moment zone
+<~ImpatientHedgehog15> moment moment moment zone gaming
+*Xavier has rejoined the game (player 2)
+<@Suit> medci gaming
+Speeding off to level...
+Map is now "MAPB4: TECHNO HILL Zone 1"
+*Xavier left the game (Connection timeout)
+Screen shot srb20083.png saved in C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\screenshots\
+*Xavier has rejoined the game (player 2)
+<Xavier> sorry i had chat bug
+Xingsa SoftBelly has completed the level.
+<~ImpatientHedgehog15> i think it was more then a chatbug
+<Xavier> wait how
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+<~ImpatientHedgehog15> when you said frjehfwxgjtg3j4t6uforetg9hwptgrj. I felt that
+Speeding off to level...
+Map is now "MAPB5: TECHNO HILL Zone 2"
+<@Suit> i felt it more than you
+<@Suit> it hurt
+<Xavier> ok
+<@Suit> all the pain right in my stomach
+<Xavier> also suit what happenex
+<@Suit> oh wait
+<@Suit> im just hungry
+<Xavier> ha0pened
+<Xavier> oh
+<Xavier> also fuksnagshnaglmao
+<Xavier> i
+ImpatientHedgehog15 has completed the level.
+Xingsa SoftBelly has completed the level.
+<Xavier> do
+<Xavier> play
+<Xavier> srb2
+<Xavier> on
+<Xavier> mobile
+<@Suit> potato
+Speeding off to level...
+Map is now "MAPB6: TECHNO HILL Zone 3"
+<~ImpatientHedgehog15> your dad hacked xaviers phone and said refqreqyvqjwo54rjuwoyvvjrwotpmhkjeotgjiorogjpee
+<Xavier> its not a potato
+<@Suit> car battery 
+<Xavier> shoukd we do 1 game of match then continue final demo
+Speeding off to level...
+Map is now "MAPB7: CASTLE EGGMAN Zone 1"
+<Xavier> OH COME ON
+Suit has completed the level.
+Xingsa SoftBelly has completed the level.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+Speeding off to level...
+Map is now "MAPB8: CASTLE EGGMAN Zone 2"
+Suit is now AFK.
+<Xavier> why is suit afk
+<@Suit> im working on miles
+<Xavier> ok
+Suit is no longer AFK.
+Suit has completed the level.
+<~ImpatientHedgehog15> so your car battery can run fatser
+Xingsa SoftBelly has completed the level.
+<@Suit> i need food to get fatsre
+<@Suit> brb
+ImpatientHedgehog15 has completed the level.
+<Xavier> ok dude
+Speeding off to level...
+WARNING: Unknown thing type 146 placed at (-3648, 256)
+WARNING: Unknown thing type 146 placed at (-3648, -256)
+WARNING: Unknown thing type 146 placed at (4160, -256)
+WARNING: Unknown thing type 146 placed at (4160, 256)
+WARNING: Unknown thing type 146 placed at (-384, -3520)
+WARNING: Unknown thing type 146 placed at (128, -3520)
+WARNING: Unknown thing type 146 placed at (128, 4288)
+WARNING: Unknown thing type 146 placed at (-384, 4288)
+WARNING: Unknown thing type 146 placed at (-64, 704)
+WARNING: Unknown thing type 146 placed at (-64, -768)
+WARNING: Unknown thing type 146 placed at (832, 0)
+WARNING: Unknown thing type 146 placed at (832, -896)
+WARNING: Unknown thing type 146 placed at (832, 832)
+WARNING: Unknown thing type 146 placed at (-64, -896)
+WARNING: Unknown thing type 146 placed at (-960, -896)
+WARNING: Unknown thing type 146 placed at (-960, -64)
+WARNING: Unknown thing type 146 placed at (-960, 832)
+WARNING: Unknown thing type 146 placed at (-64, 832)
+Map is now "MAPB9: CASTLE EGGMAN Zone 3"
+<~ImpatientHedgehog15> shit toster
+<Xavier> also can you whip up megaman after doing sonikku then whip up chao
+<@Suit> sonikku first
+<Xavier> ok
+<~ImpatientHedgehog15> I'm working on chao
+<Xavier> ok maj
+$exitlevel
+<Xavier> man
+<~ImpatientHedgehog15> rock
+\\\\\\\\\\\\\\\\\\\Multiplayer games can't unlock extras!
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+<@Suit> crack rocks and meatball
+Xingsa SoftBelly has completed the level.
+ImpatientHedgehog15 has completed the level.
+Xavier has completed the level.
+<Xavier> doshog is fast
+<~ImpatientHedgehog15> I think i'm done hosting for now
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+<@Suit> ok
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/unlist'...
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+ERROR: There was a problem contacting the master server...
+From curl_easy_perform: Timeout was reached
+I_ShutdownSystem(): end of logstream.

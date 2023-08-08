@@ -1,0 +1,2020 @@
+Compiled for SDL version: 2.0.10
+Linked with SDL version: 2.0.10
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2021 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3 (12113 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/SOC_LETR
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\srb2.pk3|SOC/Tutorial
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3 (139 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\zones.pk3|SOC/SOC_SECR.txt
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta (1869 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\player.dta|SOC_PLAY
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch.pk3 (802 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\music.dta (170 lumps)
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\patch_music.pk3 (77 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+W_InitMultipleFiles(): Adding extra PWADs.
+HU_LoadGraphics()...
+executing config.cfg
+Levels will end after someone scores 5 points.
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5027 frames in 376 sprites
+patch.pk3 added 584 frames in 12 sprites
+Added skin 'sonic'
+Added skin 'tails'
+Added skin 'knuckles'
+Patched skin 'knuckles'
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2021-07-02_21-02-33.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.9 (May  6 2021 22:53:56 8b9b2582 HEAD) SDL Windows 32-bit 
+NOTICE: Game must be restarted to record statistics.
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua
+Pardon me while I initialize the Lua scripting interface...
+Added command "whois"
+Added command "die"
+Added command "goto"
+Added command "super"
+Added command "rings"
+Added command "lives"
+Added command "shoes"
+Added command "invuln"
+Added command "flower"
+Added command "shield"
+Added command "print"
+Added command "dofor"
+Added command "rally"
+Added command "nuke"
+Added command "kill"
+Added command "adminhelp"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\banskins.lua
+Added command "banskin"
+Added command "listbannedskins"
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3 (333 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_DASH
+State S_DASHSPARK1 allocated.
+State S_DASHSPARK2 allocated.
+State S_DASHSPARK3 allocated.
+Sprite SPR_DSPK allocated.
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FBATT
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST
+MobjType MT_FINSTASHIELD allocated.
+State S_FINSTASHIELD allocated.
+State S_FINSTASHIELD1A allocated.
+State S_FINSTASHIELD1B allocated.
+State S_FINSTASHIELD2A allocated.
+State S_FINSTASHIELD2B allocated.
+State S_FINSTASHIELD3A allocated.
+State S_FINSTASHIELD3B allocated.
+State S_FINSTASHIELD4A allocated.
+State S_FINSTASHIELD4B allocated.
+State S_FINSTASHIELD5A allocated.
+State S_FINSTASHIELD5B allocated.
+State S_FINSTASHIELD6A allocated.
+State S_FINSTASHIELD6B allocated.
+Sprite SPR_FWSP allocated.
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|SOC/MAINCFG
+CL_FSonic-v2.3.pk3 added 8 frames in 2 sprites
+Added skin 'fsonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3 (645 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/chrispymarriage/LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/MultiThokCrossMomentum.lua
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|lua/handdrawn/PERSONAHD.lua
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\CL_OverhauledLegacyTrio-V1.3.pk3|soc/OBJCTCFG
+CL_OverhauledLegacyTrio-V1.3.pk3 added 1 frames in 1 sprites
+Added skin 'handdrawn'
+Added skin 'lessunique'
+Added skin 'chrispymarriage'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad (541 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\d4data.wad
+31 midi musics replaced
+MAP74
+MAP76
+MAP78
+MAP80
+MAP79
+MAP75
+MAP77
+MAP81
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\hsonic.wad (213 lumps)
+Added skin 'halloweensonic'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3 (95 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\doshog.pk3|SOC/MAINCFG
+doshog.pk3 added 1 frames in 0 sprites
+Added skin 'doshog'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad (326 lumps)
+Loading main config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\earlygang.wad
+WARNING: Line 0: SRB2 version definition has incorrect format, use "SRB2 220"
+WARNING: Line 3: Maincfg: unknown word 'USENIGHTSSS'
+2 warnings in the SOC lump
+31 midi musics replaced
+35 digital musics replaced
+MAP01
+MAP02
+MAP03
+MAP04
+MAP05
+MAP06
+MAP07
+MAP08
+MAP09
+MAP10
+MAP11
+MAP12
+MAP13
+MAP16
+MAP24
+MAP25
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3 (155 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Stuff
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoSlide
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_OldGlideLogic
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_Sdash
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\knux.pk3|SOC/MAINCFG
+knux.pk3 added 1 frames in 1 sprites
+Added skin 'k.t.e'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3 (153 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\metson.pk3|SOC/SOC_METS
+metson.pk3 added 1 frames in 1 sprites
+Added skin 'metson'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\oldtextures.pk3 (4899 lumps)
+WARNING: Bad sprite name: BRAK[1
+WARNING: Bad sprite name: BRAK[2
+WARNING: Bad sprite name: BRAK[3
+WARNING: Bad sprite name: BRAK[4
+WARNING: Bad sprite name: BRAK[5
+WARNING: Bad sprite name: BRAK[6
+WARNING: Bad sprite name: BRAK[7
+WARNING: Bad sprite name: BRAK[8
+WARNING: Bad sprite name: IVSP[0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP]0
+WARNING: Bad sprite name: IVSP+0
+WARNING: Bad sprite name: IVSP_0
+WARNING: Bad sprite name: IVSP`0
+oldtextures.pk3 added 2804 frames in 157 sprites
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua
+WARNING: ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: the Terminal core script must be added first!
+stack traceback:
+    [C]: in function 'assert'
+    ...ic Robo Blast 2\2.2.9\Early Gang\Terminal_Cheats.lua:4: in main chunk
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua (1 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua
+Added chat macro "$rings" as ID 1.
+Added chat macro "$health" as ID 2.
+Added chat macro "$lives" as ID 3.
+Added chat macro "$location" as ID 4.
+Added chat macro "$score" as ID 5.
+Added chat macro "$time" as ID 6.
+Added chat macro "$name" as ID 7.
+Added chat macro "$weapon" as ID 8.
+Added chat macro "$ammo" as ID 9.
+Added chat macro "$coin" as ID 10.
+Added chat macro "$roll" as ID 11.
+Added chat macro "/ca" as ID 12.
+Added chat macro "/cb" as ID 13.
+Added chat macro "/cc" as ID 14.
+Added chat macro "/cd" as ID 15.
+Added chat macro "/ce" as ID 16.
+Added chat macro "/cf" as ID 17.
+Added chat macro "/cg" as ID 18.
+Added chat macro "/ch" as ID 19.
+Added command "util"
+Replaced command "csay"
+Added command "notice"
+Replaced command "gametype"
+Added command "vote"
+Added command "cancelvote"
+Added command "votepermission"
+Added command "afk"
+Added command "afk2"
+Added command "showvotecmds"
+Added command "callvote"
+Added command "silence"
+Added command "unsilence"
+Added command "ignore"
+Added command "unignore"
+Added command "changemus"
+Added command "changesky"
+Added command "sayadmin"
+Added command "macrolist"
+Added command "dediname"
+Added command "updatename"
+Added command "utilversion"
+No maps added
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: attempt to index global 'server' (a nil value)
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1697: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1662>
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad (215 lumps)
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_LUA
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDS
+Loading Lua script from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad|LUA_OLDG
+Loading object config from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VCL_UglyKnux-v3.wad
+Added skin 'uglyknux'
+No maps added
+Added file C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3 (237 lumps)
+Loading SOC from C:\Users\pcref\Desktop\Fan-games\Spnic Robo Blast 2\2.2.9\Early Gang\VC_EarlySonic-v1.pk3|SOC/OBJCTCFG
+Added skin 'earlysonic'
+No maps added
+HMS: connecting 'https://mb.srb2.org/MS/0/versions/18'...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms'...
+Starting Server....
+Binding to 0.0.0.0:5029
+Network system buffer: 64Kb
+Contacting the server...
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Sending join request...
+Join accepted, waiting for complete game state...
+*ImpatientHedgehog15 has joined the game (player 0)
+Speeding off to level...
+Master server registration successful.
+Map is now "MAP01: GREENFLOWER Zone 1"
+$maxsend max
+$banskin sonic
+Skin "sonic" has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+$banskin tails
+Skin "tails" has been banned.
+You currently cannot play with the skin "tails" as it has been banned.
+$banskin knuckles
+Skin "knuckles" has been banned.
+You currently cannot play with the skin "knuckles" as it has been banned.
+$banskin amy
+Skin "amy" has been banned.
+You currently cannot play with the skin "amy" as it has been banned.
+$banskin fang
+Skin "fang" has been banned.
+You currently cannot play with the skin "fang" as it has been banned.
+$banskin metalsonic\
+You can't ban a nonexistent skin!
+$banskin metalsonic
+Skin "metalsonic" has been banned.
+You currently cannot play with the skin "metalsonic" as it has been banned.
+$massword msmsms2
+Unknown command 'massword'
+$password msmsms2
+Password set.
+*Suit has joined the game (player 1)
+Viewpoint: Suit
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+$super
+ImpatientHedgehog15 has turned super.
+WARNING: ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: attempt to compare nil with number
+stack traceback:
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1335: in function '?'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1451: in function 'ChatMacro'
+    ... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1608: in function <... Robo Blast 2\2.2.9\Early Gang\utility-v0.3b (1).lua:1582>
+<Suit> ok
+<Suit> now we should ctf
+<Suit> wait
+<Suit> brb
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+Viewpoint: Suit
+<Suit> ok
+<Suit> lets ctf
+Suit passed authentication.
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+Time limit disabled
+<~ImpatientHedgehog15> hold on
+Time limit disabled
+<~ImpatientHedgehog15> ok
+Gametype was changed from Co-op to CTF
+Speeding off to level...
+ERROR: FOF (line 172) has a top height below its bottom.
+WARNING: No Deathmatch starts in this map!
+WARNING: ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: attempt to index field 'mo' (a nil value)
+stack traceback:
+    ...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:4: in function <...bo Blast 2\2.2.9\Early Gang\knux.pk3|Lua/Lua_NoDrown:2>
+Map is now "MAP80: Lime Forest Zone"
+Time limit disabled
+Levels will end after a team scores 5 points.
+*MarioNSonicGamer has joined the game (player 2)
+Levels will end after 1 minute.
+ImpatientHedgehog15 switched to the Red team.
+Levels will end after 2 minutes.
+Levels will end after 3 minutes.
+Levels will end after 2 minutes.
+Suit switched to the Blue team.
+Suit picked up the Red flag!
+$afk
+Only usable in Co-Op. Sorry!
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring hit ImpatientHedgehog15.
+„Suit€\CAPTURED THE …RED FLAG€.\\\\
+<@Suit> uhm
+MarioNSonicGamer switched to the Red team.
+Suit's thrown ring killed MarioNSonicGamer.
+MarioNSonicGamer died.
+MarioNSonicGamer switched to the Blue Team.
+Suit picked up the Red flag!
+The round has ended.
+Speeding off to level...
+WARNING: Unknown thing type 81 placed at (64, 8672)
+Map is now "MAP81: Dual Fortress Zone"
+<~ImpatientHedgehog15> im back
+Suit picked up the Red flag!
+*sonic123lag has joined the game (player 3)
+„Suit€\CAPTURED THE …RED FLAG€.\\\\
+ImpatientHedgehog15 drowned.
+Suit picked up the Red flag!
+sonic123lag switched to the Blue Team.
+<@Suit> somebody
+„Suit€\CAPTURED THE …RED FLAG€.\\\\
+*sonic123lag left the game
+MarioNSonicGamer picked up the Red flag!
+MarioNSonicGamer tossed the Red flag.
+MarioNSonicGamer picked up the Red flag!
+„MarioNSonicGamer€\CAPTURED THE …RED FLAG€.\\\\
+Suit picked up the Red flag!
+„Suit€\CAPTURED THE …RED FLAG€.\\\\
+MarioNSonicGamer picked up the Red flag!
+„MarioNSonicGamer€\CAPTURED THE …RED FLAG€.\\\\
+The round has ended.
+ERROR: Next map given (MAP 82) doesn't exist! Reverting to MAP01.
+Speeding off to level...
+WARNING: No CTF starts in this map!
+WARNING: No Deathmatch starts in this map!
+Map is now "MAP01: GREENFLOWER Zone 1"
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring killed ImpatientHedgehog15.
+*Son has joined the game (player 3)
+*So has joined the game (player 4)
+*So left the game
+*So has rejoined the game (player 4)
+<@Suit> this isnt a ctf map
+*Son left the game
+*So left the game
+<@Suit> its gfz1
+WARNING: No CTF starts in this map!
+WARNING: No Deathmatch starts in this map!
+<@Suit> uhh
+<@Suit> impatient?
+Speeding off to level...
+ERROR: Music MAP01M could not be loaded: lump not found!
+Map is now "MAPF0: LIME FOREST Zone"
+<~ImpatientHedgehog15> ok I'm ACTUALLY back
+Speeding off to level...
+ERROR: Music MAPB6M could not be loaded: lump not found!
+Map is now "MAPF1: CLOUD PALACE Zone"
+Speeding off to level...
+ERROR: Music MAP93M could not be loaded: lump not found!
+Map is now "MAPF2: SILVER CASCADE Zone"
+Speeding off to level...
+ERROR: Music MAP23M could not be loaded: lump not found!
+Map is now "MAPF4: TWISTED TERMINAL Zone"
+Speeding off to level...
+ERROR: FOF (line 172) has a top height below its bottom.
+Map is now "MAP80: Lime Forest Zone"
+<@Suit> wheres air
+Suit's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15 picked up the Blue flag!
+Suit picked up the Red flag!
+ImpatientHedgehog15 dropped the Blue flag.
+Suit's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15 picked up the Blue flag!
+*gianni* has joined the game (player 5)
+*So has rejoined the game (player 4)
+gianni* switched to the Red Team.
+ImpatientHedgehog15's thrown ring hit MarioNSonicGamer.
+ImpatientHedgehog15 dropped the Blue flag.
+MarioNSonicGamer's thrown ring hit ImpatientHedgehog15.
+So switched to the Red team.
+MarioNSonicGamer returned the Blue flag to base.
+„Suit€\CAPTURED THE …RED FLAG€.\\\\
+MarioNSonicGamer picked up the Red flag!
+gianni* died.
+gianni* became a spectator.
+„MarioNSonicGamer€\CAPTURED THE …RED FLAG€.\\\\
+ImpatientHedgehog15's thrown ring hit MarioNSonicGamer.
+ImpatientHedgehog15 picked up the Blue flag!
+*So left the game
+WARNING: Illegal color change received from So (team: 1), color: 53)
+*So has rejoined the game (player 4)
+*So left the game (Synch Failure)
+…ImpatientHedgehog15€\CAPTURED THE „BLUE FLAG€.\\\\
+ImpatientHedgehog15's thrown ring hit MarioNSonicGamer.
+Suit's thrown ring hit ImpatientHedgehog15.
+Suit's thrown ring killed ImpatientHedgehog15.
+ImpatientHedgehog15 picked up the Blue flag!
+…ImpatientHedgehog15€\CAPTURED THE „BLUE FLAG€.\\\\
+Suit picked up the Red flag!
+„Suit€\CAPTURED THE …RED FLAG€.\\\\
+The round has ended.
+WARNING: ... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:82: Do not access an mobj_t field outside a level!
+stack traceback:
+    [C]: ?
+    ... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:82: in function <... 2\2.2.9\Early Gang\CL_FSonic-v2.3.pk3|Lua/LUA_FINST:81>
+MarioNSonicGamer died.
+MarioNSonicGamer became a spectator.
+<@Suit> wish we had more playesr
+Speeding off to level...
+WARNING: Unknown thing type 81 placed at (64, 8672)
+Map is now "MAP81: Dual Fortress Zone"
+gianni* switched to the Red Team.
+Suit's thrown ring hit gianni*.
+Suit picked up the Red flag!
+gianni* picked up the Blue flag!
+gianni* dropped the Blue flag.
+Suit's thrown ring hit gianni*.
+Suit returned the Blue flag to base.
+„Suit€\CAPTURED THE …RED FLAG€.\\\\
+gianni* picked up the Blue flag!
+ImpatientHedgehog15's thrown ring hit Suit.
+The server is restricting all players to skin "sonic".
+You currently cannot play with the skin "sonic" as it has been banned.
+The server has lifted the forced skin restrictions.
+…gianni*€\CAPTURED THE „BLUE FLAG€.\\\\
+ImpatientHedgehog15 picked up the Blue flag!
+Suit picked up the Red flag!
+Suit's thrown ring hit gianni*.
+Suit's thrown ring hit gianni*.
+Suit's thrown ring hit gianni*.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+Suit's thrown ring killed gianni*.
+gianni* became a spectator.
+gianni* switched to the Red Team.
+<@Suit> this is terrifying
+gianni* died.
+gianni* became a spectator.
+ImpatientHedgehog15 tossed the Blue flag.
+ImpatientHedgehog15 picked up the Blue flag!
+gianni* switched to the Blue Team.
+gianni* died.
+gianni* switched to the Red Team.
+ImpatientHedgehog15 dropped the Blue flag.
+Suit's thrown ring hit ImpatientHedgehog15.
+gianni* picked up the Blue flag!
+Suit's thrown ring hit ImpatientHedgehog15.
+gianni* dropped the Blue flag.
+Suit's thrown ring hit gianni*.
+„Suit€\CAPTURED THE …RED FLAG€.\\\\
+The round has ended.
+ERROR: Next map given (MAP 82) doesn't exist! Reverting to MAP01.
+<@Suit> good game
+Gametype was changed from CTF to Match
+Speeding off to level...
+Map is now "MAP74: Zero Ring Zone"
+Point limit disabled
+Levels will end after 10 minutes.
+ImpatientHedgehog15 entered the game.
+Suit entered the game.
+<gianni*> we dont win
+<gianni*> what map is thi
+gianni* entered the game.
+*Fyrid has joined the game (player 3)
+Suit's thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15's thrown ring hit Suit.
+Suit's thrown ring hit ImpatientHedgehog15.
+<gianni*> so um why
+gianni*'s thrown ring killed ImpatientHedgehog15.
+<@Suit> no idea
+<@Suit> this has scared me more than nam
+<~ImpatientHedgehog15> we'll do co op next
+Suit's thrown ring hit gianni*.
+<gianni*> yues
+Suit's thrown ring hit ImpatientHedgehog15.
+<MarioNSonicGamer> wait is this battle?
+<@Suit> just match
+<Fyrid> what mode is thind
+<@Suit> not ctf
+<gianni*> no
+ImpatientHedgehog15's thrown ring hit gianni*.
+<Fyrid> oh k
+<@Suit> muereder people mode
+gianni*'s thrown ring hit Suit.
+Suit's thrown ring hit gianni*.
+ImpatientHedgehog15's invincibility aura hit gianni*.
+ImpatientHedgehog15's invincibility aura hit gianni*.
+ImpatientHedgehog15's thrown ring killed gianni*.
+gianni*'s thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15's invincibility aura hit gianni*.
+Suit's thrown ring hit gianni*.
+Suit's thrown ring hit gianni*.
+<gianni*> add battle mod
+Levels will end after 9 minutes.
+Levels will end after 8 minutes.
+Levels will end after 7 minutes.
+Levels will end after 6 minutes.
+Levels will end after 5 minutes.
+<~ImpatientHedgehog15> what
+gianni*'s thrown ring hit ImpatientHedgehog15.
+ImpatientHedgehog15's thrown ring hit gianni*.
+<@Suit> you never heard of it?
+<gianni*> i did
+gianni*'s thrown ring killed ImpatientHedgehog15.
+The round has ended.
+Gametype was changed from Match to Co-op
+Speeding off to level...
+Map is now "MAP01: GREENFLOWER Zone 1"
+Time limit disabled
+<@Suit> or did you never want to hear about it
+<~ImpatientHedgehog15> never heard
+<@Suit> wouldnt blame you if thats true
+<@Suit> look into it
+ImpatientHedgehog15 has completed the level.
+<Fyrid> ALREADY
+Suit has completed the level.
+Fyrid has completed the level.
+$super
+ImpatientHedgehog15 has turned super.
+<gianni*> new plus old and renewd game modes
+Speeding off to level...
+Map is now "MAP02: GREENFLOWER Zone 2"
+MarioNSonicGamer has turned super.
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+MarioNSonicGamer has completed the level.
+Speeding off to level...
+Map is now "MAP03: GREENFLOWER Zone 3"
+<gianni*> CAN WE ADD SRB2 BATTLE MOD?
+<gianni*> lol
+<~ImpatientHedgehog15> It sounds interesting
+Speeding off to level...
+Map is now "MAP04: TECHNO HILL Zone 1"
+MarioNSonicGamer has turned super.
+<gianni*> i might be interstinf with the old characters
+ImpatientHedgehog15 has completed the level.
+MarioNSonicGamer has completed the level.
+$super
+ImpatientHedgehog15 has turned super.
+$super
+ImpatientHedgehog15 has reverted back.
+<MarioNSonicGamer> wut 
+<gianni*> srb2 battle mod
+$super
+ImpatientHedgehog15 has turned super.
+$suicide
+<Fyrid> literrally all main characters are banned lol
+<gianni*> well un ban em
+<~ImpatientHedgehog15> We might patch them
+<MarioNSonicGamer> bc this is 2.1
+<@Suit> better to patch them
+<gianni*> wdym by that
+<@Suit> get rid of the legacy trio and have me work on better legacy like the actual 2.1 knuckles
+*Bebe Stevens has joined the game (player 4)
+<@Suit> or the weird crispy mariage i have with different sprites and voice clips
+<~ImpatientHedgehog15> it's tedious to ban them one by one every time I start the server
+<@Suit> i just have that somewhere
+<@Suit> i need to make a shitty demo esc fang someday so we can have popgun in this
+Suit has completed the level.
+<@Suit> without me just unbanning fang
+<@Suit> i jokingly play as him in servers sometimes
+<Fyrid> hand drawn is broken
+Speeding off to level...
+Map is now "MAP05: TECHNO HILL Zone 2"
+MarioNSonicGamer has turned super.
+<gianni*> yea
+*Bebe Stevens left the game
+<gianni*> but do you have the battle mod
+<~ImpatientHedgehog15> no
+<gianni*> you can download it
+<~ImpatientHedgehog15> I have to see what it's about first and then I'll add it next time I host
+<gianni*> its about remasterd mp game modes
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<@Suit> Greetings, gordon
+<gianni*> like ctf match
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+<gianni*> and new game modes
+$super
+ImpatientHedgehog15 has turned super.
+<@Suit> should we just
+$suicide
+<@Suit> do another only kte game
+<gianni*> liketeam match
+MarioNSonicGamer has completed the level.
+<~ImpatientHedgehog15> on what?
+<gianni*> battle ctf\
+The server is restricting all players to skin "earlysonic".
+The server is restricting all players to skin "earlysonic".
+The server is restricting all players to skin "uglyknux".
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "k.t.e".
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "k.t.e".
+The server is restricting all players to skin "doshog".
+The server is restricting all players to skin "k.t.e".
+Speeding off to level...
+Map is now "MAP06: TECHNO HILL Zone 3"
+<gianni*> and cp
+<gianni*> controllpoint
+<~ImpatientHedgehog15> SRB2GOLF?
+<@Suit> thats just making me remember that tf2 concept i had
+<gianni*> no
+<@Suit> and now im mad that battlemod has a most likely worse and more "skill" based version of it
+*kiwi the leafeon has joined the game (player 4)
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (5536, 4896)
+WARNING: Unknown thing type 524 placed at (5568, 4576)
+WARNING: Unknown thing type 524 placed at (5952, 4640)
+WARNING: Unknown thing type 524 placed at (5856, 4800)
+WARNING: Unknown thing type 524 placed at (5280, 4672)
+WARNING: Unknown thing type 524 placed at (5088, 4736)
+WARNING: Unknown thing type 524 placed at (4608, 3904)
+WARNING: Unknown thing type 524 placed at (4352, 4384)
+WARNING: Unknown thing type 524 placed at (4608, 4448)
+WARNING: Unknown thing type 524 placed at (5024, 4224)
+WARNING: Unknown thing type 524 placed at (-768, 5312)
+WARNING: Unknown thing type 524 placed at (-1472, 4736)
+WARNING: Unknown thing type 524 placed at (-2112, 5248)
+WARNING: Unknown thing type 524 placed at (-2560, 4480)
+WARNING: Unknown thing type 524 placed at (-448, 4416)
+WARNING: Unknown thing type 524 placed at (-1088, 4224)
+WARNING: Unknown thing type 524 placed at (-1472, 5248)
+WARNING: Unknown thing type 524 placed at (-2048, 4672)
+WARNING: Unknown thing type 524 placed at (-1920, 3648)
+WARNING: Unknown thing type 524 placed at (-2752, 4864)
+WARNING: Unknown thing type 524 placed at (-2752, 3776)
+Map is now "MAP07: DEEP SEA Zone 1"
+<gianni*> why are we all kte
+*kiwi the leafeon left the game
+<~ImpatientHedgehog15> idk
+<@Suit> the illusion of fun
+<gianni*> no its not
+<@Suit> Wheres the hole?
+<@Suit> But thats what makes it fun
+<Fyrid> were resticted to this character apparently
+<gianni*> host turn us back
+MarioNSonicGamer has completed the level.
+<MarioNSonicGamer> win
+<~ImpatientHedgehog15> after this zone
+<gianni*> ok'
+<@Suit> i wanted to go to erz with kte
+<@Suit> we can just do the limit there
+<gianni*> well no
+<@Suit> and with brak
+<@Suit> and no supering brak
+Viewpoint: Suit
+<@Suit> fight em like men
+$whois 2
+they are MarioNSonicGamer.
+$whois 1
+they are Suit.
+<gianni*> and heres a link
+$goto 1
+<@Suit> fight em like you made a wad where you change the arena and end up having to change his mechanics and fight him a million times
+<@Suit> boy it hits different when you hit brak and he drops a mine
+ImpatientHedgehog15 has completed the level.
+<@Suit> instantly
+<@Suit> yeah i made that a brak wad
+Suit has completed the level.
+*yoshi blue has joined the game (player 4)
+<gianni*> https://mb.srb2.org/addons/srb2-battle-multiplayer-gameplay-mod.171/
+Speeding off to level...
+WARNING: Unknown thing type 524 placed at (7968, 12064)
+WARNING: Unknown thing type 524 placed at (7616, 7488)
+WARNING: Unknown thing type 524 placed at (7616, 7808)
+WARNING: Unknown thing type 524 placed at (8704, 8320)
+WARNING: Unknown thing type 524 placed at (8704, 8576)
+WARNING: Unknown thing type 524 placed at (7616, 9152)
+WARNING: Unknown thing type 524 placed at (7776, 10208)
+WARNING: Unknown thing type 524 placed at (7776, 12864)
+WARNING: Unknown thing type 524 placed at (8032, 12864)
+WARNING: Unknown thing type 524 placed at (5952, 14880)
+WARNING: Unknown thing type 524 placed at (6336, 14880)
+WARNING: Unknown thing type 524 placed at (7840, 7648)
+WARNING: Unknown thing type 524 placed at (7904, 12096)
+WARNING: Unknown thing type 524 placed at (7776, 12096)
+WARNING: Unknown thing type 524 placed at (8032, 12096)
+WARNING: Unknown thing type 524 placed at (7840, 12064)
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+WARNING: Detected a camera scanner effect (linedef type 5). This effect is deprecated and will be removed in the future!
+Map is now "MAP08: DEEP SEA Zone 2"
+<~ImpatientHedgehog15> excuse
+<@Suit> arena has 4 separate sinking platforms, brak drops mines when hes hit, and the only attack he can do otherwise is the homing missile
+<Fyrid> brb
+<~ImpatientHedgehog15> type afk
+<@Suit> and you cant avoid the seeking thing since i never added pop up platforms
+<gianni*> srry didnt get it https://mb.srb2.org/addons/srb2-battle-multiplayer-gameplay-mod.171/
+*Sonicdestroyer has joined the game (player 6)
+*yoshi blue left the game
+Resending game state to MarioNSonicGamer...
+<@Suit> now im kind of glad i gave up on chainsaw tails and making a tf2 equivalent roster for a tf2 esc srb2 mod
+*Cheester has joined the game (player 7)
+<@Suit> clearly battlemod did it worse and memey
+<Fyrid> back
+<gianni*> ok can we add battle mod now and stop wasting time
+<@Suit> the whole point of this server is that its 2.1
+Resending game state to MarioNSonicGamer...
+*Sonic has joined the game (player 8)
+*Son has joined the game (player 9)
+<~ImpatientHedgehog15> like, everybody is going to get kicked the moment I add it
+Resending game state to MarioNSonicGamer...
+<gianni*> no they are not]
+*Son left the game (Connection timeout)
+<@Suit> not like that
+<gianni*> they can rejoin
+*So has joined the game (player 4)
+<@Suit> they most likely wont due to people being
+<@Suit> people
+*Cheester left the game
+Suit has completed the level.
+$goto 1
+ImpatientHedgehog15 has completed the level.
+<MarioNSonicGamer> I hate these jump
+<@Suit> glide
+Resending game state to MarioNSonicGamer...
+Resending game state to So...
+<@Suit> makes you fall slower, and you can multi glide, and strafe
+Resending game state to MarioNSonicGamer...
+<gianni*> so can we battle mod lololol
+<~ImpatientHedgehog15> let me get it
+*Sonicdestroyer left the game
+<@Suit> oh
+<@Suit> mario
+<@Suit> you chose a bad path
+<@Suit> best bet is you take it platform by platform
+<gianni*> and 2 change us back
+<@Suit> i thought impatient was gonna do that
+<gianni*> can you
+<~ImpatientHedgehog15> imagine
+<@Suit> imagine imagining
+Added file .\Early Gang\ZBa_BattleMod-v8.6.pk3 (619 lumps)
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/Init_Global.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/Init_Gametype.lua
+TypeOfLevel TOL_ARENA allocated.
+TypeOfLevel TOL_SURVIVAL allocated.
+TypeOfLevel TOL_CP allocated.
+TypeOfLevel TOL_DIAMOND allocated.
+TypeOfLevel TOL_BATTLECTF allocated.
+TypeOfLevel TOL_BIGARENA allocated.
+TypeOfLevel TOL_BATTLE allocated.
+TypeOfLevel TOL_EGGROBOTAG allocated.
+Added gametype Arena
+Added gametype Team Arena
+Added gametype Survival
+Added gametype Team Survival
+Added gametype Control Point
+Added gametype Team Control Point
+Added gametype Diamond in the Rough
+Added gametype Team Diamond in the Rough
+Added gametype Battle CTF
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/Init_GametypeExtra.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/GAME MODES
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_2DCam.lua
+MobjType MT_PLAYCAM allocated.
+MobjType MT_CAMMIN allocated.
+MobjType MT_CAMMAX allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_CP.lua
+MobjType MT_CONTROLPOINT allocated.
+MobjType MT_CPBONUS allocated.
+State S_CPBONUS allocated.
+Sprite SPR_CPBS allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_CTF.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_Diamond.lua
+MobjType MT_DIAMOND allocated.
+MobjType MT_DIAMONDSPAWN allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_Tag.lua
+MobjType MT_TAGGINGHAND allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_RevengeGunner.lua
+Sprite SPR_PJGN allocated.
+State S_REVENGEGUNNER1 allocated.
+State S_REVENGEGUNNER2 allocated.
+State S_REVENGEGUNNER3 allocated.
+State S_REVENGEGUNNER4 allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/SPECIALS
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_Actions.lua
+Sprite SPR_CMPS allocated.
+Sound sfx_antiri allocated.
+Sound sfx_noring allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ActGroundPound.lua
+MobjType MT_GROUNDPOUND allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ActTailSwipe.lua
+State S_TAILS_SWIPE allocated.
+Sprite SPR_TSWP allocated.
+MobjType MT_SONICBOOM allocated.
+Sprite SPR_GUIL allocated.
+State S_SONICBOOM1 allocated.
+State S_SONICBOOM2 allocated.
+State S_SONICBOOM3 allocated.
+State S_SONICBOOM4 allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ActRoboMissile.lua
+MobjType MT_CRAWLAMISSILE allocated.
+MobjType MT_BASHMISSILE allocated.
+MobjType MT_JETJAWMISSILE allocated.
+State S_CRAWLAMISSILE1 allocated.
+State S_CRAWLAMISSILE2 allocated.
+State S_CRAWLAMISSILE3 allocated.
+State S_BASHMISSILE1 allocated.
+State S_BASHMISSILE2 allocated.
+State S_BASHMISSILE3 allocated.
+State S_BASHMISSILE4 allocated.
+State S_JETJAWMISSILE1 allocated.
+State S_JETJAWMISSILE2 allocated.
+State S_JETJAWMISSILE3 allocated.
+State S_JETJAWMISSILE4 allocated.
+Sprite SPR_GPOS allocated.
+Sprite SPR_GBSH allocated.
+Sprite SPR_GJAW allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ActRockBlast.lua
+Sprite SPR_KDRA allocated.
+State S_KNUCKLES_DRILLDIVE1 allocated.
+State S_KNUCKLES_DRILLDIVE2 allocated.
+State S_KNUCKLES_DRILLDIVE3 allocated.
+State S_KNUCKLES_DRILLDIVE4 allocated.
+Sprite SPR_KDRB allocated.
+State S_KNUCKLES_DRILLRISE1 allocated.
+State S_KNUCKLES_DRILLRISE2 allocated.
+State S_KNUCKLES_DRILLRISE3 allocated.
+State S_KNUCKLES_DRILLRISE4 allocated.
+MobjType MT_ROCKBLAST allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ActDustDevil.lua
+MobjType MT_DUSTDEVIL_BASE allocated.
+MobjType MT_DUSTDEVIL allocated.
+MobjType MT_SWIRL allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ActBomb.lua
+Sprite SPR_FLOB allocated.
+State S_FANGCHAR_LOB1 allocated.
+State S_FANGCHAR_LOB2 allocated.
+State S_FANGCHAR_LOB3 allocated.
+Sprite SPR_CBOM allocated.
+State S_COLORBOMB1 allocated.
+State S_COLORBOMB2 allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ActEnergyBlast.lua
+MobjType MT_ENERGYBLAST allocated.
+MobjType MT_ENERGYAURA allocated.
+MobjType MT_ENERGYGATHER allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ActDashSlicer.lua
+MobjType MT_DASHSLICER allocated.
+MobjType MT_SLASH allocated.
+State S_SLASH1 allocated.
+State S_SLASH2 allocated.
+State S_SLASH3 allocated.
+State S_SLASH4 allocated.
+Sprite SPR_SLSH allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/ITEMS
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ItemBubble1.lua
+MobjType MT_ITEM_BUBBLE allocated.
+MobjType MT_ITEM_BUBBLE_OVERLAY allocated.
+State S_ITEM_BUBBLE allocated.
+MobjType MT_ITEM_PRESPAWN allocated.
+State S_ITEM_PRESPAWN1 allocated.
+State S_ITEM_PRESPAWN2 allocated.
+MobjType MT_ITEM_SPAWN allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ItemBubble2.lua
+MobjType MT_GLOBAL_SPAWN allocated.
+MobjType MT_RING_SPAWN allocated.
+MobjType MT_SUPERRING_SPAWN allocated.
+MobjType MT_PITY_SPAWN allocated.
+MobjType MT_WHIRLWIND_SPAWN allocated.
+MobjType MT_FORCE_SPAWN allocated.
+MobjType MT_ELEMENTAL_SPAWN allocated.
+MobjType MT_ATTRACTION_SPAWN allocated.
+MobjType MT_ARMAGEDDON_SPAWN allocated.
+MobjType MT_ROULETTE_SPAWN allocated.
+MobjType MT_S3BUBBLE_SPAWN allocated.
+MobjType MT_S3FLAME_SPAWN allocated.
+MobjType MT_S3LIGHTNING_SPAWN allocated.
+MobjType MT_S3ROULETTE_SPAWN allocated.
+MobjType MT_HYPERROULETTE_SPAWN allocated.
+MobjType MT_WEAKRANDOM_SPAWN allocated.
+MobjType MT_STRONGRANDOM_SPAWN allocated.
+MobjType MT_RING_CAROUSEL allocated.
+MobjType MT_SUPERRING_CAROUSEL allocated.
+MobjType MT_PITY_CAROUSEL allocated.
+MobjType MT_WHIRLWIND_CAROUSEL allocated.
+MobjType MT_FORCE_CAROUSEL allocated.
+MobjType MT_ELEMENTAL_CAROUSEL allocated.
+MobjType MT_ATTRACTION_CAROUSEL allocated.
+MobjType MT_ARMAGEDDON_CAROUSEL allocated.
+MobjType MT_ROULETTE_CAROUSEL allocated.
+MobjType MT_S3BUBBLE_CAROUSEL allocated.
+MobjType MT_S3FLAME_CAROUSEL allocated.
+MobjType MT_S3LIGHTNING_CAROUSEL allocated.
+MobjType MT_S3ROULETTE_CAROUSEL allocated.
+MobjType MT_HYPERROULETTE_CAROUSEL allocated.
+MobjType MT_WEAKRANDOM_CAROUSEL allocated.
+MobjType MT_STRONGRANDOM_CAROUSEL allocated.
+MobjType MT_RING_FLURRY allocated.
+MobjType MT_SUPERRING_FLURRY allocated.
+MobjType MT_PITY_FLURRY allocated.
+MobjType MT_WHIRLWIND_FLURRY allocated.
+MobjType MT_FORCE_FLURRY allocated.
+MobjType MT_ELEMENTAL_FLURRY allocated.
+MobjType MT_ATTRACTION_FLURRY allocated.
+MobjType MT_ARMAGEDDON_FLURRY allocated.
+MobjType MT_ROULETTE_FLURRY allocated.
+MobjType MT_S3BUBBLE_FLURRY allocated.
+MobjType MT_S3FLAME_FLURRY allocated.
+MobjType MT_S3LIGHTNING_FLURRY allocated.
+MobjType MT_S3ROULETTE_FLURRY allocated.
+MobjType MT_HYPERROULETTE_FLURRY allocated.
+MobjType MT_WEAKRANDOM_FLURRY allocated.
+MobjType MT_STRONGRANDOM_FLURRY allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/MISC
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_Popgun.lua
+Sprite SPR_FAIR allocated.
+State S_FANGCHAR_AIRFIRE1 allocated.
+State S_FANGCHAR_AIRFIRE2 allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_Guard.lua
+MobjType MT_BATTLESHIELD allocated.
+MobjType MT_NEGASHIELD allocated.
+State S_BATTLE_SHIELD allocated.
+Sprite SPR_SBSH allocated.
+MobjType MT_INSTASHIELD allocated.
+MobjType MT_INSTAHIT allocated.
+State S_INSTASHIELD allocated.
+State S_INSTASHIELD1 allocated.
+State S_INSTASHIELD1B allocated.
+State S_INSTASHIELD2 allocated.
+State S_INSTASHIELD2B allocated.
+State S_INSTASHIELD3 allocated.
+State S_INSTASHIELD3B allocated.
+State S_INSTASHIELD4 allocated.
+State S_INSTASHIELD4B allocated.
+State S_INSTASHIELD5 allocated.
+State S_INSTASHIELD5B allocated.
+State S_INSTASHIELD6 allocated.
+State S_INSTASHIELD6B allocated.
+State S_INSTASHIELD7 allocated.
+State S_INSTASHIELD7B allocated.
+State S_INSTAHIT allocated.
+State S_INSTAHIT1 allocated.
+State S_INSTAHIT2 allocated.
+Sprite SPR_TWSP allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_PlayerOverlay.lua
+MobjType MT_TARGETDUMMY allocated.
+State S_SPECBIRD1 allocated.
+State S_SPECBIRD2 allocated.
+State S_SPECBIRD3 allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_Bashables.lua
+MobjType MT_CHESSKNIGHT allocated.
+MobjType MT_CHESSKING allocated.
+MobjType MT_CHESSQUEEN allocated.
+MobjType MT_CHESSPAWN allocated.
+State S_CHESSKNIGHT allocated.
+State S_CHESSKING allocated.
+State S_CHESSQUEEN allocated.
+State S_CHESSPAWN allocated.
+Sprite SPR_CHSS allocated.
+MobjType MT_SPARRINGDUMMY allocated.
+State S_TAILSDOLL1 allocated.
+State S_TAILSDOLL2 allocated.
+State S_TAILSDOLL3 allocated.
+Sprite SPR_TDOL allocated.
+State S_COLORCOMMANDER1 allocated.
+State S_COLORCOMMANDER2 allocated.
+State S_COLORCOMMANDER3 allocated.
+Sprite SPR_GCOM allocated.
+MobjType MT_BASHBOULDER allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_FireTrail.lua
+State S_TEAMFIRE1 allocated.
+State S_TEAMFIRE2 allocated.
+State S_TEAMFIRE3 allocated.
+State S_TEAMFIRE4 allocated.
+State S_TEAMFIRE5 allocated.
+State S_TEAMFIRE6 allocated.
+Sprite SPR_TFIR allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_EmeraldProps.lua
+MobjType MT_EMPROP1 allocated.
+MobjType MT_EMPROP2 allocated.
+MobjType MT_EMPROP3 allocated.
+MobjType MT_EMPROP4 allocated.
+MobjType MT_EMPROP5 allocated.
+MobjType MT_EMPROP6 allocated.
+MobjType MT_EMPROP7 allocated.
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/EXTRA INFO
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_Sound.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/1-Init/MobjStateInfo/Info_ObjectNames.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/Cons_Debug.lua
+Added command "test"
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/Cons_Misc.lua
+Added command "battleversioninfo"
+Replaced command "suicide"
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/Cons_Battle.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/Cons_Arena.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/Cons_CP.lua
+Added command "cp_create"
+Added command "cp_next"
+Added command "cp_shuffle"
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/Cons_CTF.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/Cons_Item.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/2-Console/Cons_PlayerConfig.lua
+Added command "battleconfig_autospectator"
+Added command "battleconfig_special"
+Added command "battleconfig_guard"
+Added command "battleconfig_aimsight"
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/1-General/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/1-General/Lib_Debug.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/1-General/Lib_Math.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/1-General/Lib_Random.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/1-General/Lib_Color.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_NetVars.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_GametypeControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_BattleFeed.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_TailsDoll.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_RoundControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_2DControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_ScoreControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_ChangeTeam.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Lib_Intermission.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Tag/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Tag/Lib_ModeTag.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Arena/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Arena/Lib_ModeArena.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Arena/Lib_Revenge.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Items/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Items/Lib_ItemSpawn.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Items/Lib_ItemBubble.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/CP/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/CP/Lib_ModeCP.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/CTF/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/CTF/Lib_ModeCTF.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/CTF/Lib_RunnerDebuff.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Diamond/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/2-Game/Diamond/Lib_ModeDiamond.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_PlayerFrame.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_PlayerControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_Spectator.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_DamageControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_ShieldControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_AbilityControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_ActionControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_PlayerOverlay.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_UserConfig.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_PlayerSpawn.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_Guard.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_BattleProjectiles.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Lib_Popgun.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/Lib_ActSuperSpinJump.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/Lib_ActRoboMissile.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/Lib_ActTailSwipe.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/Lib_ActDig.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/Lib_ActPikoSpin.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/Lib_ActBombThrow.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/Lib_ActDodgeRoll.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/3-Player/Special Moves/Lib_ActEnergyAttack.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Lib_WaterControl.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Lib_Seek.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Lib_Slipstream.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Lib_Movement.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Collision/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Collision/Lib_Collide.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Collision/Lib_Collide2.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Collision/Lib_Priority.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Collision/Lib_SPriority_Index.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Collision/Lib_PriorityIndex.lua
+WARNING:Invalid argument #2 provided for CBW_Battle.AddPriorityFunction()
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Collision/Lib_PriorityCommon.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/4-Physics/Collision/Lib_Bashables.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDDebug.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDShield.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDSpecials.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDPreRound.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDArena.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDArenaWait.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDPinch.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDCP.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/5-HUD/Lib_HUDDiamond.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/6-Definitions/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/3-Functions/6-Definitions/Def_SkinVars.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_System.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_Player.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_Projectiles.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_Springs.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_Bashable.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_Visual.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_Collectibles.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_ItemSpawn.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_ControlPoint.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_Diamond.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_HurtMsg.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/4-Hooks/Exec_HUD.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/5-Resources/
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/5-Resources/2DCamera.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/5-Resources/ObjRespawn_Core.lua
+Loading Lua script from .\Early Gang\ZBa_BattleMod-v8.6.pk3|Lua/5-Resources/ObjRespawn_Types.lua
+Loading SOC from .\Early Gang\ZBa_BattleMod-v8.6.pk3|soc/MAINCFG
+ZBa_BattleMod-v8.6.pk3 added 326 frames in 21 sprites
+Patched skin 'sonic'
+MAPB0
+MAPB8
+MAPB9
+MAPB1
+MAPB2
+MAPB3
+MAPB4
+MAPB5
+MAPB6
+MAPB7
+MAPBA
+MAPBB
+*MarioNSonicGamer left the game
+*Sonic left the game
+*Suit left the game
+*Fyrid left the game
+*Fyrid has rejoined the game (player 3)
+<Fyrid> what mode is thind
+*Sonic has rejoined the game (player 8)
+*Fyrid left the game
+*Sonic left the game
+*Sonic has rejoined the game (player 8)
+*Sonic left the game
+<~ImpatientHedgehog15> uh oh
+<~ImpatientHedgehog15> oh well
+<gianni*> relaxe
+<gianni*> there ok
+<gianni*> and 
+<gianni*> they can rejoin
+<~ImpatientHedgehog15> ... hello
+*Suit has rejoined the game (player 1)
+<gianni*> old buddy so
+<@Suit> oh looky that
+<@Suit> nothins new
+The server is restricting all players to skin "doshog".
+The server is restricting all players to skin "halloweensonic".
+The server is restricting all players to skin "chrispymarriage".
+Speeding off to level...
+Map is now "MAP10: CASTLE EGGMAN Zone 1"
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "lessunique".
+The server is restricting all players to skin "handdrawn".
+The server is restricting all players to skin "fsonic".
+The server is restricting all players to skin "metalsonic".
+You currently cannot play with the skin "metalsonic" as it has been banned.
+The server is restricting all players to skin "fang".
+You currently cannot play with the skin "fang" as it has been banned.
+The server is restricting all players to skin "amy".
+You currently cannot play with the skin "amy" as it has been banned.
+The server is restricting all players to skin "knuckles".
+You currently cannot play with the skin "knuckles" as it has been banned.
+The server is restricting all players to skin "tails".
+You currently cannot play with the skin "tails" as it has been banned.
+The server is restricting all players to skin "sonic".
+You currently cannot play with the skin "sonic" as it has been banned.
+The server has lifted the forced skin restrictions.
+The server is restricting all players to skin "earlysonic".
+The server is restricting all players to skin "uglyknux".
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "k.t.e".
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "k.t.e".
+<gianni*> no its the new gamemode
+<~ImpatientHedgehog15> let's just finish the game and then we will focus on that
+<gianni*> ok
+<@Suit> Knuckles cant climb walls for long
+<@Suit> thats it
+<gianni*> can i show you the new game modes
+<~ImpatientHedgehog15> not yet
+<@Suit> we are the only ones here anyway
+<@Suit> everybody else got kicked
+<gianni*> ok
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "uglyknux".
+The server is restricting all players to skin "earlysonic".
+The server has lifted the forced skin restrictions.
+<@Suit> might as well give into virginity
+<So> pu
+Gametype was changed from Co-op to Arena
+Speeding off to level...
+Map is now "MAP79: Starlit Warehouse Zone"
+Suit entered the game.
+Tails Doll was added to the game for target practice.
+ImpatientHedgehog15 entered the game.
+Tails Doll was removed from the game.
+So entered the game.
+Suit died.
+Suit became a spectator.
+You currently cannot play with the skin "sonic" as it has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+You currently cannot play with the skin "sonic" as it has been banned.
+Suit entered the game.
+*gianni* left the game
+<~ImpatientHedgehog15> yes
+The server is restricting all players to skin "sonic".
+You currently cannot play with the skin "sonic" as it has been banned.
+The server has lifted the forced skin restrictions.
+*gianni* has rejoined the game (player 5)
+<gianni*> chat bug
+gianni* entered the game.
+Viewpoint: Suit
+Suit passed authentication.
+ImpatientHedgehog15's spin attack hit Suit.
+gianni* died.
+gianni* became a spectator.
+gianni* entered the game.
+ImpatientHedgehog15's speed thok hit So.
+<gianni*> can you stop restrickeding
+<@Suit> i didnt
+*xtreme sonic has joined the game (player 2)
+xtreme sonic entered the game.
+xtreme sonic died.
+xtreme sonic became a spectator.
+ImpatientHedgehog15's spin attack hit gianni*.
+<gianni*> i cant play as anyone
+xtreme sonic entered the game.
+<@Suit> thats not a limit
+<@Suit> thats the new gamemode you wanted
+<@Suit> become spectator to swap
+gianni* died.
+gianni* became a spectator.
+xtreme sonic died.
+xtreme sonic became a spectator.
+xtreme sonic entered the game.
+*So left the game
+xtreme sonic died.
+xtreme sonic became a spectator.
+xtreme sonic entered the game.
+<gianni*> add map vote
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+xtreme sonic died.
+xtreme sonic became a spectator.
+gianni* entered the game.
+ImpatientHedgehog15's speed thok hit Suit.
+<@Suit> were not hosting a battlemod
+xtreme sonic entered the game.
+<@Suit> im gonna strangle you
+xtreme sonic died.
+xtreme sonic became a spectator.
+<gianni*> you cant
+<@Suit> i know
+<@Suit> im just gonna strangle myself
+<@Suit> anyways
+<gianni*> lol dont
+<xtreme sonic> btw why is suit have admin?
+<@Suit> we needs an actual character limit
+<@Suit> yeah
+<@Suit> i co-host
+<~ImpatientHedgehog15> because he is
+<gianni*> me to
+The server is restricting all players to skin "earlysonic".
+The server is restricting all players to skin "uglyknux".
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "k.t.e".
+The server is restricting all players to skin "doshog".
+The server is restricting all players to skin "k.t.e".
+<@Suit> For gods sake
+<~ImpatientHedgehog15> gjusdrtg
+<@Suit> It kind of has to be done
+<xtreme sonic> aw i want to co-host to :(
+*Sonic has joined the game (player 3)
+<@Suit> since battlemod is so physical except it cant ever track stuff right
+xtreme sonic entered the game.
+Sonic entered the game.
+<gianni*> can i have admin
+<xtreme sonic> me to?
+<gianni*> no
+$csay please
+Put notice #1 into the Noticeboard queue.
+= ~ImpatientHedgehog15 says =
+please 
+<@Suit> and thank you
+<xtreme sonic> no
+ImpatientHedgehog15's spin attack hit gianni*.
+<gianni*> please
+<xtreme sonic> wait why?
+Suit's gliding fists hit ImpatientHedgehog15.
+<xtreme sonic> please
+Suit's spin attack hit gianni*.
+*Sonic left the game
+*Demo has joined the game (player 4)
+*xtreme sonic left the game
+<gianni*> so um can i have admin
+Demo entered the game.
+<~ImpatientHedgehog15> this is not a discord server
+ImpatientHedgehog15's gliding fists hit Suit.
+<gianni*> player permote
+ImpatientHedgehog15's spin attack hit gianni*.
+Demo died.
+Demo became a spectator.
+<~ImpatientHedgehog15> whay
+Suit's spin attack killed gianni*.
+<~ImpatientHedgehog15> what
+Demo entered the game.
+<@Suit> im going to kill
+<gianni*> please
+<@Suit> people
+<@Suit> lets just play shitty battlemod since nobody here is supported
+<@Suit> glide wars
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+ERROR: R_ProjectSprite: invalid skins["k.t.e"].sprites[SPR2_STND] frame 2
+<Demo> can we  play the main demo remaster campain
+Suit's spin attack hit gianni*.
+<~ImpatientHedgehog15> djte\
+<@Suit> wait you can parry
+<~ImpatientHedgehog15> YES
+<@Suit> thought that brokje
+<@Suit> and it sucks anyway
+<@Suit> now kte broke
+Suit's spin attack hit gianni*.
+Suit's spin attack hit ImpatientHedgehog15.
+Suit's spin attack hit gianni*.
+<gianni*> why can we not be only one player
+<@Suit> get a smaller map
+<gianni*> play the real battle maps
+Suit's spin attack hit ImpatientHedgehog15.
+Speeding off to level...
+Map is now "MAP75: Orange Crater Zone"
+<@Suit> jump if ur big pus
+gianni* was hit by molten lava.
+gianni* died.
+gianni* became a spectator.
+Suit's gliding fists hit ImpatientHedgehog15.
+Suit was hit by molten lava.
+Demo was hit by molten lava.
+gianni* entered the game.
+Suit's spin attack hit ImpatientHedgehog15.
+Demo was hit by molten lava.
+gianni* died.
+gianni* became a spectator.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+<@Suit> eat my shorts
+Demo was hit by molten lava.
+ImpatientHedgehog15 entered the game.
+<gianni*> why is it rerickied
+Suit was hit by molten lava.
+Suit's spin attack hit Demo.
+<~ImpatientHedgehog15> this is a mess
+<@Suit> dont fight me
+The server is restricting all players to skin "metson".
+The server is restricting all players to skin "uglyknux".
+The server is restricting all players to skin "earlysonic".
+The server is restricting all players to skin "earlysonic".
+The server has lifted the forced skin restrictions.
+The server is restricting all players to skin "sonic".
+You currently cannot play with the skin "sonic" as it has been banned.
+The server has lifted the forced skin restrictions.
+Suit's spin attack hit Demo.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+<@Suit> there
+<@Suit> somehow
+<@Suit> limit was still on
+ImpatientHedgehog15 entered the game.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+ImpatientHedgehog15 entered the game.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+Please wait 9s to rejoin
+<gianni*> can i have admin
+Please wait 8s to rejoin
+Demo was hit by molten lava.
+ImpatientHedgehog15 entered the game.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+ImpatientHedgehog15 entered the game.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+ImpatientHedgehog15 entered the game.
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+ImpatientHedgehog15 entered the game.
+<@Suit> sorry nothing
+ImpatientHedgehog15 died.
+ImpatientHedgehog15 became a spectator.
+<gianni*> why tho
+Suit was hit by molten lava.
+Demo was hit by molten lava.
+ImpatientHedgehog15 entered the game.
+Suit was hit by molten lava.
+gianni* entered the game.
+Demo's speed thok hit ImpatientHedgehog15.
+Demo was hit by molten lava.
+The server is restricting all players to skin "sonic".
+You currently cannot play with the skin "sonic" as it has been banned.
+The server has lifted the forced skin restrictions.
+ImpatientHedgehog15 was hit by molten lava.
+<@Suit> wrong option
+<@Suit> sorry
+<@Suit> fr
+ImpatientHedgehog15 was hit by molten lava.
+gianni* was hit by molten lava.
+gianni* was hit by molten lava.
+gianni* died.
+gianni* became a spectator.
+Suit was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+Demo was hit by molten lava.
+gianni* entered the game.
+Suit's gliding fists hit ImpatientHedgehog15.
+Suit's gliding fists hit Demo.
+ImpatientHedgehog15's speed thok hit Suit.
+Demo's spin attack hit gianni*.
+Demo was hit by molten lava.
+gianni*'s ground pound splash hit ImpatientHedgehog15.
+Demo's jumping spin attack hit Suit.
+ImpatientHedgehog15 was hit by molten lava.
+Demo was hit by molten lava.
+<@Suit> wait
+<@Suit> somebody actually has battlemod support
+<@Suit> ban fsonic
+<gianni*> why\
+<@Suit> you know what
+<@Suit> nvm
+gianni* was hit by molten lava.
+Suit was hit by molten lava.
+<@Suit> im already
+<@Suit> playing battlemod
+Demo's speed thok hit gianni*.
+Demo was hit by molten lava.
+<gianni*> hes a mod
+<@Suit> i cant argue about its flaws anyway
+gianni* was killed by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+ImpatientHedgehog15 was killed by molten lava.
+<gianni*> bruh thats the point of the battle mod
+Suit's gliding fists hit Demo.
+gianni* was hit by molten lava.
+<@Suit> ramming eachother
+gianni* was hit by molten lava.
+<gianni*> yes
+Demo's spin attack hit Suit.
+gianni* was hit by molten lava.
+gianni* was killed by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+Demo was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+ImpatientHedgehog15's speed thok hit Demo.
+ImpatientHedgehog15 was hit by molten lava.
+<gianni*> and can i have admin please
+<@Suit> not like that tho0ugh
+<@Suit> no
+Suit was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+Demo was hit by molten lava.
+Suit's gliding fists killed ImpatientHedgehog15.
+<@Suit> sorry
+Demo was hit by molten lava.
+gianni* was hit by molten lava.
+<~ImpatientHedgehog15> what are you even going to do
+gianni* was hit by molten lava.
+<@Suit> not know what to do
+gianni* was hit by molten lava.
+Suit's gliding fists hit Demo.
+<gianni*> be like yall
+Demo's speed thok hit Suit.
+gianni* was killed by molten lava.
+Demo's speed thok hit Suit.
+Suit's jumping spin attack hit Demo.
+Demo's speed thok hit Suit.
+<~ImpatientHedgehog15> that's way too vauge
+Demo was hit by molten lava.
+<gianni*> stand and have fucking fun
+Demo was killed by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+<~ImpatientHedgehog15> i wish
+<@Suit> but fucking isnt fun in srb2
+<@Suit> were all flat
+gianni*'s speed thok hit Suit.
+ImpatientHedgehog15 was hit by molten lava.
+Suit's gliding fists hit ImpatientHedgehog15.
+gianni* was hit by molten lava.
+<gianni*> i know
+ImpatientHedgehog15's speed thok hit Suit.
+ImpatientHedgehog15 was hit by molten lava.
+gianni* was hit by molten lava.
+gianni* was hit by molten lava.
+<Demo> is this just multiplayer levels
+ImpatientHedgehog15 was killed by molten lava.
+Suit was hit by molten lava.
+<gianni*> no
+<@Suit> no
+<@Suit> its all of 2.1
+<~ImpatientHedgehog15> let's just play normally please
+<@Suit> if people would let us play it
+<@Suit> please
+<gianni*> now can i admin
+gianni* was hit by molten lava.
+<@Suit> im done jamming my fists and barely doing anything from spindash wars
+gianni* was hit by molten lava.
+gianni* was hit by molten lava.
+gianni* was hit by molten lava.
+<~ImpatientHedgehog15> Even if I would, I would have to send the password to the server
+Suit's gliding fists hit gianni*.
+<~ImpatientHedgehog15> which isn't really secure in chat
+Suit's gliding fists hit gianni*.
+Suit was hit by molten lava.
+gianni* was killed by molten lava.
+Suit was hit by molten lava.
+<Demo> is it 2.1 or demo remaster
+Suit was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+<@Suit> 2.1
+<gianni*> why is the standing sprite gon
+Suit's spin attack hit ImpatientHedgehog15.
+<~ImpatientHedgehog15> it's going to be all soon
+ImpatientHedgehog15's speed thok hit Suit.
+<@Suit> the shitty parry
+<@Suit> it broke us all
+Suit's gliding fists hit ImpatientHedgehog15.
+ImpatientHedgehog15 was hit by molten lava.
+ImpatientHedgehog15's jumping spin attack hit Suit.
+<gianni*> can i have admin or not
+<@Suit> no
+ImpatientHedgehog15's speed thok hit Suit.
+<gianni*> why
+ImpatientHedgehog15 was hit by molten lava.
+gianni* was hit by molten lava.
+<~ImpatientHedgehog15> you are WAYYY too new
+ImpatientHedgehog15 was hit by molten lava.
+<gianni*> im not new
+<@Suit> we shouldnt even give it out
+Demo's jumping spin attack hit Suit.
+gianni* was hit by molten lava.
+Suit's gliding fists hit Demo.
+ImpatientHedgehog15 was hit by molten lava.
+Demo was hit by molten lava.
+ImpatientHedgehog15's jumping spin attack hit gianni*.
+<gianni*> i.v been here befor
+gianni*'s ground pound splash hit Suit.
+<@Suit> only to trusted
+<@Suit> basically just your friends
+Suit was killed by molten lava.
+ImpatientHedgehog15's jumping spin attack killed gianni*.
+<@Suit> my friend mario wouldnt need to use it anyway
+ImpatientHedgehog15 was hit by molten lava.
+Demo's jumping spin attack hit Suit.
+Suit's gliding fists hit Demo.
+ImpatientHedgehog15's jumping spin attack hit gianni*.
+Suit's gliding fists hit ImpatientHedgehog15.
+Suit's gliding fists hit gianni*.
+<gianni*> i being admin to fix srites
+ImpatientHedgehog15 was hit by molten lava.
+ImpatientHedgehog15 was killed by molten lava.
+<@Suit> that
+<~ImpatientHedgehog15> what
+Suit's gliding fists hit gianni*.
+Demo was hit by molten lava.
+<@Suit> engrish
+gianni* was killed by molten lava.
+<gianni*> at the least try
+Suit's gliding fists killed Demo.
+Suit was hit by molten lava.
+<@Suit> im winning
+<@Suit> i am deffinetly trying
+<gianni*> fixing the sprites
+<~ImpatientHedgehog15> you would have to be in contact with both of us to ensure you being an admin.
+<@Suit> we dont want this to work with battlemod
+Suit was hit by molten lava.
+gianni* was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+gianni* was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+gianni* was hit by molten lava.
+<gianni*> why thi
+<gianni*> tho
+Suit's gliding fists killed gianni*.
+<@Suit> thats why
+<~ImpatientHedgehog15> this server still isn't finished
+Demo was hit by molten lava.
+Demo was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+<gianni*> wdym by that lol
+Demo was hit by molten lava.
+gianni* was hit by molten lava.
+Suit's gliding fists hit ImpatientHedgehog15.
+Demo was killed by molten lava.
+Suit was hit by molten lava.
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+ImpatientHedgehog15 was killed by molten lava.
+ERROR: There was a problem contacting the master server...
+Master server error 404: No such server
+Registering this server on the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/rooms/33/register'...
+Master server registration successful.
+Suit was hit by molten lava.
+<~ImpatientHedgehog15> there are a bunch of things we're working on
+gianni* was hit by molten lava.
+<@Suit> we are
+Suit was killed by molten lava.
+<@Suit> actually hosts
+<@Suit> mostly him
+gianni* was hit by molten lava.
+Demo was hit by molten lava.
+<@Suit> in the sense of what the server has to offer
+<gianni*> yea
+Demo's speed thok killed gianni*.
+Demo was hit by molten lava.
+<@Suit> i just say the funny lines and not get paid
+Suit was hit by molten lava.
+<@Suit> joke
+<@Suit> i dont want payment
+<@Suit> fun is my payment
+ImpatientHedgehog15 was hit by molten lava.
+Suit's gliding fists hit Demo.
+ImpatientHedgehog15 was hit by molten lava.
+ImpatientHedgehog15 was hit by molten lava.
+Demo was hit by molten lava.
+Suit's spin attack hit ImpatientHedgehog15.
+Demo's spin attack hit Suit.
+ImpatientHedgehog15 was killed by molten lava.
+Suit's gliding fists hit Demo.
+Demo's spin attack hit Suit.
+Demo was hit by molten lava.
+Demo was hit by molten lava.
+Gametype was changed from Arena to Diamond in the Rough
+Speeding off to level...
+Map is now "MAP79: Starlit Warehouse Zone"
+Suit entered the game.
+Tails Doll was added to the game for target practice.
+ImpatientHedgehog15 entered the game.
+Tails Doll was removed from the game.
+<gianni*> so what does this have to do with admin and i know i dont look like a had admin befor but in oreh places i had admin befor
+gianni* entered the game.
+The Diamond has been spawned!
+Demo entered the game.
+ImpatientHedgehog15 picked up the Diamond!
+Demo stole the Diamond from ImpatientHedgehog15!
+Demo's speed thok hit ImpatientHedgehog15.
+ImpatientHedgehog15 stole the Diamond from Demo!
+gianni*'s jumping spin attack hit Demo.
+Demo died.
+Demo became a spectator.
+Suit's gliding fists hit gianni*.
+*Pluto has joined the game (player 2)
+<gianni*> nvm
+Demo entered the game.
+WARNING: ...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:296: attempt to index local 'arg' (a nil value)
+stack traceback:
+    ...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:296: in function <...-games\Spnic Robo Blast 2\2.2.9\Early Gang\admin.lua:284>
+<gianni*> ima headout
+Suit died.
+Pluto entered the game.
+Suit's gliding fists hit Demo.
+gianni*'s ground pound splash hit Pluto.
+Suit stole the Diamond from ImpatientHedgehog15!
+ImpatientHedgehog15 stole the Diamond from Suit!
+ImpatientHedgehog15's jumping spin attack hit Suit.
+<@Suit> t
+Suit's gliding fists hit Pluto.
+Demo stole the Diamond from ImpatientHedgehog15!
+ImpatientHedgehog15's spin attack hit Demo.
+Demo dropped the Diamond.
+Suit picked up the Diamond!
+gianni*'s jumping spin attack hit Pluto.
+ImpatientHedgehog15 stole the Diamond from Suit!
+<gianni*> h
+<gianni*> e
+<gianni*> s]
+<gianni*> u'
+<gianni*> c
+<gianni*> k
+<~ImpatientHedgehog15> h
+<~ImpatientHedgehog15> e
+<gianni*> he suck
+<~ImpatientHedgehog15> l
+Suit stole the Diamond from ImpatientHedgehog15!
+<~ImpatientHedgehog15> l
+ImpatientHedgehog15 stole the Diamond from Suit!
+<@Suit> what
+Pluto's spin attack hit Suit.
+<@Suit> nice hitbox battlemod
+Suit stole the Diamond from ImpatientHedgehog15!
+Demo died.
+Demo became a spectator.
+Demo entered the game.
+ImpatientHedgehog15 stole the Diamond from Suit!
+Demo's speed thok hit Pluto.
+<@Suit> And thats why i hate battlemod
+<@Suit> It doesnt take speed and attack consideration for its cap intel esc gamemode
+<@Suit> also
+<@Suit> is there an end to this?
+<~ImpatientHedgehog15> NO
+<gianni*> yes
+Gametype was changed from Diamond in the Rough to Co-op
+Speeding off to level...
+Map is now "MAP10: CASTLE EGGMAN Zone 1"
+<@Suit> god save us
+<@Suit> oh thank him
+<@Suit> now he put us into imprisonment
+*gianni* left the game
+<Demo> multiplayer was fun
+<~ImpatientHedgehog15> ZZNOZ
+<@Suit> fly me
+<@Suit> we finally work together
+*Demo left the game
+*Mike has joined the game (player 3)
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+<@Suit> That door still works?
+<Mike> W
+<~ImpatientHedgehog15> YES
+<@Suit> I never knew that
+Speeding off to level...
+WARNING: Unknown thing type 525 placed at (-13792, -10592)
+WARNING: Unknown thing type 525 placed at (-14432, -12064)
+WARNING: Unknown thing type 525 placed at (-13376, -13280)
+WARNING: Unknown thing type 525 placed at (-14624, -13696)
+WARNING: Unknown thing type 525 placed at (-15584, -12768)
+WARNING: Unknown thing type 525 placed at (-16704, -8480)
+WARNING: Unknown thing type 525 placed at (-17984, -12448)
+WARNING: Unknown thing type 525 placed at (-16992, -11616)
+WARNING: Unknown thing type 525 placed at (-17920, -10720)
+WARNING: Unknown thing type 525 placed at (-15968, -11360)
+WARNING: Unknown thing type 525 placed at (-14944, -10304)
+WARNING: Unknown thing type 525 placed at (-13920, -9312)
+WARNING: Unknown thing type 525 placed at (-14656, -8608)
+WARNING: Unknown thing type 525 placed at (-16000, -9088)
+WARNING: Unknown thing type 525 placed at (-16768, -10368)
+WARNING: Unknown thing type 525 placed at (-17920, -8704)
+WARNING: Unknown thing type 526 placed at (-18784, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7904)
+WARNING: Unknown thing type 526 placed at (-18720, -7840)
+WARNING: Unknown thing type 526 placed at (-18464, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -7968)
+WARNING: Unknown thing type 526 placed at (-18400, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8032)
+WARNING: Unknown thing type 526 placed at (-18720, -8032)
+WARNING: Unknown thing type 526 placed at (-18528, -7840)
+WARNING: Unknown thing type 526 placed at (-18784, -8160)
+WARNING: Unknown thing type 526 placed at (-18656, -7840)
+WARNING: Unknown thing type 526 placed at (-18592, -7840)
+WARNING: Unknown thing type 526 placed at (-18656, -7904)
+WARNING: Unknown thing type 526 placed at (-18592, -7904)
+WARNING: Unknown thing type 526 placed at (-19200, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9024)
+WARNING: Unknown thing type 526 placed at (-19264, -8960)
+WARNING: Unknown thing type 526 placed at (-19200, -9152)
+WARNING: Unknown thing type 526 placed at (-12928, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7840)
+WARNING: Unknown thing type 526 placed at (-13056, -7840)
+WARNING: Unknown thing type 526 placed at (-13184, -7840)
+WARNING: Unknown thing type 526 placed at (-12992, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7904)
+WARNING: Unknown thing type 526 placed at (-12928, -7968)
+WARNING: Unknown thing type 526 placed at (-12928, -8032)
+WARNING: Unknown thing type 526 placed at (-12928, -8096)
+WARNING: Unknown thing type 526 placed at (-18784, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13920)
+WARNING: Unknown thing type 526 placed at (-18720, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13984)
+WARNING: Unknown thing type 526 placed at (-18656, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13920)
+WARNING: Unknown thing type 526 placed at (-18592, -13984)
+WARNING: Unknown thing type 526 placed at (-18784, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13856)
+WARNING: Unknown thing type 526 placed at (-18720, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13792)
+WARNING: Unknown thing type 526 placed at (-18784, -13728)
+WARNING: Unknown thing type 526 placed at (-18784, -13664)
+WARNING: Unknown thing type 526 placed at (-18528, -13984)
+Map is now "MAP11: CASTLE EGGMAN Zone 2"
+*Mike left the game
+*Pluto left the game
+<@Suit> you know
+<@Suit> after all this time of racing
+<@Suit> this actually feels right
+<@Suit> You go ahead ill tp
+<~ImpatientHedgehog15> what is
+<@Suit> sit on the swingy thing
+<@Suit> swing
+<@Suit> battlemod lowers flight
+<@Suit> come to me
+$goto 1
+<@Suit> i think im 1
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/update'...
+Updated master server listing.
+<~ImpatientHedgehog15> wow
+<@Suit> is that really not enough
+<@Suit> hold on
+<@Suit> let me get up there
+<~ImpatientHedgehog15> I might just rehost without battlemod
+<@Suit> we could fly off eachother
+<@Suit> GOT IT
+<@Suit> come to me
+$goto 1
+ImpatientHedgehog15 has completed the level.
+Suit has completed the level.
+<@Suit> wait
+<@Suit> nobody else is here
+<~ImpatientHedgehog15> yes
+<@Suit> you should rehost
+Removing this server from the master server...
+HMS: connecting 'https://mb.srb2.org/MS/0/servers/217071/unlist'...
+Server deregistration request successfully sent.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.
