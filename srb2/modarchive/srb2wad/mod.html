@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+<title>SRB2Wad Major Alterations</title>
+<style>
+#MC {
+width:50%;
+height:max-content;
+  background-color:#1f00a7;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  position: sticky;
+}
+body {
+background-color:black;
+color:white;
+font-family:sans-serif;
+}
+
+table, th, td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+a {
+    color:aqua
+}
+</style>
+</head>
+<body>
+    <center>
+      <div id="MC">
+        <h1>Major Alterations</h1>
+        <table id="stab" style="font-size: x-large;">
+         <!-- Beginning -->
+         <br>
+         <thead>
+           <tr>
+             <th><a href="#">Mod</a></th>
+             <th><a href="#">Author</a></th>
+             <th><a href="#">Date</a></th>
+             <th><a href="#">Version</a></th>
+             <th><a href="#">Status</a></th>
+           </tr>
+         </thead>
+         <tbody>
+             <tr>
+              <td>Sonic Adventure SRB2 Mod</td>
+              <td>BlazeHedgehog</td>
+              <td>2003-06-21</td>
+              <td>Final Demo 1.09.2</td>
+              <td style="color:red;">Missing</td>
+              </tr>
+              <tr>
+              <td>SRB2 Hunt</td>
+              <td>foxUnit01</td>
+              <td>2004-07-20</td>
+              <td>Final Demo 1.09.2</td>
+              <td style="color:red;">Missing</td>
+              </tr>
+              <tr>
+              <td>Mystic Realm v4.4</td>
+              <td>Mystic</td>
+              <td>2006-12-17</td>
+              <td>Final Demo 1.09.4</td>
+              <td><a href="INSERTMODHERE">FOUND</a></td>
+              </tr>
+              <tr>
+              <td>Acid Missile</td>
+              <td>FuriousFox</td>
+              <td>2006-03-08</td>
+              <td>Final Demo 1.09.4</td>
+              <td><a href="INSERTMODHERE">FOUND</a></td>
+              </tr>
+              <tr>
+              <td>Botanic Serenity</td>
+              <td>Digiku</td>
+              <td>2006-08-20</td>
+              <td>Final Demo 1.09.4</td>
+              <td style="color:red;">Missing</td>
+              </tr>
+           <!-- END -->
+            </tbody>
+          </table>
+          <br>
+          </div>
+        
+          <script src="../code.jquery.com_jquery-3.6.0.min.js"></script>
+          <script src="../cdn.datatables.net_1.10.25_js_jquery.dataTables.js"></script>
+          <script>
+            $(document).ready(function() {
+              $('#stab').DataTable();
+            });
+          </script>
+          </center>
+</body>

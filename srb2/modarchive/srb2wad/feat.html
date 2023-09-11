@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+<title>SRB2Wad Featured Mods</title>
+<style>
+#MC {
+width:50%;
+height:max-content;
+  background-color:#1f00a7;
+  border:5px solid;
+  border-width: thin;
+  border-color: white;
+  position: sticky;
+}
+body {
+background-color:black;
+color:white;
+font-family:sans-serif;
+}
+
+table, th, td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+a {
+    color:aqua
+}
+</style>
+</head>
+<body>
+    <center>
+      <div id="MC">
+        <h1>Featured Wads</h1>
+        <table id="stab" style="font-size: x-large;">
+         <!-- Beginning -->
+         <br>
+         <thead>
+           <tr>
+             <th><a href="#">Map</a></th>
+             <th><a href="#">Author</a></th>
+             <th><a href="#">Date</a></th>
+             <th><a href="#">Version</a></th>
+             <th><a href="#">Status</a></th>
+           </tr>
+         </thead>
+         <tbody>
+             <tr>
+              <td>Aero Shrine</td>
+              <td>Tets</td>
+              <td>2006-03-08</td>
+              <td>Final Demo 1.09.2</td>
+              <td><a href="INSERTMODHERE">FOUND</a></td>
+              </tr>
+              <tr>
+              <td>Sunken Palace</td>
+              <td>Ree-c</td>
+              <td>2006-05-10</td>
+              <td>Final Demo 1.09.2</td>
+              <td><a href="INSERTMODHERE">FOUND</a></td>
+              </tr>
+              <tr>
+              <td>Rocky Pass</td>
+              <td>Oogaland</td>
+              <td>2006-08-20</td>
+              <td>Final Demo 1.09.4</td>
+              <td><a href="INSERTMODHERE">FOUND</a></td>
+              </tr>
+           <!-- END -->
+            </tbody>
+          </table>
+          <br>
+          </div>
+        
+          <script src="../code.jquery.com_jquery-3.6.0.min.js"></script>
+          <script src="../cdn.datatables.net_1.10.25_js_jquery.dataTables.js"></script>
+          <script>
+            $(document).ready(function() {
+              $('#stab').DataTable();
+            });
+          </script>
+          </center>
+</body>
