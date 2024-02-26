@@ -1,0 +1,31 @@
+Title Screen
+Greenflower 1
+Greenflower 2
+Act Clear
+Techno Hill 1
+Techno Hill 2
+VS Boss
+Deep Sea 1
+Deep Sea 2
+Drowning
+Speed Highway
+Mine Maze 1
+Mine Maze 2
+Oil Ocean/"Dust Hill"
+Rocky Mountain 1
+Rocky Mountain 2
+Hidden Palace
+Red Volcano 1
+Red Volcano 2
+Invincibility
+Dark City 1
+Dark City 2
+Extra Life
+Wood Zone
+Doomship 1
+Doomship 2
+Game Over
+Robotnirock 1
+Robotnirock 2
+Intermission Screen
+MAP28

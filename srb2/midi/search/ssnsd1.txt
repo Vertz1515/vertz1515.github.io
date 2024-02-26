@@ -1,0 +1,66 @@
+Title Screen
+Title Screen (OPL)
+Doom 2 Title Screen
+Marble
+Star Light
+Oil Ocean
+Metropolis
+Hill Top
+Green Hill
+Scrap Brain
+Wing Fortress
+Boingy Zone
+Ice Cap Zone
+Aqua Ruin
+Chemical Plant
+Can I Zone
+Have A Zone
+Chocolate Zone
+Monkey Zone
+GKR 23 Zone
+EEEEE Zone
+Way Past Cool Zone
+Tails Airlines Zone
+Knuckle Sandwich
+Angel Island Zone
+Flying Battery Zone
+Hidden Palace Zone
+Sky Sanctuary Zone
+Death Egg Zone
+Doinky Zone
+Victory Theme
+Doom 2 Intermission
+End Cutscene
+Intermission
+map01
+map02
+map03
+map04
+map05
+map06
+map07
+map08
+map09
+map10
+map11
+map12
+map13
+map14
+map15
+map16
+map17
+map18
+map19
+map20
+map21
+map22
+map23
+map24
+map25
+map26
+map27
+map28
+map29
+map30
+map31
+map32

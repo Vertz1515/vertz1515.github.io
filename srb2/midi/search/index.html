@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3RH4LQ50TC"></script>
+<title>SRB2 Midi Archive Browser</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    #folders {
+        float: left;
+        width: 300px;
+    }
+    #contents {
+        float: left;
+        width: 300px;
+    }
+    #lump {
+        float: left;
+        width: 400px;
+    }
+</style>
+</head>
+<body>
+<h1>SRB2 Midi Archive Browser</h1>
+<div id="folders">
+    <h3>Folders</h3>
+    <select id="folderSelect" size="15" onchange="loadContents()">
+        <option value="srb1">SRB1</option>
+        <option value="lsrb1">SRB1 - Low Version</option>
+        <option value="srb2tgf">SRB2 - The Games Factory</option>
+        <option value="srb1xmas">SRB1 Christmas</option>
+        <option value="srb2ween">SRB2 Halloween</option>
+        <option value="srb2xmas">SRB2 Christmas</option>
+        <option value="srb2xmascd">SRB2 Christmas CD</option>
+        <option value="srb2xmasm">SRB2 Christmas - MILLNIUM.WAD</option>
+        <option value="srb1.5">SRB1.5</option>
+        <option value="srb2d14">SRB2 Demo 1 - 4</option>
+        <option value="srb2d4">SRB2 Demo 4</option>
+        <option value="srb2d4x">SRB2 Demo 4 - Christmas</option>
+        <option value="srb2d4m">SRB2 Demo 4 - Mario</option>
+        <option value="madventure">Sonic MADventure</option>
+        <option value="srb2fd">SRB2 Final Demo</option>
+        <option value="srb2fdx">SRB2 Final Demo - Christmas</option>
+        <option value="srb220">SRB2 2.0</option>
+        <option value="srb221">SRB2 2.1</option>
+        <option value="srb222">SRB2 2.2</option>
+        <option value="seqrpg">Sonic Emerald Quest RPG</option>
+        <option value="unused">Unused Midis</option>
+        <option value="unusedxg">Unused Midis - XG</option>
+        <option value="ssnsd1">SSNTails - Sonic Doom 1</option>
+        <option value="ssnsd2">SSNTails - Sonic Doom 2</option>
+        <option value="ssncac">SSNTails - Click & Create Games</option>
+        <option value="ssnssn">SSNTails - Segasonic.net</option>
+        <option value="ssnmisc">SSNTails - Misc</option>
+        <option value="bvertz">BONUS - Vertz</option>
+        <option value="bvertzle">BONUS - Vertz - Demo 4 Low Effort</option>
+        <option value="bvertzot">BONUS - Vertz - Old Trash</option>
+        <option value="bsonix">BONUS - Sonix</option>
+        <option value="bsonixem">BONUS - Sonix - Edited Midis</option>
+        <option value="bsonixween">BONUS - Sonix - Halloween</option>
+        <option value="bsonixxmas">BONUS - Sonix - Christmas</option>
+        <option value="bsonixle">BONUS - Sonix - Low Effort</option>
+        <option value="bsonixvd">BONUS - Sonix - Valentine's Day</option>
+        <option value="bmisc">BONUS - Misc</option>
+    </select>
+</div>
+
+<div id="contents">
+    <h3>Music</h3>
+    <select id="contentSelect" size="15" onchange="displayLump()">
+    </select>
+</div>
+
+<div id="lump">
+    <h3>Lump</h3>
+    <p id="lumpText"></p>
+</div>
+
+<script>
+function loadContents() {
+    var selectedFolder = document.getElementById("folderSelect").value;
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            var contents = xhr.responseText.split('\n');
+            var select = document.getElementById("contentSelect");
+            select.innerHTML = '';
+            for (var i = 0; i < contents.length; i++) {
+                var option = document.createElement("option");
+                option.text = contents[i];
+                option.value = contents[i];
+                select.add(option);
+            }
+            displayLump();
+        }
+    };
+    xhr.open("GET", "./" + selectedFolder + ".txt", true);
+    xhr.send();
+}
+
+function displayLump() {
+    var selectedFolder = document.getElementById("folderSelect").value;
+    var selectedLineIndex = document.getElementById("contentSelect").selectedIndex;
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            var lumpText = '';
+            var lumpsText = xhr.responseText.split('\n');
+            if (selectedLineIndex < lumpsText.length) {
+                lumpText = lumpsText[selectedLineIndex];
+            }
+            document.getElementById("lumpText").innerText = lumpText;
+        }
+    };
+    xhr.open("GET", selectedFolder + "_lumps.txt", true);
+    xhr.send();
+}
+
+loadContents();
+</script>
+
+</body>
+</html>

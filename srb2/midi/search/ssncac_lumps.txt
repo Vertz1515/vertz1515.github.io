@@ -1,0 +1,10 @@
+hp1
+hp2
+gmt
+mtz
+dbm
+sos
+ssu
+wv1
+wv2
+wdz

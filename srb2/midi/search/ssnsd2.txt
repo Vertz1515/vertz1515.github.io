@@ -1,0 +1,35 @@
+Title Screen
+Ice Cap 1
+Ice Cap 2
+Flying Battery 1
+Flying Battery 2
+The Sonic Zone
+Special Stage 1
+Marble Garden 1
+Marble Garden 2
+Carnival Night 1
+Carnival Night 2
+Hydrocity 1
+Hydrocity 2
+Launch Base 1
+Launch Base 2
+Angel Island 1
+Angel Island 2
+Toxic Caves 1
+Toxic Caves 2
+The Tails Zone
+Special Stage
+Mushroom Hill 1
+Mushroom Hill 2
+Sandopolis 1
+Sandopolis 2
+Lava Reef 1
+Lava Reef 2
+Hidden Palace Zone
+Sky Sanctuary
+Death Egg 1
+Death Egg 2
+Greenflower Zone
+The Knuckles Zone
+Act Clear
+Intermission Sequence

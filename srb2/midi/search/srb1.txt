@@ -1,0 +1,40 @@
+Knothole Base
+Great Forest
+Lake
+Ice Palace 1
+Ice Palace 2
+Volcano
+Echidnapolis
+Flying Lab 1
+Flying Lab 'B' Mix
+Mechanical Madness
+Robotropolis
+Robo Base
+Space Chase 1
+Space Chase 2
+Ring Sattelite 1
+Ring Sattelite 2
+Lift
+VS Boss
+Act 1 Clear
+Act 2 Clear
+Last Land 1
+Last Land 2/Game Over
+Cheat Menu
+Multiplayer
+Super Levels Conclusion
+Tutorial
+Athenos
+Airtracks
+End Screen
+End Cutscene
+Game Clear
+Hidden Palace
+Ice Rinks
+Knothole Race Grounds
+Great Unknown
+Rocky Mountain
+The Backfire
+Void
+Volcano Rally
+Woodland Hill

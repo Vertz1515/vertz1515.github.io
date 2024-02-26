@@ -1,0 +1,61 @@
+Introduction
+Introduction (TGF)
+Title Screen
+Character Select
+Greenflower 1
+Greenflower 2
+Techno Hill 1
+Techno Hill 2
+Castle Eggman 1
+Castle Eggman 2
+Castle Eggman 3
+Credits
+Red Volcano Zone
+Spring Hill Zone
+Mario Koopa Blast 1
+Mario Koopa Blast 2
+Mario Koopa Blast 3
+Christmas Hunt Zone
+SA Example Zone
+Special Stage Theme
+Special Stage (Demo 4)
+Airborne Temple Zone
+Meadow Match Zone
+Sapphire Falls Zone
+Desolate Twilight Zone
+Hydro Plant Zone
+Starlit Warehouse Zone 1
+Midnight Abyss Zone
+Tree Ring Zone
+Zim's Base Zone
+Zero Ring Zone
+Flying Shrine Zone
+Woodland Panic (Old [RMZ])
+Woodland Panic Zone
+Vine Cavern Zone (Mine Maze 1)
+Flying Shrine Zone (Early AGZ)
+Aerial Garden Zones 3-4 (Unused)
+Flame Rift Zone (Unused)
+Frozen Night Zone (Midnight Freeze)
+Green Hill Zone (Unused)
+Heaven Pass (Aerial Garden Zone 1-2)
+Isolated Canyon Zone (Pre2.0ACZ)
+Jade Coast Zone (Unused)
+Mystic Realm Zone (Unused)
+Prismatic Angel Zone (Unused)
+Sky Temple Zone (Pre1.08 DSZ2)
+Submerged Sanctum Zone (DSZ1)
+Sunken Plant Zone (Unused)
+Tempest Valley Zone (Unused)
+Act Clear
+Continue Theme
+Drowning Theme
+Extra Life
+Game Over
+Invincibility
+Invincibility (Mario Koopa Blast)
+Multiplayer Intermission
+Speed Shoes
+Super Sonic
+VS Boss
+VS Boss Mystic Realm

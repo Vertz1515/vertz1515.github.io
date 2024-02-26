@@ -1,0 +1,22 @@
+Greenflower 2
+Techno Hill 1
+Techno Hill 2
+VS Boss
+Deep Sea 1
+Deep Sea 2
+Mine Maze 1
+Mine Maze 2
+Castle Eggman 1
+Castle Eggman 2
+Castle Eggman 3
+Rocky Mountain 1
+Rocky Mountain 2
+Red Volcano 1
+Red Volcano 2
+Dark City 1
+Dark City 2
+Doomship 1
+Doomship 2
+Game Over
+Robotnirock 1
+Robotnirock 2
