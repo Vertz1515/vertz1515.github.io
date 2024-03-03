@@ -47,3 +47,5 @@ finstz
 finssz
 finspz
 fintvz
+finsuo
+finrmz
