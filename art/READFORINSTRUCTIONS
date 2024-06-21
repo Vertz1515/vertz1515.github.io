@@ -1,0 +1,13 @@
+This part of the site is going to consist of...
+
+Categorical Listings of:
+
+1. Digital artwork that can be dated
+2. Sketchbook Drawings
+3. Paper Scraps
+4. Things I didn't draw (Requested to be put on this site)
+
+On the main page, include a few popular ones, a random one, and one fan made image (random)
+
+The way this will all work. Using the whole table Javascript thingy, images are detected by number (ID) and that ID cooresponds to the image itself a bunch of TXT files that determine the title, description, date, and artist (for the fan section)
+Each image will have a preview on the listing page and once you click the image, you are taken to its page, and it's page contains the full size image, description, date, download, and share button. Along with a few random images at the bottom.
