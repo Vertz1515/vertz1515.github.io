@@ -15,8 +15,7 @@ sd2lb1
 sd2lb2
 sd2ai1
 sd2ai2
-sd2tc1
-sd2tc2
+sd2tcz
 sd2ttz
 sd2sst
 sd2mh1
@@ -25,7 +24,6 @@ sd2sp1
 sd2sp2
 sd2lr1
 sd2lr2
-sd2hpz
 sd2ssz
 sd2de1
 sd2de2

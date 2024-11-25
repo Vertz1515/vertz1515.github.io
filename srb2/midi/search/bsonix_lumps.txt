@@ -8,3 +8,6 @@ sbndm2
 sbnmf2
 sbnspc
 sbnsp2
+sbnce1
+sbnfhz
+sbnscz

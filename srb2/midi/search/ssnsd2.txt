@@ -15,8 +15,7 @@ Launch Base 1
 Launch Base 2
 Angel Island 1
 Angel Island 2
-Toxic Caves 1
-Toxic Caves 2
+Toxic Caves 1 / 2
 The Tails Zone
 Special Stage
 Mushroom Hill 1
@@ -24,8 +23,7 @@ Mushroom Hill 2
 Sandopolis 1
 Sandopolis 2
 Lava Reef 1
-Lava Reef 2
-Hidden Palace Zone
+Lava Reef 2 / Hidden Palace
 Sky Sanctuary
 Death Egg 1
 Death Egg 2
