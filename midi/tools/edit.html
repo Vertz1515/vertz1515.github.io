@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit MIDI Library</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/midi/assets/css/midi.css">
+  <link rel="stylesheet" href="/midi/assets/css/theme.css">
+
+  <style>
+    .entry {
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: #1e1e1e;
+    }
+
+    .entry label {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .entry input,
+    .entry textarea {
+      width: 100%;
+      background: #111;
+      color: #fff;
+      border: 1px solid #444;
+      border-radius: 6px;
+      padding: 0.4rem;
+    }
+
+    .controls {
+      position: sticky;
+      top: 0;
+      background: #000;
+      padding: 1rem 0;
+      z-index: 10;
+    }
+
+    button {
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+<main class="container">
+  <h1>Edit MIDI Entries</h1>
+  <p>This page edits existing entries and exports a new <code>midis.json</code>.</p>
+
+  <div class="controls">
+    <button id="export">Export updated JSON</button>
+  </div>
+
+  <div id="editor"></div>
+</main>
+
+<script src="edit.js"></script>
+</body>
+</html>
