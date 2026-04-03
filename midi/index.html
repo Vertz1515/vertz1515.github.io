@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIDI Files — Vertz1515</title>
+
+  <meta name="description"           content="A collection of MIDI arrangements and originals by Vertz1515.">
+
+  <meta property="og:site_name"      content="Vertz1515">
+  <meta property="og:type"           content="website">
+  <meta property="og:title"          content="MIDI Files — Vertz1515">
+  <meta property="og:description"    content="A collection of MIDI arrangements and originals by Vertz1515.">
+  <meta property="og:image"          content="https://vertz1515.com/midi/assets/images/placeholder.png">
+  <meta property="og:url"            content="https://vertz1515.com/midi/">
+  <meta name="twitter:card"          content="summary">
+
+  <link rel="stylesheet" href="/midi/assets/css/midi.css">
+  <link rel="stylesheet" href="/midi/assets/css/theme.css">
+</head>
+
+<body>
+<a class="skip-link" href="#midi-list">Skip to MIDI list</a>
+
+<header class="top-bar">
+  <div>
+    <h1>MIDI Files</h1>
+    <p class="subtitle">Arrangements and originals by Vertz1515</p>
+  </div>
+
+  <div class="controls">
+    <label for="search" class="visually-hidden">Search MIDI files</label>
+    <input
+      id="search"
+      type="search"
+      placeholder="Search title or artist"
+      aria-label="Search MIDI files">
+
+    <button onclick="toggleTheme()" aria-label="Toggle dark or light theme">
+      Toggle Eyestrain
+    </button>
+  </div>
+</header>
+
+<nav class="filters" aria-label="Sort MIDI files">
+  <!-- <button data-sort="newest">Newest</button> -->
+  <button data-sort="title">Title</button>
+  <button data-sort="artist">Artist</button>
+</nav>
+
+<main class="container">
+  <section id="midi-list">
+  <!-- Populated by JS -->
+  </section>
+</main>
+
+<footer>
+  <p>
+    <a href="/midi/collections/">Browse Collections</a>
+  </p>
+</footer>
+
+<script src="/midi/assets/js/theme.js"></script>
+<script src="/midi/assets/js/list.js"></script>
+</body>
+</html>

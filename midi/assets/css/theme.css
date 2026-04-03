@@ -1,0 +1,20 @@
+:root {
+  --bg: #0d0d0d;
+  --fg: #eeeeee;
+  --accent: #3a7fff;
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --fg: #111111;
+  --accent: #0066cc;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+a {
+  color: var(--accent);
+}

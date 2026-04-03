@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Collections — Vertz1515 MIDI Files</title>
+
+  <meta name="description"        content="Curated groupings of Vertz1515's MIDI archive — by project, artist, and theme.">
+
+  <meta property="og:site_name"   content="Vertz1515">
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Collections — Vertz1515 MIDI Files">
+  <meta property="og:description" content="Curated groupings of Vertz1515's MIDI archive — by project, artist, and theme.">
+  <meta property="og:image"       content="https://vertz1515.com/midi/assets/images/placeholder.png">
+  <meta property="og:url"         content="https://vertz1515.com/midi/collections/">
+  <meta name="twitter:card"       content="summary">
+
+  <link rel="stylesheet" href="/midi/assets/css/midi.css">
+  <link rel="stylesheet" href="/midi/assets/css/theme.css">
+
+  <style>
+    #collections {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 500px), 1fr));
+      gap: 1rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: clamp(1rem, 4vw, 2rem);
+    }
+
+    .collection {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .collection-img-wrap {
+      width: 100%;
+      height: 120px;
+      flex-shrink: 0;
+      overflow: hidden;
+      background: color-mix(in srgb, var(--fg) 10%, transparent);
+    }
+
+    .collection-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      padding: 6px;
+      box-sizing: border-box;
+    }
+
+    .collection-body {
+      flex: 1;
+      padding: 0.9rem 1rem;
+      min-width: 0;
+    }
+
+    .collection-body h2 {
+      margin: 0 0 0.25rem;
+      font-size: 1rem;
+    }
+
+    .collection-body > p {
+      margin: 0 0 0.6rem;
+      font-size: 0.8rem;
+      opacity: 0.65;
+      line-height: 1.45;
+    }
+
+    .collection-body ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 0.82rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .collection-body ul li a {
+      display: block;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+
+<body>
+<a class="skip-link" href="#collections">Skip to collections</a>
+
+<header class="top-bar container">
+  <div>
+    <h1>MIDI Collections</h1>
+    <p class="subtitle">Grouped tracks for if you desire some organization.</p>
+  </div>
+  <div class="controls">
+    <button onclick="toggleTheme()" aria-label="Toggle eyestrain">Toggle Eyestrain</button>
+  </div>
+</header>
+
+<nav class="container">
+  <a href="/midi/">← Back to MIDI Files</a>
+</nav>
+
+<main id="collections" aria-live="polite">
+  <!-- Populated by JS -->
+</main>
+
+<footer class="container">
+</footer>
+
+<script src="/midi/assets/js/theme.js"></script>
+<script src="/midi/assets/js/collections.js"></script>
+</body>
+</html>

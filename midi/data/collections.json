@@ -1,0 +1,397 @@
+[
+  {
+    "id": "originals-notable",
+    "title": "Standout Originals",
+    "description": "What I would say to be my notable original compositions - the ones with stories, personality, influence, or power points for being pieces I'm particularly fond of for whatever reason.",
+    "image": "/midi/assets/images/placeholder.png",
+    "ids": [
+      61,
+      129,
+      132,
+      166,
+      176,
+      183,
+      200,
+      201,
+      203,
+      211,
+      215,
+      216,
+      234,
+      238,
+      244,
+      252,
+      262,
+      270,
+      272,
+      274,
+      276,
+      279,
+      281,
+      285
+    ]
+  },
+  {
+    "id": "sonic-premix",
+    "title": "Sonic Premix",
+    "description": "Tracks composed for or related to the Sonic Premix project, including zone themes, concepts, and whatever else.",
+    "image": "/midi/assets/images/premixpromo.png",
+    "ids": [
+      34,
+      52,
+      67,
+      133,
+      143,
+      144,
+      175,
+      182,
+      192,
+      202,
+      213,
+      240,
+      248,
+      259,
+      275,
+      277,
+      287
+    ]
+  },
+  {
+    "id": "srb2-demo4-low-effort",
+    "title": "SRB2 Demo 4 Low Effort",
+    "description": "The Low Effort collection - quick and scrappy MIDI demakes of Sonic Robo Blast 2 Demo 4 (adjacent) tracks.",
+    "image": "/midi/assets/images/loweffort.PNG",
+    "ids": [
+      161,
+      163,
+      167,
+      168,
+      169,
+      170,
+      218,
+      255,
+      256,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293
+    ]
+  },
+  {
+    "id": "srb2-old",
+    "title": "SRB2 Legacy",
+    "description": "Arrangements and remixes of classic SRB2 tracks from the older era - Greenflower, Red Volcano, Doomship, Dark City, and more.",
+    "image": "/midi/assets/images/srb2old.png",
+    "ids": [
+      21,
+      32,
+      37,
+      57,
+      104,
+      116,
+      121,
+      180,
+      184,
+      187,
+      189,
+      195,
+      224,
+      225,
+      226,
+      230,
+      245,
+      261,
+      268
+    ]
+  },
+  {
+    "id": "srb2-22",
+    "title": "SRB2 2.2 & Official Releases",
+    "description": "MIDI arrangements and remixes of tracks from the released versions of Sonic Robo Blast 2, including zone themes, remixes, and the Fortress Clash OLDC entry.",
+    "image": "/midi/assets/images/srb2 2.2.png",
+    "ids": [
+      178,
+      183,
+      295
+    ]
+  },
+  {
+    "id": "srb2-early-gang",
+    "title": "SRB2 Early Gang / History Tour",
+    "description": "Tracks tied to the SRB2 Early Gang / History Tour community server.",
+    "image": "/midi/assets/images/earlygangJK.png",
+    "ids": [
+      33,
+      187,
+      189
+    ]
+  },
+  {
+    "id": "classic-sonic",
+    "title": "Classic Sonic The Hedgehog",
+    "description": "Arrangements from the classic Sonic games and media - Sonic 1, Sonic 2, Sonic & Knuckles, Knuckles' Chaotix, and the Sonic OVA.",
+    "image": "/midi/assets/images/sonic1.png",
+    "ids": [
+      3,
+      4,
+      7,
+      8,
+      9,
+      11,
+      17,
+      20,
+      22,
+      28,
+      31,
+      59,
+      76,
+      250
+    ]
+  },
+  {
+    "id": "scratch-sonic",
+    "title": "Scratch Sonic Series",
+    "description": "Music composed for the Scratch Sonic fangame - title screens, menus, zones, and cutscene tracks.",
+    "image": "/midi/assets/images/ScratchSonic.png",
+    "ids": [
+      15,
+      18,
+      61,
+      71,
+      87,
+      91,
+      111,
+      139,
+      173,
+      190,
+      198,
+      199,
+      208
+    ]
+  },
+  {
+    "id": "tally-hall",
+    "title": "Tally Hall & Related",
+    "description": "MIDI arrangements of Tally Hall songs, plus related Joe Hawley and Miracle Musical works.",
+    "image": "/midi/assets/images/mmmm.jpg",
+    "ids": [
+      39,
+      40,
+      41,
+      43,
+      44,
+      45,
+      47,
+      54,
+      56,
+      65,
+      66,
+      74,
+      75,
+      79,
+      86,
+      90,
+      97,
+      118,
+      123,
+      125,
+      126,
+      131,
+      138,
+      141,
+      148,
+      185,
+      197
+    ]
+  },
+  {
+    "id": "substantial-sandbox",
+    "title": "A Substantial Sandbox",
+    "description": "The full collection of original tracks from this old album project of mine which never came to fruition, including all versions and revisions of its songs.",
+    "image": "/midi/assets/images/placeholder.png",
+    "ids": [
+      77,
+      78,
+      83,
+      84,
+      88,
+      89,
+      100,
+      122,
+      147,
+      158,
+      231
+    ]
+  },
+  {
+    "id": "day-25-summer",
+    "title": "Day 25 of Summer - All Versions",
+    "description": "Every iteration of one of my most revisited original tracks, from its humble beginnings to the 2024 remake.",
+    "image": "/midi/assets/images/placeholder.png",
+    "ids": [
+      83,
+      89,
+      109,
+      231
+    ]
+  },
+  {
+    "id": "ruler-of-everything",
+    "title": "Ruler of Everything - All Versions",
+    "description": "Because I really liked making midi files of this",
+    "image": "/midi/assets/images/completedemos.jpg",
+    "ids": [
+      56,
+      74,
+      118,
+      138,
+      141
+    ]
+  },
+  {
+    "id": "jingles",
+    "title": "The Jingles",
+    "description": "My early jingle experiments - short, kinda boring, and often chaotic little musical snapshots from 2020.",
+    "image": "/midi/assets/images/placeholder.png",
+    "ids": [
+      0,
+      2,
+      5,
+      6,
+      10,
+      12,
+      13
+    ]
+  },
+  {
+    "id": "band-and-marching",
+    "title": "Band & Marching Music",
+    "description": "Concert band, marching, and school-related pieces - from Aztec Fire and Rockero to South Rampart Street Parade.",
+    "image": "/midi/assets/images/placeholder.png",
+    "ids": [
+      219,
+      236,
+      237,
+      221,
+      242,
+      258,
+      260,
+      267,
+      282,
+      297
+    ]
+  },
+  {
+    "id": "jazz-swing",
+    "title": "Jazz, Swing & Blues",
+    "description": "Tracks with a jazzy, bluesy, or swinging feel - originals, arrangements, and everything in between.",
+    "image": "/midi/assets/images/placeholder.png",
+    "ids": [
+      200,
+      215,
+      221,
+      238,
+      242,
+      264,
+      274,
+      297
+    ]
+  },
+  {
+    "id": "sonix-origins",
+    "title": "Sonix Origins 2",
+    "description": "Music from the Sonix Origins 2 Project",
+    "image": "/midi/assets/images/sonix.png",
+    "ids": [
+      61,
+      87,
+      111,
+      265,
+      266
+    ]
+  },
+  {
+    "id": "o-zone-family",
+    "title": "O Zone & Variants",
+    "description": "The O Zone theme and all its relatives - demos, alternate keys, and spin-offs.",
+    "image": "/midi/assets/images/srb2old.png",
+    "ids": [
+      195,
+      224,
+      225,
+      226,
+      245,
+      261
+    ]
+  },
+  {
+    "id": "poison-plant",
+    "title": "Poison Plant Zone - All Takes",
+    "description": "Every version and concept of the Poison Plant Zone theme across its history.",
+    "image": "/midi/assets/images/premixpromo.png",
+    "ids": [
+      34,
+      52,
+      67,
+      175,
+      285
+    ]
+  },
+  {
+    "id": "covers-pop-rock",
+    "title": "Pop & Rock Covers",
+    "description": "Covers of well-known pop and rock songs - Lady Madonna, Funky Town, Sugar, Speed Me Up, and more.",
+    "image": "/midi/assets/images/placeholder.png",
+    "ids": [
+      1,
+      58,
+      93,
+      119,
+      124,
+      135,
+      188,
+      250,
+      294
+    ]
+  },
+  {
+    "id": "old-standards",
+    "title": "Old Standards & Classics",
+    "description": "Arrangements of classic pre-rock era songs - from Basin Street Blues to Chattanooga Choo Choo and beyond.",
+    "image": "/midi/assets/images/TennesseeWaltz.png",
+    "ids": [
+      221,
+      222,
+      229,
+      242,
+      258,
+      264,
+      267,
+      297
+    ]
+  },
+  {
+    "id": "crossover",
+    "title": "Collab Tracks",
+    "description": "Tracks made collaboratively with Sauceloss and others for various things.",
+    "image": "/midi/assets/images/premixpromo.png",
+    "ids": [
+      144,
+      202,
+      223,
+      287
+    ]
+  },
+  {
+    "id": "firedance",
+    "title": "Firedance - Both Takes",
+    "description": "Two attempts at Allen Vizzutti's Firedance - the original incomplete take and the second more refined version.",
+    "image": "/midi/assets/images/allenv.PNG",
+    "ids": [
+      253,
+      280
+    ]
+  }
+]
